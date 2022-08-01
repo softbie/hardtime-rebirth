@@ -1,7 +1,9 @@
-Dim messagesEn$(17)
+Dim messagesEn$(31)
 messagesEn$(0) = "Please Wait"
 messagesEn$(1) = "Loading"
 messagesEn$(2) = "Loading Atmosphere"
+
+;Menus.bb
 messagesEn$(3) = "PLAY"
 messagesEn$(4) = "OPTIONS"
 messagesEn$(5) = "CREDITS"
@@ -16,3 +18,17 @@ messagesEn$(13) = "REDEFINE KEYS"
 messagesEn$(14) = "REDEFINE GAMEPAD"
 messagesEn$(15) = "<<< BACK <<<"
 messagesEn$(16) = "characters"
+messagesEn$(17) = "Attack / Shoot"
+messagesEn$(18) = "Defend / Run"
+messagesEn$(19) = "Throw / Grab"
+messagesEn$(20) = "Pick Up / Drop"
+messagesEn$(21) = "RESTORE DEFAULTS"
+messagesEn$(22) = "Press New Key"
+messagesEn$(23) = "NEW GAME"
+messagesEn$(24) = "Generating Game"
+messagesEn$(25) = "Restoring Game"
+messagesEn$(26) = "Version"
+messagesEn$(27) = "Adjusting Resolution"
+messagesEn$(28) = "Restoring Media"
+messagesEn$(29) = "Screenshot"
+messagesEn$(30) = "Photo Album"

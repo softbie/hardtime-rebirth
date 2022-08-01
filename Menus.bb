@@ -253,17 +253,17 @@ While go=0
  ;options
  SetFont font(1)
  y=120
- DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","'"+Key$(keyAttack)+"' Key")
- DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","'"+Key$(keyDefend)+"' Key")
- DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","'"+Key$(keyThrow)+"' Key")
- DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","'"+Key$(keyPickUp)+"' Key")
- DrawOption(5,rX#(400),rY#(y+250),"RESTORE DEFAULTS","")
- DrawOption(6,rX#(400),rY#(y+320),"<<< BACK <<<","")
+ DrawOption(1,rX#(400),rY#(y),translate("Attack / Shoot"),Key$(keyAttack))
+ DrawOption(2,rX#(400),rY#(y+60),translate("Defend / Run"),Key$(keyDefend))
+ DrawOption(3,rX#(400),rY#(y+120),translate("Throw / Grab"),Key$(keyThrow))
+ DrawOption(4,rX#(400),rY#(y+180),translate("Pick Up / Drop"),Key$(keyPickUp))
+ DrawOption(5,rX#(400),rY#(y+250),translate("RESTORE DEFAULTS"),"")
+ DrawOption(6,rX#(400),rY#(y+320),translate("<<< BACK <<<"),"")
  ;new overlay
- If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","Press New Key")
- If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","Press New Key")
- If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","Press New Key")
- If screenCall=4 Then DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","Press New Key")
+ If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),translate("Attack / Shoot"),translate("Press New Key"))
+ If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),translate("Defend / Run"),translate("Press New Key"))
+ If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),translate("Throw / Grab"),translate("Press New Key"))
+ If screenCall=4 Then DrawOption(4,rX#(400),rY#(y+180),translate("Pick Up / Drop"),translate("Press New Key"))
 
  Flip
  ;screenshot (F12)
@@ -351,17 +351,17 @@ While go=0
  ;options
  SetFont font(1)
  y=120
- DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","Button "+buttAttack)
- DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","Button "+buttDefend)
- DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","Button "+buttThrow)
- DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","Button "+buttPickUp)
- DrawOption(5,rX#(400),rY#(y+250),"RESTORE DEFAULTS","")
- DrawOption(6,rX#(400),rY#(y+320),"<<< BACK <<<","")
+ DrawOption(1,rX#(400),rY#(y),translate("Attack / Shoot"),buttAttack)
+ DrawOption(2,rX#(400),rY#(y+60),translate("Defend / Run"),buttDefend)
+ DrawOption(3,rX#(400),rY#(y+120),translate("Throw / Grab"),buttThrow)
+ DrawOption(4,rX#(400),rY#(y+180),translate("Pick Up / Drop"),buttPickUp)
+ DrawOption(5,rX#(400),rY#(y+250),translate("RESTORE DEFAULTS"),"")
+ DrawOption(6,rX#(400),rY#(y+320),translate("<<< BACK <<<"),"")
  ;new overlay
- If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","Press New Button")
- If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","Press New Button")
- If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","Press New Button")
- If screenCall=4 Then DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","Press New Button")
+ If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),translate("Attack / Shoot"),translate("Press New Button"))
+ If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),translate("Defend / Run"),translate("Press New Button"))
+ If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),translate("Throw / Grab"),translate("Press New Button"))
+ If screenCall=4 Then DrawOption(4,rX#(400),rY#(y+180),translate("Pick Up / Drop"),translate("Press New Button"))
 
  Flip
  ;screenshot (F12)
@@ -437,11 +437,11 @@ While go=0
  ;options
  y=75
  For count=1 To 3
-  If gamName$(count)="" Then DrawOption(count,rX#(400),rY#(y),"NEW GAME","")
+  If gamName$(count)="" Then DrawOption(count,rX#(400),rY#(y),translate("NEW GAME"),"")
   If gamName$(count)<>"" Then DrawOption(count,rX#(400),rY#(y),gamName$(count),"")
   y=y+55
  Next
- DrawOption(4,rX#(400),rY#(415),"<<< BACK <<<","")
+ DrawOption(4,rX#(400),rY#(415),translate("<<< BACK <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -454,13 +454,13 @@ If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 If go=1
  slot=foc : oldLocation=0
  If gamName$(foc)=""
-  Loader(translate("Please Wait"),"Generating Game")
+  Loader(translate("Please Wait"),translate("Generating Game"))
   GenerateGame()
   gamChar(0)=gamChar(slot)
   gamPointLimit=170
   screen=51
  Else
-  Loader(translate("Please Wait"),"Restoring Game")
+  Loader(translate("Please Wait"),translate("Restoring Game"))
   LoadProgress()
   LoadChars()
   LoadPhotos()
@@ -473,7 +473,7 @@ If go=1
 EndIf
 If go=>2
  slot=foc
- Loader(translate("Please Wait"),"Restoring Game")
+ Loader(translate("Please Wait"),translate("Restoring Game"))
  LoadProgress()
  LoadChars()
  LoadPhotos()
@@ -545,8 +545,8 @@ While go=0
  Else
   DrawImage gPhoto,rX#(400),rY#(185)-80
  EndIf
- DrawOption(1,rX#(400),rY#(185),"Character",gamChar(0)+". "+charName$(gamChar(0)))
- DrawOption(2,rX#(400),rY#(415),"<<< BACK <<<","")
+ DrawOption(1,rX#(400),rY#(185),translate("Character"),gamChar(0)+". "+charName$(gamChar(0)))
+ DrawOption(2,rX#(400),rY#(415),translate("<<< BACK <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -571,7 +571,7 @@ Function DrawMainLogo(x#,y#)
  DrawImage gLogo(2),x#,y#
  ;version ID
  SetFont font(1)
- Outline("Version 1."+version,x#+310,y#+20,20,20,20,20,20,20)
+ Outline(translate("Version") + "1." + version,x#+310,y#+20,20,20,20,20,20,20)
 End Function
 
 ;DRAW MENU ITEM
@@ -706,11 +706,11 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
  If GfxMode3DExists(width,height,16)=0 Then width=800 : height=600 : optRes=2
  ;make transition?
  If width<>GraphicsWidth() Or height<>GraphicsHeight()
-  If task>0 Then Loader(translate("Please Wait"),"Adjusting Resolution")
+  If task>0 Then Loader(translate("Please Wait"),translate("Adjusting Resolution"))
   Graphics3D width,height,16,0
   If task>0 ;restore media
    LoadImages()
-   Loader(translate("Please Wait"),"Restoring Media")
+   Loader(translate("Please Wait"),translate("Restoring Media"))
    LoadPhotos()
    LoadTextures()
    LoadWeaponData()
@@ -726,6 +726,6 @@ Function Screenshot()
  GrabImage screenshot,GraphicsWidth()/2,GraphicsHeight()/2
  ;title & save
  temp=MilliSecs()/10
- namer$="Screenshot - "+temp+".bmp"
- SaveImage(screenshot,"Photo Album/"+namer$)
+ namer$=translate("Screenshot") + " - "+temp+".bmp"
+ SaveImage(screenshot,translate("Photo Album") + "/" + namer$)
 End Function
