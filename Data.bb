@@ -733,9 +733,9 @@ Function GenerateName$(char)
   EndIf
   ;officials
   If charRole(char)=>1
-   If charRole(char)=1 Then name$="Warden " 
-   If charRole(char)=2 Then name$="Lawyer " 
-   If charRole(char)=3 Then name$="Judge " 
+   If charRole(char)=1 Then name$=translate("Warden") + " "
+   If charRole(char)=2 Then name$=translate("Lawyer") + " "
+   If charRole(char)=3 Then name$=translate("Judge") + " "
    name$=name$+textSurName$(Rnd(0,65))
   EndIf
   ;find conflicts

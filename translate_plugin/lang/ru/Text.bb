@@ -1,4 +1,4 @@
-Dim messagesRu$(191)
+Dim messagesRu$(196)
 messagesRu$(0) = "Пожалуйста подождите"
 messagesRu$(1) = "Загрузка"
 messagesRu$(2) = "Загрузка атмосферы"
@@ -194,3 +194,10 @@ messagesRu$(187) = "объединил всю тюрьму"
 messagesRu$(188) = "банды и теперь правят как король..."
 messagesRu$(189) = "Перевод"
 messagesRu$(190) = "Телеграм"
+
+;Data.bb
+messagesRu$(191) = "Загрузка фото"
+messagesRu$(192) = "Сохранение"
+messagesRu$(193) = "Смотритель"
+messagesRu$(194) = "Юрист"
+messagesRu$(195) = "Судья"

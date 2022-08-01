@@ -1,4 +1,4 @@
-Dim messagesEn$(191)
+Dim messagesEn$(196)
 messagesEn$(0) = "Please Wait"
 messagesEn$(1) = "Loading"
 messagesEn$(2) = "Loading Atmosphere"
@@ -194,3 +194,10 @@ messagesEn$(187) = " united all the prison"
 messagesEn$(188) = "gangs and now rules like a king..."
 messagesEn$(189) = "Translate"
 messagesEn$(190) = "Telegram"
+
+;Data.bb
+messagesEn$(191) = "Loading Photos"
+messagesEn$(192) = "Saving Photos"
+messagesEn$(193) = "Warden"
+messagesEn$(194) = "Lawyer"
+messagesEn$(195) = "Judge"
