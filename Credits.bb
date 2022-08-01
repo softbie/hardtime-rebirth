@@ -60,7 +60,7 @@ While go=0
 
 Wend
 ;leave
-Loader(translate("Please Wait"),"Loading Game")
+Loader(translate("Please Wait"),translate("Loading Game"))
 sTheme=LoadSound("Sound/Theme.wav")
 LoopSound sTheme
 chTheme=PlaySound(sTheme)
@@ -132,23 +132,23 @@ While go=0
  ;opening comment
  SetFont font(3)
  y=410
- Outline("Credit is to be given - not",rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
- Outline("taken. This game was made single-",rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
- Outline("handedly in 3 months. Figure out",rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
- Outline("how you feel about that...",rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
+ Outline(translate("Credit is to be given - not"),rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
+ Outline(translate("taken. This game was made single-"),rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
+ Outline(translate("handedly in 3 months. Figure out"),rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
+ Outline(translate("how you feel about that..."),rX#(400),rY#(y+scroll#),0,0,0,255,255,255) : y=y+25
  ;roles
  y=550
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Concept","© MDickie 2006") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Game Design","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Programming","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"2D Graphics","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"3D Modeling","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Texturing","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Animation","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Sound FX","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Music","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Scripts","Mat Dickie") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),"Publishing","MDickie.com") : y=y+110
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Concept"),"© MDickie 2006") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Game Design"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Programming"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("2D Graphics"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("3D Modeling"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Texturing"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Animation"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Sound FX"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Music"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Scripts"),"Mat Dickie") : y=y+60
+ DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Publishing"),"MDickie.com") : y=y+110
  ;final logo
  DrawImage gMDickie,rX#(400),rY#(y+scroll#)  
 
@@ -211,10 +211,10 @@ While go=0
  ;Outline("'Tough times never last,",rX#(400),rY#(300)-20,0,0,0,colour,colour,colour)
  ;Outline("but tough people do...'",rX#(400),rY#(300)+20,0,0,0,colour,colour,colour)
  SetFont font(3)
- Outline("'When a member of society falls down, he falls for those",rX#(400),rY#(300)-48,0,0,0,colour,colour,colour)
- Outline("behind him - as a caution against the stumbling stone.",rX#(400),rY#(300)-18,0,0,0,colour,colour,colour)
- Outline("And he falls for those ahead of him - who, though",rX#(400),rY#(300)+15,0,0,0,colour,colour,colour)
- Outline("faster and surer of foot, failed to remove the stone...'",rX#(400),rY#(300)+45,0,0,0,colour,colour,colour)
+ Outline(translate("'When a member of society falls down, he falls for those"),rX#(400),rY#(300)-48,0,0,0,colour,colour,colour)
+ Outline(translate("behind him - as a caution against the stumbling stone."),rX#(400),rY#(300)-18,0,0,0,colour,colour,colour)
+ Outline(translate("And he falls for those ahead of him - who, though"),rX#(400),rY#(300)+15,0,0,0,colour,colour,colour)
+ Outline(translate("faster and surer of foot, failed to remove the stone...'"),rX#(400),rY#(300)+45,0,0,0,colour,colour,colour)
  SetFont font(2)
  Outline("- Kahlil Gibran",rX#(400),rY#(300)+75,0,0,0,colour,colour,colour)  
  DrawImage gLogo(1),rX#(logoX1#),rY#(300)
@@ -238,7 +238,7 @@ End Function
 ;---------------------------------------------------------------
 Function Ending()
 ;load setting
-Loader(translate("Please Wait"),"Leaving Prison")
+Loader(translate("Please Wait"),translate("Leaving Prison"))
 world=LoadAnimMesh("World/Yard/Outro.3ds")
 EntityTexture FindChild(world,"Sign01"),tSign(9),0,2
 EntityTexture FindChild(world,"Net"),tNet
@@ -423,290 +423,290 @@ While go=0
    DrawImage gPhoto,rX#(x),rY#(y)
   EndIf
   Color 50,50,50 : Rect rX#(x)-75,rY#(y)-50,150,100,0
-  ;scriptA$="Steve Austin never left the prison system.180"
+  ;scriptA$=translate("Steve Austin never left the prison system.180")
   If endFate(page)=0
-   scriptA$=charName$(endChar(page))+" was never heard from again, but" 
-   scriptB$="tales of his life are still told to this day..."
+   scriptA$=charName$(endChar(page))+translate(" was never heard from again, but") 
+   scriptB$=translate("tales of his life are still told to this day...")
   EndIf
   If endFate(page)=1 
-   scriptA$=charName$(endChar(page))+" was brutally murdered by" 
-   scriptB$="another inmate and never saw his release..."
+   scriptA$=charName$(endChar(page))+translate(" was brutally murdered by") 
+   scriptB$=translate("another inmate and never saw his release...")
   EndIf
   If endFate(page)=2 
-   scriptA$="Prison became too much for "+charName$(endChar(page))+"." 
-   scriptB$="He hung himself from the bars of his cell..."
+   scriptA$=translate("Prison became too much for ")+charName$(endChar(page))+translate(".") 
+   scriptB$=translate("He hung himself from the bars of his cell...")
   EndIf
   If endFate(page)=3 
-   scriptA$="Prison became too much for "+charName$(endChar(page))+"." 
-   scriptB$="He slit his wrists in the bathroom..."
+   scriptA$=translate("Prison became too much for ")+charName$(endChar(page))+translate(".") 
+   scriptB$=translate("He slit his wrists in the bathroom...")
   EndIf
   If endFate(page)=4 
-   scriptA$=charName$(endChar(page))+" never left the prison system." 
-   scriptB$="He remained behind bars until the day he died..."
+   scriptA$=charName$(endChar(page))+translate(" never left the prison system.") 
+   scriptB$=translate("He remained behind bars until the day he died...")
   EndIf
   If endFate(page)=5
-   scriptA$=charName$(endChar(page))+" kept disobeying the wardens" 
-   scriptB$="and was never considered for release..."
+   scriptA$=charName$(endChar(page))+translate(" kept disobeying the wardens") 
+   scriptB$=translate("and was never considered for release...")
   EndIf
   If endFate(page)=6 
-   scriptA$=charName$(endChar(page))+" became embroiled in gang" 
-   scriptB$="culture and never left a life of crime..."
+   scriptA$=charName$(endChar(page))+translate(" became embroiled in gang") 
+   scriptB$=translate("culture and never left a life of crime...")
   EndIf
   If endFate(page)=7 
-   scriptA$=charName$(endChar(page))+" was released and went on" 
-   scriptB$="to marry his long-time girlfriend..."
+   scriptA$=charName$(endChar(page))+translate(" was released and went on") 
+   scriptB$=translate("to marry his long-time girlfriend...")
   EndIf
   If endFate(page)=8 
-   scriptA$=charName$(endChar(page))+" was released and went on" 
-   scriptB$="to raise a family with his wife..."
+   scriptA$=charName$(endChar(page))+translate(" was released and went on") 
+   scriptB$=translate("to raise a family with his wife...")
   EndIf
   If endFate(page)=9 
-   scriptA$=charName$(endChar(page))+" returned to his wife and" 
-   scriptB$="children but never regained their trust..."
+   scriptA$=charName$(endChar(page))+translate(" returned to his wife and") 
+   scriptB$=translate("children but never regained their trust...")
   EndIf
   If endFate(page)=10
-   scriptA$=charName$(endChar(page))+" returned to his wife and" 
-   scriptB$="kids and became a committed family man..."
+   scriptA$=charName$(endChar(page))+translate(" returned to his wife and") 
+   scriptB$=translate("kids and became a committed family man...")
   EndIf
   If endFate(page)=11 
-   scriptA$=charName$(endChar(page))+" got used to being surrounded" 
-   scriptB$="by men and became a rampant homosexual..."
+   scriptA$=charName$(endChar(page))+translate(" got used to being surrounded") 
+   scriptB$=translate("by men and became a rampant homosexual...")
   EndIf
   If endFate(page)=12 
-   scriptA$=charName$(endChar(page))+" was left by his wife, but" 
-   scriptB$="went on to find love with another..."
+   scriptA$=charName$(endChar(page))+translate(" was left by his wife, but") 
+   scriptB$=translate("went on to find love with another...")
   EndIf
   If endFate(page)=13 
-   scriptA$=charName$(endChar(page))+" was moved to a mental hospital" 
-   scriptB$="after being driven mad by prison life..."
+   scriptA$=charName$(endChar(page))+translate(" was moved to a mental hospital") 
+   scriptB$=translate("after being driven mad by prison life...")
   EndIf
   If endFate(page)=14 
-   scriptA$=charName$(endChar(page))+" became a sexual predator and" 
-   scriptB$="was soon back behind bars for rape..."
+   scriptA$=charName$(endChar(page))+translate(" became a sexual predator and") 
+   scriptB$=translate("was soon back behind bars for rape...")
   EndIf
   If endFate(page)=15
-   scriptA$=charName$(endChar(page))+" went on a killing spree upon"  
-   scriptB$="returning to find his wife having an affair..."
+   scriptA$=charName$(endChar(page))+translate(" went on a killing spree upon")  
+   scriptB$=translate("returning to find his wife having an affair...")
   EndIf
   If endFate(page)=16 
-   scriptA$=charName$(endChar(page))+" was accused of sexually abusing" 
-   scriptB$="his daughter and swiftly returned to prison..."
+   scriptA$=charName$(endChar(page))+translate(" was accused of sexually abusing") 
+   scriptB$=translate("his daughter and swiftly returned to prison...")
   EndIf
   If endFate(page)=17 
-   scriptA$=charName$(endChar(page))+" was killed by a speeding car" 
-   scriptB$="upon setting foot outside the prison gates..."
+   scriptA$=charName$(endChar(page))+translate(" was killed by a speeding car") 
+   scriptB$=translate("upon setting foot outside the prison gates...")
   EndIf
   If endFate(page)=18 
-   scriptA$=charName$(endChar(page))+" became involved in organized" 
-   scriptB$="crime and died during a drive-by shooting..."
+   scriptA$=charName$(endChar(page))+translate(" became involved in organized") 
+   scriptB$=translate("crime and died during a drive-by shooting...")
   EndIf
   If endFate(page)=19 
-   scriptA$=charName$(endChar(page))+" developed a drug problem" 
-   scriptB$="and never made anything of his life..."
+   scriptA$=charName$(endChar(page))+translate(" developed a drug problem") 
+   scriptB$=translate("and never made anything of his life...")
   EndIf
   If endFate(page)=20
-   scriptA$=charName$(endChar(page))+" developed a drug problem" 
-   scriptB$="and eventually died of an overdose..."
+   scriptA$=charName$(endChar(page))+translate(" developed a drug problem") 
+   scriptB$=translate("and eventually died of an overdose...")
   EndIf
   If endFate(page)=21 
-   scriptA$=charName$(endChar(page))+" continued to study and went on" 
-   scriptB$="to become a productive member of society..."
+   scriptA$=charName$(endChar(page))+translate(" continued to study and went on") 
+   scriptB$=translate("to become a productive member of society...")
   EndIf
   If endFate(page)=22 
-   scriptA$=charName$(endChar(page))+" went on to hold down a decent" 
-   scriptB$="job and never committed another crime..."
+   scriptA$=charName$(endChar(page))+translate(" went on to hold down a decent") 
+   scriptB$=translate("job and never committed another crime...")
   EndIf
   If endFate(page)=23 
-   scriptA$=charName$(endChar(page))+" managed to find work, but was" 
-   scriptB$="soon arrested for killing his boss..."
+   scriptA$=charName$(endChar(page))+translate(" managed to find work, but was") 
+   scriptB$=translate("soon arrested for killing his boss...")
   EndIf
   If endFate(page)=24 
-   scriptA$=charName$(endChar(page))+" was transferred to a more" 
-   scriptB$="conservative jail and was soon executed..."
+   scriptA$=charName$(endChar(page))+translate(" was transferred to a more") 
+   scriptB$=translate("conservative jail and was soon executed...")
   EndIf
   If endFate(page)=25
-   scriptA$=charName$(endChar(page))+" went on to write a best-selling"  
-   scriptB$="book about his experiences in prison..."
+   scriptA$=charName$(endChar(page))+translate(" went on to write a best-selling")  
+   scriptB$=translate("book about his experiences in prison...")
   EndIf
   If endFate(page)=26 
-   scriptA$=charName$(endChar(page))+" became a public speaker and" 
-   scriptB$="encouraged kids to avoid a life of crime..."
+   scriptA$=charName$(endChar(page))+translate(" became a public speaker and") 
+   scriptB$=translate("encouraged kids to avoid a life of crime...")
   EndIf
   If endFate(page)=27 
-   scriptA$=charName$(endChar(page))+" became a teacher, but was" 
-   scriptB$="later arrested for abusing his students..."
+   scriptA$=charName$(endChar(page))+translate(" became a teacher, but was") 
+   scriptB$=translate("later arrested for abusing his students...")
   EndIf
   If endFate(page)=28 
-   scriptA$=charName$(endChar(page))+" was recruited by a terrorist" 
-   scriptB$="cell and took part in a fatal bombing..."
+   scriptA$=charName$(endChar(page))+translate(" was recruited by a terrorist") 
+   scriptB$=translate("cell and took part in a fatal bombing...")
   EndIf
   If endFate(page)=29 
-   scriptA$=charName$(endChar(page))+" was transferred to Guantanamo" 
-   scriptB$="Bay after getting involved in terrorism..."
+   scriptA$=charName$(endChar(page))+translate(" was transferred to Guantanamo") 
+   scriptB$=translate("Bay after getting involved in terrorism...")
   EndIf
   If endFate(page)=30
-   scriptA$=charName$(endChar(page))+" went on to make a movie about" 
-   scriptB$="his experiences and became a millionaire..."
+   scriptA$=charName$(endChar(page))+translate(" went on to make a movie about") 
+   scriptB$=translate("his experiences and became a millionaire...")
   EndIf
   If endFate(page)=31
-   scriptA$=charName$(endChar(page))+" took part in a documentary" 
-   scriptB$="about the prison and became a TV star..."
+   scriptA$=charName$(endChar(page))+translate(" took part in a documentary") 
+   scriptB$=translate("about the prison and became a TV star...")
   EndIf
   If endFate(page)=32
-   scriptA$=charName$(endChar(page))+" got to grips with computers" 
-   scriptB$="and went on to become a game designer..."
+   scriptA$=charName$(endChar(page))+translate(" got to grips with computers") 
+   scriptB$=translate("and went on to become a game designer...")
   EndIf
   If endFate(page)=33
-   scriptA$=charName$(endChar(page))+" got to grips with computers" 
-   scriptB$="and went on to create a popular website..."
+   scriptA$=charName$(endChar(page))+translate(" got to grips with computers") 
+   scriptB$=translate("and went on to create a popular website...")
   EndIf
   If endFate(page)=34
-   scriptA$=charName$(endChar(page))+" got to grips with computers" 
-   scriptB$="and went on to find a cushy job in IT..."
+   scriptA$=charName$(endChar(page))+translate(" got to grips with computers") 
+   scriptB$=translate("and went on to find a cushy job in IT...")
   EndIf
   If endFate(page)=35
-   scriptA$=charName$(endChar(page))+" was given his own radio show" 
-   scriptB$="and used it to share his experiences..."
+   scriptA$=charName$(endChar(page))+translate(" was given his own radio show") 
+   scriptB$=translate("and used it to share his experiences...")
   EndIf
   If endFate(page)=36
-   scriptA$=charName$(endChar(page))+" used his experience to serve" 
-   scriptB$="as a warden after completing his sentence..."
+   scriptA$=charName$(endChar(page))+translate(" used his experience to serve") 
+   scriptB$=translate("as a warden after completing his sentence...")
   EndIf
   If endFate(page)=37 
-   scriptA$=charName$(endChar(page))+" succumbed to a terminal illness" 
-   scriptB$="that he was hiding from his fellow inmates..."
+   scriptA$=charName$(endChar(page))+translate(" succumbed to a terminal illness") 
+   scriptB$=translate("that he was hiding from his fellow inmates...")
   EndIf
   If endFate(page)=38 
-   scriptA$=charName$(endChar(page))+" continued a life of discipline" 
-   scriptB$="and became a decorated soldier in the army..."
+   scriptA$=charName$(endChar(page))+translate(" continued a life of discipline") 
+   scriptB$=translate("and became a decorated soldier in the army...")
   EndIf
   If endFate(page)=39 
-   scriptA$=charName$(endChar(page))+" continued a life of discipline" 
-   scriptB$="in the army, but was killed in battle..."
+   scriptA$=charName$(endChar(page))+translate(" continued a life of discipline") 
+   scriptB$=translate("in the army, but was killed in battle...")
   EndIf
   If endFate(page)=40
-   scriptA$=charName$(endChar(page))+" went on to study medicine" 
-   scriptB$="and saved countless lives as a doctor..."
+   scriptA$=charName$(endChar(page))+translate(" went on to study medicine") 
+   scriptB$=translate("and saved countless lives as a doctor...")
   EndIf
   If endFate(page)=41
-   scriptA$=charName$(endChar(page))+" went on to lead an uneventful" 
-   scriptB$="life and died in the comfort of his home..."
+   scriptA$=charName$(endChar(page))+translate(" went on to lead an uneventful") 
+   scriptB$=translate("life and died in the comfort of his home...")
   EndIf
   If endFate(page)=42
-   scriptA$=charName$(endChar(page))+" trained as a chef and vowed" 
-   scriptB$="to improve the standard of prison food..."
+   scriptA$=charName$(endChar(page))+translate(" trained as a chef and vowed") 
+   scriptB$=translate("to improve the standard of prison food...")
   EndIf
   If endFate(page)=43
-   scriptA$=charName$(endChar(page))+" continued to stay in shape" 
-   scriptB$="and went on to become a personal trainer..."
+   scriptA$=charName$(endChar(page))+translate(" continued to stay in shape") 
+   scriptB$=translate("and went on to become a personal trainer...")
   EndIf
   If endFate(page)=44
-   scriptA$=charName$(endChar(page))+" lost faith in human beings" 
-   scriptB$="and dedicated his life to animal welfare..."
+   scriptA$=charName$(endChar(page))+translate(" lost faith in human beings") 
+   scriptB$=translate("and dedicated his life to animal welfare...")
   EndIf
   If endFate(page)=45
-   scriptA$=charName$(endChar(page))+" went on to work with animals," 
-   scriptB$="but was mauled by an ungrateful lion..."
+   scriptA$=charName$(endChar(page))+translate(" went on to work with animals,") 
+   scriptB$=translate("but was mauled by an ungrateful lion...")
   EndIf
   If endFate(page)=46 
-   scriptA$=charName$(endChar(page))+"'s vision continued to" 
-   scriptB$="deteriorate in prison and left him blind..."
+   scriptA$=charName$(endChar(page))+translate("'s vision continued to") 
+   scriptB$=translate("deteriorate in prison and left him blind...")
   EndIf
   If endFate(page)=47 
-   scriptA$=charName$(endChar(page))+" became wheelchair bound after" 
-   scriptB$="breaking his back in a car accident..."
+   scriptA$=charName$(endChar(page))+translate(" became wheelchair bound after") 
+   scriptB$=translate("breaking his back in a car accident...")
   EndIf
   If endFate(page)=48 
-   scriptA$=charName$(endChar(page))+" broke his neck in an accident" 
-   scriptB$="and never regained the use of his body..."
+   scriptA$=charName$(endChar(page))+translate(" broke his neck in an accident") 
+   scriptB$=translate("and never regained the use of his body...")
   EndIf
   If endFate(page)=49 
-   scriptA$=charName$(endChar(page))+" slipped into a coma after an" 
-   scriptB$="accident and never regained consciousness..."
+   scriptA$=charName$(endChar(page))+translate(" slipped into a coma after an") 
+   scriptB$=translate("accident and never regained consciousness...")
   EndIf
   If endFate(page)=50
-   scriptA$=charName$(endChar(page))+" tried to climb Mount Everest" 
-   scriptB$="with no equipment and fell to his death..."
+   scriptA$=charName$(endChar(page))+translate(" tried to climb Mount Everest") 
+   scriptB$=translate("with no equipment and fell to his death...")
   EndIf
   If endFate(page)=51
-   scriptA$=charName$(endChar(page))+" embarked on an expedition to" 
-   scriptB$="the North Pole, but died on the first day..."
+   scriptA$=charName$(endChar(page))+translate(" embarked on an expedition to") 
+   scriptB$=translate("the North Pole, but died on the first day...")
   EndIf
   If endFate(page)=52
-   scriptA$=charName$(endChar(page))+" became a movie stuntman, but" 
-   scriptB$="tragically died during a failed stunt..."
+   scriptA$=charName$(endChar(page))+translate(" became a movie stuntman, but") 
+   scriptB$=translate("tragically died during a failed stunt...")
   EndIf
   If endFate(page)=53
-   scriptA$=charName$(endChar(page))+" started acting in porn films" 
-   scriptB$="and contracted every STD known to man..."
+   scriptA$=charName$(endChar(page))+translate(" started acting in porn films") 
+   scriptB$=translate("and contracted every STD known to man...")
   EndIf
   If endFate(page)=54
-   scriptA$=charName$(endChar(page))+" claimed to be the Messiah and" 
-   scriptB$="tried to bring peace to The Middle East..."
+   scriptA$=charName$(endChar(page))+translate(" claimed to be the Messiah and") 
+   scriptB$=translate("tried to bring peace to The Middle East...")
   EndIf
   If endFate(page)=55
-   scriptA$=charName$(endChar(page))+" had an epiphany and embarked" 
-   scriptB$="on missionary work in the third world..."
+   scriptA$=charName$(endChar(page))+translate(" had an epiphany and embarked") 
+   scriptB$=translate("on missionary work in the third world...")
   EndIf
   If endFate(page)=56
-   scriptA$=charName$(endChar(page))+" became a millionaire and used" 
-   scriptB$="his wealth to adopt impoverished children..."
+   scriptA$=charName$(endChar(page))+translate(" became a millionaire and used") 
+   scriptB$=translate("his wealth to adopt impoverished children...")
   EndIf
   If endFate(page)=57 
-   scriptA$=charName$(endChar(page))+" moved to another country where" 
-   scriptB$="nobody knew of his criminal background..."
+   scriptA$=charName$(endChar(page))+translate(" moved to another country where") 
+   scriptB$=translate("nobody knew of his criminal background...")
   EndIf
   If endFate(page)=58 
-   scriptA$="Upon release, "+charName$(endChar(page))+" forgot where he" 
-   scriptB$="lived and was left roaming the streets..."
+   scriptA$=translate("Upon release, ")+charName$(endChar(page))+translate(" forgot where he") 
+   scriptB$=translate("lived and was left roaming the streets...")
   EndIf
   If endFate(page)=59 
-   scriptA$=charName$(endChar(page))+" failed to adjust to modern" 
-   scriptB$="life and became one of the homeless..."
+   scriptA$=charName$(endChar(page))+translate(" failed to adjust to modern") 
+   scriptB$=translate("life and became one of the homeless...")
   EndIf
   If endFate(page)=60
-   scriptA$=charName$(endChar(page))+" failed to adjust to life on" 
-   scriptB$="the outside and soon committed suicide..."
+   scriptA$=charName$(endChar(page))+translate(" failed to adjust to life on") 
+   scriptB$=translate("the outside and soon committed suicide...")
   EndIf 
   If endFate(page)=61
-   scriptA$="After being released, "+charName$(endChar(page))+" was" 
-   scriptB$="hunted down and killed by old enemies..."
+   scriptA$=translate("After being released, ")+charName$(endChar(page))+translate(" was") 
+   scriptB$=translate("hunted down and killed by old enemies...")
   EndIf
   If endFate(page)=62
-   scriptA$=charName$(endChar(page))+" went on to become a political" 
-   scriptB$="activist and lobbied to improve prisons..."
+   scriptA$=charName$(endChar(page))+translate(" went on to become a political") 
+   scriptB$=translate("activist and lobbied to improve prisons...")
   EndIf
   If endFate(page)=63
-   scriptA$=charName$(endChar(page))+" developed an affinity with" 
-   scriptB$="nature and ran away to live in the wild..."
+   scriptA$=charName$(endChar(page))+translate(" developed an affinity with") 
+   scriptB$=translate("nature and ran away to live in the wild...")
   EndIf
   If endFate(page)=64
-   scriptA$=charName$(endChar(page))+" successfully escaped from" 
-   scriptB$="prison and still hasn't been found..."
+   scriptA$=charName$(endChar(page))+translate(" successfully escaped from") 
+   scriptB$=translate("prison and still hasn't been found...")
   EndIf
   If endFate(page)=65
-   scriptA$=charName$(endChar(page))+" tried to escape from the" 
-   scriptB$="exercise yard, but was shot dead..."
+   scriptA$=charName$(endChar(page))+translate(" tried to escape from the") 
+   scriptB$=translate("exercise yard, but was shot dead...")
   EndIf
   If endFate(page)=66
-   scriptA$=charName$(endChar(page))+" returned to the wrong house" 
-   scriptB$="and brought up someone else's family..."
+   scriptA$=charName$(endChar(page))+translate(" returned to the wrong house") 
+   scriptB$=translate("and brought up someone else's family...")
   EndIf
   If endFate(page)=67 
-   scriptA$=charName$(endChar(page))+" went back to live with his" 
-   scriptB$="parents and remains grounded to this day..."
+   scriptA$=charName$(endChar(page))+translate(" went back to live with his") 
+   scriptB$=translate("parents and remains grounded to this day...")
   EndIf
   If endFate(page)=68 
-   scriptA$=charName$(endChar(page))+" went back to school, but" 
-   scriptB$="failed to complete the 1st grade..."
+   scriptA$=charName$(endChar(page))+translate(" went back to school, but") 
+   scriptB$=translate("failed to complete the 1st grade...")
   EndIf
   If endFate(page)=69 
-   scriptA$=charName$(endChar(page))+" dedicated his life to sport" 
-   scriptB$="and played in a Superbowl final..."
+   scriptA$=charName$(endChar(page))+translate(" dedicated his life to sport") 
+   scriptB$=translate("and played in a Superbowl final...")
   EndIf
   If endFate(page)=70
-   scriptA$=charName$(endChar(page))+" united all the prison" 
-   scriptB$="gangs and now rules like a king..."
+   scriptA$=charName$(endChar(page))+translate(" united all the prison") 
+   scriptB$=translate("gangs and now rules like a king...")
   EndIf 
   SetFont font(4)
   If GraphicsWidth()<800 Then SetFont font(3)
@@ -717,7 +717,7 @@ While go=0
  EndIf
  If promoTim>300 Then page=page+1 : promoTim=125
  ;mask shaky start
- If gotim=<0 Then Loader(translate("Please Wait"),"Leaving Prison")
+ If gotim=<0 Then Loader(translate("Please Wait"),translate("Leaving Prison"))
 
  Flip
  ;screenshot (F12)
