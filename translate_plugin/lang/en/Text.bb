@@ -1,4 +1,4 @@
-Dim messagesEn$(189)
+Dim messagesEn$(191)
 messagesEn$(0) = "Please Wait"
 messagesEn$(1) = "Loading"
 messagesEn$(2) = "Loading Atmosphere"
@@ -192,3 +192,5 @@ messagesEn$(185) = " dedicated his life to sport"
 messagesEn$(186) = "and played in a Superbowl final..."
 messagesEn$(187) = " united all the prison"
 messagesEn$(188) = "gangs and now rules like a king..."
+messagesEn$(189) = "Translate"
+messagesEn$(190) = "Telegram"
