@@ -7,7 +7,7 @@
 ;---------------------------------------------------------------
 Function CourtCase()
 ;load setting
-Loader("Please Wait","Preparing Court Case")
+Loader(translate("Please Wait"),"Preparing Court Case")
 world=LoadAnimMesh("World/Courtroom/Courtroom.3ds")
 For count=1 To 10
  EntityTexture FindChild(world,"Crowd"+Dig$(count,10)),tCrowd,Rnd(0,3)
@@ -108,7 +108,7 @@ If promoCash<100 Then promoCash=100
 If promoCash>10000 Then promoCash=10000
 promoCash=RoundOff(promoCash,100)
 ;frame ratings
-Loader("Please Wait","Preparing Court Case")
+Loader(translate("Please Wait"),"Preparing Court Case")
 timer=CreateTimer(30)
 SeedRnd(MilliSecs())
 ;MAIN LOOP
@@ -1044,7 +1044,7 @@ While go=0
   EndIf
  EndIf
  ;mask shaky start
- If gotim=<0 Then Loader("Please Wait","Preparing Court Case") 
+ If gotim=<0 Then Loader(translate("Please Wait"),"Preparing Court Case")
 
  Flip
  ;screenshot (F12)

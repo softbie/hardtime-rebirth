@@ -9,7 +9,7 @@ Function LoadWeapons()
  For cyc=1 To no_weaps
   If weapLocation(cyc)=gamLocation(slot)
    ;generate
-   ;Loader("Please Wait","Loading Weapon "+cyc+" of "+no_weaps)
+   ;Loader(translate("Please Wait"),"Loading Weapon "+cyc+" of "+no_weaps)
    weap(cyc)=LoadAnimMesh("Weapons/"+weapFile$(weapType(cyc))+".3ds")
    ScaleEntity weap(cyc),0.4,0.4,0.4
    If weapTex(weapType(cyc))>0

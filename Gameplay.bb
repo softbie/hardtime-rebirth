@@ -8,7 +8,8 @@
 
 ;FILE STRUCTURE
 SeedRnd(MilliSecs())
-AppTitle "Hard Time"              
+AppTitle "Hard Time"
+Include "translate_plugin/Translate.bb"
 Include "Texts.bb"
 Include "Values.bb"
 Include "Data.bb"
@@ -79,10 +80,10 @@ Function Gameplay()
 ;adjust resolution
 ChangeResolution(optRes,1)
 ;load location
-Loader("Please Wait","Loading "+textLocation$(gamLocation(slot)))
+Loader(translate("Please Wait"),translate("Loading") + " " +textLocation$(gamLocation(slot)))
 LoadWorld()
 ;load atmosphere
-Loader("Please Wait","Loading Atmosphere")
+Loader(translate("Please Wait"),translate("Loading Atmosphere"))
 LoadAtmos()
 ;background noise
 LoopSound sAtmos
@@ -104,7 +105,7 @@ For char=1 To no_chars
 Next
 LoadPlayers()
 ;load weapons
-Loader("Please Wait","Loading Weapons")
+Loader(translate("Please Wait"),"Loading Weapons")
 If gamLocation(slot)=10 Then PrepareCreations()
 LoadWeapons()
 LoadBullets()
@@ -114,14 +115,14 @@ For cyc=1 To no_plays
 Next
 ;load particles
 If optFX>0
- Loader("Please Wait","Loading Effects")
- no_particles=500 
+ Loader(translate("Please Wait"),"Loading Effects")
+ no_particles=500
  If optFX=1 Then no_particles=no_particles/2
  LoadParticles()
 EndIf
 ;load pools
 If optGore=>2
- no_pools=50 
+ no_pools=50
  If optFX=<1 Then no_pools=no_pools/2
  LoadPools()
 EndIf
@@ -142,7 +143,7 @@ UpdateWorld
 SetCollisions()
 ;frame rating
 SeedRnd(MilliSecs())
-Loader("Please Wait","Finalizing World")
+Loader(translate("Please Wait"),"Finalizing World")
 timer=CreateTimer(30)
 ;MAIN LOOP
 zoom#=1.0
@@ -152,7 +153,7 @@ While go=0
  Cls
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
   ;COUNTERS
   keytim=keytim-1
   If keytim<1 Then keytim=0
@@ -160,17 +161,17 @@ While go=0
   If gotim>0 And gamPromo=0
    For count=1 To 10
     If statTim(count)<0 Then statTim(count)=statTim(count)+1
-    If statTim(count)>0 Then statTim(count)=statTim(count)-1  
+    If statTim(count)>0 Then statTim(count)=statTim(count)-1
    Next
   EndIf
-	
+
   ;PORTAL
   gotim=gotim+1
   If gotim=0 Then ProduceSound(cam,sDoor(3),22050,1)
-  If gotim>40 And keytim=0    
-   If KeyDown(1) And pAnim(gamPlayer(slot))<20 And gamPromo=0 Then go=-1   
+  If gotim>40 And keytim=0
+   If KeyDown(1) And pAnim(gamPlayer(slot))<20 And gamPromo=0 Then go=-1
   EndIf
-  
+
   ;THEME FADING
   If gotim>0
    musicVol#=musicVol#-0.0025
@@ -188,7 +189,7 @@ While go=0
     If KeyDown(18) Then pHealth(gamPlayer(slot))=pHealth(gamPlayer(slot))-1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(35) Then charHappiness(gamChar(slot))=charHappiness(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(31) Then charStrength(gamChar(slot))=charStrength(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3
-    If KeyDown(30) Then charAgility(gamChar(slot))=charAgility(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3 
+    If KeyDown(30) Then charAgility(gamChar(slot))=charAgility(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(23) Then charIntelligence(gamChar(slot))=charIntelligence(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(19) Then charReputation(gamChar(slot))=charReputation(gamChar(slot))-1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(50) Then gamMoney(slot)=gamMoney(slot)-10 : PlaySound sMenuBrowse : keytim=5
@@ -199,9 +200,9 @@ While go=0
     If KeyDown(18) Then pHealth(gamPlayer(slot))=pHealth(gamPlayer(slot))+1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(35) Then charHappiness(gamChar(slot))=charHappiness(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(31) Then charStrength(gamChar(slot))=charStrength(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3
-    If KeyDown(30) Then charAgility(gamChar(slot))=charAgility(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3 
+    If KeyDown(30) Then charAgility(gamChar(slot))=charAgility(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(23) Then charIntelligence(gamChar(slot))=charIntelligence(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3
-    If KeyDown(19) Then charReputation(gamChar(slot))=charReputation(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3 
+    If KeyDown(19) Then charReputation(gamChar(slot))=charReputation(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=3
     If KeyDown(50) Then gamMoney(slot)=gamMoney(slot)+10 : PlaySound sMenuBrowse : keytim=5
     If KeyDown(207) Then charSentence(gamChar(slot))=charSentence(gamChar(slot))+1 : PlaySound sMenuBrowse : keytim=5
    EndIf
@@ -224,7 +225,7 @@ While go=0
     EndIf
    EndIf
   EndIf
-  
+
   ;ppppppppppppppppppppppp PAUSE LOOP pppppppppppppppppppppppppppppppp
   ;pause toggle
   If KeyDown(25) And gotim>20 And keytim=0
@@ -232,14 +233,14 @@ While go=0
    If gamPause=1 Then gamPause=0 Else gamPause=1
   EndIf
   ;pause loop
-  If gamPause=0 
+  If gamPause=0
 
    ;PROMOS
-   If gamPromo=0 Then promoTim=promoTim-1 
+   If gamPromo=0 Then promoTim=promoTim-1
    If promoTim<0 Then promoTim=0
-   If gamPromo>0 
+   If gamPromo>0
     ;timer
-    If promoStage<>1 Then promoTim=promoTim+1 
+    If promoStage<>1 Then promoTim=promoTim+1
     If promoTim>50 And promoStage<>1 And keytim=0
      If KeyDown(1) Or KeyDown(28) Or ButtonPressed() Or ActionPressed(gamPlayer(slot)) Then promoTim=promoTim+100 : keytim=10
     EndIf
@@ -248,7 +249,7 @@ While go=0
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
 	 If KeyDown(208) Or JoyYDir()=1 Then foc=foc+1 : PlaySound sMenuSelect : keytim=6
 	 If foc<1 Then foc=1
-	 If foc>2 Then foc=2 
+	 If foc>2 Then foc=2
 	 If charBreakdown(gamChar(slot))>0 Then foc=2
 	 ;confirm
      If KeyDown(28) Or ButtonPressed()
@@ -260,14 +261,14 @@ While go=0
      If KeyDown(1) Or charBreakdown(gamChar(slot))>0
 	  PlaySound sMenuBack : keytim=10
 	  promoStage=3 : promoTim=300
-	 EndIf 
+	 EndIf
 	 ;prepare return camera
 	 If promoStage<>1
 	  If promoActor(1)>0
 	   If pChar(promoActor(1))=gamChar(slot) Then camFoc=promoActor(2)
       EndIf
       If promoActor(2)
-       If pChar(promoActor(2))=gamChar(slot) Then camFoc=promoActor(1) 
+       If pChar(promoActor(2))=gamChar(slot) Then camFoc=promoActor(1)
 	  EndIf
 	 EndIf
 	 ;animated effects
@@ -276,8 +277,8 @@ While go=0
 	  If (gamPromo=1 Or gamPromo=18 Or gamPromo=53 Or gamPromo=72) And promoStage=2 Then ChangeAnim(v,21) ;drop weapon
 	  If gamPromo=7 And promoStage=2 And pSeat(v)>0 Then ChangeAnim(v,101) ;vacate seat
 	  If (gamPromo=8 Or gamPromo=11) And promoStage=2 And pBed(v)>0 Then ChangeAnim(v,101) ;vacate bed
-	  If (gamPromo=16 Or gamPromo=17 Or gamPromo=48) And promoStage=2 Then ChangeAnim(v,25) : ChangeAnim(cyc,26) ;hand over item 
-	  If (gamPromo=49 Or gamPromo=50) And promoStage=2 Then ChangeAnim(cyc,25) : ChangeAnim(v,26) ;acquire item  
+	  If (gamPromo=16 Or gamPromo=17 Or gamPromo=48) And promoStage=2 Then ChangeAnim(v,25) : ChangeAnim(cyc,26) ;hand over item
+	  If (gamPromo=49 Or gamPromo=50) And promoStage=2 Then ChangeAnim(cyc,25) : ChangeAnim(v,26) ;acquire item
 	 EndIf
 	EndIf
    EndIf
@@ -294,7 +295,7 @@ While go=0
      If randy=0 And gamBlackout(slot)=0 And gamPromo=0 And promoUsed(206)=0 Then TriggerPromo(0,0,206) ;power failure!
      If randy=1 And gamBombThreat(slot)=0 And gamPromo=0 And promoUsed(207)=0 Then TriggerPromo(0,0,207) ;bomb threat!
      If randy=2 And pInjured(gamPlayer(slot))=0 And gamPromo=0 And promoUsed(252)=0 ;sudden illness
-      ProduceSound(p(gamPlayer(slot)),sChoke,22050,0.5) 
+      ProduceSound(p(gamPlayer(slot)),sChoke,22050,0.5)
       TriggerPromo(gamPlayer(slot),0,252)
      EndIf
      ;corrupt warden
@@ -327,7 +328,7 @@ While go=0
     pOldY#(cyc)=pY#(cyc)
     pOldZ#(cyc)=pZ#(cyc)
     LimitStats(pChar(cyc))
-   Next 
+   Next
 
    ;WEAPONS
    WeaponCycle()
@@ -344,7 +345,7 @@ While go=0
    If optGore=>2
     PoolCycle()
    EndIf
-  
+
    ;LOCATION NOVELTIES
    ;video screens
    If gamLocation(slot)=9
@@ -366,7 +367,7 @@ While go=0
       trayOldState(tray)=trayState(tray)
      EndIf
     Next
-   EndIf 
+   EndIf
    ;phone calls
    If gotim>0 And gamLocation(slot)=9
     If phoneRing=0
@@ -377,11 +378,11 @@ While go=0
        phoneRing=randy : phoneTim=Rnd(250,1000)
        If phonePromo=0 Then GetPhonePromo()
        LoopSound sRing
-       chPhone=EmitSound(sRing,FindChild(world,"Phone"+Dig$(phoneRing,10)))  
+       chPhone=EmitSound(sRing,FindChild(world,"Phone"+Dig$(phoneRing,10)))
       EndIf
      EndIf
     EndIf
-    If phoneRing>0 
+    If phoneRing>0
      randy=Rnd(0,1)
      If randy=0 Then PositionEntity FindChild(world,"Phone"+Dig$(phoneRing,10)),phoneX#(phoneRing),phoneY#(phoneRing)+Rnd(-0.35,0.35),phoneZ#(phoneRing)+Rnd(-0.15,0.15)
      If randy=1
@@ -394,7 +395,7 @@ While go=0
      If phonePromo=>172 And phonePromo=<173 And phoneTim<1 Then phoneTim=1
      If phoneTim<0 Or go<>0
       PositionEntity FindChild(world,"Phone"+Dig$(phoneRing,10)),phoneX#(phoneRing),phoneY#(phoneRing),phoneZ#(phoneRing)
-      EntityColor FindChild(world,"Alarm"+Dig$(phoneRing,10)),5,0,0 
+      EntityColor FindChild(world,"Alarm"+Dig$(phoneRing,10)),5,0,0
       EntityFX FindChild(world,"Alarm"+Dig$(phoneRing,10)),0
       StopChannel chPhone
       phoneRing=0 : phoneTim=0
@@ -435,14 +436,14 @@ While go=0
    ManageAtmos()
 
    ;CAMERA
-   Camera() 
+   Camera()
    ;If KeyDown(12) Then zoom#=zoom#-0.01
    ;If KeyDown(13) Then zoom#=zoom#+0.01
    ;CameraZoom cam,zoom#
 
   ;ppppppppppppppppppppp END OF PAUSE LOOP pppppppppppppppppppppppp
   EndIf
-	
+
  If gamPause=0 Then UpdateWorld
 
  ;OVERRIDE ANIMATION
@@ -461,7 +462,7 @@ While go=0
     If gamPromo>0 And camFoc=0 Then PointHead(cyc,FindChild(world,"Tanoy01"))
    EndIf
   EndIf
-  ;move correction 
+  ;move correction
   pCollisions(cyc)=CountCollisions(pMovePivot(cyc))
   If pCollisions(cyc)>0
    If pGrappler(cyc)>0 Or (pGrappling(cyc)>0 And pAnim(cyc)=>213)
@@ -480,9 +481,9 @@ While go=0
   EndIf
  Next
 
- Next 
+ Next
  RenderWorld 1
- 
+
  ;DISPLAY
  ;DrawImage gLogo(3),rX#(180),rY#(560)
  ;status
@@ -502,7 +503,7 @@ While go=0
   ;Outline("Zoom: "+zoom#,100,150,0,0,0,255,255,255)
   ;Outline("X: "+pX#(camFoc),100,150,0,0,0,255,255,255)
   ;Outline("Y: "+pY#(camFoc),100,165,0,0,0,255,255,255)
-  ;Outline("Z: "+pZ#(camFoc),100,180,0,0,0,255,255,255) 
+  ;Outline("Z: "+pZ#(camFoc),100,180,0,0,0,255,255,255)
   ;Outline("A: "+pA#(camFoc),100,195,0,0,0,255,255,255)
   ;weaps=0 : vices=0
   ;For cyc=1 To no_weaps
@@ -511,13 +512,13 @@ While go=0
     ;If weapType(cyc)=>16 And weapType(cyc)=<18 Then vices=vices+1
    ;EndIf
   ;Next
-  ;Outline("Weapons: "+weaps+"/"+no_weaps,100,250,0,0,0,255,255,255) 
-  ;Outline("Vices: "+vices+"/"+no_weaps,100,265,0,0,0,255,255,255) 
+  ;Outline("Weapons: "+weaps+"/"+no_weaps,100,250,0,0,0,255,255,255)
+  ;Outline("Vices: "+vices+"/"+no_weaps,100,265,0,0,0,255,255,255)
  ;EndIf
  ;display promo
  For cyc=1 To no_plays
   ResetExpressions(cyc)
- Next 
+ Next
  If gamPromo>0
   DisplayPromo()
  EndIf
@@ -528,7 +529,7 @@ While go=0
   Outline("(Press 'P' to resume play)",rX#(400),rY#(300)+30,0,0,0,255,255,255)
  EndIf
  ;mask shaky start
- If gotim=<0 Then Loader("Please Wait","Finalizing World")
+ If gotim=<0 Then Loader(translate("Please Wait"),"Finalizing World")
 
  Flip
  ;screenshot (F12)
@@ -541,7 +542,7 @@ While go=0
 
 Wend
 ;restore sound
-If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Restoring Sound")
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Restoring Sound")
 If ChannelPlaying(chAtmos)>0 Then StopChannel chAtmos
 If ChannelPlaying(chAlarm)>0 Then StopChannel chAlarm
 If ChannelPlaying(chPhone)>0 Then StopChannel chPhone
@@ -556,26 +557,26 @@ If go=-1 Or go=3 Or charHealth(gamChar(slot))=<0
  ChannelVolume chTheme,musicVol#
 EndIf
 ;remove world
-If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Leaving "+textLocation$(oldLocation))
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Leaving "+textLocation$(oldLocation))
 FreeTimer timer
 FreeEntity fader
 FreeEntity world
 ;remove camera
-If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Camera")
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Camera")
 FreeEntity cam
 FreeEntity camPivot
 FreeEntity dummy
 ;remove lights
 For cyc=1 To no_lights
- If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Lights") 
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Lights")
  FreeEntity light(cyc)
 Next
 ;remove players
 For cyc=1 To no_plays
- If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Players") 
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Players")
  FreeEntity p(cyc)
  FreeEntity pPivot(cyc)
- FreeEntity pMovePivot(cyc) 
+ FreeEntity pMovePivot(cyc)
  For limb=1 To 40
   If pShadow(cyc,limb)>0
    FreeEntity pShadow(cyc,limb)
@@ -585,12 +586,12 @@ Next
 ;remove weapons
 If no_weaps>0
  For cyc=1 To no_weaps
-  If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Weapons") 
+  If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Weapons")
   If weapLocation(cyc)=gamLocation(slot)
    If weapState(cyc)=0 Then weapLocation(cyc)=0
    FreeEntity weap(cyc)
    FreeEntity weapGround(cyc)
-   FreeEntity weapWall(cyc) 
+   FreeEntity weapWall(cyc)
   EndIf
  Next
 EndIf
@@ -602,26 +603,26 @@ If gamLocation(slot)=10
 EndIf
 ;remove bullets
 For cyc=1 To no_bullets
- FreeEntity bullet(cyc) 
+ FreeEntity bullet(cyc)
 Next
 ;remove particles
 If optFX>0
- If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Effects")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Effects")
  For cyc=1 To no_particles
   FreeEntity part(cyc)
  Next
 EndIf
 ;remove pools
 If optGore=>2
- If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Removing Effects")  
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Effects")
  For cyc=1 To no_pools
-  FreeEntity pool(cyc)  
+  FreeEntity pool(cyc)
  Next
 EndIf
 ;clear collisions
 ClearCollisions
 ;remove unusued promos
-If charHealth(gamChar(slot))>0 Then Loader("Please Wait","Saving Progress") 
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Saving Progress")
 If go=>1 Then RevisePromos()
 ;preserve locations
 If LockDown()

@@ -49,10 +49,10 @@ While go=0
  DrawMainLogo(rX#(400),rY#(300))
  DrawImage gMDickie,rX#(400),rY#(515)
  ;options
- DrawOption(1,rX#(400),rY#(75),"PLAY","")
- DrawOption(2,rX#(400),rY#(130),"OPTIONS","")
- DrawOption(3,rX#(400),rY#(185),"CREDITS","")
- DrawOption(4,rX#(400),rY#(415),"<<< EXIT <<<","")  
+ DrawOption(1,rX#(400),rY#(75),translate("PLAY"),"")
+ DrawOption(2,rX#(400),rY#(130),translate("OPTIONS"),"")
+ DrawOption(3,rX#(400),rY#(185),translate("CREDITS"),"")
+ DrawOption(4,rX#(400),rY#(415),translate("<<< EXIT <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -61,8 +61,8 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
-If go=1 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
+If go=1
  If foc=1 Then screen=5
  If foc=2 Then screen=2
  If foc=3 Then gamEnded=0 : screen=6
@@ -84,11 +84,11 @@ While go=0
  Cls
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
 	;timers
 	keytim=keytim-1
 	If keytim<1 Then keytim=0
-	
+
 	;PORTAL
     gotim=gotim+1
 	If gotim>20 And keytim=0
@@ -96,13 +96,13 @@ While go=0
 	 If KeyDown(1) Then go=-1
 	 ;proceed
 	 If KeyDown(28) Or ButtonPressed()
-	  If foc<6 Then foc=9 : keytim=10 
+	  If foc<6 Then foc=9 : keytim=10
 	  If foc=>7 And foc=<8 Then go=1
-	  If foc=9 And keytim=0 Then go=-1 
+	  If foc=9 And keytim=0 Then go=-1
 	 EndIf
 	EndIf
-	
-	;CONFIGURATION 
+
+	;CONFIGURATION
 	If gotim>20 And keytim=0
 	 ;highlight options
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
@@ -114,7 +114,7 @@ While go=0
 	  If foc=1 Then optRes=optRes-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=2 Then optPopulation=optPopulation-5 : PlaySound sMenuBrowse : keytim=6
 	  If foc=3 Then optFog=optFog-1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=4 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6 
+	  If foc=4 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=5 Then optFX=optFX-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=6 Then optGore=optGore-1 : PlaySound sMenuBrowse : keytim=6
 	 EndIf
@@ -123,14 +123,14 @@ While go=0
 	  If foc=1 Then optRes=optRes+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=2 Then optPopulation=optPopulation+5 : PlaySound sMenuBrowse : keytim=6
 	  If foc=3 Then optFog=optFog+1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=4 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6 
+	  If foc=4 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=5 Then optFX=optFX+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=6 Then optGore=optGore+1 : PlaySound sMenuBrowse : keytim=6
 	 EndIf
 	EndIf
 	;check limits
 	If optRes<1 Then optRes=1
-	If optRes>5 Then optRes=5 
+	If optRes>5 Then optRes=5
     If optPopulation<40 Then optPopulation=40
 	If optPopulation>100 Then optPopulation=100
     If optFog<0 Then optFog=1
@@ -141,7 +141,7 @@ While go=0
 	If optFX>2 Then optFX=2
 	If optGore<0 Then optGore=0
 	If optGore>3 Then optGore=3
-	
+
  UpdateWorld
  Next
  RenderWorld 1
@@ -152,15 +152,15 @@ While go=0
  ;options
  SetFont font(1)
  x=400 : y=120 : spacer=53
- DrawOption(1,rX#(400),rY#(y),"Resolution",textResX$(optRes)+" x "+textResY$(optRes)) : y=y+spacer
- DrawOption(2,rX#(400),rY#(y),"Population",optPopulation+" Characters") : y=y+(spacer+5)
- DrawOption(3,rX#(400),rY#(y),"Fog Effect",textOnOff$(optFog)) : y=y+spacer
- DrawOption(4,rX#(400),rY#(y),"Shadows",textShadows$(optShadows)) : y=y+spacer 
- DrawOption(5,rX#(400),rY#(y),"Particle FX",textFX$(optFX)) : y=y+spacer
- DrawOption(6,rX#(400),rY#(y),"Gore",textGore$(optGore)) : y=y+(spacer+5)
- DrawOption(7,rX#(400),rY#(y),"REDEFINE KEYS","") : y=y+spacer
- DrawOption(8,rX#(400),rY#(y),"REDEFINE GAMEPAD","") : y=y+(spacer+5)
- DrawOption(9,rX#(400),rY#(y),"<<< BACK <<<","")
+ DrawOption(1,rX#(400),rY#(y),translate("Resolution"),textResX$(optRes)+" x "+textResY$(optRes)) : y=y+spacer
+ DrawOption(2,rX#(400),rY#(y),translate("Population"),optPopulation + " " + translate("characters")) : y=y+(spacer+5)
+ DrawOption(3,rX#(400),rY#(y),translate("Fog Effect"),textOnOff$(optFog)) : y=y+spacer
+ DrawOption(4,rX#(400),rY#(y),translate("Shadows"),textShadows$(optShadows)) : y=y+spacer
+ DrawOption(5,rX#(400),rY#(y),translate("Particle FX"),textFX$(optFX)) : y=y+spacer
+ DrawOption(6,rX#(400),rY#(y),translate("Gore"),textGore$(optGore)) : y=y+(spacer+5)
+ DrawOption(7,rX#(400),rY#(y),translate("REDEFINE KEYS"),"") : y=y+spacer
+ DrawOption(8,rX#(400),rY#(y),translate("REDEFINE GAMEPAD"),"") : y=y+(spacer+5)
+ DrawOption(9,rX#(400),rY#(y),translate("<<< BACK <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -169,8 +169,8 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
-If go=1 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
+If go=1
  If foc=7 Then screen=3
  If foc=8 Then screen=4
  If foc=9 Then screen=1
@@ -193,11 +193,11 @@ While go=0
 
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
 	;timers
 	keytim=keytim-1
 	If keytim<1 Then keytim=0
-	
+
 	;PORTAL
     gotim=gotim+1
 	If gotim>20 And keytim=0 And screenCall=0
@@ -208,8 +208,8 @@ While go=0
 	  If foc=6 Then go=-1
 	 EndIf
 	EndIf
-	
-	;CONFIGURATION 
+
+	;CONFIGURATION
 	If gotim>20 And keytim=0 And screenCall=0
 	 ;highlight options
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
@@ -230,9 +230,9 @@ While go=0
 	   keyAttack=30 : keyThrow=31
 	   keyDefend=44 : keyPickUp=45
 	  EndIf
-	 EndIf 
-	EndIf   
-	
+	 EndIf
+	EndIf
+
 	;INPUT DELAY
     If screenCall>0 And keytim=0
      If screenCall=1 Then keyAttack=AssignKey(keyAttack)
@@ -240,7 +240,7 @@ While go=0
      If screenCall=3 Then keyThrow=AssignKey(keyThrow)
      If screenCall=4 Then keyPickUp=AssignKey(keyPickUp)
     EndIf
-	
+
  UpdateWorld
  Next
  RenderWorld 1
@@ -259,7 +259,7 @@ While go=0
  DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","'"+Key$(keyPickUp)+"' Key")
  DrawOption(5,rX#(400),rY#(y+250),"RESTORE DEFAULTS","")
  DrawOption(6,rX#(400),rY#(y+320),"<<< BACK <<<","")
- ;new overlay 
+ ;new overlay
  If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","Press New Key")
  If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","Press New Key")
  If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","Press New Key")
@@ -272,7 +272,7 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 screen=2
 End Function
 
@@ -291,11 +291,11 @@ While go=0
 
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
 	;timers
 	keytim=keytim-1
 	If keytim<1 Then keytim=0
-	
+
 	;PORTAL
     gotim=gotim+1
 	If gotim>20 And keytim=0 And screenCall=0
@@ -306,8 +306,8 @@ While go=0
 	  If foc=6 Then go=-1
 	 EndIf
 	EndIf
-	
-	;CONFIGURATION 
+
+	;CONFIGURATION
 	If gotim>20 And keytim=0 And screenCall=0
 	 ;highlight options
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
@@ -328,9 +328,9 @@ While go=0
 	   buttAttack=1 : buttThrow=2
 	   buttDefend=3 : buttPickUp=4
 	  EndIf
-	 EndIf 
-	EndIf   
-	
+	 EndIf
+	EndIf
+
 	;INPUT DELAY
     If screenCall>0 And keytim=0
      If screenCall=1 Then buttAttack=AssignButton(buttAttack)
@@ -338,7 +338,7 @@ While go=0
      If screenCall=3 Then buttThrow=AssignButton(buttThrow)
      If screenCall=4 Then buttPickUp=AssignButton(buttPickUp)
     EndIf
-	
+
  UpdateWorld
  Next
  RenderWorld 1
@@ -357,7 +357,7 @@ While go=0
  DrawOption(4,rX#(400),rY#(y+180),"Pick Up / Drop","Button "+buttPickUp)
  DrawOption(5,rX#(400),rY#(y+250),"RESTORE DEFAULTS","")
  DrawOption(6,rX#(400),rY#(y+320),"<<< BACK <<<","")
- ;new overlay 
+ ;new overlay
  If screenCall=1 Then DrawOption(1,rX#(400),rY#(y),"Attack / Shoot","Press New Button")
  If screenCall=2 Then DrawOption(2,rX#(400),rY#(y+60),"Defend / Run","Press New Button")
  If screenCall=3 Then DrawOption(3,rX#(400),rY#(y+120),"Throw / Grab","Press New Button")
@@ -370,7 +370,7 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 screen=2
 End Function
 
@@ -388,11 +388,11 @@ While go=0
  Cls
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
 	;timers
 	keytim=keytim-1
 	If keytim<1 Then keytim=0
-	
+
 	;PORTAL
     gotim=gotim+1
 	If gotim>20 And keytim=0
@@ -403,8 +403,8 @@ While go=0
 	  If foc=4 Then go=-1 Else go=1
 	 EndIf
 	EndIf
-	
-	;CONFIGURATION 
+
+	;CONFIGURATION
 	If gotim>20 And keytim=0
 	 ;highlight slot
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
@@ -415,10 +415,10 @@ While go=0
 	 If foc=>1 And foc=<3
 	  If KeyDown(14) Or KeyDown(210) Then gamName$(foc)="" : PlaySound sTrash : keytim=10
 	  If KeyDown(18) And gamName$(foc)<>"" Then PlaySound sComputer : go=2
-	  If KeyDown(207) And gamName$(foc)<>"" Then PlaySound sDoor(1) : go=3 
+	  If KeyDown(207) And gamName$(foc)<>"" Then PlaySound sDoor(1) : go=3
 	 EndIf
-	EndIf     
-	
+	EndIf
+
  UpdateWorld
  Next
  RenderWorld 1
@@ -441,7 +441,7 @@ While go=0
   If gamName$(count)<>"" Then DrawOption(count,rX#(400),rY#(y),gamName$(count),"")
   y=y+55
  Next
- DrawOption(4,rX#(400),rY#(415),"<<< BACK <<<","")   
+ DrawOption(4,rX#(400),rY#(415),"<<< BACK <<<","")
 
  Flip
  ;screenshot (F12)
@@ -450,36 +450,36 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 If go=1
  slot=foc : oldLocation=0
- If gamName$(foc)="" 
-  Loader("Please Wait","Generating Game")
+ If gamName$(foc)=""
+  Loader(translate("Please Wait"),"Generating Game")
   GenerateGame()
   gamChar(0)=gamChar(slot)
   gamPointLimit=170
   screen=51
- Else 
-  Loader("Please Wait","Restoring Game")
+ Else
+  Loader(translate("Please Wait"),"Restoring Game")
   LoadProgress()
   LoadChars()
   LoadPhotos()
   LoadItems()
   camX#=0 : camY#=30 : camZ#=0
-  If charY#(gamChar(slot))=>100 Then camY#=130 
+  If charY#(gamChar(slot))=>100 Then camY#=130
   If gamLocation(slot)=2 Then camX#=350 : camZ#=350
   screen=50
  EndIf
 EndIf
 If go=>2
  slot=foc
- Loader("Please Wait","Restoring Game")
+ Loader(translate("Please Wait"),"Restoring Game")
  LoadProgress()
  LoadChars()
  LoadPhotos()
  LoadItems()
  If go=2 Then screen=8
- If go=3 Then gamEnded=0 : screen=53 
+ If go=3 Then gamEnded=0 : screen=53
 EndIf
 If go=-1 Then screen=1
 End Function
@@ -498,11 +498,11 @@ While go=0
  Cls
  frames=WaitTimer(timer)
  For framer=1 To frames
-	
+
 	;timers
 	keytim=keytim-1
 	If keytim<1 Then keytim=0
-	
+
 	;PORTAL
     gotim=gotim+1
 	If gotim>20 And keytim=0
@@ -513,8 +513,8 @@ While go=0
 	  If foc=2 Then go=-1 Else go=1
 	 EndIf
 	EndIf
-	
-	;CONFIGURATION 
+
+	;CONFIGURATION
 	If gotim>20 And keytim=0
 	 ;highlight option
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
@@ -525,12 +525,12 @@ While go=0
 	 If foc=1
 	  If KeyDown(203) Or JoyXDir()=-1 Then gamChar(0)=gamChar(0)-1 : PlaySound sMenuBrowse : keytim=5
 	  If KeyDown(205) Or JoyXDir()=1 Then gamChar(0)=gamChar(0)+1 : PlaySound sMenuBrowse : keytim=5
-	 EndIf 
-	EndIf 
+	 EndIf
+	EndIf
 	;limits
 	If gamChar(0)<1 Then gamChar(0)=no_chars
-	If gamChar(0)>no_chars Then gamChar(0)=1     
-	
+	If gamChar(0)>no_chars Then gamChar(0)=1
+
  UpdateWorld
  Next
  RenderWorld 1
@@ -545,8 +545,8 @@ While go=0
  Else
   DrawImage gPhoto,rX#(400),rY#(185)-80
  EndIf
- DrawOption(1,rX#(400),rY#(185),"Character",gamChar(0)+". "+charName$(gamChar(0))) 
- DrawOption(2,rX#(400),rY#(415),"<<< BACK <<<","")   
+ DrawOption(1,rX#(400),rY#(185),"Character",gamChar(0)+". "+charName$(gamChar(0)))
+ DrawOption(2,rX#(400),rY#(415),"<<< BACK <<<","")
 
  Flip
  ;screenshot (F12)
@@ -555,7 +555,7 @@ While go=0
 Wend
 ;leave
 FreeTimer timer
-If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack 
+If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 If go=1 Then gamPointLimit=999 : screen=51
 If go=-1 Then screen=5
 End Function
@@ -570,8 +570,8 @@ Function DrawMainLogo(x#,y#)
  DrawImage gLogo(1),x#,y#
  DrawImage gLogo(2),x#,y#
  ;version ID
- SetFont font(1) 
- Outline("Version 1."+version,x#+310,y#+20,20,20,20,20,20,20)  
+ SetFont font(1)
+ Outline("Version 1."+version,x#+310,y#+20,20,20,20,20,20,20)
 End Function
 
 ;DRAW MENU ITEM
@@ -581,17 +581,17 @@ Function DrawOption(box,x#,y#,scriptA$,scriptB$)
  If foc=box Or box=-1 Then highlight=1
  ;draw solo box
  If scriptB$=""
-  If highlight=1 Then DrawImage gMenu(1),x#,y# 
+  If highlight=1 Then DrawImage gMenu(1),x#,y#
   If highlight=0 Then DrawImage gMenu(2),x#,y#
   SqueezeFont(scriptA$,185,3)
   r=135 : g=135 : b=135
   If highlight=1 Then r=255 : g=255 : b=255
-  Outline(scriptA$,x#,y#,0,0,0,r,g,b) 
+  Outline(scriptA$,x#,y#,0,0,0,r,g,b)
  EndIf
  ;draw twin box
  If scriptB$<>""
-  If highlight=1 Then DrawImage gMenu(3),x#,y# 
-  If highlight=0 Then DrawImage gMenu(4),x#,y# 
+  If highlight=1 Then DrawImage gMenu(3),x#,y#
+  If highlight=0 Then DrawImage gMenu(4),x#,y#
   SqueezeFont(scriptA$,185,3)
   r=135 : g=135 : b=135
   If highlight=1 Then r=255 : g=255 : b=255
@@ -616,7 +616,7 @@ Function AssignKey(current)
  value=0
  While value=0
   For v=0 To 255
-   If KeyDown(v)=1 And keytim=0 
+   If KeyDown(v)=1 And keytim=0
     If v<>0 And v<>1 And v<>28 And v<>25 Then value=v : screenCall=0 : PlaySound sMenuSelect : gotim=0 : keytim=20
    EndIf
   Next
@@ -665,7 +665,7 @@ Function DisplayMap(x,y)
   If gamLocation(slot)=1 Then DrawImage gMarker,rX#(x)-21,rY#(y)-46
   If gamLocation(slot)=2 Then DrawImage gMarker,rX#(x)+22,rY#(y)-72
   If gamLocation(slot)=3 Then DrawImage gMarker,rX#(x)+47,rY#(y)-15
-  If gamLocation(slot)=4 
+  If gamLocation(slot)=4
    If oldLocation=10 Or (oldLocation=4 And charLocation(gamChar(slot))=10)
     DrawImage gMarker,rX#(x)+55,rY#(y)+30
    Else
@@ -682,19 +682,19 @@ Function DisplayMap(x,y)
   EndIf
   If gamLocation(slot)=7 Then DrawImage gMarker,rX#(x)-50,rY#(y)+23
   If gamLocation(slot)=8 Then DrawImage gMarker,rX#(x)-48,rY#(y)-21
-  If gamLocation(slot)=9 
+  If gamLocation(slot)=9
    If oldLocation=0 Then DrawImage gMarker,rX#(x),rY#(y)+5
-   If oldLocation=1 Or (oldLocation=9 And charLocation(gamChar(slot))=1) Then DrawImage gMarker,rX#(x)-21,rY#(y)-31 
+   If oldLocation=1 Or (oldLocation=9 And charLocation(gamChar(slot))=1) Then DrawImage gMarker,rX#(x)-21,rY#(y)-31
    If oldLocation=2 Or (oldLocation=9 And charLocation(gamChar(slot))=2) Then DrawImage gMarker,rX#(x)+21,rY#(y)-31
    If oldLocation=3 Or (oldLocation=9 And charLocation(gamChar(slot))=3) Then DrawImage gMarker,rX#(x)+37,rY#(y)-16
    If oldLocation=4 Or (oldLocation=9 And charLocation(gamChar(slot))=4) Then DrawImage gMarker,rX#(x)+37,rY#(y)+25
    If oldLocation=5 Or (oldLocation=9 And charLocation(gamChar(slot))=5) Then DrawImage gMarker,rX#(x)+20,rY#(y)+40
-   If oldLocation=6 Or (oldLocation=9 And charLocation(gamChar(slot))=6) Then DrawImage gMarker,rX#(x)-22,rY#(y)+40   
+   If oldLocation=6 Or (oldLocation=9 And charLocation(gamChar(slot))=6) Then DrawImage gMarker,rX#(x)-22,rY#(y)+40
    If oldLocation=7 Or (oldLocation=9 And charLocation(gamChar(slot))=7) Then DrawImage gMarker,rX#(x)-39,rY#(y)+24
    If oldLocation=8 Or (oldLocation=9 And charLocation(gamChar(slot))=8) Then DrawImage gMarker,rX#(x)-40,rY#(y)-21
   EndIf
   If gamLocation(slot)=10 Then DrawImage gMarker,rX#(x)+55,rY#(y)+44
-  If gamLocation(slot)=11 Then DrawImage gMarker,rX#(x)-21,rY#(y)+78 
+  If gamLocation(slot)=11 Then DrawImage gMarker,rX#(x)-21,rY#(y)+78
  EndIf
 End Function
 
@@ -706,11 +706,11 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
  If GfxMode3DExists(width,height,16)=0 Then width=800 : height=600 : optRes=2
  ;make transition?
  If width<>GraphicsWidth() Or height<>GraphicsHeight()
-  If task>0 Then Loader("Please Wait","Adjusting Resolution")
-  Graphics3D width,height,16,1
+  If task>0 Then Loader(translate("Please Wait"),"Adjusting Resolution")
+  Graphics3D width,height,16,0
   If task>0 ;restore media
    LoadImages()
-   Loader("Please Wait","Restoring Media")
+   Loader(translate("Please Wait"),"Restoring Media")
    LoadPhotos()
    LoadTextures()
    LoadWeaponData()

@@ -7,13 +7,13 @@
 ;//////////////////////////////////////////////////////////////////////////////
 Function Intro()
 ;initial media
-font(0)=LoadFont("Kristen ITC.ttf",13,0,0,0)
-font(1)=LoadFont("Kristen ITC.ttf",16,0,0,0)
-font(2)=LoadFont("Kristen ITC.ttf",20,0,0,0)
-font(3)=LoadFont("Kristen ITC.ttf",24,0,0,0)
-font(4)=LoadFont("Kristen ITC.ttf",36,0,0,0)
-font(5)=LoadFont("Kristen ITC.ttf",42,0,0,0)
-font(6)=LoadFont("Kristen ITC.ttf",48,0,0,0)
+font(0)=LoadFont("Arial Cyr",13,0,0,0)
+font(1)=LoadFont("Arial Cyr",16,0,0,0)
+font(2)=LoadFont("Arial Cyr",20,0,0,0)
+font(3)=LoadFont("Arial Cyr",24,0,0,0)
+font(4)=LoadFont("Arial Cyr",36,0,0,0)
+font(5)=LoadFont("Arial Cyr",42,0,0,0)
+font(6)=LoadFont("Arial Cyr",48,0,0,0)
 gTile=LoadImage("Graphics/Tile.png")
 MaskImage gTile,255,0,255
 For count=1 To 3
@@ -60,7 +60,7 @@ While go=0
 
 Wend
 ;leave
-Loader("Please Wait","Loading Game")
+Loader(translate("Please Wait"),"Loading Game")
 sTheme=LoadSound("Sound/Theme.wav")
 LoopSound sTheme
 chTheme=PlaySound(sTheme)
@@ -238,7 +238,7 @@ End Function
 ;---------------------------------------------------------------
 Function Ending()
 ;load setting
-Loader("Please Wait","Leaving Prison")
+Loader(translate("Please Wait"),"Leaving Prison")
 world=LoadAnimMesh("World/Yard/Outro.3ds")
 EntityTexture FindChild(world,"Sign01"),tSign(9),0,2
 EntityTexture FindChild(world,"Net"),tNet
@@ -717,7 +717,7 @@ While go=0
  EndIf
  If promoTim>300 Then page=page+1 : promoTim=125
  ;mask shaky start
- If gotim=<0 Then Loader("Please Wait","Leaving Prison") 
+ If gotim=<0 Then Loader(translate("Please Wait"),"Leaving Prison")
 
  Flip
  ;screenshot (F12)

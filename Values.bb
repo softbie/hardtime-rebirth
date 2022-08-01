@@ -421,18 +421,18 @@ Global gMap,gMarker
 ;LOADING PROCESS
 Function LoadImages()
  ;main fonts
- font(0)=LoadFont("Kristen ITC.ttf",13,0,0,0)
- font(1)=LoadFont("Kristen ITC.ttf",16,0,0,0)
- font(2)=LoadFont("Kristen ITC.ttf",20,0,0,0)
- font(3)=LoadFont("Kristen ITC.ttf",24,0,0,0)
- font(4)=LoadFont("Kristen ITC.ttf",36,0,0,0)
- font(5)=LoadFont("Kristen ITC.ttf",42,0,0,0)
- font(6)=LoadFont("Kristen ITC.ttf",48,0,0,0)
+ font(0)=LoadFont("Arial Cyr",13,0,0,0)
+ font(1)=LoadFont("Arial Cyr",16,0,0,0)
+ font(2)=LoadFont("Arial Cyr",20,0,0,0)
+ font(3)=LoadFont("Arial Cyr",24,0,0,0)
+ font(4)=LoadFont("Arial Cyr",36,0,0,0)
+ font(5)=LoadFont("Arial Cyr",42,0,0,0)
+ font(6)=LoadFont("Arial Cyr",48,0,0,0)
  ;novelty fonts
- fontNumber=LoadFont("Verdana",15,1,0,0)
- fontComputer=LoadFont("Small Fonts",16,0,0,0)
- fontMoney=LoadFont("Times New Roman",32,1,0,0)
- fontClock=LoadFont("Digital Readout Upright.ttf",26,1,0,0)
+ fontNumber=LoadFont("Arial Cyr",15,1,0,0)
+ fontComputer=LoadFont("Arial Cyr",16,0,0,0)
+ fontMoney=LoadFont("Arial Cyr",32,1,0,0)
+ fontClock=LoadFont("Arial Cyr",26,1,0,0)
  ;tile
  gTile=LoadImage("Graphics/Tile.png")
  MaskImage gTile,255,0,255
@@ -454,7 +454,7 @@ Function LoadImages()
  gMarker=LoadImage("Graphics/Marker.png")
  MaskImage gMarker,255,0,255
  ;in-game icons
- Loader("Please Wait","Loading Images")
+ Loader(translate("Please Wait"),"Loading Images")
  gHealth=LoadImage("Graphics/Health.png")
  MaskImage gHealth,255,0,255
  gHappiness=LoadImage("Graphics/Happiness.png")
@@ -555,7 +555,7 @@ Dim tTattooTee(6)
 Dim tTattooSleeve(6)
 ;LOADING PROCESS
 Function LoadTextures()
- Loader("Please Wait","Loading Numbers")
+ Loader(translate("Please Wait"),"Loading Numbers")
  ;signs
  For count=1 To 11
   tSign(count)=LoadTexture("World/Signs/Sign"+Dig$(count,10)+".png")
@@ -583,7 +583,7 @@ Function LoadTextures()
  tMachine=LoadTexture("Weapons/Textures/Machine.png",4)
  tPistol=LoadTexture("Weapons/Textures/Pistol.png",4)
  ;facial expressions
- Loader("Please Wait","Loading Expressions")
+ Loader(translate("Please Wait"),"Loading Expressions")
  tEars=LoadTexture("Characters/Expressions/Ears.JPG")
  For count=1 To 3
   tEyes(count)=LoadTexture("Characters/Expressions/Eyes0"+count+".JPG")
@@ -600,23 +600,23 @@ Function LoadTextures()
   tHair(count)=LoadTexture("Characters/Hair/Hair"+Dig$(count,10)+".png",4)
  Next
  For count=1 To no_faces
-  Loader("Please Wait","Loading Face "+Dig$(count,10)+" of "+no_faces)
+  Loader(translate("Please Wait"),"Loading Face "+Dig$(count,10)+" of "+no_faces)
   tFace(count)=LoadTexture("Characters/Faces/Face"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_bodies
-  Loader("Please Wait","Loading Body "+Dig$(count,10)+" of "+no_bodies)
+  Loader(translate("Please Wait"),"Loading Body "+Dig$(count,10)+" of "+no_bodies)
   tBody(count)=LoadTexture("Characters/Bodies/Body"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_arms
-  Loader("Please Wait","Loading Arm "+Dig$(count,10)+" of "+no_arms)
+  Loader(translate("Please Wait"),"Loading Arm "+Dig$(count,10)+" of "+no_arms)
   tArm(count)=LoadTexture("Characters/Arms/Arm"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_legs
-  Loader("Please Wait","Loading Legs "+Dig$(count,10)+" of "+no_legs)
+  Loader(translate("Please Wait"),"Loading Legs "+Dig$(count,10)+" of "+no_legs)
   tLegs(count)=LoadTexture("Characters/Legs/Legs"+Dig$(count,10)+".JPG")
  Next
  ;racial shades
- Loader("Please Wait","Loading Shades")
+ Loader(translate("Please Wait"),"Loading Shades")
  For count=1 To 4
   tBodyShade(count)=LoadTexture("Characters/Shading/Body"+Dig$(count,10)+".png") 
  Next
@@ -624,7 +624,7 @@ Function LoadTextures()
   tArmShade(count)=LoadTexture("Characters/Shading/Arm"+Dig$(count,10)+".png") 
  Next
  ;scarring
- Loader("Please Wait","Loading Scars")
+ Loader(translate("Please Wait"),"Loading Scars")
  For count=0 To 5
   tFaceScar(count)=LoadTexture("Characters/Scarring/Face"+Dig$(count,10)+".JPG") 
  Next

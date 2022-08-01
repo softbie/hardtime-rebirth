@@ -7,7 +7,7 @@
 ;-------------------------------------------------------------------
 Function Editor()
 ;loading
-Loader("Please Wait","Loading Editor")
+Loader(translate("Please Wait"),"Loading Editor")
 ;prison setting
 world=LoadAnimMesh("World/Block/Block.3ds")
 ;camera
