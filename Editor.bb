@@ -7,7 +7,7 @@
 ;-------------------------------------------------------------------
 Function Editor()
 ;loading
-Loader(translate("Please Wait"),"Loading Editor")
+Loader(translate("Please Wait"),translate("Loading Editor"))
 ;prison setting
 world=LoadAnimMesh("World/Block/Block.3ds")
 ;camera
@@ -222,19 +222,19 @@ While go=0
  If page=1
   ;main options
   x=570 : y=145
-  DrawOption(1,rX#(x),rY#(y),"Name",charName$(char))
-  DrawOption(2,rX#(x),rY#(y+55),"Height",GetHeight$(charHeight(char)))
-  DrawOption(3,rX#(x),rY#(y+115),"Strength",charStrength(char))
-  DrawOption(4,rX#(x),rY#(y+170),"Agility",charAgility(char))
-  DrawOption(5,rX#(x),rY#(y+230),"Intelligence",charIntelligence(char))
-  DrawOption(6,rX#(x),rY#(y+285),"Crime",charCrime(char)+". "+textCrime$(charCrime(char)))
-  DrawOption(7,rX#(x),rY#(y+345),">>> APPEARANCE >>>","")
-  DrawOption(8,rX#(x),rY#(y+400),"<<< SAVE & EXIT <<<","")
+  DrawOption(1,rX#(x),rY#(y),translate("Name"),charName$(char))
+  DrawOption(2,rX#(x),rY#(y+55),translate("Height"),GetHeight$(charHeight(char)))
+  DrawOption(3,rX#(x),rY#(y+115),translate("Strength"),charStrength(char))
+  DrawOption(4,rX#(x),rY#(y+170),translate("Agility"),charAgility(char))
+  DrawOption(5,rX#(x),rY#(y+230),translate("Intelligence"),charIntelligence(char))
+  DrawOption(6,rX#(x),rY#(y+285),translate("Crime"),charCrime(char)+". "+textCrime$(charCrime(char)))
+  DrawOption(7,rX#(x),rY#(y+345),translate(">>> APPEARANCE >>>"),"")
+  DrawOption(8,rX#(x),rY#(y+400),translate("<<< SAVE & EXIT <<<"),"")
   ;enter name
   If (KeyDown(14) Or ButtonPressed()) And foc=1 And gotim>40 And keytim=0
    PlaySound sMenuBrowse : keytim=20 : FlushKeys()
    DrawImage gMenu(1),rX#(x),rY#(y)
-   DrawOption(1,rX#(x),rY#(y),"Name","   ")
+   DrawOption(1,rX#(x),rY#(y),translate("Name"),"   ")
    Flip
    Locate rX#(x)+15,rY#(y)-10 : Color 255,255,255
    SetFont font(3) 
@@ -243,7 +243,7 @@ While go=0
    If charName$(char)="" Then charName$(char)=oldNamee$
   Else
    SetFont font(2)
-   If foc=1 Then Outline("(Press BACKSPACE to change)",rX#(x),rY#(y)+18,0,0,0,255,200,150)
+   If foc=1 Then Outline(translate("(Press BACKSPACE to change)"),rX#(x),rY#(y)+18,0,0,0,255,200,150)
   EndIf
   ;point reminder
   If foc=>3 And foc=<5 And gamPointLimit<999
@@ -252,29 +252,29 @@ While go=0
    If foc=4 Then showY=y+170
    If foc=5 Then showY=y+230
    If foc=6 Then showY=y+285
-   If gamPoints>0 Then Outline("("+gamPoints+" Points Remaining)",rX#(x),rY#(showY)+18,0,0,0,255,200,150)
-   If gamPoints=0 Then Outline("(No Points Remaining!)",rX#(x),rY#(showY)+18,0,0,0,200,100,100)
+   If gamPoints>0 Then Outline("("+gamPoints+" " + translate("Points Remaining") + ")",rX#(x),rY#(showY)+18,0,0,0,255,200,150)
+   If gamPoints=0 Then Outline(translate("(No Points Remaining!)"),rX#(x),rY#(showY)+18,0,0,0,200,100,100)
   EndIf
  EndIf
  ;APPEARANCE DISPLAY
  If page=2
   ;main options
   x=570 : y=145
-  DrawOption(1,rX#(x),rY#(y),"Hair Style",textHair$(charHairStyle(char)))
-  DrawOption(2,rX#(x),rY#(y+55),"Hair Colour",charHair(char)+"/"+no_hairs)
-  DrawOption(3,rX#(x),rY#(y+115),"Face",charFace(char)+"/"+no_faces)
-  DrawOption(4,rX#(x),rY#(y+170),"Eyewear",textSpecs$(charSpecs(char)))
-  DrawOption(5,rX#(x),rY#(y+230),"Build",textModel$(charModel(char)))
-  DrawOption(6,rX#(x),rY#(y+285),"Outfit",textCostume$(charCostume(char)))
-  DrawOption(7,rX#(x),rY#(y+345),">>> PROFILE >>>","")
-  DrawOption(8,rX#(x),rY#(y+400),"<<< SAVE & EXIT <<<","")
+  DrawOption(1,rX#(x),rY#(y),translate("Hair Style"),textHair$(charHairStyle(char)))
+  DrawOption(2,rX#(x),rY#(y+55),translate("Hair Colour"),charHair(char)+"/"+no_hairs)
+  DrawOption(3,rX#(x),rY#(y+115),translate("Face"),charFace(char)+"/"+no_faces)
+  DrawOption(4,rX#(x),rY#(y+170),translate("Eyewear"),textSpecs$(charSpecs(char)))
+  DrawOption(5,rX#(x),rY#(y+230),translate("Build"),textModel$(charModel(char)))
+  DrawOption(6,rX#(x),rY#(y+285),translate("Outfit"),textCostume$(charCostume(char)))
+  DrawOption(7,rX#(x),rY#(y+345),translate(">>> PROFILE >>>"),"")
+  DrawOption(8,rX#(x),rY#(y+400),translate("<<< SAVE & EXIT <<<"),"")
   ;advice
   SetFont font(2)
-  If foc=5 Then Outline("(Press ENTER to apply)",rX#(x),rY#(y+230)+18,0,0,0,255,200,150)
+  If foc=5 Then Outline(translate("(Press ENTER to apply)"),rX#(x),rY#(y+230)+18,0,0,0,255,200,150)
  EndIf
  ;loading call
  If screenCall=1
-  QuickLoader(rX#(400),rY#(300),"Please Wait","Reloading Character")
+  QuickLoader(rX#(400),rY#(300),translate("Please Wait"),translate("Reloading Character"))
   FreeEntity p(cyc)
   ReloadModel(cyc)
  EndIf
@@ -295,7 +295,7 @@ Wend
 ;leave
 If go=>1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 ;take photo
-QuickLoader(rX#(400),rY#(300),"Please Wait","Saving Character")
+QuickLoader(rX#(400),rY#(300),translate("Please Wait"),translate("Saving Character"))
 charPhoto(char)=CreateImage(rX#(300),rY#(200))
 GrabImage charPhoto(char),rX#(210),rY#(220-charHeight(char))
 ResizeImage charPhoto(char),150,100
