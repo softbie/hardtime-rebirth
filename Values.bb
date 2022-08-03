@@ -555,7 +555,7 @@ Dim tTattooTee(6)
 Dim tTattooSleeve(6)
 ;LOADING PROCESS
 Function LoadTextures()
- Loader(translate("Please Wait"),"Loading Numbers")
+ Loader(translate("Please Wait"),translate("Loading Numbers"))
  ;signs
  For count=1 To 11
   tSign(count)=LoadTexture("World/Signs/Sign"+Dig$(count,10)+".png")
@@ -624,7 +624,7 @@ Function LoadTextures()
   tArmShade(count)=LoadTexture("Characters/Shading/Arm"+Dig$(count,10)+".png") 
  Next
  ;scarring
- Loader(translate("Please Wait"),"Loading Scars")
+ Loader(translate("Please Wait"),translate("Loading Scars"))
  For count=0 To 5
   tFaceScar(count)=LoadTexture("Characters/Scarring/Face"+Dig$(count,10)+".JPG") 
  Next

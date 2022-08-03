@@ -1,4 +1,4 @@
-Dim messagesEn$(196)
+Dim messagesEn$(messagesCount)
 messagesEn$(0) = "Please Wait"
 messagesEn$(1) = "Loading"
 messagesEn$(2) = "Loading Atmosphere"
@@ -201,3 +201,7 @@ messagesEn$(192) = "Saving Photos"
 messagesEn$(193) = "Warden"
 messagesEn$(194) = "Lawyer"
 messagesEn$(195) = "Judge"
+
+;Values.bb
+messagesEn$(196) = "Loading Numbers"
+messagesEn$(197) = "Loading Scars"

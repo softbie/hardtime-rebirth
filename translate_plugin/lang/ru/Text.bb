@@ -1,4 +1,4 @@
-Dim messagesRu$(196)
+Dim messagesRu$(messagesCount)
 messagesRu$(0) = "Пожалуйста подождите"
 messagesRu$(1) = "Загрузка"
 messagesRu$(2) = "Загрузка атмосферы"
@@ -201,3 +201,7 @@ messagesRu$(192) = "Сохранение"
 messagesRu$(193) = "Смотритель"
 messagesRu$(194) = "Юрист"
 messagesRu$(195) = "Судья"
+
+;Values.bb
+messagesRu$(196) = "Загрузка значений"
+messagesRu$(197) = "Загрузка шрамов"
