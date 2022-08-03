@@ -1,4 +1,4 @@
-Global messagesCount = 198
+Global messagesCount = 538
 
 Include "translate_plugin/lang/en/Text.bb"
 Include "translate_plugin/lang/ru/Text.bb"
