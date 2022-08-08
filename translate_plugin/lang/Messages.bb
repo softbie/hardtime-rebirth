@@ -1702,31 +1702,31 @@ messages$(562, 0) = ", what's the story?"
 messages$(562, 1) = ", в чем дело?"
 
 messages$(563, 0) = ", this court has seen you accused"
-messages$(563, 1) = ", этот суд видел вас обвин€емым"
+messages$(563, 1) = ", суд признал вас виновным"
 
 messages$(564, 0) = "of "
-messages$(564, 1) = "из "
+messages$(564, 1) = "в "
 
 messages$(565, 0) = " and heard your defence..."
-messages$(565, 1) = " и услышал твою защиту..."
+messages$(565, 1) = " и выслушал защиту..."
 
 messages$(566, 0) = "The trial has gone on quite long enough, so i'd"
-messages$(566, 1) = "—удебный процесс длилс€ достаточно долго, так что € бы"
+messages$(566, 1) = "—уд длилс€ достаточно долго, так что € бы"
 
 messages$(567, 0) = "like to take this moment to deliver my verdict..."
-messages$(567, 1) = "хотел бы воспользоватьс€ этим моментом, чтобы вынести свой вердикт ..."
+messages$(567, 1) = "хотел вынести свой вердикт..."
 
 messages$(568, 0) = "I find you GUILTY and sentence you to"
-messages$(568, 1) = "я признаю теб€ ¬»Ќќ¬Ќџћ и приговариваю к"
+messages$(568, 1) = "я признаю вас ¬»Ќќ¬Ќџћ и приговариваю к"
 
 messages$(569, 0) = " days in Southtown Correctional Facility!"
-messages$(569, 1) = " дней в исправительном учреждении —ауттауна!"
+messages$(569, 1) = " дн€м в исправительном учреждении —ауттауна!"
 
 messages$(570, 0) = "That may not be a 'long' time, but it will be"
-messages$(570, 1) = "Ёто может быть не 'долгое' врем€, но это будет"
+messages$(570, 1) = "Ёто может быть не 'долгий' срок, но это будет"
 
 messages$(571, 0) = "HARD time! You'll be lucky if you survive..."
-messages$(571, 1) = "“€желое врем€! ¬ам повезет, если вы выживете..."
+messages$(571, 1) = "“я∆≈Ћџ… срок! ¬ам повезет, если выживете..."
 
 messages$(572, 0) = "I'm now handing you over to the wardens, and"
 messages$(572, 1) = "“еперь € передаю вас надзирател€м, и"
