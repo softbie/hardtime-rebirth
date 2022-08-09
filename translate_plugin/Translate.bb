@@ -11,7 +11,7 @@
 ; messages$(X, 0) = ТЕКСТ ДЛЯ ПЕРЕВОДА
 ; messages$(X, 1) = ПЕРЕВОД
 
-Global messagesCount = 805
+Global messagesCount = 1609
 
 Include "translate_plugin/lang/Messages.bb"
 
