@@ -1,4 +1,7 @@
 # HardTime русификация
+
+![image](https://github.com/softbie/hardtime-russification/assets/39442071/b0fd78b2-dede-430f-ab77-bdbb094be2fd)
+
 Русификация игры [HardTime](http://www.mdickie.com/prev_hardtime.htm) от [MDickie](http://www.mdickie.com/)
 
 Игра разработана на движке Blitz3D с языком программирования BlitzBasic
