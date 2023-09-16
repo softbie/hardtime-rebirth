@@ -47,5 +47,6 @@ Print translate("Hello, #NAME#", "#NAME#", "Вася")
 
 Что бы избежать проблемы, описанной выше, я написал отдельную вспомогательную программу с использованием `flutter`, которая хранит все строки с переводом в `sqlite` базе данных и позволяет автоматически экспортировать строки в нужном формате.
 
-![image](https://github.com/13Hz/hardtime-russification/assets/39442071/d0850a56-5dee-49e9-a7f4-bca296f792a5)
+![image](https://github.com/softbie/hardtime-russification/assets/39442071/582c6d17-59dc-4065-930f-05b4f3b64d63)
+
 
