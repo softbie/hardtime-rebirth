@@ -16,19 +16,7 @@
 ; messages$(X, 0) = ТЕКСТ ДЛЯ ПЕРЕВОДА
 ; messages$(X, 1) = ПЕРЕВОД
 
-; Обязательная глобальная переменная, определяющая размер массива с переводами
-Global messagesCount = 1609
-Dim messages$(messagesCount, 2)
-
-; Подключение файлов с переводами, возможно в будущем напишу программу для упрощенной работы с подобным
-Include "translate_plugin/lang/Others.bb"
-Include "translate_plugin/lang/Crimes.bb"
-Include "translate_plugin/lang/Credits.bb"
-Include "translate_plugin/lang/Data.bb"
-Include "translate_plugin/lang/Values.bb"
-Include "translate_plugin/lang/Texts.bb"
-Include "translate_plugin/lang/Editor.bb"
-Include "translate_plugin/lang/Promos.bb"
+Include "translate_plugin/Main.bb"
 
 ; Функция для перевода строк
 ; title - строка, по которой производится поиск (в данном случае - оригинальная строка)

@@ -1,479 +1,476 @@
-messages$(31, 0) = "Loading Game"
-messages$(31, 1) = "Загрузка игры"
+messages$(60, 0) = " became a millionaire and used"
+messages$(60, 1) = " стал миллионером и привык"
 
-messages$(32, 0) = "Credit is to be given - not"
-messages$(32, 1) = "Доверие должно быть заслужено."
+messages$(61, 0) = " became a movie stuntman, but"
+messages$(61, 1) = " стал каскадером в кино, но"
 
-messages$(33, 0) = "taken. This game was made single-"
-messages$(33, 1) = "Эта игра была сделана в одиночку"
+messages$(62, 0) = " became a public speaker and"
+messages$(62, 1) = " стал оратором и"
 
-messages$(34, 0) = "handedly in 3 months. Figure out"
-messages$(34, 1) = "за 3 месяца. Реши для"
+messages$(63, 0) = " became a sexual predator and"
+messages$(63, 1) = " стал сексуальным хищником и"
 
-messages$(35, 0) = "how you feel about that..."
-messages$(35, 1) = "себя, как ты к этому отнесешься..."
+messages$(64, 0) = " became a teacher, but was"
+messages$(64, 1) = " стал учителем, но позже"
 
-messages$(36, 0) = "Concept"
-messages$(36, 1) = "Идея"
+messages$(65, 0) = " became embroiled in gang"
+messages$(65, 1) = " ввязался в банду"
 
-messages$(37, 0) = "Game Design"
-messages$(37, 1) = "Геймдизайн"
+messages$(66, 0) = " became involved in organized"
+messages$(66, 1) = " ввязался в организованную"
 
-messages$(38, 0) = "Programming"
-messages$(38, 1) = "Программирование"
+messages$(67, 0) = " became wheelchair bound after"
+messages$(67, 1) = " стал прикованным к инвалидной коляске после"
 
-messages$(39, 0) = "2D Graphics"
-messages$(39, 1) = "2D Графика"
+messages$(68, 0) = " broke his neck in an accident"
+messages$(68, 1) = " сломал шею в аварии"
 
-messages$(40, 0) = "3D Modeling"
-messages$(40, 1) = "3D-моделирование"
+messages$(69, 0) = " claimed to be the Messiah and"
+messages$(69, 1) = " провозгласил себя Мессией и"
 
-messages$(41, 0) = "Texturing"
-messages$(41, 1) = "Текстурирование"
+messages$(70, 0) = " continued a life of discipline"
+messages$(70, 1) = " продолжение дисциплинированной жизни"
 
-messages$(42, 0) = "Animation"
-messages$(42, 1) = "Анимация"
+messages$(71, 0) = " continued to stay in shape"
+messages$(71, 1) = " продолжал оставаться в форме"
 
-messages$(43, 0) = "Sound FX"
-messages$(43, 1) = "Звук FX"
+messages$(72, 0) = " continued to study and went on"
+messages$(72, 1) = " продолжил учиться и пошел дальше"
 
-messages$(44, 0) = "Music"
-messages$(44, 1) = "Музыка"
+messages$(73, 0) = " dedicated his life to sport"
+messages$(73, 1) = " посвятил свою жизнь спорту"
 
-messages$(45, 0) = "Scripts"
-messages$(45, 1) = "Скрипты"
+messages$(74, 0) = " developed a drug problem"
+messages$(74, 1) = " развилась проблема с наркотиками"
 
-messages$(46, 0) = "Publishing"
-messages$(46, 1) = "Публикация"
+messages$(75, 0) = " developed an affinity with"
+messages$(75, 1) = " развилась близость с"
 
-messages$(47, 0) = "'When a member of society falls down, he falls for those"
-messages$(47, 1) = "'Когда член общества падает, он падает на тех"
+messages$(76, 0) = " embarked on an expedition to"
+messages$(76, 1) = " отправился в экспедицию в"
 
-messages$(48, 0) = "behind him - as a caution against the stumbling stone."
-messages$(48, 1) = "кто позади него, как предостережение о камень преткновения."
+messages$(77, 0) = " failed to adjust to life on"
+messages$(77, 1) = " не удалось приспособиться к жизни дальше"
 
-messages$(49, 0) = "And he falls for those ahead of him - who, though"
-messages$(49, 1) = "И он влюбляется в тех, кто впереди него - кто, однако"
+messages$(78, 0) = " failed to adjust to modern"
+messages$(78, 1) = " не удалось адаптироваться к современным"
 
-messages$(50, 0) = "faster and surer of foot, failed to remove the stone...'"
-messages$(50, 1) = "быстрее и вернее ноги, не удалось убрать камень..."
+messages$(79, 0) = " forgot where he"
+messages$(79, 1) = " забыл где он"
 
-messages$(51, 0) = "Leaving Prison"
-messages$(51, 1) = "Покидая тюрьму"
+messages$(80, 0) = " got to grips with computers"
+messages$(80, 1) = " разобрался с компами"
 
-messages$(52, 0) = " was never heard from again, but"
-messages$(52, 1) = " больше ничего не было слышно, но"
+messages$(81, 0) = " got used to being surrounded"
+messages$(81, 1) = " привык к окружению"
 
-messages$(53, 0) = "tales of his life are still told to this day..."
-messages$(53, 1) = "рассказы о его жизни рассказывают и по сей день..."
+messages$(82, 0) = " had an epiphany and embarked"
+messages$(82, 1) = " было прозрение и встал"
 
-messages$(54, 0) = " was brutally murdered by"
-messages$(54, 1) = " был зверски убит"
+messages$(83, 0) = " kept disobeying the wardens"
+messages$(83, 1) = " продолжал не подчиняться надзирателям"
 
-messages$(55, 0) = "another inmate and never saw his release..."
-messages$(55, 1) = "еще один заключенный, которого так и не увидели на свободе..."
+messages$(84, 0) = " lost faith in human beings"
+messages$(84, 1) = " потерял веру в людей"
 
-messages$(56, 0) = "Prison became too much for "
-messages$(56, 1) = "Тюрьма стала слишком "
+messages$(85, 0) = " managed to find work, but was"
+messages$(85, 1) = " удалось найти работу, но была"
 
-messages$(57, 0) = "He hung himself from the bars of his cell..."
-messages$(57, 1) = "Он повесился на решетке своей камеры..."
+messages$(86, 0) = " moved to another country where"
+messages$(86, 1) = " переехал в другую страну, где"
 
-messages$(58, 0) = "He slit his wrists in the bathroom..."
-messages$(58, 1) = "Он перерезал себе вены в ванной..."
+messages$(87, 0) = " never left the prison system."
+messages$(87, 1) = " никогда не покидал тюремную систему."
 
-messages$(59, 0) = " never left the prison system."
-messages$(59, 1) = " никогда не покидал тюремную систему."
+messages$(88, 0) = " returned to his wife and"
+messages$(88, 1) = " вернулся к жене и"
 
-messages$(60, 0) = "He remained behind bars until the day he died..."
-messages$(60, 1) = "Он оставался за решеткой до дня своей смерти..."
+messages$(89, 0) = " returned to the wrong house"
+messages$(89, 1) = " вернулся не в тот дом"
 
-messages$(61, 0) = " kept disobeying the wardens"
-messages$(61, 1) = " продолжал не подчиняться надзирателям"
+messages$(90, 0) = " slipped into a coma after an"
+messages$(90, 1) = " впала в кому после"
 
-messages$(62, 0) = "and was never considered for release..."
-messages$(62, 1) = "и никогда не рассматривался для выпуска..."
+messages$(91, 0) = " started acting in porn films"
+messages$(91, 1) = " начал сниматься в порнофильмах"
 
-messages$(63, 0) = " became embroiled in gang"
-messages$(63, 1) = " ввязался в банду"
+messages$(92, 0) = " successfully escaped from"
+messages$(92, 1) = " успешно сбежал из"
 
-messages$(64, 0) = "culture and never left a life of crime..."
-messages$(64, 1) = "культура и никогда не оставляли преступную жизнь..."
+messages$(93, 0) = " succumbed to a terminal illness"
+messages$(93, 1) = " скончался от неизлечимой болезни"
 
-messages$(65, 0) = " was released and went on"
-messages$(65, 1) = " отпустили и пошли дальше"
+messages$(94, 0) = " took part in a documentary"
+messages$(94, 1) = " принимал участие в документальном фильме"
 
-messages$(66, 0) = "to marry his long-time girlfriend..."
-messages$(66, 1) = "жениться на своей давней девушке..."
+messages$(95, 0) = " trained as a chef and vowed"
+messages$(95, 1) = " выучился на повара и дал обет"
 
-messages$(67, 0) = "to raise a family with his wife..."
-messages$(67, 1) = "создать семью с женой..."
+messages$(96, 0) = " tried to climb Mount Everest"
+messages$(96, 1) = " пытался подняться на Эверест"
 
-messages$(68, 0) = " returned to his wife and"
-messages$(68, 1) = " вернулся к жене и"
+messages$(97, 0) = " tried to escape from the"
+messages$(97, 1) = " пытался сбежать из"
 
-messages$(69, 0) = "children but never regained their trust..."
-messages$(69, 1) = "дети, но так и не восстановили их доверие..."
+messages$(98, 0) = " united all the prison"
+messages$(98, 1) = " объединил всю тюрьму"
 
-messages$(70, 0) = "kids and became a committed family man..."
-messages$(70, 1) = "дети и стал преданным семьянином..."
+messages$(99, 0) = " used his experience to serve"
+messages$(99, 1) = " использовал свой опыт на службе"
 
-messages$(71, 0) = " got used to being surrounded"
-messages$(71, 1) = " привык к окружению"
+messages$(100, 0) = " was"
+messages$(100, 1) = " было"
 
-messages$(72, 0) = "by men and became a rampant homosexual..."
-messages$(72, 1) = "мужчины и стал безудержным гомосексуалистом..."
+messages$(101, 0) = " was accused of sexually abusing"
+messages$(101, 1) = " был обвинен в сексуальном насилии"
 
-messages$(73, 0) = " was left by his wife, but"
-messages$(73, 1) = " был оставлен женой, но"
+messages$(102, 0) = " was brutally murdered by"
+messages$(102, 1) = " был зверски убит"
 
-messages$(74, 0) = "went on to find love with another..."
-messages$(74, 1) = "нашла любовь к другому..."
+messages$(103, 0) = " was given his own radio show"
+messages$(103, 1) = " получил собственное радио-шоу"
 
-messages$(75, 0) = " was moved to a mental hospital"
-messages$(75, 1) = " был переведен в психиатрическую больницу"
+messages$(104, 0) = " was killed by a speeding car"
+messages$(104, 1) = " был убит мчащейся машиной"
 
-messages$(76, 0) = "after being driven mad by prison life..."
-messages$(76, 1) = "после того, как тюремная жизнь свела с ума..."
+messages$(105, 0) = " was left by his wife, but"
+messages$(105, 1) = " был оставлен женой, но"
 
-messages$(77, 0) = " became a sexual predator and"
-messages$(77, 1) = " стал сексуальным хищником и"
+messages$(106, 0) = " was moved to a mental hospital"
+messages$(106, 1) = " был переведен в психиатрическую больницу"
 
-messages$(78, 0) = "was soon back behind bars for rape..."
-messages$(78, 1) = "скоро снова оказался за решеткой за изнасилование..."
+messages$(107, 0) = " was never heard from again, but"
+messages$(107, 1) = " больше ничего не было слышно, но"
 
-messages$(79, 0) = " went on a killing spree upon"
-messages$(79, 1) = " продолжил убивать"
+messages$(108, 0) = " was recruited by a terrorist"
+messages$(108, 1) = " был завербован террористом"
 
-messages$(80, 0) = "returning to find his wife having an affair..."
-messages$(80, 1) = "вернувшись, обнаружил, что у его жены роман..."
+messages$(109, 0) = " was released and went on"
+messages$(109, 1) = " отпустили и пошли дальше"
 
-messages$(81, 0) = " was accused of sexually abusing"
-messages$(81, 1) = " был обвинен в сексуальном насилии"
+messages$(110, 0) = " was transferred to Guantanamo"
+messages$(110, 1) = " был переведен в Гуантанамо"
 
-messages$(82, 0) = "his daughter and swiftly returned to prison..."
-messages$(82, 1) = "свою дочь и быстро вернулся в тюрьму..."
+messages$(111, 0) = " was transferred to a more"
+messages$(111, 1) = " было перенесено в другое"
 
-messages$(83, 0) = " was killed by a speeding car"
-messages$(83, 1) = " был убит мчащейся машиной"
+messages$(112, 0) = " went back to live with his"
+messages$(112, 1) = " вернулся жить со своим"
 
-messages$(84, 0) = "upon setting foot outside the prison gates..."
-messages$(84, 1) = "при выходе за ворота тюрьмы..."
+messages$(113, 0) = " went back to school, but"
+messages$(113, 1) = " вернулся в школу, но"
 
-messages$(85, 0) = " became involved in organized"
-messages$(85, 1) = " ввязался в организованную"
+messages$(114, 0) = " went on a killing spree upon"
+messages$(114, 1) = " продолжил убивать"
 
-messages$(86, 0) = "crime and died during a drive-by shooting..."
-messages$(86, 1) = "преступление и погиб во время стрельбы из проезжающего мимо автомобиля..."
+messages$(115, 0) = " went on to become a political"
+messages$(115, 1) = " стал политическим"
 
-messages$(87, 0) = " developed a drug problem"
-messages$(87, 1) = " развилась проблема с наркотиками"
+messages$(116, 0) = " went on to hold down a decent"
+messages$(116, 1) = " продолжил прилично удерживать"
 
-messages$(88, 0) = "and never made anything of his life..."
-messages$(88, 1) = "и ничего в жизни не сделал..."
+messages$(117, 0) = " went on to lead an uneventful"
+messages$(117, 1) = " продолжил вести без происшествий"
 
-messages$(89, 0) = "and eventually died of an overdose..."
-messages$(89, 1) = "и в итоге умер от передозировки..."
+messages$(118, 0) = " went on to make a movie about"
+messages$(118, 1) = " пошла снимать фильм про"
 
-messages$(90, 0) = " continued to study and went on"
-messages$(90, 1) = " продолжил учиться и пошел дальше"
+messages$(119, 0) = " went on to study medicine"
+messages$(119, 1) = " пошел изучать медицину"
 
-messages$(91, 0) = "to become a productive member of society..."
-messages$(91, 1) = "стать продуктивным членом общества..."
+messages$(120, 0) = " went on to work with animals,"
+messages$(120, 1) = " продолжил работать с животными,"
 
-messages$(92, 0) = " went on to hold down a decent"
-messages$(92, 1) = " продолжил прилично удерживать"
+messages$(121, 0) = " went on to write a best-selling"
+messages$(121, 1) = " продолжил писать бестселлер"
 
-messages$(93, 0) = "job and never committed another crime..."
-messages$(93, 1) = "работает и никогда больше не совершал преступлений..."
+messages$(122, 0) = "'When a member of society falls down, he falls for those"
+messages$(122, 1) = "'Когда кто то падает, он падает на тех"
 
-messages$(94, 0) = " managed to find work, but was"
-messages$(94, 1) = " удалось найти работу, но была"
+messages$(123, 0) = "'s vision continued to"
+messages$(123, 1) = "Видения продолжались"
 
-messages$(95, 0) = "soon arrested for killing his boss..."
-messages$(95, 1) = "скоро арестован за убийство своего босса..."
+messages$(124, 0) = "2D Graphics"
+messages$(124, 1) = "2D Графика"
 
-messages$(96, 0) = " was transferred to a more"
-messages$(96, 1) = " было перенесено в другое"
+messages$(125, 0) = "3D Modeling"
+messages$(125, 1) = "3D-моделирование"
 
-messages$(97, 0) = "conservative jail and was soon executed..."
-messages$(97, 1) = "консервативная тюрьма и вскоре был казнен..."
+messages$(126, 0) = "After being released, "
+messages$(126, 1) = "После освобождения "
 
-messages$(98, 0) = " went on to write a best-selling"
-messages$(98, 1) = " продолжил писать бестселлер"
+messages$(127, 0) = "And he falls for those ahead of him - who, though"
+messages$(127, 1) = "И он влюбляется в тех, кто впереди него, -кто, хотя"
 
-messages$(99, 0) = "book about his experiences in prison..."
-messages$(99, 1) = "книга о его опыте в тюрьме..."
+messages$(128, 0) = "Animation"
+messages$(128, 1) = "Анимация"
 
-messages$(100, 0) = " became a public speaker and"
-messages$(100, 1) = " стал оратором и"
+messages$(129, 0) = "Bay after getting involved in terrorism..."
+messages$(129, 1) = "Бей после участия в терроризме..."
 
-messages$(101, 0) = "encouraged kids to avoid a life of crime..."
-messages$(101, 1) = "призывает детей избегать преступной жизни..."
+messages$(130, 0) = "Concept"
+messages$(130, 1) = "Идея"
 
-messages$(102, 0) = " became a teacher, but was"
-messages$(102, 1) = " стал учителем, но позже"
+messages$(131, 0) = "Credit is to be given - not"
+messages$(131, 1) = "Долги нужно отдавать, а не брать"
 
-messages$(103, 0) = "later arrested for abusing his students..."
-messages$(103, 1) = "был арестован за жестокое обращение со своими учениками..."
+messages$(132, 0) = "Game Design"
+messages$(132, 1) = "Геймдизайн"
 
-messages$(104, 0) = " was recruited by a terrorist"
-messages$(104, 1) = " был завербован террористом"
+messages$(133, 0) = "He hung himself from the bars of his cell..."
+messages$(133, 1) = "Он повесился на решетке своей камеры..."
 
-messages$(105, 0) = "cell and took part in a fatal bombing..."
-messages$(105, 1) = "ячейка и принял участие в фатальном взрыве..."
+messages$(134, 0) = "He remained behind bars until the day he died..."
+messages$(134, 1) = "Он оставался за решеткой до дня своей смерти..."
 
-messages$(106, 0) = " was transferred to Guantanamo"
-messages$(106, 1) = " был переведен в Гуантанамо"
+messages$(135, 0) = "He slit his wrists in the bathroom..."
+messages$(135, 1) = "Он перерезал себе вены в ванной..."
 
-messages$(107, 0) = "Bay after getting involved in terrorism..."
-messages$(107, 1) = "Бей после участия в терроризме..."
+messages$(136, 0) = "Leaving Prison"
+messages$(136, 1) = "Покидая тюрьму"
 
-messages$(108, 0) = " went on to make a movie about"
-messages$(108, 1) = " пошла снимать фильм про"
+messages$(137, 0) = "Loading Game"
+messages$(137, 1) = "Загрузка игры"
 
-messages$(109, 0) = "his experiences and became a millionaire..."
-messages$(109, 1) = "его опыт и миллионер..."
+messages$(138, 0) = "Music"
+messages$(138, 1) = "Музыка"
 
-messages$(110, 0) = " took part in a documentary"
-messages$(110, 1) = " принимал участие в документальном фильме"
+messages$(139, 0) = "Prison became too much for "
+messages$(139, 1) = "Тюрьма стала слишком "
 
-messages$(111, 0) = "about the prison and became a TV star..."
-messages$(111, 1) = "про тюрьму и стал телезвездой..."
+messages$(140, 0) = "Programming"
+messages$(140, 1) = "Программирование"
 
-messages$(112, 0) = " got to grips with computers"
-messages$(112, 1) = " разобрался с компами"
+messages$(141, 0) = "Publishing"
+messages$(141, 1) = "Публикация"
 
-messages$(113, 0) = "and went on to become a game designer..."
-messages$(113, 1) = "и стал геймдизайнером..."
+messages$(142, 0) = "Scripts"
+messages$(142, 1) = "Скрипты"
 
-messages$(114, 0) = "and went on to create a popular website..."
-messages$(114, 1) = "и продолжил создание популярного веб-сайта..."
+messages$(143, 0) = "Sound FX"
+messages$(143, 1) = "Звук FX"
 
-messages$(115, 0) = "and went on to find a cushy job in IT..."
-messages$(115, 1) = "и нашел неплохую работу в IT..."
+messages$(144, 0) = "Texturing"
+messages$(144, 1) = "Текстурирование"
 
-messages$(116, 0) = " was given his own radio show"
-messages$(116, 1) = " получил собственное радио-шоу"
+messages$(145, 0) = "Translate"
+messages$(145, 1) = "Перевод"
 
-messages$(117, 0) = "and used it to share his experiences..."
-messages$(117, 1) = "и использовал его, чтобы поделиться своим опытом..."
+messages$(146, 0) = "Upon release, "
+messages$(146, 1) = "После выпуска "
 
-messages$(118, 0) = " used his experience to serve"
-messages$(118, 1) = " использовал свой опыт на службе"
+messages$(147, 0) = "about the prison and became a TV star..."
+messages$(147, 1) = "про тюрьму и стал телезвездой..."
 
-messages$(119, 0) = "as a warden after completing his sentence..."
-messages$(119, 1) = "в качестве надзирателя после отбытия наказания..."
+messages$(148, 0) = "accident and never regained consciousness..."
+messages$(148, 1) = "несчастный случай и не пришел в сознание..."
 
-messages$(120, 0) = " succumbed to a terminal illness"
-messages$(120, 1) = " скончался от неизлечимой болезни"
+messages$(149, 0) = "activist and lobbied to improve prisons..."
+messages$(149, 1) = "активист и лоббирует улучшение тюрем..."
 
-messages$(121, 0) = "that he was hiding from his fellow inmates..."
-messages$(121, 1) = "что он скрывал от сокамерников..."
+messages$(150, 0) = "after being driven mad by prison life..."
+messages$(150, 1) = "после того, как тюремная жизнь свела с ума..."
 
-messages$(122, 0) = " continued a life of discipline"
-messages$(122, 1) = " продолжение дисциплинированной жизни"
+messages$(151, 0) = "and became a decorated soldier in the army..."
+messages$(151, 1) = "и стал награжденным солдатом в армии..."
 
-messages$(123, 0) = "and became a decorated soldier in the army..."
-messages$(123, 1) = "и стал награжденным солдатом в армии..."
+messages$(152, 0) = "and brought up someone else's family..."
+messages$(152, 1) = "и воспитал чужую семью..."
 
-messages$(124, 0) = "in the army, but was killed in battle..."
-messages$(124, 1) = "в армии, но погиб в бою..."
+messages$(153, 0) = "and contracted every STD known to man..."
+messages$(153, 1) = "и заразились всеми ЗППП, известными человеку..."
 
-messages$(125, 0) = " went on to study medicine"
-messages$(125, 1) = " пошел изучать медицину"
+messages$(154, 0) = "and dedicated his life to animal welfare..."
+messages$(154, 1) = "и посвятил свою жизнь защите животных..."
 
-messages$(126, 0) = "and saved countless lives as a doctor..."
-messages$(126, 1) = "и спас бесчисленное количество жизней как врач..."
+messages$(155, 0) = "and eventually died of an overdose..."
+messages$(155, 1) = "и в итоге умер от передозировки..."
 
-messages$(127, 0) = " went on to lead an uneventful"
-messages$(127, 1) = " продолжил вести без происшествий"
+messages$(156, 0) = "and never made anything of his life..."
+messages$(156, 1) = "и ничего в жизни не сделал..."
 
-messages$(128, 0) = "life and died in the comfort of his home..."
-messages$(128, 1) = "жизнь и умер в комфорте своего дома..."
+messages$(157, 0) = "and never regained the use of his body..."
+messages$(157, 1) = "и так и не смог снова использовать свое тело..."
 
-messages$(129, 0) = " trained as a chef and vowed"
-messages$(129, 1) = " выучился на повара и дал обет"
+messages$(158, 0) = "and played in a Superbowl final..."
+messages$(158, 1) = "и играли в финале Суперкубка..."
 
-messages$(130, 0) = "to improve the standard of prison food..."
-messages$(130, 1) = "для улучшения качества тюремной еды..."
+messages$(159, 0) = "and saved countless lives as a doctor..."
+messages$(159, 1) = "и спас бесчисленное количество жизней как врач..."
 
-messages$(131, 0) = " continued to stay in shape"
-messages$(131, 1) = " продолжал оставаться в форме"
+messages$(160, 0) = "and used it to share his experiences..."
+messages$(160, 1) = "и использовал его, чтобы поделиться своим опытом..."
 
-messages$(132, 0) = "and went on to become a personal trainer..."
-messages$(132, 1) = "и стал личным тренером..."
+messages$(161, 0) = "and was never considered for release..."
+messages$(161, 1) = "и никогда не рассматривался для выпуска..."
 
-messages$(133, 0) = " lost faith in human beings"
-messages$(133, 1) = " потерял веру в людей"
+messages$(162, 0) = "and went on to become a game designer..."
+messages$(162, 1) = "и стал геймдизайнером..."
 
-messages$(134, 0) = "and dedicated his life to animal welfare..."
-messages$(134, 1) = "и посвятил свою жизнь защите животных..."
+messages$(163, 0) = "and went on to become a personal trainer..."
+messages$(163, 1) = "и стал личным тренером..."
 
-messages$(135, 0) = " went on to work with animals,"
-messages$(135, 1) = " продолжил работать с животными,"
+messages$(164, 0) = "and went on to create a popular website..."
+messages$(164, 1) = "и продолжил создание популярного веб-сайта..."
 
-messages$(136, 0) = "but was mauled by an ungrateful lion..."
-messages$(136, 1) = "но был растерзан неблагодарным львом..."
+messages$(165, 0) = "and went on to find a cushy job in IT..."
+messages$(165, 1) = "и нашел неплохую работу в IT..."
 
-messages$(137, 0) = "'s vision continued to"
-messages$(137, 1) = "Видения продолжались"
+messages$(166, 0) = "another inmate and never saw his release..."
+messages$(166, 1) = "еще один заключенный, которого так и не увидели на свободе..."
 
-messages$(138, 0) = "deteriorate in prison and left him blind..."
-messages$(138, 1) = "испортиться в тюрьме и ослепить его..."
+messages$(167, 0) = "as a warden after completing his sentence..."
+messages$(167, 1) = "в качестве надзирателя после отбытия наказания..."
 
-messages$(139, 0) = " became wheelchair bound after"
-messages$(139, 1) = " стал прикованным к инвалидной коляске после"
+messages$(168, 0) = "behind him - as a caution against the stumbling stone."
+messages$(168, 1) = "кто позади него, как о камень преткновения."
 
-messages$(140, 0) = "breaking his back in a car accident..."
-messages$(140, 1) = "сломал спину в автокатастрофе..."
+messages$(169, 0) = "book about his experiences in prison..."
+messages$(169, 1) = "книга о его опыте в тюрьме..."
 
-messages$(141, 0) = " broke his neck in an accident"
-messages$(141, 1) = " сломал шею в аварии"
+messages$(170, 0) = "breaking his back in a car accident..."
+messages$(170, 1) = "сломал спину в автокатастрофе..."
 
-messages$(142, 0) = "and never regained the use of his body..."
-messages$(142, 1) = "и так и не смог снова использовать свое тело..."
+messages$(171, 0) = "but was mauled by an ungrateful lion..."
+messages$(171, 1) = "но был растерзан неблагодарным львом..."
 
-messages$(143, 0) = " slipped into a coma after an"
-messages$(143, 1) = " впала в кому после"
+messages$(172, 0) = "by men and became a rampant homosexual..."
+messages$(172, 1) = "мужчины и стал безудержным гомосексуалистом..."
 
-messages$(144, 0) = "accident and never regained consciousness..."
-messages$(144, 1) = "несчастный случай и не пришел в сознание..."
+messages$(173, 0) = "cell and took part in a fatal bombing..."
+messages$(173, 1) = "ячейка и принял участие в фатальном взрыве..."
 
-messages$(145, 0) = " tried to climb Mount Everest"
-messages$(145, 1) = " пытался подняться на Эверест"
+messages$(174, 0) = "children but never regained their trust..."
+messages$(174, 1) = "дети, но так и не восстановили их доверие..."
 
-messages$(146, 0) = "with no equipment and fell to his death..."
-messages$(146, 1) = "без оборудования и разбился насмерть..."
+messages$(175, 0) = "conservative jail and was soon executed..."
+messages$(175, 1) = "консервативная тюрьма и вскоре был казнен..."
 
-messages$(147, 0) = " embarked on an expedition to"
-messages$(147, 1) = " отправился в экспедицию в"
+messages$(176, 0) = "crime and died during a drive-by shooting..."
+messages$(176, 1) = "преступление и погиб во время стрельбы из проезжающего мимо автомобиля..."
 
-messages$(148, 0) = "the North Pole, but died on the first day..."
-messages$(148, 1) = "Северный полюс, но умер в первый же день..."
+messages$(177, 0) = "culture and never left a life of crime..."
+messages$(177, 1) = "культура и никогда не оставляли преступную жизнь..."
 
-messages$(149, 0) = " became a movie stuntman, but"
-messages$(149, 1) = " стал каскадером в кино, но"
+messages$(178, 0) = "deteriorate in prison and left him blind..."
+messages$(178, 1) = "испортиться в тюрьме и ослепить его..."
 
-messages$(150, 0) = "tragically died during a failed stunt..."
-messages$(150, 1) = "трагически погиб во время неудачного трюка..."
+messages$(179, 0) = "encouraged kids to avoid a life of crime..."
+messages$(179, 1) = "призывает детей избегать преступной жизни..."
 
-messages$(151, 0) = " started acting in porn films"
-messages$(151, 1) = " начал сниматься в порнофильмах"
+messages$(180, 0) = "exercise yard, but was shot dead..."
+messages$(180, 1) = "прогулочный двор, но был застрелен..."
 
-messages$(152, 0) = "and contracted every STD known to man..."
-messages$(152, 1) = "и заразились всеми ЗППП, известными человеку..."
+messages$(181, 0) = "failed to complete the 1st grade..."
+messages$(181, 1) = "не удалось закончить 1-й класс..."
 
-messages$(153, 0) = " claimed to be the Messiah and"
-messages$(153, 1) = " провозгласил себя Мессией и"
+messages$(182, 0) = "faster and surer of foot, failed to remove the stone...'"
+messages$(182, 1) = "и был увереннее, не смог убрать камень..."
 
-messages$(154, 0) = "tried to bring peace to The Middle East..."
-messages$(154, 1) = "пытался установить мир на Ближнем Востоке..."
+messages$(183, 0) = "gangs and now rules like a king..."
+messages$(183, 1) = "банды и теперь правят как король..."
 
-messages$(155, 0) = " had an epiphany and embarked"
-messages$(155, 1) = " было прозрение и встал"
+messages$(184, 0) = "handedly in 3 months. Figure out"
+messages$(184, 1) = "за 3 месяца. Реши для себя, как"
 
-messages$(156, 0) = "on missionary work in the third world..."
-messages$(156, 1) = "о миссионерской работе в странах третьего мира..."
+messages$(185, 0) = "his daughter and swiftly returned to prison..."
+messages$(185, 1) = "свою дочь и быстро вернулся в тюрьму..."
 
-messages$(157, 0) = " became a millionaire and used"
-messages$(157, 1) = " стал миллионером и привык"
+messages$(186, 0) = "his experiences and became a millionaire..."
+messages$(186, 1) = "его опыт и миллионер..."
 
-messages$(158, 0) = "his wealth to adopt impoverished children..."
-messages$(158, 1) = "его богатство, чтобы усыновить обедневших детей..."
+messages$(187, 0) = "his wealth to adopt impoverished children..."
+messages$(187, 1) = "его богатство, чтобы усыновить обедневших детей..."
 
-messages$(159, 0) = " moved to another country where"
-messages$(159, 1) = " переехал в другую страну, где"
+messages$(188, 0) = "how you feel about that..."
+messages$(188, 1) = "ты к этому отнесешься..."
 
-messages$(160, 0) = "nobody knew of his criminal background..."
-messages$(160, 1) = "никто не знал о его криминальном прошлом..."
+messages$(189, 0) = "hunted down and killed by old enemies..."
+messages$(189, 1) = "выследили и убили старые враги..."
 
-messages$(161, 0) = "Upon release, "
-messages$(161, 1) = "После выпуска "
+messages$(190, 0) = "in the army, but was killed in battle..."
+messages$(190, 1) = "в армии, но погиб в бою..."
 
-messages$(162, 0) = " forgot where he"
-messages$(162, 1) = " забыл где он"
+messages$(191, 0) = "job and never committed another crime..."
+messages$(191, 1) = "работает и никогда больше не совершал преступлений..."
 
-messages$(163, 0) = "lived and was left roaming the streets..."
-messages$(163, 1) = "жил и бродил по улицам..."
+messages$(192, 0) = "kids and became a committed family man..."
+messages$(192, 1) = "дети и стал преданным семьянином..."
 
-messages$(164, 0) = " failed to adjust to modern"
-messages$(164, 1) = " не удалось адаптироваться к современным"
+messages$(193, 0) = "later arrested for abusing his students..."
+messages$(193, 1) = "был арестован за жестокое обращение со своими учениками..."
 
-messages$(165, 0) = "life and became one of the homeless..."
-messages$(165, 1) = "жизнь и стал одним из бомжей..."
+messages$(194, 0) = "life and became one of the homeless..."
+messages$(194, 1) = "жизнь и стал одним из бомжей..."
 
-messages$(166, 0) = " failed to adjust to life on"
-messages$(166, 1) = " не удалось приспособиться к жизни дальше"
+messages$(195, 0) = "life and died in the comfort of his home..."
+messages$(195, 1) = "жизнь и умер в комфорте своего дома..."
 
-messages$(167, 0) = "the outside and soon committed suicide..."
-messages$(167, 1) = "снаружи и вскоре покончил жизнь самоубийством..."
+messages$(196, 0) = "lived and was left roaming the streets..."
+messages$(196, 1) = "жил и бродил по улицам..."
 
-messages$(168, 0) = "After being released, "
-messages$(168, 1) = "После освобождения "
+messages$(197, 0) = "nature and ran away to live in the wild..."
+messages$(197, 1) = "природа и убежала жить на волю..."
 
-messages$(169, 0) = " was"
-messages$(169, 1) = " было"
+messages$(198, 0) = "nobody knew of his criminal background..."
+messages$(198, 1) = "никто не знал о его криминальном прошлом..."
 
-messages$(170, 0) = "hunted down and killed by old enemies..."
-messages$(170, 1) = "выследили и убили старые враги..."
+messages$(199, 0) = "on missionary work in the third world..."
+messages$(199, 1) = "о миссионерской работе в странах третьего мира..."
 
-messages$(171, 0) = " went on to become a political"
-messages$(171, 1) = " стал политическим"
+messages$(200, 0) = "parents and remains grounded to this day..."
+messages$(200, 1) = "родители и остаются на земле по сей день..."
 
-messages$(172, 0) = "activist and lobbied to improve prisons..."
-messages$(172, 1) = "активист и лоббирует улучшение тюрем..."
+messages$(201, 0) = "prison and still hasn't been found..."
+messages$(201, 1) = "тюрьма и до сих пор не найдена..."
 
-messages$(173, 0) = " developed an affinity with"
-messages$(173, 1) = " развилась близость с"
+messages$(202, 0) = "returning to find his wife having an affair..."
+messages$(202, 1) = "вернувшись, обнаружил, что у его жены роман..."
 
-messages$(174, 0) = "nature and ran away to live in the wild..."
-messages$(174, 1) = "природа и убежала жить на волю..."
+messages$(203, 0) = "soon arrested for killing his boss..."
+messages$(203, 1) = "скоро арестован за убийство своего босса..."
 
-messages$(175, 0) = " successfully escaped from"
-messages$(175, 1) = " успешно сбежал из"
+messages$(204, 0) = "taken. This game was made single-"
+messages$(204, 1) = "Эта игра была сделана в одиночку"
 
-messages$(176, 0) = "prison and still hasn't been found..."
-messages$(176, 1) = "тюрьма и до сих пор не найдена..."
+messages$(205, 0) = "tales of his life are still told to this day..."
+messages$(205, 1) = "рассказы о его жизни рассказывают и по сей день..."
 
-messages$(177, 0) = " tried to escape from the"
-messages$(177, 1) = " пытался сбежать из"
+messages$(206, 0) = "that he was hiding from his fellow inmates..."
+messages$(206, 1) = "что он скрывал от сокамерников..."
 
-messages$(178, 0) = "exercise yard, but was shot dead..."
-messages$(178, 1) = "прогулочный двор, но был застрелен..."
+messages$(207, 0) = "the North Pole, but died on the first day..."
+messages$(207, 1) = "Северный полюс, но умер в первый же день..."
 
-messages$(179, 0) = " returned to the wrong house"
-messages$(179, 1) = " вернулся не в тот дом"
+messages$(208, 0) = "the outside and soon committed suicide..."
+messages$(208, 1) = "снаружи и вскоре покончил жизнь самоубийством..."
 
-messages$(180, 0) = "and brought up someone else's family..."
-messages$(180, 1) = "и воспитал чужую семью..."
+messages$(209, 0) = "to become a productive member of society..."
+messages$(209, 1) = "стать продуктивным членом общества..."
 
-messages$(181, 0) = " went back to live with his"
-messages$(181, 1) = " вернулся жить со своим"
+messages$(210, 0) = "to improve the standard of prison food..."
+messages$(210, 1) = "для улучшения качества тюремной еды..."
 
-messages$(182, 0) = "parents and remains grounded to this day..."
-messages$(182, 1) = "родители и остаются на земле по сей день..."
+messages$(211, 0) = "to marry his long-time girlfriend..."
+messages$(211, 1) = "жениться на своей давней девушке..."
 
-messages$(183, 0) = " went back to school, but"
-messages$(183, 1) = " вернулся в школу, но"
+messages$(212, 0) = "to raise a family with his wife..."
+messages$(212, 1) = "создать семью с женой..."
 
-messages$(184, 0) = "failed to complete the 1st grade..."
-messages$(184, 1) = "не удалось закончить 1-й класс..."
+messages$(213, 0) = "tragically died during a failed stunt..."
+messages$(213, 1) = "трагически погиб во время неудачного трюка..."
 
-messages$(185, 0) = " dedicated his life to sport"
-messages$(185, 1) = " посвятил свою жизнь спорту"
+messages$(214, 0) = "tried to bring peace to The Middle East..."
+messages$(214, 1) = "пытался установить мир на Ближнем Востоке..."
 
-messages$(186, 0) = "and played in a Superbowl final..."
-messages$(186, 1) = "и играли в финале Суперкубка..."
+messages$(215, 0) = "upon setting foot outside the prison gates..."
+messages$(215, 1) = "при выходе за ворота тюрьмы..."
 
-messages$(187, 0) = " united all the prison"
-messages$(187, 1) = " объединил всю тюрьму"
+messages$(216, 0) = "was soon back behind bars for rape..."
+messages$(216, 1) = "скоро снова оказался за решеткой за изнасилование..."
 
-messages$(188, 0) = "gangs and now rules like a king..."
-messages$(188, 1) = "банды и теперь правят как король..."
+messages$(217, 0) = "went on to find love with another..."
+messages$(217, 1) = "нашла любовь к другому..."
 
-messages$(189, 0) = "Translate"
-messages$(189, 1) = "Перевод"
-
-messages$(190, 0) = "Telegram"
-messages$(190, 1) = "Телеграм"
+messages$(218, 0) = "with no equipment and fell to his death..."
+messages$(218, 1) = "без оборудования и разбился насмерть..."

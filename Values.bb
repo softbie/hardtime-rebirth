@@ -600,23 +600,23 @@ Function LoadTextures()
   tHair(count)=LoadTexture("Characters/Hair/Hair"+Dig$(count,10)+".png",4)
  Next
  For count=1 To no_faces
-  Loader(translate("Please Wait"),"Loading Face "+Dig$(count,10)+" of "+no_faces)
+  Loader(translate("Please Wait"),translate("Loading Face #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_faces)
   tFace(count)=LoadTexture("Characters/Faces/Face"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_bodies
-  Loader(translate("Please Wait"),"Loading Body "+Dig$(count,10)+" of "+no_bodies)
+  Loader(translate("Please Wait"),translate("Loading Body #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_bodies)
   tBody(count)=LoadTexture("Characters/Bodies/Body"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_arms
-  Loader(translate("Please Wait"),"Loading Arm "+Dig$(count,10)+" of "+no_arms)
+  Loader(translate("Please Wait"),translate("Loading Arm #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_arms)
   tArm(count)=LoadTexture("Characters/Arms/Arm"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_legs
-  Loader(translate("Please Wait"),"Loading Legs "+Dig$(count,10)+" of "+no_legs)
+  Loader(translate("Please Wait"),translate("Loading Body #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_legs)
   tLegs(count)=LoadTexture("Characters/Legs/Legs"+Dig$(count,10)+".JPG")
  Next
  ;racial shades
- Loader(translate("Please Wait"),"Loading Shades")
+ Loader(translate("Please Wait"),translate("Loading Shades"))
  For count=1 To 4
   tBodyShade(count)=LoadTexture("Characters/Shading/Body"+Dig$(count,10)+".png") 
  Next

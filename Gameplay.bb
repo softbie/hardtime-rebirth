@@ -105,7 +105,7 @@ For char=1 To no_chars
 Next
 LoadPlayers()
 ;load weapons
-Loader(translate("Please Wait"),"Loading Weapons")
+Loader(translate("Please Wait"),translate("Loading Weapons"))
 If gamLocation(slot)=10 Then PrepareCreations()
 LoadWeapons()
 LoadBullets()
@@ -115,7 +115,7 @@ For cyc=1 To no_plays
 Next
 ;load particles
 If optFX>0
- Loader(translate("Please Wait"),"Loading Effects")
+ Loader(translate("Please Wait"),translate("Loading Effects"))
  no_particles=500
  If optFX=1 Then no_particles=no_particles/2
  LoadParticles()
@@ -143,7 +143,7 @@ UpdateWorld
 SetCollisions()
 ;frame rating
 SeedRnd(MilliSecs())
-Loader(translate("Please Wait"),"Finalizing World")
+Loader(translate("Please Wait"),translate("Finalizing World"))
 timer=CreateTimer(30)
 ;MAIN LOOP
 zoom#=1.0
@@ -524,12 +524,12 @@ While go=0
  EndIf
  ;paused state
  If gamPause=1
-  DrawOption(-1,rX#(400),rY#(300),"PAUSED","")
+  DrawOption(-1,rX#(400),rY#(300),translate("PAUSED"),"")
   SetFont font(1)
-  Outline("(Press 'P' to resume play)",rX#(400),rY#(300)+30,0,0,0,255,255,255)
+  Outline(translate("(Press 'P' to resume play)"),rX#(400),rY#(300)+30,0,0,0,255,255,255)
  EndIf
  ;mask shaky start
- If gotim=<0 Then Loader(translate("Please Wait"),"Finalizing World")
+ If gotim=<0 Then Loader(translate("Please Wait"),translate("Finalizing World"))
 
  Flip
  ;screenshot (F12)
@@ -542,7 +542,7 @@ While go=0
 
 Wend
 ;restore sound
-If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Restoring Sound")
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Restoring Sound"))
 If ChannelPlaying(chAtmos)>0 Then StopChannel chAtmos
 If ChannelPlaying(chAlarm)>0 Then StopChannel chAlarm
 If ChannelPlaying(chPhone)>0 Then StopChannel chPhone
@@ -557,23 +557,23 @@ If go=-1 Or go=3 Or charHealth(gamChar(slot))=<0
  ChannelVolume chTheme,musicVol#
 EndIf
 ;remove world
-If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Leaving "+textLocation$(oldLocation))
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Leaving ")+textLocation$(oldLocation))
 FreeTimer timer
 FreeEntity fader
 FreeEntity world
 ;remove camera
-If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Camera")
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Camera"))
 FreeEntity cam
 FreeEntity camPivot
 FreeEntity dummy
 ;remove lights
 For cyc=1 To no_lights
- If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Lights")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Lights"))
  FreeEntity light(cyc)
 Next
 ;remove players
 For cyc=1 To no_plays
- If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Players")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Players"))
  FreeEntity p(cyc)
  FreeEntity pPivot(cyc)
  FreeEntity pMovePivot(cyc)
@@ -586,7 +586,7 @@ Next
 ;remove weapons
 If no_weaps>0
  For cyc=1 To no_weaps
-  If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Weapons")
+  If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Weapons"))
   If weapLocation(cyc)=gamLocation(slot)
    If weapState(cyc)=0 Then weapLocation(cyc)=0
    FreeEntity weap(cyc)
@@ -607,14 +607,14 @@ For cyc=1 To no_bullets
 Next
 ;remove particles
 If optFX>0
- If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Effects")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Effects"))
  For cyc=1 To no_particles
   FreeEntity part(cyc)
  Next
 EndIf
 ;remove pools
 If optGore=>2
- If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Removing Effects")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Removing Effects"))
  For cyc=1 To no_pools
   FreeEntity pool(cyc)
  Next
@@ -622,7 +622,7 @@ EndIf
 ;clear collisions
 ClearCollisions
 ;remove unusued promos
-If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Saving Progress")
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Saving Progress"))
 If go=>1 Then RevisePromos()
 ;preserve locations
 If LockDown()
@@ -761,10 +761,10 @@ Function DisplayStatus(char,x,y)
  DrawImage gHappiness,rX#(x)+68,rY#(y)+8 
  ;attribute headers
  SetFont font(1)
- Outline("Strength:",rX#(x)+112,rY#(y)-22,0,0,0,255,255,255)
- Outline("Agility:",rX#(x)+201,rY#(y)-22,0,0,0,255,255,255)
- Outline("Intelligence:",rX#(x)+104,rY#(y)+24,0,0,0,255,255,255)
- Outline("Reputation:",rX#(x)+211,rY#(y)+24,0,0,0,255,255,255)
+ Outline(translate("Strength") + ":",rX#(x)+112,rY#(y)-22,0,0,0,255,255,255)
+ Outline(translate("Agility") + ":",rX#(x)+201,rY#(y)-22,0,0,0,255,255,255)
+ Outline(translate("Intelligence") + ":",rX#(x)+104,rY#(y)+24,0,0,0,255,255,255)
+ Outline(translate("Reputation") + ":",rX#(x)+211,rY#(y)+24,0,0,0,255,255,255)
  ;attribute numbers
  SetFont fontNumber
  GetStatColour(1)
@@ -789,7 +789,7 @@ Function DisplayTime(x,y)
  If charSentence(gamChar(slot))=>100 Then offset#=17
  If charSentence(gamChar(slot))=>1000 Then offset#=20
  SetFont font(1)
- Outline("Days",rX#(x)+offset#,rY#(y)+25,0,0,0,255,255,255)
+ Outline(translate("Days"),rX#(x)+offset#,rY#(y)+25,0,0,0,255,255,255)
  SetFont fontNumber
  GetStatColour(6)
  Outline(GetFigure$(charSentence(gamChar(slot))),rX#(x)-(offset#-1),rY#(y)+25,0,0,0,ColorRed(),ColorGreen(),ColorBlue())
@@ -813,11 +813,11 @@ Function DisplayFile(char,x,y) ;100,530
  DrawLine(rX#(x)+15,rY#(y)-60,rX#(x)+245,rY#(y)-60,0,255,130)
  ;file ID
  SetFont fontComputer
- OutlineStraight("FILE:",rX#(x)-75,rY#(y)-61,0,0,0,0,255,130)
+ OutlineStraight(translate("FILE") + ":",rX#(x)-75,rY#(y)-61,0,0,0,0,255,130)
  Outline(char+"/"+no_chars,rX#(x)-15,rY#(y)-61,0,0,0,160,255,200)
- OutlineStraight("NAME:",rX#(x)+80,rY#(y)-39,0,0,0,0,255,130)
+ OutlineStraight(translate("NAME") + ":",rX#(x)+80,rY#(y)-39,0,0,0,0,255,130)
  OutlineStraight(Upper$(charName$(char)),rX#(x)+129,rY#(y)-39,0,0,0,160,255,200)
- OutlineStraight("AREA:",rX#(x)+80,rY#(y)-22,0,0,0,0,255,130)
+ OutlineStraight(translate("AREA") + ":",rX#(x)+80,rY#(y)-22,0,0,0,0,255,130)
  namer$=Upper$(textLocation(charLocation(char)))
  If charRole(char)=0 Then namer$="CELL "+charCell(char)+", "+Upper$(textBlock$(charBlock(char)))+" BLOCK"
  If charLocation(char)=0 And charHealth(char)=<0 Then namer$="DECEASED"
@@ -826,35 +826,35 @@ Function DisplayFile(char,x,y) ;100,530
  OutlineStraight(namer$,rX#(x)+127,rY#(y)-22,0,0,0,160,255,200)
  ;health data
  If gamLocation(slot)=6
-  OutlineStraight("HEALTH:",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
+  OutlineStraight(translate("HEALTH") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
   affix$=""
   If charInjured(char)>0 Then affix$=" (INJURED)" 
   If charRole(char)=<1 And charLocation(char)=0 And charHealth(char)=0 Then affix$=" (DEAD)" 
   OutlineStraight(charHealth(char)+"%"+affix$,rX#(x)+143,rY#(y)+2,0,0,0,160,255,200)
-  OutlineStraight("STRENGTH:",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
+  OutlineStraight(translate("STRENGTH") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(charStrength(char)+"%",rX#(x)+163,rY#(y)+19,0,0,0,160,255,200)
-  OutlineStraight("AGILITY:",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
+  OutlineStraight(translate("AGILITY") + ":",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
   OutlineStraight(charAgility(char)+"%",rX#(x)+141,rY#(y)+36,0,0,0,160,255,200)
  EndIf
  ;mental data
  If gamLocation(slot)=4
-  OutlineStraight("HAPPINESS:",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
+  OutlineStraight(translate("HAPPINESS") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
   If charBreakdown(char)>0 Then affix$=" (MANIC)" Else affix$=""
   OutlineStraight(charHappiness(char)+"%"+affix$,rX#(x)+171,rY#(y)+2,0,0,0,160,255,200)
-  OutlineStraight("INTELLIGENCE:",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
+  OutlineStraight(translate("INTELLIGENCE") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(charIntelligence(char)+"%",rX#(x)+185,rY#(y)+19,0,0,0,160,255,200)
-  OutlineStraight("REPUTATION:",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
+  OutlineStraight(translate("REPUTATION") + ":",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
   OutlineStraight(charReputation(char)+"%",rX#(x)+177,rY#(y)+36,0,0,0,160,255,200)
  EndIf
  ;crime data
  If gamLocation(slot)=9
-  OutlineStraight("SENTENCE:",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
+  OutlineStraight(translate("SENTENCE") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
   namer$=Upper$(GetSentence$(charSentence(char)))
   If charSentence(char)=0 Then namer$="NONE"
   OutlineStraight(namer$,rX#(x)+161,rY#(y)+2,0,0,0,160,255,200)
-  OutlineStraight("CRIME:",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
+  OutlineStraight(translate("CRIME") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(Upper$(textCrime$(charCrime(char))),rX#(x)+133,rY#(y)+19,0,0,0,160,255,200)
-  OutlineStraight("GANG:",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
+  OutlineStraight(translate("GANG") + ":",rX#(x)+80,rY#(y)+36,0,0,0,0,255,130)
   OutlineStraight(Upper$(textGang$(charGang(char))),rX#(x)+129,rY#(y)+36,0,0,0,160,255,200)
  EndIf
 End Function

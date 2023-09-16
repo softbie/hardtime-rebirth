@@ -1,65 +1,65 @@
-messages$(538, 0) = "Loading Editor"
-messages$(538, 1) = "Загрузка редактора"
+messages$(38, 0) = "(No Points Remaining!)"
+messages$(38, 1) = "(Очков не осталось!)"
 
-messages$(539, 0) = "Name"
-messages$(539, 1) = "Имя"
+messages$(39, 0) = "(Press BACKSPACE to change)"
+messages$(39, 1) = "(Нажмите BACKSPACE для изменения)"
 
-messages$(540, 0) = "Height"
-messages$(540, 1) = "Высота"
+messages$(40, 0) = "(Press ENTER to apply)"
+messages$(40, 1) = "(Нажмите ENTER, чтобы применить)"
 
-messages$(541, 0) = "Strength"
-messages$(541, 1) = "Сила"
+messages$(41, 0) = "<<< SAVE & EXIT <<<"
+messages$(41, 1) = "<<< СОХРАНИТЬ <<<"
 
-messages$(542, 0) = "Agility"
-messages$(542, 1) = "Ловкость"
+messages$(42, 0) = ">>> APPEARANCE >>>"
+messages$(42, 1) = ">>> ВНЕШНИЙ ВИД >>>"
 
-messages$(543, 0) = "Intelligence"
-messages$(543, 1) = "Интеллект"
+messages$(43, 0) = ">>> PROFILE >>>"
+messages$(43, 1) = ">>> ПРОФИЛЬ >>>"
 
-messages$(544, 0) = "Crime"
-messages$(544, 1) = "Преступление"
+messages$(44, 0) = "Agility"
+messages$(44, 1) = "Ловкость"
 
-messages$(545, 0) = ">>> APPEARANCE >>>"
-messages$(545, 1) = ">>> ВНЕШНИЙ ВИД >>>"
+messages$(45, 0) = "Build"
+messages$(45, 1) = "Комплекция"
 
-messages$(546, 0) = "<<< SAVE & EXIT <<<"
-messages$(546, 1) = "<<< СОХРАНИТЬ И ВЫЙТИ <<<"
+messages$(46, 0) = "Crime"
+messages$(46, 1) = "Статья"
 
-messages$(547, 0) = "(Press BACKSPACE to change)"
-messages$(547, 1) = "(Нажмите BACKSPACE для изменения)"
+messages$(47, 0) = "Eyewear"
+messages$(47, 1) = "Очки"
 
-messages$(548, 0) = "Points Remaining"
-messages$(548, 1) = "Осталось очков"
+messages$(48, 0) = "Face"
+messages$(48, 1) = "Лицо"
 
-messages$(549, 0) = "(No Points Remaining!)"
-messages$(549, 1) = "(Очков не осталось!)"
+messages$(49, 0) = "Hair Colour"
+messages$(49, 1) = "Цвет волос"
 
-messages$(550, 0) = "Hair Style"
-messages$(550, 1) = "Прическа"
+messages$(50, 0) = "Hair Style"
+messages$(50, 1) = "Прическа"
 
-messages$(551, 0) = "Hair Colour"
-messages$(551, 1) = "Цвет волос"
+messages$(51, 0) = "Height"
+messages$(51, 1) = "Рост"
 
-messages$(552, 0) = "Face"
-messages$(552, 1) = "Лицо"
+messages$(52, 0) = "Intelligence"
+messages$(52, 1) = "Интеллект"
 
-messages$(553, 0) = "Eyewear"
-messages$(553, 1) = "Очки"
+messages$(53, 0) = "Loading Editor"
+messages$(53, 1) = "Загрузка редактора"
 
-messages$(554, 0) = "Build"
-messages$(554, 1) = "Фигура"
+messages$(54, 0) = "Name"
+messages$(54, 1) = "Имя"
 
-messages$(555, 0) = "Outfit"
-messages$(555, 1) = "Одежда"
+messages$(55, 0) = "Outfit"
+messages$(55, 1) = "Одежда"
 
-messages$(556, 0) = ">>> PROFILE >>>"
-messages$(556, 1) = ">>> ПРОФИЛЬ >>>"
+messages$(56, 0) = "Points Remaining"
+messages$(56, 1) = "Осталось очков"
 
-messages$(557, 0) = "(Press ENTER to apply)"
-messages$(557, 1) = "(Нажмите ENTER, чтобы применить)"
+messages$(57, 0) = "Reloading Character"
+messages$(57, 1) = "Перезагрузка персонажа"
 
-messages$(558, 0) = "Reloading Character"
-messages$(558, 1) = "Перезагрузка персонажа"
+messages$(58, 0) = "Saving Character"
+messages$(58, 1) = "Сохранение персонажа"
 
-messages$(559, 0) = "Saving Character"
-messages$(559, 1) = "Сохранение персонажа"
+messages$(59, 0) = "Strength"
+messages$(59, 1) = "Сила"
