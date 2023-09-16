@@ -49,5 +49,5 @@ Print translate("Hello, #NAME#", "#NAME#", "Вася")
 
 ![image](https://github.com/softbie/hardtime-russification/assets/39442071/582c6d17-59dc-4065-930f-05b4f3b64d63)
 
-Чуть позже выложу эту программу и базу данных к ней, за актуальностью базы можно следить [здесь](/softbie/hardtime-russification/releases) 
+Чуть позже выложу эту программу и базу данных к ней, за актуальностью базы можно следить [здесь](https://github.com/softbie/hardtime-russification/releases)
 
