@@ -527,7 +527,7 @@ Function DisplayPromo()
   Color 0,0,0 : Rect rX#(0),rY#(y#),rX#(800),rY#(600),1
  EndIf 
  ;determine font
- SetFont font(4)
+ SetFont font(2)
  If GraphicsWidth()<800 Then SetFont font(3)
  If GraphicsWidth()>800 Then SetFont font(5)
  If GraphicsWidth()>1024 Then SetFont font(6)
