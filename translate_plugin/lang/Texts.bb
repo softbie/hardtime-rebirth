@@ -292,725 +292,728 @@ messages$(319, 1) = "по Фаренгейту"
 messages$(320, 0) = "Fast Eddie"
 messages$(320, 1) = "Быстрый Эдди"
 
-messages$(321, 0) = "February"
-messages$(321, 1) = "Февраль"
+messages$(321, 0) = "Fat"
+messages$(321, 1) = "Толстый"
 
-messages$(322, 0) = "Foster"
-messages$(322, 1) = "Фостер"
+messages$(322, 0) = "February"
+messages$(322, 1) = "Февраль"
 
-messages$(323, 0) = "Frank"
-messages$(323, 1) = "Фрэнк"
+messages$(323, 0) = "Foster"
+messages$(323, 1) = "Фостер"
 
-messages$(324, 0) = "Fraud"
-messages$(324, 1) = "Мошенничество"
+messages$(324, 0) = "Frank"
+messages$(324, 1) = "Фрэнк"
 
-messages$(325, 0) = "Fred"
-messages$(325, 1) = "Фред"
+messages$(325, 0) = "Fraud"
+messages$(325, 1) = "Мошенничество"
 
-messages$(326, 0) = "Fringe"
-messages$(326, 1) = "Окантовка"
+messages$(326, 0) = "Fred"
+messages$(326, 1) = "Фред"
 
-messages$(327, 0) = "Fringe w/Length"
-messages$(327, 1) = "Окантовка и длинные"
+messages$(327, 0) = "Fringe"
+messages$(327, 1) = "Окантовка"
 
-messages$(328, 0) = "Fringe w/Ponytail"
-messages$(328, 1) = "Окантовка с хвостиком"
+messages$(328, 0) = "Fringe w/Length"
+messages$(328, 1) = "Окантовка и длинные"
 
-messages$(329, 0) = "Full"
-messages$(329, 1) = "Полный"
+messages$(329, 0) = "Fringe w/Ponytail"
+messages$(329, 1) = "Окантовка с хвостиком"
 
-messages$(330, 0) = "Galloway"
-messages$(330, 1) = "Галлоуэй"
+messages$(330, 0) = "Full"
+messages$(330, 1) = "Полный"
 
-messages$(331, 0) = "Gang Membership"
-messages$(331, 1) = "Членство в банде"
+messages$(331, 0) = "Galloway"
+messages$(331, 1) = "Галлоуэй"
 
-messages$(332, 0) = "Gaunt"
-messages$(332, 1) = "Гант"
+messages$(332, 0) = "Gang Membership"
+messages$(332, 1) = "Членство в банде"
 
-messages$(333, 0) = "Gavin"
-messages$(333, 1) = "Гэвин"
+messages$(333, 0) = "Gaunt"
+messages$(333, 1) = "Гант"
 
-messages$(334, 0) = "Gaz"
-messages$(334, 1) = "Газ"
+messages$(334, 0) = "Gavin"
+messages$(334, 1) = "Гэвин"
 
-messages$(335, 0) = "George"
-messages$(335, 1) = "Джордж"
+messages$(335, 0) = "Gaz"
+messages$(335, 1) = "Газ"
 
-messages$(336, 0) = "Gez"
-messages$(336, 1) = "Гез"
+messages$(336, 0) = "George"
+messages$(336, 1) = "Джордж"
 
-messages$(337, 0) = "Ghetto Child"
-messages$(337, 1) = "Ребенок из гетто"
+messages$(337, 0) = "Gez"
+messages$(337, 1) = "Гез"
 
-messages$(338, 0) = "God's Son"
-messages$(338, 1) = "Сын Бога"
+messages$(338, 0) = "Ghetto Child"
+messages$(338, 1) = "Ребенок из гетто"
 
-messages$(339, 0) = "Gold Frames"
-messages$(339, 1) = "Золотые рамки"
+messages$(339, 0) = "God's Son"
+messages$(339, 1) = "Сын Бога"
 
-messages$(340, 0) = "Gordon"
-messages$(340, 1) = "Гордон"
+messages$(340, 0) = "Gold Frames"
+messages$(340, 1) = "Золотые рамки"
 
-messages$(341, 0) = "Grant"
-messages$(341, 1) = "Грант"
+messages$(341, 0) = "Gordon"
+messages$(341, 1) = "Гордон"
 
-messages$(342, 0) = "Grievous Bodily Harm"
-messages$(342, 1) = "Тяжелые телесные повреждения"
+messages$(342, 0) = "Grant"
+messages$(342, 1) = "Грант"
 
-messages$(343, 0) = "Grimm"
-messages$(343, 1) = "Гримм"
+messages$(343, 0) = "Grievous Bodily Harm"
+messages$(343, 1) = "Тяжелые телесные повреждения"
 
-messages$(344, 0) = "Handyman"
-messages$(344, 1) = "Разнорабочий"
+messages$(344, 0) = "Grimm"
+messages$(344, 1) = "Гримм"
 
-messages$(345, 0) = "Hardass"
-messages$(345, 1) = "Хардас"
+messages$(345, 0) = "Handyman"
+messages$(345, 1) = "Разнорабочий"
 
-messages$(346, 0) = "Hat Trick"
-messages$(346, 1) = "Хет-трик"
+messages$(346, 0) = "Hardass"
+messages$(346, 1) = "Хардас"
 
-messages$(347, 0) = "Hawksbee"
-messages$(347, 1) = "Хоксби"
+messages$(347, 0) = "Hat Trick"
+messages$(347, 1) = "Хет-трик"
 
-messages$(348, 0) = "Heavyweight"
-messages$(348, 1) = "Тяжеловес"
+messages$(348, 0) = "Hawksbee"
+messages$(348, 1) = "Хоксби"
 
-messages$(349, 0) = "Henry"
-messages$(349, 1) = "Генри"
+messages$(349, 0) = "Heavyweight"
+messages$(349, 1) = "Тяжеловес"
 
-messages$(350, 0) = "Hogan"
-messages$(350, 1) = "Хоган"
+messages$(350, 0) = "Henry"
+messages$(350, 1) = "Генри"
 
-messages$(351, 0) = "Hospital"
-messages$(351, 1) = "Больница"
+messages$(351, 0) = "Hogan"
+messages$(351, 1) = "Хоган"
 
-messages$(352, 0) = "Ian"
-messages$(352, 1) = "Иэн"
+messages$(352, 0) = "Hospital"
+messages$(352, 1) = "Больница"
 
-messages$(353, 0) = "Iceman"
-messages$(353, 1) = "Ледяной человек"
+messages$(353, 0) = "Ian"
+messages$(353, 1) = "Иэн"
 
-messages$(354, 0) = "Iron Mic"
-messages$(354, 1) = "Железный микрофон"
+messages$(354, 0) = "Iceman"
+messages$(354, 1) = "Ледяной человек"
 
-messages$(355, 0) = "Jackson"
-messages$(355, 1) = "Джексон"
+messages$(355, 0) = "Iron Mic"
+messages$(355, 1) = "Железный микрофон"
 
-messages$(356, 0) = "January"
-messages$(356, 1) = "Январь"
+messages$(356, 0) = "Jackson"
+messages$(356, 1) = "Джексон"
 
-messages$(357, 0) = "Jerry"
-messages$(357, 1) = "Джерри"
+messages$(357, 0) = "January"
+messages$(357, 1) = "Январь"
 
-messages$(358, 0) = "Joe"
-messages$(358, 1) = "Джо"
+messages$(358, 0) = "Jerry"
+messages$(358, 1) = "Джерри"
 
-messages$(359, 0) = "John"
-messages$(359, 1) = "Джон"
+messages$(359, 0) = "Joe"
+messages$(359, 1) = "Джо"
 
-messages$(360, 0) = "Jones"
-messages$(360, 1) = "Джонс"
+messages$(360, 0) = "John"
+messages$(360, 1) = "Джон"
 
-messages$(361, 0) = "July"
-messages$(361, 1) = "июль"
+messages$(361, 0) = "Jones"
+messages$(361, 1) = "Джонс"
 
-messages$(362, 0) = "June"
-messages$(362, 1) = "Июнь"
+messages$(362, 0) = "July"
+messages$(362, 1) = "июль"
 
-messages$(363, 0) = "Kampas Krisma"
-messages$(363, 1) = "Кампас Крисма"
+messages$(363, 0) = "June"
+messages$(363, 1) = "Июнь"
 
-messages$(364, 0) = "Kanye"
-messages$(364, 1) = "Канье"
+messages$(364, 0) = "Kampas Krisma"
+messages$(364, 1) = "Кампас Крисма"
 
-messages$(365, 0) = "Keaton"
-messages$(365, 1) = "Китон"
+messages$(365, 0) = "Kanye"
+messages$(365, 1) = "Канье"
 
-messages$(366, 0) = "Keith"
-messages$(366, 1) = "Кейт"
+messages$(366, 0) = "Keaton"
+messages$(366, 1) = "Китон"
 
-messages$(367, 0) = "Kevin"
-messages$(367, 1) = "Кевин"
+messages$(367, 0) = "Keith"
+messages$(367, 1) = "Кейт"
 
-messages$(368, 0) = "Kid Gloves"
-messages$(368, 1) = "Детские перчатки"
+messages$(368, 0) = "Kevin"
+messages$(368, 1) = "Кевин"
 
-messages$(369, 0) = "Kiljoy"
-messages$(369, 1) = "Килджой"
+messages$(369, 0) = "Kid Gloves"
+messages$(369, 1) = "Детские перчатки"
 
-messages$(370, 0) = "King Carter"
-messages$(370, 1) = "Король Картер"
+messages$(370, 0) = "Kiljoy"
+messages$(370, 1) = "Килджой"
 
-messages$(371, 0) = "King Sin"
-messages$(371, 1) = "Король Грех"
+messages$(371, 0) = "King Carter"
+messages$(371, 1) = "Король Картер"
 
-messages$(372, 0) = "Lance"
-messages$(372, 1) = "Ланс"
+messages$(372, 0) = "King Sin"
+messages$(372, 1) = "Король Грех"
 
-messages$(373, 0) = "Larry"
-messages$(373, 1) = "Ларри"
+messages$(373, 0) = "Lance"
+messages$(373, 1) = "Ланс"
 
-messages$(374, 0) = "Lawler"
-messages$(374, 1) = "Лоулер"
+messages$(374, 0) = "Larry"
+messages$(374, 1) = "Ларри"
 
-messages$(375, 0) = "Lee"
-messages$(375, 1) = "Ли"
+messages$(375, 0) = "Lawler"
+messages$(375, 1) = "Лоулер"
 
-messages$(376, 0) = "Lemonhead"
-messages$(376, 1) = "Лимонная голова"
+messages$(376, 0) = "Lee"
+messages$(376, 1) = "Ли"
 
-messages$(377, 0) = "Leon"
-messages$(377, 1) = "Леон"
+messages$(377, 0) = "Lemonhead"
+messages$(377, 1) = "Лимонная голова"
 
-messages$(378, 0) = "Liam"
-messages$(378, 1) = "Лиам"
+messages$(378, 0) = "Leon"
+messages$(378, 1) = "Леон"
 
-messages$(379, 0) = "Lister"
-messages$(379, 1) = "Листер"
+messages$(379, 0) = "Liam"
+messages$(379, 1) = "Лиам"
 
-messages$(380, 0) = "Little Voice"
-messages$(380, 1) = "Маленький голос"
+messages$(380, 0) = "Lister"
+messages$(380, 1) = "Листер"
 
-messages$(381, 0) = "Loveday"
-messages$(381, 1) = "Ловдей"
+messages$(381, 0) = "Little Voice"
+messages$(381, 1) = "Маленький голос"
 
-messages$(382, 0) = "Luther"
-messages$(382, 1) = "Лютер"
+messages$(382, 0) = "Loveday"
+messages$(382, 1) = "Ловдей"
 
-messages$(383, 0) = "Lyracist"
-messages$(383, 1) = "Лирасист"
+messages$(383, 0) = "Luther"
+messages$(383, 1) = "Лютер"
 
-messages$(384, 0) = "Machoman"
-messages$(384, 1) = "Мачоман"
+messages$(384, 0) = "Lyracist"
+messages$(384, 1) = "Лирасист"
 
-messages$(385, 0) = "Mackey"
-messages$(385, 1) = "Маки"
+messages$(385, 0) = "Machoman"
+messages$(385, 1) = "Мачоман"
 
-messages$(386, 0) = "Madden"
-messages$(386, 1) = "Мэддэн"
+messages$(386, 0) = "Mackey"
+messages$(386, 1) = "Маки"
 
-messages$(387, 0) = "Madison"
-messages$(387, 1) = "Мэдисон"
+messages$(387, 0) = "Madden"
+messages$(387, 1) = "Мэддэн"
 
-messages$(388, 0) = "Main Hall"
-messages$(388, 1) = "Главный зал"
+messages$(388, 0) = "Madison"
+messages$(388, 1) = "Мэдисон"
 
-messages$(389, 0) = "Maitreya"
-messages$(389, 1) = "Майтрейя"
+messages$(389, 0) = "Main Hall"
+messages$(389, 1) = "Главный зал"
 
-messages$(390, 0) = "Major Merc"
-messages$(390, 1) = "Главный наемник"
+messages$(390, 0) = "Maitreya"
+messages$(390, 1) = "Майтрейя"
 
-messages$(391, 0) = "Manslaughter"
-messages$(391, 1) = "Непредумышленное убийство"
+messages$(391, 0) = "Major Merc"
+messages$(391, 1) = "Главный наемник"
 
-messages$(392, 0) = "Manson"
-messages$(392, 1) = "Мэнсон"
+messages$(392, 0) = "Manslaughter"
+messages$(392, 1) = "Непредумышленное убийство"
 
-messages$(393, 0) = "March"
-messages$(393, 1) = "Март"
+messages$(393, 0) = "Manson"
+messages$(393, 1) = "Мэнсон"
 
-messages$(394, 0) = "Mathers"
-messages$(394, 1) = "Мазерс"
+messages$(394, 0) = "March"
+messages$(394, 1) = "Март"
 
-messages$(395, 0) = "Matt"
-messages$(395, 1) = "Мэтт"
+messages$(395, 0) = "Mathers"
+messages$(395, 1) = "Мазерс"
 
-messages$(396, 0) = "Maverick"
-messages$(396, 1) = "Маверик"
+messages$(396, 0) = "Matt"
+messages$(396, 1) = "Мэтт"
 
-messages$(397, 0) = "Maximum"
-messages$(397, 1) = "Максимум"
+messages$(397, 0) = "Maverick"
+messages$(397, 1) = "Маверик"
 
-messages$(398, 0) = "May"
-messages$(398, 1) = "Май"
+messages$(398, 0) = "Maximum"
+messages$(398, 1) = "Максимум"
 
-messages$(399, 0) = "McCall"
-messages$(399, 1) = "МакКолл"
+messages$(399, 0) = "May"
+messages$(399, 1) = "Май"
 
-messages$(400, 0) = "McMahon"
-messages$(400, 1) = "МакМахон"
+messages$(400, 0) = "McCall"
+messages$(400, 1) = "МакКолл"
 
-messages$(401, 0) = "Medavoy"
-messages$(401, 1) = "Медавой"
+messages$(401, 0) = "McMahon"
+messages$(401, 1) = "МакМахон"
 
-messages$(402, 0) = "Menace"
-messages$(402, 1) = "Угроза"
+messages$(402, 0) = "Medavoy"
+messages$(402, 1) = "Медавой"
 
-messages$(403, 0) = "Mendoza"
-messages$(403, 1) = "Мендоза"
+messages$(403, 0) = "Menace"
+messages$(403, 1) = "Угроза"
 
-messages$(404, 0) = "Messiah"
-messages$(404, 1) = "Мессия"
+messages$(404, 0) = "Mendoza"
+messages$(404, 1) = "Мендоза"
 
-messages$(405, 0) = "Mick"
-messages$(405, 1) = "Мик"
+messages$(405, 0) = "Messiah"
+messages$(405, 1) = "Мессия"
 
-messages$(406, 0) = "Mike"
-messages$(406, 1) = "Майк"
+messages$(406, 0) = "Mick"
+messages$(406, 1) = "Мик"
 
-messages$(407, 0) = "Minimal"
-messages$(407, 1) = "Минимум"
+messages$(407, 0) = "Mike"
+messages$(407, 1) = "Майк"
 
-messages$(408, 0) = "Mitchell"
-messages$(408, 1) = "Митчелл"
+messages$(408, 0) = "Minimal"
+messages$(408, 1) = "Минимум"
 
-messages$(409, 0) = "Mohican"
-messages$(409, 1) = "Могиканин"
+messages$(409, 0) = "Mitchell"
+messages$(409, 1) = "Митчелл"
 
-messages$(410, 0) = "Mohican w/Ponytail"
-messages$(410, 1) = "Могикан с хвостиком"
+messages$(410, 0) = "Mohican"
+messages$(410, 1) = "Могиканин"
 
-messages$(411, 0) = "Mr"
-messages$(411, 1) = "Г-н"
+messages$(411, 0) = "Mohican w/Ponytail"
+messages$(411, 1) = "Могикан с хвостиком"
 
-messages$(412, 0) = "Mr Tickle"
-messages$(412, 1) = "Мистер Щекотать"
+messages$(412, 0) = "Mr"
+messages$(412, 1) = "Г-н"
 
-messages$(413, 0) = "Muhammad"
-messages$(413, 1) = "Мухаммад"
+messages$(413, 0) = "Mr Tickle"
+messages$(413, 1) = "Мистер Щекотать"
 
-messages$(414, 0) = "Murder"
-messages$(414, 1) = "Убийство"
+messages$(414, 0) = "Muhammad"
+messages$(414, 1) = "Мухаммад"
 
-messages$(415, 0) = "Muscular"
-messages$(415, 1) = "Мускулистый"
+messages$(415, 0) = "Murder"
+messages$(415, 1) = "Убийство"
 
-messages$(416, 0) = "Nasir"
-messages$(416, 1) = "Насир"
+messages$(416, 0) = "Muscular"
+messages$(416, 1) = "Мускулистый"
 
-messages$(417, 0) = "Nasty Nas"
-messages$(417, 1) = "Противный Нас"
+messages$(417, 0) = "Nasir"
+messages$(417, 1) = "Насир"
 
-messages$(418, 0) = "Nate"
-messages$(418, 1) = "Нейт"
+messages$(418, 0) = "Nasty Nas"
+messages$(418, 1) = "Противный Нас"
 
-messages$(419, 0) = "Needles"
-messages$(419, 1) = "Иглы"
+messages$(419, 0) = "Nate"
+messages$(419, 1) = "Нейт"
 
-messages$(420, 0) = "Neeson"
-messages$(420, 1) = "Нисон"
+messages$(420, 0) = "Needles"
+messages$(420, 1) = "Иглы"
 
-messages$(421, 0) = "Nick"
-messages$(421, 1) = "Ник"
+messages$(421, 0) = "Neeson"
+messages$(421, 1) = "Нисон"
 
-messages$(422, 0) = "Nixon"
-messages$(422, 1) = "Никсон"
+messages$(422, 0) = "Nick"
+messages$(422, 1) = "Ник"
 
-messages$(423, 0) = "Noel"
-messages$(423, 1) = "Ноэль"
+messages$(423, 0) = "Nixon"
+messages$(423, 1) = "Никсон"
 
-messages$(424, 0) = "None"
-messages$(424, 1) = "Нет"
+messages$(424, 0) = "Noel"
+messages$(424, 1) = "Ноэль"
 
-messages$(425, 0) = "Normal"
-messages$(425, 1) = "Обычный"
+messages$(425, 0) = "None"
+messages$(425, 1) = "Нет"
 
-messages$(426, 0) = "North"
-messages$(426, 1) = "Север"
+messages$(426, 0) = "Normal"
+messages$(426, 1) = "Обычный"
 
-messages$(427, 0) = "North Block"
-messages$(427, 1) = "Северный блок"
+messages$(427, 0) = "North"
+messages$(427, 1) = "Север"
 
-messages$(428, 0) = "November"
-messages$(428, 1) = "Ноябрь"
+messages$(428, 0) = "North Block"
+messages$(428, 1) = "Северный блок"
 
-messages$(429, 0) = "Obie"
-messages$(429, 1) = "Оби"
+messages$(429, 0) = "November"
+messages$(429, 1) = "Ноябрь"
 
-messages$(430, 0) = "October"
-messages$(430, 1) = "Октябрь"
+messages$(430, 0) = "Obie"
+messages$(430, 1) = "Оби"
 
-messages$(431, 0) = "Octogon"
-messages$(431, 1) = "Восьмиугольник"
+messages$(431, 0) = "October"
+messages$(431, 1) = "Октябрь"
 
-messages$(432, 0) = "Off"
-messages$(432, 1) = "Выкл."
+messages$(432, 0) = "Octogon"
+messages$(432, 1) = "Восьмиугольник"
 
-messages$(433, 0) = "On"
-messages$(433, 1) = "Вкл."
+messages$(433, 0) = "Off"
+messages$(433, 1) = "Выкл."
 
-messages$(434, 0) = "Original G"
-messages$(434, 1) = "Исходный G"
+messages$(434, 0) = "On"
+messages$(434, 1) = "Вкл."
 
-messages$(435, 0) = "Osborne"
-messages$(435, 1) = "Осборн"
+messages$(435, 0) = "Original G"
+messages$(435, 1) = "Исходный G"
 
-messages$(436, 0) = "Paul"
-messages$(436, 1) = "Пол"
+messages$(436, 0) = "Osborne"
+messages$(436, 1) = "Осборн"
 
-messages$(437, 0) = "Pearce"
-messages$(437, 1) = "Пирс"
+messages$(437, 0) = "Paul"
+messages$(437, 1) = "Пол"
 
-messages$(438, 0) = "Peter"
-messages$(438, 1) = "Питер"
+messages$(438, 0) = "Pearce"
+messages$(438, 1) = "Пирс"
 
-messages$(439, 0) = "Piston Pecker"
-messages$(439, 1) = "Поршневой клюв"
+messages$(439, 0) = "Peter"
+messages$(439, 1) = "Питер"
 
-messages$(440, 0) = "Prostitution"
-messages$(440, 1) = "Проституция"
+messages$(440, 0) = "Piston Pecker"
+messages$(440, 1) = "Поршневой клюв"
 
-messages$(441, 0) = "Quiff"
-messages$(441, 1) = "Челка"
+messages$(441, 0) = "Prostitution"
+messages$(441, 1) = "Проституция"
 
-messages$(442, 0) = "Quiff w/Length"
-messages$(442, 1) = "Челка и длинные"
+messages$(442, 0) = "Quiff"
+messages$(442, 1) = "Челка"
 
-messages$(443, 0) = "Quiff w/Ponytail"
-messages$(443, 1) = "Челка с хвостиком"
+messages$(443, 0) = "Quiff w/Length"
+messages$(443, 1) = "Челка и длинные"
 
-messages$(444, 0) = "Raised"
-messages$(444, 1) = "Приподнятый"
+messages$(444, 0) = "Quiff w/Ponytail"
+messages$(444, 1) = "Челка с хвостиком"
 
-messages$(445, 0) = "Raised w/Length"
-messages$(445, 1) = "Приподнятые с длинными"
+messages$(445, 0) = "Raised"
+messages$(445, 1) = "Приподнятый"
 
-messages$(446, 0) = "Raised w/Ponytail"
-messages$(446, 1) = "Приподнятый хвостик"
+messages$(446, 0) = "Raised w/Length"
+messages$(446, 1) = "Приподнятые с длинными"
 
-messages$(447, 0) = "Rajah"
-messages$(447, 1) = "Раджа"
+messages$(447, 0) = "Raised w/Ponytail"
+messages$(447, 1) = "Приподнятый хвостик"
 
-messages$(448, 0) = "Rape"
-messages$(448, 1) = "Изнасилование"
+messages$(448, 0) = "Rajah"
+messages$(448, 1) = "Раджа"
 
-messages$(449, 0) = "Ray"
-messages$(449, 1) = "Рей"
+messages$(449, 0) = "Rape"
+messages$(449, 1) = "Изнасилование"
 
-messages$(450, 0) = "Receding"
-messages$(450, 1) = "Срезанный"
+messages$(450, 0) = "Ray"
+messages$(450, 1) = "Рей"
 
-messages$(451, 0) = "Receding w/Length"
-messages$(451, 1) = "Срезанный с длинными"
+messages$(451, 0) = "Receding"
+messages$(451, 1) = "Срезанный"
 
-messages$(452, 0) = "Receding w/Ponytail"
-messages$(452, 1) = "Срезанный с хвостиком"
+messages$(452, 0) = "Receding w/Length"
+messages$(452, 1) = "Срезанный с длинными"
 
-messages$(453, 0) = "Rick"
-messages$(453, 1) = "Рик"
+messages$(453, 0) = "Receding w/Ponytail"
+messages$(453, 1) = "Срезанный с хвостиком"
 
-messages$(454, 0) = "Rimmer"
-messages$(454, 1) = "Риммер"
+messages$(454, 0) = "Rick"
+messages$(454, 1) = "Рик"
 
-messages$(455, 0) = "Riverside"
-messages$(455, 1) = "Риверсайд"
+messages$(455, 0) = "Rimmer"
+messages$(455, 1) = "Риммер"
 
-messages$(456, 0) = "Road Pig"
-messages$(456, 1) = "Дорожная свинья"
+messages$(456, 0) = "Riverside"
+messages$(456, 1) = "Риверсайд"
 
-messages$(457, 0) = "Rob"
-messages$(457, 1) = "Роб"
+messages$(457, 0) = "Road Pig"
+messages$(457, 1) = "Дорожная свинья"
 
-messages$(458, 0) = "Robin"
-messages$(458, 1) = "Робин"
+messages$(458, 0) = "Rob"
+messages$(458, 1) = "Роб"
 
-messages$(459, 0) = "Robson"
-messages$(459, 1) = "Робсон"
+messages$(459, 0) = "Robin"
+messages$(459, 1) = "Робин"
 
-messages$(460, 0) = "Rooney"
-messages$(460, 1) = "Руни"
+messages$(460, 0) = "Robson"
+messages$(460, 1) = "Робсон"
 
-messages$(461, 0) = "Roughcock"
-messages$(461, 1) = "Головорез"
+messages$(461, 0) = "Rooney"
+messages$(461, 1) = "Руни"
 
-messages$(462, 0) = "Rows w/Ponytail"
-messages$(462, 1) = "Дреды с хвостиком"
+messages$(462, 0) = "Roughcock"
+messages$(462, 1) = "Головорез"
 
-messages$(463, 0) = "Safe Hands"
-messages$(463, 1) = "В надежных руках"
+messages$(463, 0) = "Rows w/Ponytail"
+messages$(463, 1) = "Дреды с хвостиком"
 
-messages$(464, 0) = "Samson"
-messages$(464, 1) = "Самсон"
+messages$(464, 0) = "Safe Hands"
+messages$(464, 1) = "В надежных руках"
 
-messages$(465, 0) = "Sanders"
-messages$(465, 1) = "Сандерс"
+messages$(465, 0) = "Samson"
+messages$(465, 1) = "Самсон"
 
-messages$(466, 0) = "Scally"
-messages$(466, 1) = "Скалли"
+messages$(466, 0) = "Sanders"
+messages$(466, 1) = "Сандерс"
 
-messages$(467, 0) = "Scars & Pools"
-messages$(467, 1) = "Шрамы и кровь"
+messages$(467, 0) = "Scally"
+messages$(467, 1) = "Скалли"
 
-messages$(468, 0) = "Scars Only"
-messages$(468, 1) = "Только шрамы"
+messages$(468, 0) = "Scars & Pools"
+messages$(468, 1) = "Шрамы и кровь"
 
-messages$(469, 0) = "Scars, Pools, & Limb Loss"
-messages$(469, 1) = "Шрамы, кровь и потеря конечностей"
+messages$(469, 0) = "Scars Only"
+messages$(469, 1) = "Только шрамы"
 
-messages$(470, 0) = "Schwarz"
-messages$(470, 1) = "Черный"
+messages$(470, 0) = "Scars, Pools, & Limb Loss"
+messages$(470, 1) = "Шрамы, кровь и потеря конечностей"
 
-messages$(471, 0) = "Scotbird"
-messages$(471, 1) = "Scotbird"
+messages$(471, 0) = "Schwarz"
+messages$(471, 1) = "Черный"
 
-messages$(472, 0) = "Scott"
-messages$(472, 1) = "Скотт"
+messages$(472, 0) = "Scotbird"
+messages$(472, 1) = "Scotbird"
 
-messages$(473, 0) = "Sean"
-messages$(473, 1) = "Син"
+messages$(473, 0) = "Scott"
+messages$(473, 1) = "Скотт"
 
-messages$(474, 0) = "September"
-messages$(474, 1) = "Сентябрь"
+messages$(474, 0) = "Sean"
+messages$(474, 1) = "Син"
 
-messages$(475, 0) = "Serial Murder"
-messages$(475, 1) = "Серийное убийство"
+messages$(475, 0) = "September"
+messages$(475, 1) = "Сентябрь"
 
-messages$(476, 0) = "Sgt"
-messages$(476, 1) = "Серж"
+messages$(476, 0) = "Serial Murder"
+messages$(476, 1) = "Серийное убийство"
 
-messages$(477, 0) = "Shaved"
-messages$(477, 1) = "Бритый"
+messages$(477, 0) = "Sgt"
+messages$(477, 1) = "Серж"
 
-messages$(478, 0) = "Shawn"
-messages$(478, 1) = "Шон"
+messages$(478, 0) = "Shaved"
+messages$(478, 1) = "Бритый"
 
-messages$(479, 0) = "Short"
-messages$(479, 1) = "Короткий"
+messages$(479, 0) = "Shawn"
+messages$(479, 1) = "Шон"
 
-messages$(480, 0) = "Short w/Length"
-messages$(480, 1) = "Короткие с длинными"
+messages$(480, 0) = "Short"
+messages$(480, 1) = "Короткий"
 
-messages$(481, 0) = "Short w/Ponytail"
-messages$(481, 1) = "Короткая с хвостиком"
+messages$(481, 0) = "Short w/Length"
+messages$(481, 1) = "Короткие с длинными"
 
-messages$(482, 0) = "Silver Frames"
-messages$(482, 1) = "Серебряные рамки"
+messages$(482, 0) = "Short w/Ponytail"
+messages$(482, 1) = "Короткая с хвостиком"
 
-messages$(483, 0) = "Simmons"
-messages$(483, 1) = "Симмонс"
+messages$(483, 0) = "Silver Frames"
+messages$(483, 1) = "Серебряные рамки"
 
-messages$(484, 0) = "Simpson"
-messages$(484, 1) = "Симпсон"
+messages$(484, 0) = "Simmons"
+messages$(484, 1) = "Симмонс"
 
-messages$(485, 0) = "Sipowicz"
-messages$(485, 1) = "Сипович"
+messages$(485, 0) = "Simpson"
+messages$(485, 1) = "Симпсон"
 
-messages$(486, 0) = "Slick Rick"
-messages$(486, 1) = "Ловкий Рик"
+messages$(486, 0) = "Sipowicz"
+messages$(486, 1) = "Сипович"
 
-messages$(487, 0) = "Slim"
-messages$(487, 1) = "Тонкий"
+messages$(487, 0) = "Slick Rick"
+messages$(487, 1) = "Ловкий Рик"
 
-messages$(488, 0) = "Small Afro"
-messages$(488, 1) = "Маленький афро"
+messages$(488, 0) = "Slim"
+messages$(488, 1) = "Тонкий"
 
-messages$(489, 0) = "Smith"
-messages$(489, 1) = "Смит"
+messages$(489, 0) = "Small Afro"
+messages$(489, 1) = "Маленький афро"
 
-messages$(490, 0) = "South"
-messages$(490, 1) = "Юг"
+messages$(490, 0) = "Smith"
+messages$(490, 1) = "Смит"
 
-messages$(491, 0) = "South Block"
-messages$(491, 1) = "Южный блок"
+messages$(491, 0) = "South"
+messages$(491, 1) = "Юг"
 
-messages$(492, 0) = "Spacker"
-messages$(492, 1) = "Упаковщик"
+messages$(492, 0) = "South Block"
+messages$(492, 1) = "Южный блок"
 
-messages$(493, 0) = "Spikey"
-messages$(493, 1) = "Шипы"
+messages$(493, 0) = "Spacker"
+messages$(493, 1) = "Упаковщик"
 
-messages$(494, 0) = "Stealing"
-messages$(494, 1) = "Кража"
+messages$(494, 0) = "Spikey"
+messages$(494, 1) = "Шипы"
 
-messages$(495, 0) = "Steiner"
-messages$(495, 1) = "Штайнер"
+messages$(495, 0) = "Stealing"
+messages$(495, 1) = "Кража"
 
-messages$(496, 0) = "Steroid Roy"
-messages$(496, 1) = "Стероид Рой"
+messages$(496, 0) = "Steiner"
+messages$(496, 1) = "Штайнер"
 
-messages$(497, 0) = "Steve"
-messages$(497, 1) = "Стив"
+messages$(497, 0) = "Steroid Roy"
+messages$(497, 1) = "Стероид Рой"
 
-messages$(498, 0) = "Stone Malone"
-messages$(498, 1) = "Стоун Мэлоун"
+messages$(498, 0) = "Steve"
+messages$(498, 1) = "Стив"
 
-messages$(499, 0) = "Stuart"
-messages$(499, 1) = "Стюарт"
+messages$(499, 0) = "Stone Malone"
+messages$(499, 1) = "Стоун Мэлоун"
 
-messages$(500, 0) = "Study"
-messages$(500, 1) = "Библиотека"
+messages$(500, 0) = "Stuart"
+messages$(500, 1) = "Стюарт"
 
-messages$(501, 0) = "Sugar Tits"
-messages$(501, 1) = "Сахарные сиськи"
+messages$(501, 0) = "Study"
+messages$(501, 1) = "Библиотека"
 
-messages$(502, 0) = "Sunglasses"
-messages$(502, 1) = "Солнцезащитные очки"
+messages$(502, 0) = "Sugar Tits"
+messages$(502, 1) = "Сахарные сиськи"
 
-messages$(503, 0) = "Sunshine"
-messages$(503, 1) = "Солнечный свет"
+messages$(503, 0) = "Sunglasses"
+messages$(503, 1) = "Солнцезащитные очки"
 
-messages$(504, 0) = "Super Lucha"
-messages$(504, 1) = "Супер Луча"
+messages$(504, 0) = "Sunshine"
+messages$(504, 1) = "Солнечный свет"
 
-messages$(505, 0) = "Sure Shank"
-messages$(505, 1) = "Конечно, Шэнк"
+messages$(505, 0) = "Super Lucha"
+messages$(505, 1) = "Супер Луча"
 
-messages$(506, 0) = "Sure Shot"
-messages$(506, 1) = "Точный выстрел"
+messages$(506, 0) = "Sure Shank"
+messages$(506, 1) = "Конечно, Шэнк"
 
-messages$(507, 0) = "Syntax Error"
-messages$(507, 1) = "Синтаксическая ошибка"
+messages$(507, 0) = "Sure Shot"
+messages$(507, 1) = "Точный выстрел"
 
-messages$(508, 0) = "Taylor"
-messages$(508, 1) = "Тейлор"
+messages$(508, 0) = "Syntax Error"
+messages$(508, 1) = "Синтаксическая ошибка"
 
-messages$(509, 0) = "Ted"
-messages$(509, 1) = "Тед"
+messages$(509, 0) = "Taylor"
+messages$(509, 1) = "Тейлор"
 
-messages$(510, 0) = "Terminator"
-messages$(510, 1) = "Терминатор"
+messages$(510, 0) = "Ted"
+messages$(510, 1) = "Тед"
 
-messages$(511, 0) = "Terrorism"
-messages$(511, 1) = "Терроризм"
+messages$(511, 0) = "Terminator"
+messages$(511, 1) = "Терминатор"
 
-messages$(512, 0) = "The Avatars Of Allah"
-messages$(512, 1) = "Аватары Аллаха"
+messages$(512, 0) = "Terrorism"
+messages$(512, 1) = "Терроризм"
 
-messages$(513, 0) = "The Dark Side"
-messages$(513, 1) = "Темная сторона"
+messages$(513, 0) = "The Avatars Of Allah"
+messages$(513, 1) = "Аватары Аллаха"
 
-messages$(514, 0) = "The Gladiators"
-messages$(514, 1) = "Гладиаторы"
+messages$(514, 0) = "The Dark Side"
+messages$(514, 1) = "Темная сторона"
 
-messages$(515, 0) = "The Peaks"
-messages$(515, 1) = "Пики"
+messages$(515, 0) = "The Gladiators"
+messages$(515, 1) = "Гладиаторы"
 
-messages$(516, 0) = "The Powers That Be"
-messages$(516, 1) = "Сильные мира сего"
+messages$(516, 0) = "The Peaks"
+messages$(516, 1) = "Пики"
 
-messages$(517, 0) = "The Suns Of God"
-messages$(517, 1) = "Солнца Бога"
+messages$(517, 0) = "The Powers That Be"
+messages$(517, 1) = "Сильные мира сего"
 
-messages$(518, 0) = "Theft"
-messages$(518, 1) = "Кража"
+messages$(518, 0) = "The Suns Of God"
+messages$(518, 1) = "Солнца Бога"
 
-messages$(519, 0) = "Theo"
-messages$(519, 1) = "Тео"
+messages$(519, 0) = "Theft"
+messages$(519, 1) = "Кража"
 
-messages$(520, 0) = "Thick"
-messages$(520, 1) = "Густой"
+messages$(520, 0) = "Theo"
+messages$(520, 1) = "Тео"
 
-messages$(521, 0) = "Thick w/Length"
-messages$(521, 1) = "Густые и длинные"
+messages$(521, 0) = "Thick"
+messages$(521, 1) = "Густой"
 
-messages$(522, 0) = "Thick w/Ponytail"
-messages$(522, 1) = "Густой с хвостиком"
+messages$(522, 0) = "Thick w/Length"
+messages$(522, 1) = "Густые и длинные"
 
-messages$(523, 0) = "Third Eye"
-messages$(523, 1) = "Третий глаз"
+messages$(523, 0) = "Thick w/Ponytail"
+messages$(523, 1) = "Густой с хвостиком"
 
-messages$(524, 0) = "Thug Angel"
-messages$(524, 1) = "Ангел-бандит"
+messages$(524, 0) = "Third Eye"
+messages$(524, 1) = "Третий глаз"
 
-messages$(525, 0) = "Thunder Lips"
-messages$(525, 1) = "Громовые губы"
+messages$(525, 0) = "Thug Angel"
+messages$(525, 1) = "Ангел-бандит"
 
-messages$(526, 0) = "Tight Long Sleeve"
-messages$(526, 1) = "Узкий длинный рукав"
+messages$(526, 0) = "Thunder Lips"
+messages$(526, 1) = "Громовые губы"
 
-messages$(527, 0) = "Tight Short Sleeve"
-messages$(527, 1) = "Узкий короткий рукав"
+messages$(527, 0) = "Tight Long Sleeve"
+messages$(527, 1) = "Узкий длинный рукав"
 
-messages$(528, 0) = "Tight T-Shirt"
-messages$(528, 1) = "Обтягивающая футболка"
+messages$(528, 0) = "Tight Short Sleeve"
+messages$(528, 1) = "Узкий короткий рукав"
 
-messages$(529, 0) = "Tight Vest"
-messages$(529, 1) = "Узкий жилет"
+messages$(529, 0) = "Tight T-Shirt"
+messages$(529, 1) = "Обтягивающая футболка"
 
-messages$(530, 0) = "Tim"
-messages$(530, 1) = "Тим"
+messages$(530, 0) = "Tight Vest"
+messages$(530, 1) = "Узкий жилет"
 
-messages$(531, 0) = "Tin Ear"
-messages$(531, 1) = "Жестяное ухо"
+messages$(531, 0) = "Tim"
+messages$(531, 1) = "Тим"
 
-messages$(532, 0) = "Toadfish"
-messages$(532, 1) = "Рыба-жаба"
+messages$(532, 0) = "Tin Ear"
+messages$(532, 1) = "Жестяное ухо"
 
-messages$(533, 0) = "Tom"
-messages$(533, 1) = "Том"
+messages$(533, 0) = "Toadfish"
+messages$(533, 1) = "Рыба-жаба"
 
-messages$(534, 0) = "Tony"
-messages$(534, 1) = "Тони"
+messages$(534, 0) = "Tom"
+messages$(534, 1) = "Том"
 
-messages$(535, 0) = "Trent"
-messages$(535, 1) = "Трент"
+messages$(535, 0) = "Tony"
+messages$(535, 1) = "Тони"
 
-messages$(536, 0) = "Trying To Escape"
-messages$(536, 1) = "Попытка сбежать"
+messages$(536, 0) = "Trent"
+messages$(536, 1) = "Трент"
 
-messages$(537, 0) = "Vandalism"
-messages$(537, 1) = "Вандализм"
+messages$(537, 0) = "Trying To Escape"
+messages$(537, 1) = "Попытка сбежать"
 
-messages$(538, 0) = "Vessey"
-messages$(538, 1) = "Весси"
+messages$(538, 0) = "Vandalism"
+messages$(538, 1) = "Вандализм"
 
-messages$(539, 0) = "Vic"
-messages$(539, 1) = "Вик"
+messages$(539, 0) = "Vessey"
+messages$(539, 1) = "Весси"
 
-messages$(540, 0) = "Vince"
-messages$(540, 1) = "Винс"
+messages$(540, 0) = "Vic"
+messages$(540, 1) = "Вик"
 
-messages$(541, 0) = "Voodoo Child"
-messages$(541, 1) = "Дитя вуду"
+messages$(541, 0) = "Vince"
+messages$(541, 1) = "Винс"
 
-messages$(542, 0) = "Walker"
-messages$(542, 1) = "Уокер"
+messages$(542, 0) = "Voodoo Child"
+messages$(542, 1) = "Дитя вуду"
 
-messages$(543, 0) = "Walsch"
-messages$(543, 1) = "Уолш"
+messages$(543, 0) = "Walker"
+messages$(543, 1) = "Уокер"
 
-messages$(544, 0) = "Warrior"
-messages$(544, 1) = "Воин"
+messages$(544, 0) = "Walsch"
+messages$(544, 1) = "Уолш"
 
-messages$(545, 0) = "West"
-messages$(545, 1) = "Запад"
+messages$(545, 0) = "Warrior"
+messages$(545, 1) = "Воин"
 
-messages$(546, 0) = "West Block"
-messages$(546, 1) = "Западный блок"
+messages$(546, 0) = "West"
+messages$(546, 1) = "Запад"
 
-messages$(547, 0) = "Wide Boy"
-messages$(547, 1) = "Широкий мальчик"
+messages$(547, 0) = "West Block"
+messages$(547, 1) = "Западный блок"
 
-messages$(548, 0) = "Wise Len"
-messages$(548, 1) = "Мудрый Лен"
+messages$(548, 0) = "Wide Boy"
+messages$(548, 1) = "Широкий мальчик"
 
-messages$(549, 0) = "Workshop"
-messages$(549, 1) = "Мастерская"
+messages$(549, 0) = "Wise Len"
+messages$(549, 1) = "Мудрый Лен"
 
-messages$(550, 0) = "Wussy Lee"
-messages$(550, 1) = "Вусси Ли"
+messages$(550, 0) = "Workshop"
+messages$(550, 1) = "Мастерская"
 
-messages$(551, 0) = "X-Factor"
-messages$(551, 1) = "X-фактор"
+messages$(551, 0) = "Wussy Lee"
+messages$(551, 1) = "Вусси Ли"
 
-messages$(552, 0) = "Young Boy"
-messages$(552, 1) = "Мальчик"
+messages$(552, 0) = "X-Factor"
+messages$(552, 1) = "X-фактор"
 
-messages$(553, 0) = "Zansibar"
-messages$(553, 1) = "Зансибар"
+messages$(553, 0) = "Young Boy"
+messages$(553, 1) = "Мальчик"
 
-messages$(554, 0) = "a Dark Force"
-messages$(554, 1) = "темная сила"
+messages$(554, 0) = "Zansibar"
+messages$(554, 1) = "Зансибар"
 
-messages$(555, 0) = "a Gladiator"
-messages$(555, 1) = "Гладиатор"
+messages$(555, 0) = "a Dark Force"
+messages$(555, 1) = "темная сила"
 
-messages$(556, 0) = "a Peak"
-messages$(556, 1) = "Вершина"
+messages$(556, 0) = "a Gladiator"
+messages$(556, 1) = "Гладиатор"
 
-messages$(557, 0) = "a Power"
-messages$(557, 1) = "Сила"
+messages$(557, 0) = "a Peak"
+messages$(557, 1) = "Вершина"
 
-messages$(558, 0) = "a Sun Of God"
-messages$(558, 1) = "Солнце Бога"
+messages$(558, 0) = "a Power"
+messages$(558, 1) = "Сила"
 
-messages$(559, 0) = "an Avatar Of Allah"
-messages$(559, 1) = "Аватар Аллаха"
+messages$(559, 0) = "a Sun Of God"
+messages$(559, 1) = "Солнце Бога"
 
-messages$(560, 0) = "black"
-messages$(560, 1) = "черный"
+messages$(560, 0) = "an Avatar Of Allah"
+messages$(560, 1) = "Аватар Аллаха"
 
-messages$(561, 0) = "white"
-messages$(561, 1) = "белый"
+messages$(561, 0) = "black"
+messages$(561, 1) = "черный"
+
+messages$(562, 0) = "white"
+messages$(562, 1) = "белый"
