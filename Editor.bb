@@ -252,7 +252,7 @@ While go=0
    If foc=4 Then showY=y+170
    If foc=5 Then showY=y+230
    If foc=6 Then showY=y+285
-   If gamPoints>0 Then Outline("("+gamPoints+" " + translate("Points Remaining") + ")",rX#(x),rY#(showY)+18,0,0,0,255,200,150)
+   If gamPoints>0 Then Outline(translate("(Points Remaining #FIRST#)", gamPoints),rX#(x),rY#(showY)+18,0,0,0,255,200,150)
    If gamPoints=0 Then Outline(translate("(No Points Remaining!)"),rX#(x),rY#(showY)+18,0,0,0,200,100,100)
   EndIf
  EndIf
@@ -412,23 +412,23 @@ End Function
 
 ;DESCRIBE LIMB
 Function DescribeLimb$(char)
- injury$="a limb"
+ injury$=translate("a limb")
  ;ears
- If charScar(char,37)=>5 Or charScar(char,38)=>5 Then injury$="an ear"
+ If charScar(char,37)=>5 Or charScar(char,38)=>5 Then injury$=translate("an ear")
  ;fingers
  For count=1 To 8
-  If charScar(char,8+count)=>5 Or charScar(char,21+count)=>5 Then injury$="a finger"
+  If charScar(char,8+count)=>5 Or charScar(char,21+count)=>5 Then injury$=translate("a finger")
  Next
  ;thumbs
- If charScar(char,7)=>5 Or charScar(char,8)=>5 Or charScar(char,20)=>5 Or charScar(char,21)=>5 Then injury$="a thumb"
+ If charScar(char,7)=>5 Or charScar(char,8)=>5 Or charScar(char,20)=>5 Or charScar(char,21)=>5 Then injury$=translate("a thumb")
  ;hands
- If charScar(char,6)=>5 Or charScar(char,19)=>5 Then injury$="a hand"
+ If charScar(char,6)=>5 Or charScar(char,19)=>5 Then injury$=translate("a hand")
  ;feet
- If charScar(char,33)=>5 Or charScar(char,36)=>5 Then injury$="a foot"
+ If charScar(char,33)=>5 Or charScar(char,36)=>5 Then injury$=translate("a foot")
  ;arms
- If charScar(char,4)=>5 Or charScar(char,5)=>5 Or charScar(char,17)=>5 Or charScar(char,18)=>5 Then injury$="an arm"
+ If charScar(char,4)=>5 Or charScar(char,5)=>5 Or charScar(char,17)=>5 Or charScar(char,18)=>5 Then injury$=translate("an arm")
  ;legs
- If charScar(char,31)=>5 Or charScar(char,32)=>5 Or charScar(char,34)=>5 Or charScar(char,35)=>5 Then injury$="a leg"
+ If charScar(char,31)=>5 Or charScar(char,32)=>5 Or charScar(char,34)=>5 Or charScar(char,35)=>5 Then injury$=translate("a leg")
  Return injury
 End Function
 
