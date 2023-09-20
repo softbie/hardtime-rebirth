@@ -192,7 +192,7 @@ While go=0
  If promoStage=0 And promoTim>25 And promoTim<325
   Speak(5,2) : pFoc(5)=2
   Outline(translate("We're gathered to hear the case against Prisoner"),rX#(400),rY#(520),30,30,30,250,250,250)
-  Outline(CellName$(pChar(1))+". "+translate("So, #FIRST#, what's the story?", charName$(pChar(2))),rX#(400),rY#(560),30,30,30,250,250,250)
+  Outline(translate("#FIRST#. So, #SECOND#, what's the story?", CellName$(pChar(1)), charName$(pChar(2))),rX#(400),rY#(560),30,30,30,250,250,250)
   If promoTim>125 And promoReact(1)=0 Then PlaySound sMurmur : promoReact(1)=1
  EndIf
  ;0. INTRO
@@ -286,7 +286,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(CellName$(pChar(1))+translate(" is a known member of '")+textGang$(charGang(gamChar(slot)))+"';",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# is a known member of '#SECOND#'", CellName$(pChar(1)), textGang$(charGang(gamChar(slot)))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("a gang which conspires against the prison system!"),rX#(400),rY#(560),30,30,30,250,250,250)
    If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -394,11 +394,11 @@ While go=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
     If weapHabitat(weapType(gamItem(slot)))=0
-     Outline(CellName$(pChar(1))+translate(" was seen wielding a ")+Lower$(weapName$(weapType(gamItem(slot))))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+     Outline(translate("#FIRST# was seen wielding a #SECOND#!", CellName$(pChar(1)), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
      Outline(translate("A prisoner has no right to such weapons..."),rX#(400),rY#(560),30,30,30,250,250,250)
     EndIf
     If weapHabitat(weapType(gamItem(slot)))>0
-     Outline(CellName$(pChar(1))+translate(" was caught carrying a ")+Lower$(weapName$(weapType(gamItem(slot)))),rX#(400),rY#(520),30,30,30,250,250,250)
+     Outline(translate("#FIRST# was caught carrying a #SECOND#", CellName$(pChar(1)), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
      Outline(translate("God knows what he had planned..."),rX#(400),rY#(560),30,30,30,250,250,250)
     EndIf
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
@@ -415,7 +415,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(charName$(pChar(2))+translate(", there's no evidence to suggest"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, there's no evidence to suggest", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("that this #FIRST# was used for any crime!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -430,7 +430,7 @@ While go=0
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
     Outline(translate("A prisoner has no business carrying a"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(Lower$(weapName$(weapType(gamItem(slot))))+translate("! It just looks suspicious..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("#FIRST#! It just looks suspicious...", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
     Speak(5,1) : pFoc(5)=1
@@ -442,7 +442,7 @@ While go=0
      promoEffect=1
     EndIf 
     Outline(translate("I'd like to nip this in the bud by adding"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(sentence$+translate(" to your sentence. Take it as a warning!"),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("#FIRST# to your sentence. Take it as a warning!", sentence$),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -492,13 +492,13 @@ While go=0
      PlaySound sPaper : statTim(6)=-100 
      randy=Rnd(1,5)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("a day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("a day") Else sentence$=translate("#FIRST# days", randy)
      PlaySound sCash : statTim(7)=-100
      gamMoney(slot)=gamMoney(slot)-promoCash
      If charCrime(gamChar(slot))<3 Then charCrime(gamChar(slot))=3
      promoEffect=1
     EndIf 
-    Outline(translate("I'm fining you $")+GetFigure$(promoCash)+translate(", and adding ")+sentence$+translate(" to"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I'm fining you $#FIRST#, and adding #SECOND# to", GetFigure$(promoCash), sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("make up for the ones you've spent in a stupor!"),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
@@ -510,13 +510,13 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(CellName$(pChar(1))+translate(" was caught trading ")+Lower$(weapName$(weapType(gamItem(slot))))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# was caught trading #SECOND#!", CellName$(pChar(1)), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("He's turning prison life into a business..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I wasn't 'trading' that ")+Lower$(weapName$(weapType(gamItem(slot))))+translate("! It was a"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I wasn't 'trading' that #FIRST#! It was a", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("simple exchange of resources between friends..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -526,7 +526,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You've got quite an imagination, ")+charName$(pChar(2))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You've got quite an imagination, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("This man isn't trying to run a business empire..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -555,7 +555,7 @@ While go=0
      If charCrime(gamChar(slot))<4 Then charCrime(gamChar(slot))=4
      promoEffect=1
     EndIf 
-    Outline(translate("I sentence you to an extra ")+sentence$+translate(" to think about that,"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I sentence you to an extra #FIRST# to think about that,", sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("and i must also seize the fortune that you've amassed..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
