@@ -1,4 +1,4 @@
-Global messagesCount = 1426
+Global messagesCount = 1427
 Dim messages$(messagesCount, 2)
 
 Include "translate_plugin/lang/Others.bb"

@@ -322,7 +322,7 @@ End Function
 
 ;LOAD PHOTOS
 Function LoadPhotos()
- Loader(translate("Please Wait"),"Loading Photos")
+ Loader(translate("Please Wait"),translate("Loading Photos"))
  For char=1 To no_chars
   charPhoto(char)=0
   If charSnapped(char)>0
@@ -335,7 +335,7 @@ End Function
 
 ;SAVE PHOTOS
 Function SavePhotos()
- If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),"Saving Photos")
+ If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Saving Photos"))
  For char=1 To no_chars
   If charPhoto(char)>0
    SaveImage(charPhoto(char),"Data/Slot0"+slot+"/Photos/Photo"+Dig$(char,100)+".bmp")
