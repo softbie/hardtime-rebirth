@@ -8,7 +8,7 @@
 Function LoadPlayers()
  For cyc=1 To no_plays
   ;generate model
-  Loader(translate("Please Wait"), translate("Loading Character #NUMBER# of ", "#NUMBER#", cyc) + no_plays)
+  Loader(translate("Please Wait"), translate("Loading Character #FIRST# of #SECOND#", cyc, no_plays))
   p(cyc)=LoadAnimMesh("Characters/Models/Model"+Dig$(charModel(pChar(cyc)),10)+".3ds")
   LoadSequences(cyc)
   ;appearance

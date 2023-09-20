@@ -192,7 +192,7 @@ While go=0
  If promoStage=0 And promoTim>25 And promoTim<325
   Speak(5,2) : pFoc(5)=2
   Outline(translate("We're gathered to hear the case against Prisoner"),rX#(400),rY#(520),30,30,30,250,250,250)
-  Outline(CellName$(pChar(1))+". "+translate("So, #NAME#, what's the story?", "#NAME#", charName$(pChar(2))),rX#(400),rY#(560),30,30,30,250,250,250)
+  Outline(CellName$(pChar(1))+". "+translate("So, #FIRST#, what's the story?", charName$(pChar(2))),rX#(400),rY#(560),30,30,30,250,250,250)
   If promoTim>125 And promoReact(1)=0 Then PlaySound sMurmur : promoReact(1)=1
  EndIf
  ;0. INTRO
@@ -201,8 +201,8 @@ While go=0
    If promoTim>25 And promoTim<325
     Speak(5,3) : pFoc(5)=1
     pEyes(1)=1 : pEyes(2)=3 : pEyes(3)=1 : pEyes(4)=3 
-    Outline(translate("#NAME#, this court has seen you accused", "#NAME", charName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("#CRIME# and heard your defence...", "#CRIME#", Lower$(textCrime$(charCrime(gamChar(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, this court has seen you accused", charName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# and heard your defence...", Lower$(textCrime$(charCrime(gamChar(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>350 And promoTim<650
     Speak(5,2) : pFoc(5)=0
@@ -213,7 +213,7 @@ While go=0
     Speak(5,1) : pFoc(5)=1
     If promoEffect=0 Then PlaySound sJury(Rnd(1,2)) : PlaySound sPaper : statTim(6)=-100 : promoEffect=1 
     Outline(translate("I find you GUILTY and sentence you to"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("#COUNT# days in Southtown Correctional Facility!", "#COUNT#", charSentence(gamChar(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("#FIRST# days in Southtown Correctional Facility!", charSentence(gamChar(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>1025 And promoTim<1325
     Speak(5,1) : pFoc(5)=1
@@ -234,7 +234,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(translate("#NAME# seems to have a problem with authority!", "#NAME#", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# seems to have a problem with authority!", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("He disrupts the system by ignoring my orders..."),rX#(400),rY#(560),30,30,30,250,250,250)
    If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -250,7 +250,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("#NAME#, i'm not here to do your job!", "#NAME#", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, i'm not here to do your job!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("You should be able to handle your own prisoners..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -302,7 +302,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You've got quite an imagination, #NAME#!", "#NAME#", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You've got quite an imagination, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("This supposed 'gang' shouldn't affect your job..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -339,7 +339,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(translate("#NAME# was caught out of his cell during", "#NAME#", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# was caught out of his cell during", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("lockdown! He was obviously trying to escape..."),rX#(400),rY#(560),30,30,30,250,250,250)
    If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -355,7 +355,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You've got quite an imagination, #NAME#!", "#NAME#", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You've got quite an imagination, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("An inmate can't just 'stroll' out of the prison..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -405,7 +405,7 @@ While go=0
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I found that #NAME#, and was on my way to", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I found that #FIRST#, and was on my way to", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("report it to the wardens when they grabbed me!"),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -416,7 +416,7 @@ While go=0
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
     Outline(charName$(pChar(2))+translate(", there's no evidence to suggest"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("that this #NAME# was used for any crime!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("that this #FIRST# was used for any crime!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
     Speak(5,1) : pFoc(5)=2
@@ -469,7 +469,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You've got quite an imagination, #NAME#!", "#NAME#", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You've got quite an imagination, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("There's a difference between 'using' and 'abusing'..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -1256,7 +1256,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is under", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("arrest for disobeying the prison rules!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1266,7 +1266,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("engaging in gang activity!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1276,7 +1276,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is under", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("arrest for conspiring to escape!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1286,8 +1286,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("arrest for carrying a #NAME#!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is under", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("arrest for carrying a #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf 
@@ -1296,7 +1296,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("drug abuse!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1306,8 +1306,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("arrest for trading #NAME#!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is under", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("arrest for trading #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf 
@@ -1316,8 +1316,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("stealing a #NAME#!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("stealing a #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1326,7 +1326,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("assaulting another inmate!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1336,7 +1336,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is under", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("arrest for assaulting a warden!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1346,8 +1346,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("using a #NAME# as a weapon!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("using a #FIRST# as a weapon!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1356,8 +1356,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("mutilating the body of #NAME#!", "#NAME#", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("mutilating the body of #FIRST#!", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1366,8 +1366,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("the attempted murder of #NAME#!", "#NAME", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("the attempted murder of #FIRST#!", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1376,8 +1376,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("the murder of #NAME#!", "#NAME#", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST# is wanted for", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("the murder of #FIRST#!", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf

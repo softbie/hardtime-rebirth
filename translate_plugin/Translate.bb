@@ -5,24 +5,29 @@
 
 Include "translate_plugin/Main.bb"
 
+; Функция замены подстрок, всего 2 ключа для замены в тексте #FIRST# и #SECOND#
+; string - исходная строка
+; first - строка для замены ключа #FIRST#
+; second - строка для замены ключа #SECOND#
+; Возвращает строку с произведенными заменами, можно указать как два аргумента так и только один
+Function replacement$(string$, firstReplace$ = "", secondReplace$ = "")
+    If Len(firstReplace$) > 0 Then
+        string$ = Replace$(string$, "#FIRST#", firstReplace$)
+    EndIf
+    If Len(secondReplace$) > 0 Then
+        string$ = Replace$(string$, "#SECOND#", secondReplace$)
+    EndIf
+    Return string$
+End Function
+
 ; Функция для перевода строк
 ; title - строка, по которой производится поиск (в данном случае - оригинальная строка)
-; needle - искомое выражение для замены
-; replacement - заменяемая строка
+; first - строка для подстановки в ключ #FIRST#
+; second - строка для подстановки в ключ #SECOND#
 ; Возвращает переведенную или оригинальную строку
-Function translate$(title$, needle$ = "", replacement$ = "")
+Function translate$(title$, firstReplace$ = "", secondReplace$ = "")
 	For i = 0 To messagesCount
-		If title$ = messages$(i, 0) Then
-		    If Len(needle$) > 0 and Len(replacement$) > 0 Then
-		        Return Replace$(messages$(i, 1), needle$, replacement$)
-            Else
-                Return messages$(i, 1)
-            EndIf
-        EndIf
+		If title$ = messages$(i, 0) Then Return replacement$(messages$(i, 1), firstReplace$, secondReplace$)
 	Next
-    If Len(needle$) > 0 and Len(replacement$) > 0 Then
-        Return Replace$(title$, needle$, replacement$)
-    Else
-        Return title$
-    EndIf
+    Return replacement$(title$, firstReplace$, secondReplace$)
 End Function

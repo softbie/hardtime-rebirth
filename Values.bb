@@ -600,19 +600,19 @@ Function LoadTextures()
   tHair(count)=LoadTexture("Characters/Hair/Hair"+Dig$(count,10)+".png",4)
  Next
  For count=1 To no_faces
-  Loader(translate("Please Wait"),translate("Loading Face #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_faces)
+  Loader(translate("Please Wait"),translate("Loading Face #FIRST# of #SECOND#", Dig$(count,10), no_faces))
   tFace(count)=LoadTexture("Characters/Faces/Face"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_bodies
-  Loader(translate("Please Wait"),translate("Loading Body #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_bodies)
+  Loader(translate("Please Wait"),translate("Loading Body #FIRST# of #SECOND#", Dig$(count,10), no_bodies))
   tBody(count)=LoadTexture("Characters/Bodies/Body"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_arms
-  Loader(translate("Please Wait"),translate("Loading Arm #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_arms)
+  Loader(translate("Please Wait"),translate("Loading Arm #FIRST# of #SECOND#", Dig$(count,10), no_arms))
   tArm(count)=LoadTexture("Characters/Arms/Arm"+Dig$(count,10)+".JPG")
  Next
  For count=1 To no_legs
-  Loader(translate("Please Wait"),translate("Loading Body #NUMBER# of ", "#NUMBER#", Dig$(count,10))+no_legs)
+  Loader(translate("Please Wait"),translate("Loading Body #FIRST# of #SECOND#", Dig$(count,10), no_legs))
   tLegs(count)=LoadTexture("Characters/Legs/Legs"+Dig$(count,10)+".JPG")
  Next
  ;racial shades

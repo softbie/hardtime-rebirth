@@ -1,14 +1,14 @@
-messages$(31, 0) = "Loading Arm #NUMBER# of "
-messages$(31, 1) = "Загрузка рук #NUMBER# из "
+messages$(31, 0) = "Loading Arm #FIRST# of #SECOND#"
+messages$(31, 1) = "Загрузка рук #FIRST# из #SECOND#"
 
-messages$(32, 0) = "Loading Body #NUMBER# of "
-messages$(32, 1) = "Загрузка тел #NUMBER# из "
+messages$(32, 0) = "Loading Body #FIRST# of #SECOND#"
+messages$(32, 1) = "Загрузка тел #FIRST# из #SECOND#"
 
-messages$(33, 0) = "Loading Face #NUMBER# of "
-messages$(33, 1) = "Загрузка лиц #NUMBER# из "
+messages$(33, 0) = "Loading Face #FIRST# of #SECOND#"
+messages$(33, 1) = "Загрузка лиц #FIRST# из #SECOND#"
 
-messages$(34, 0) = "Loading Legs #NUMBER# of "
-messages$(34, 1) = "Загрузка ног #NUMBER# из "
+messages$(34, 0) = "Loading Legs #FIRST# of #SECOND#"
+messages$(34, 1) = "Загрузка ног #FIRST# из #SECOND#"
 
 messages$(35, 0) = "Loading Numbers"
 messages$(35, 1) = "Загрузка значений"

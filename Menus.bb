@@ -153,7 +153,7 @@ While go=0
  SetFont font(1)
  x=400 : y=120 : spacer=53
  DrawOption(1,rX#(400),rY#(y),translate("Resolution"),textResX$(optRes)+" x "+textResY$(optRes)) : y=y+spacer
- DrawOption(2,rX#(400),rY#(y),translate("Population"),translate("#COUNT# characters", "#COUNT#", str optPopulation)) : y=y+(spacer+5)
+ DrawOption(2,rX#(400),rY#(y),translate("Population"),translate("#FIRST# characters", str optPopulation)) : y=y+(spacer+5)
  DrawOption(3,rX#(400),rY#(y),translate("Fog Effect"),textOnOff$(optFog)) : y=y+spacer
  DrawOption(4,rX#(400),rY#(y),translate("Shadows"),textShadows$(optShadows)) : y=y+spacer
  DrawOption(5,rX#(400),rY#(y),translate("Particle FX"),textFX$(optFX)) : y=y+spacer

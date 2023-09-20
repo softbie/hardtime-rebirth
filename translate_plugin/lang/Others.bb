@@ -1,5 +1,5 @@
-messages$(0, 0) = "#COUNT# characters"
-messages$(0, 1) = "#COUNT# персонажей"
+messages$(0, 0) = "#FIRST# characters"
+messages$(0, 1) = "#FIRST# персонажей"
 
 messages$(1, 0) = "<<< BACK <<<"
 messages$(1, 1) = "<<< НАЗАД <<<"
