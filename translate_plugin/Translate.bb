@@ -20,5 +20,9 @@ Function translate$(title$, needle$ = "", replacement$ = "")
             EndIf
         EndIf
 	Next
-	Return title$
+    If Len(needle$) > 0 and Len(replacement$) > 0 Then
+        Return Replace$(title$, needle$, replacement$)
+    Else
+        Return title$
+    EndIf
 End Function
