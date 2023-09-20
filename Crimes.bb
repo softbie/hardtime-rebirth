@@ -567,13 +567,13 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(CellName$(pChar(1))+translate(" was caught stealing a ")+Lower$(weapName$(weapType(gamItem(slot))))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# was caught stealing a #SECOND#!", CellName$(pChar(1)), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("The thief can't keep his hands to himself..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I didn't 'steal' that ")+Lower$(weapName$(weapType(gamItem(slot))))+translate("! I was just"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I didn't 'steal' that #FIRST#! I was just", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("trying to take back what was mine..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -583,7 +583,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(charName$(pChar(2))+translate(", it's not my job to share"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, it's not my job to share", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("out the toys amongst the children!"),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -597,7 +597,7 @@ While go=0
   If promoStage=2 And promoVerdict=2
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
-    Outline(translate("You're on a slippery slope, ")+CellName$(pChar(1))+translate("! I see"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You're on a slippery slope, #FIRST#! I see", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("you sinking back into a life of crime..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
@@ -606,14 +606,14 @@ While go=0
      PlaySound sPaper : statTim(6)=-100 
      randy=Rnd(1,5)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      PlaySound sCash : statTim(7)=-100
      gamMoney(slot)=gamMoney(slot)-weapValue(weapType(gamItem(slot)))
      If charCrime(gamChar(slot))<6 Then charCrime(gamChar(slot))=6
      promoEffect=1
     EndIf 
     Outline(translate("Perhaps another ")+sentence$+translate(" will straighten you out, and"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("i also order you to pay $")+GetFigure(weapValue(weapType(gamItem(slot))))+translate(" for a new ")+Lower$(weapName$(weapType(gamItem(slot))))+translate("..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("i also order you to pay $#FIRST# for a new #SECOND#...", GetFigure(weapValue(weapType(gamItem(slot)))), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -624,7 +624,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(CellName$(pChar(1))+translate(" is a particularly aggressive inmate and"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# is a particularly aggressive inmate and", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("had to be restrained from harming the others!"),rX#(400),rY#(560),30,30,30,250,250,250)
    If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -640,7 +640,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(charName$(pChar(2))+translate(", i'm not here to do your job!"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, i'm not here to do your job!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("You should be able to defuse the odd scuffle..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -663,12 +663,12 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(1,5)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      If charCrime(gamChar(slot))<8 Then charCrime(gamChar(slot))=8
      promoEffect=1
     EndIf 
     Outline(translate("Since you obviously need more time to think about"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("that, i'm adding another ")+sentence$+translate(" to your sentence!"),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("that, i'm adding another #FIRST# to your sentence!", sentence$),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -679,7 +679,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(CellName$(pChar(1))+translate(" has become so aggressive that even"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# has become so aggressive that even", CellName$(pChar(1))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("us wardens aren't safe from his outbursts!"),rX#(400),rY#(560),30,30,30,250,250,250)
    If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -695,7 +695,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(charName$(pChar(2))+translate(", i'm not here to do your job!"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, i'm not here to do your job!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("You should be able to control your own prisoners..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -718,14 +718,14 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(3,7)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$="1 day" Else sentence$=randy+" days"
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      PlaySound sCash : statTim(7)=-100
      gamMoney(slot)=gamMoney(slot)-promoCash
      If charCrime(gamChar(slot))<8 Then charCrime(gamChar(slot))=8
      promoEffect=1
     EndIf 
-    Outline(translate("Maybe another ")+sentence$+translate(" will calm you down, and"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("i also order you to pay $")+GetFigure$(promoCash)+translate(" in damages..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Maybe another #FIRST# will calm you down, and", sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("i also order you to pay $#FIRST# in damages...", GetFigure$(promoCash)),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -742,7 +742,7 @@ While go=0
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I didn't hurt anybody with that ")+Lower$(weapName$(weapType(gamItem(slot))))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I didn't hurt anybody with that #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("I just happened to be holding it at the time..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -752,7 +752,7 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("Just because a man is carrying a ")+Lower$(weapName$(weapType(gamItem(slot))))+translate(","),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("Just because a man is carrying a #FIRST#,", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("it doesn't mean he plans to use it as a weapon!"),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
@@ -767,7 +767,7 @@ While go=0
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
     Outline(translate("You shouldn't be fighting at all - let alone with"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("weapons! That ")+Lower$(weapName$(weapType(gamItem(slot))))+translate(" could've killed someone..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("weapons! That #FIRST# could've killed someone...", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
     Speak(5,1) : pFoc(5)=1
@@ -775,11 +775,11 @@ While go=0
      PlaySound sPaper : statTim(6)=-100 
      randy=Rnd(5,10)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      promoEffect=1
     EndIf 
     Outline(translate("This is extremely disturbing behaviour, and i"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("sentence you to an extra ")+sentence$+translate(" to address it..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("sentence you to an extra #FIRST# to address it...", sentence$),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -790,14 +790,14 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(translate("This animal beat ")+charName$(gamVictim(slot))+translate(" so badly"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("that the poor man lost ")+DescribeLimb$(gamVictim(slot))+"!",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("This animal beat #FIRST# so badly", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("that the poor man lost #FIRST#!", DescribeLimb$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I never intended to hurt ")+charName$(gamVictim(slot))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("He lost ")+DescribeLimb$(gamVictim(slot))+translate(" when he fell on the ground..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("I never intended to hurt #FIRST#!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("He lost #FIRST# when he fell on the ground...", DescribeLimb$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
    If promoTim>1000 Then promoStage=1 : promoTim=300
@@ -806,8 +806,8 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You're being a drama queen, ")+charName$(pChar(2))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(charName$(gamVictim(slot))+translate(" was never in any serious danger..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("You're being a drama queen, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# was never in any serious danger...", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
     Speak(5,1) : pFoc(5)=2
@@ -820,7 +820,7 @@ While go=0
   If promoStage=2 And promoVerdict=2
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
-    Outline(translate("It's a miracle that ")+charName$(gamVictim(slot))+translate(" survived!"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("It's a miracle that #FIRST# survived!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("You're evidently a threat to your fellow inmates..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
@@ -829,14 +829,14 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(5,10)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      PlaySound sCash : statTim(7)=-100
      gamMoney(slot)=gamMoney(slot)-1000
      If charCrime(gamChar(slot))<11 Then charCrime(gamChar(slot))=11
      promoEffect=1
     EndIf 
-    Outline(translate("You deserve to be behind bars for another ")+sentence$+translate(","),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("and i also order you to pay $")+GetFigure$(1000)+translate(" in medical fees..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("You deserve to be behind bars for another #FIRST#,", sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("and i also order you to pay $#FIRST# in medical fees...", GetFigure$(1000)),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -847,13 +847,13 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(translate("This animal viciously attacked ")+charName$(gamVictim(slot)),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("This animal viciously attacked #FIRST#", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("and left the poor man fighting for his life!"),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I never intended to hurt ")+charName$(gamVictim(slot))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I never intended to hurt #FIRST#!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("It was a disagreement that got out of hand..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -863,8 +863,8 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You're being a drama queen, ")+charName$(pChar(2))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(charName$(gamVictim(slot))+translate(" was never in any serious danger..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("You're being a drama queen, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# was never in any serious danger...", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
     Speak(5,1) : pFoc(5)=2
@@ -877,7 +877,7 @@ While go=0
   If promoStage=2 And promoVerdict=2
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
-    Outline(translate("It's a miracle that ")+charName$(gamVictim(slot))+translate(" survived!"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("It's a miracle that #FIRST# survived!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("You're evidently a threat to your fellow inmates..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
@@ -886,14 +886,14 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(5,10)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      PlaySound sCash : statTim(7)=-100
      gamMoney(slot)=gamMoney(slot)-1000
      If charCrime(gamChar(slot))<12 Then charCrime(gamChar(slot))=12
      promoEffect=1
     EndIf 
-    Outline(translate("You deserve to be behind bars for another ")+sentence$+translate(","),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("and i order you to pay $")+GetFigure$(1000)+translate(" in medical fees..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("You deserve to be behind bars for another #FIRST#,", sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("and i order you to pay $#FIRST# in medical fees...", GetFigure$(1000)),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -904,7 +904,7 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(translate("This psycho viciously attacked ")+charName$(gamVictim(slot)),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("This psycho viciously attacked #FIRST#", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("and succeeded in taking the poor man's life!"),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
@@ -920,12 +920,12 @@ While go=0
   If promoStage=2 And promoVerdict=1
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("You just wanted a scapegoat, ")+charName$(pChar(2))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("You just wanted a scapegoat, #FIRST#!", charName$(pChar(2))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("A fatality doesn't look good on anybody's record..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoStage=2 And promoTim>650 And promoTim<950 And promoVerdict=1
     Speak(5,1) : pFoc(5)=2
-    Outline(translate("The simple fact is that ")+charName$(gamVictim(slot))+translate(" would"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("The simple fact is that #FIRST# would", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("still be alive if you were doing your job!"),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
@@ -934,7 +934,7 @@ While go=0
   If promoStage=2 And promoVerdict=2
    If promoTim>325 And promoTim<625
     Speak(5,1) : pFoc(5)=1
-    Outline(CellName$(pChar(1))+translate(", you murdered ")+charName$(gamVictim(slot))+translate(" because"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#, you murdered #SECOND# because", CellName$(pChar(1)), charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("you have absolutely no respect for human life!"),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>650 And promoTim<950
@@ -943,12 +943,12 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(7,14)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$="1 day" Else sentence$=randy+" days"
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      If charCrime(gamChar(slot))<14 Then charCrime(gamChar(slot))=14
      promoEffect=1
     EndIf 
     Outline(translate("You're a menace to society, and i don't want"),rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(translate("to see you released for another ")+sentence$+translate(" yet..."),rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("to see you released for another #FIRST# yet...", sentence$),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1
   EndIf
@@ -959,13 +959,13 @@ While go=0
   If promoStage=0
    If promoTim>350 And promoTim<650
     Speak(2,1)
-    Outline(charName$(gamVictim(slot))+translate("'s recent death is just one of"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST#'s recent death is just one of", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("many that can be traced back to this psycho!"),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>450 And promoReact(2)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(2)=1
    EndIf
    If promoTim>675 And promoTim<975
     Speak(1,1)
-    Outline(translate("I didn't kill ")+charName$(gamVictim(slot))+translate(" or anybody else!"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("I didn't kill #FIRST# or anybody else!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("In fact, i was there to help save their lives..."),rX#(400),rY#(560),30,30,30,250,250,250)
     If promoTim>775 And promoReact(3)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(3)=1
    EndIf
@@ -998,7 +998,7 @@ While go=0
      PlaySound sPaper : statTim(6)=-100
      randy=Rnd(10,20)
      charSentence(gamChar(slot))=charSentence(gamChar(slot))+randy
-     If randy=1 Then sentence$=translate("1 day") Else sentence$=randy+translate(" days")
+     If randy=1 Then sentence$=translate("1 day") Else sentence$=translate("#FIRST# days", randy)
      If charCrime(gamChar(slot))<14 Then charCrime(gamChar(slot))=14
      promoEffect=1
     EndIf 
@@ -1027,7 +1027,7 @@ While go=0
   If promoTim>1050 And promoTim<1200 And promoVerdict=1
    Speak(promoVerdict,3) : pEyes(1)=3 : pEyes(2)=1 : pEyes(3)=3 : pEyes(4)=1
    If promoReact(5)=0 Then PlaySound sJury(Rnd(1,2)) : promoReact(5)=1
-   Outline(translate("...Prisoner ")+CellName$(pChar(promoVerdict))+"!",rX#(400),rY#(535),30,30,30,250,Rnd(150,220),100)
+   Outline(translate("...Prisoner #FIRST#!", CellName$(pChar(promoVerdict))),rX#(400),rY#(535),30,30,30,250,Rnd(150,220),100)
   EndIf
   If promoTim>1050 And promoTim<1200 And promoVerdict=2
    Speak(promoVerdict,3) : pEyes(1)=1 : pEyes(2)=3 : pEyes(3)=1 : pEyes(4)=3
@@ -1128,7 +1128,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=101
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("We've had enough of your attitude, ")+CellName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("We've had enough of your attitude, #FIRST#!", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("Perhaps a judge will teach you some respect..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1137,8 +1137,8 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=102
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You joined the wrong gang, ")+CellName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(textGang$(charGang(pChar(v)))+translate(" are under investigation..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("You joined the wrong gang, #FIRST#!", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("#FIRST# are under investigation...", textGang$(charGang(pChar(v)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1155,8 +1155,8 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=104
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("We caught you red-handed, ")+CellName$(pChar(v))+translate("! You're"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("under arrest for carrying a ")+Lower$(weapName$(weapType(gamItem(slot))))+translate("..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("We caught you red-handed, #FIRST#! You're", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("under arrest for carrying a #FIRST#...", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1164,7 +1164,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=105
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("Sorry to blow your high, ")+CellName$(pChar(v))+translate(", but"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Sorry to blow your high, #FIRST#, but", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("that poison won't help your rehabilitation!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1173,8 +1173,8 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=106
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("Business is over, ")+CellName$(pChar(v))+translate("! You're under"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("arrest for trading ")+Lower$(weapName$(weapType(gamItem(slot))))+translate("s..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Business is over, #FIRST#! You're under", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("arrest for trading #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1182,7 +1182,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=107
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("I saw you take that ")+Lower$(weapName$(weapType(gamItem(slot))))+translate(", ")+CellName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("I saw you take that #FIRST#, #SECOND#!", Lower$(weapName$(weapType(gamItem(slot)))), CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're under arrest for stealing..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1191,7 +1191,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=108
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You've thrown your last punch, ")+CellName$(pChar(v))+translate("! You're"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You've thrown your last punch, #FIRST#! You're", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("under arrest for assaulting another inmate..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1200,7 +1200,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=109
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You just picked the wrong fight, ")+CellName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You just picked the wrong fight, #FIRST#!", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're under arrest for assaulting a warden..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1209,7 +1209,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=110
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You could've killed someone with that ")+Lower$(weapName$(weapType(gamItem(slot))))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You could've killed someone with that #FIRST#!", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're under arrest for assault with a weapon..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1218,7 +1218,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=111
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(charName$(gamVictim(slot))+translate(" is scarred for life because of you!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("#FIRST# is scarred for life because of you!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're under arrest for grievous bodily harm..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1227,7 +1227,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=112
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You almost killed ")+charName$(gamVictim(slot))+translate(", you animal!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You almost killed #FIRST#, you animal!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're under arrest for attempted murder..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1236,7 +1236,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=113
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(translate("You killed ")+charName$(gamVictim(slot))+translate(", you animal!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You killed #FIRST#, you animal!", charName$(gamVictim(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're going down for murder..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1245,7 +1245,7 @@ Function CrimePromos(cyc,v,y#)
  If gamPromo=114
   If promoTim>25 And promoTim<325
    Speak(cyc,1) : promoAccuser=pChar(cyc) : DropWeapon(v,0)
-   Outline(charName$(gamVictim(slot))+translate(" is your last victim, ")+CellName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("#FIRST# is your last victim, #SECOND#!", charName$(gamVictim(slot)), CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("You're going down for serial murder..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1

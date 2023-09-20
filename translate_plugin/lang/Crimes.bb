@@ -1,758 +1,728 @@
 messages$(351, 0) = " and heard your defence..."
 messages$(351, 1) = " и выслушал защиту..."
 
-messages$(352, 0) = " are under investigation..."
-messages$(352, 1) = " находятся под следствием..."
+messages$(352, 0) = " as a"
+messages$(352, 1) = " как"
 
-messages$(353, 0) = " as a"
-messages$(353, 1) = " как"
+messages$(353, 0) = " as a weapon!"
+messages$(353, 1) = " как оружие!"
 
-messages$(354, 0) = " as a weapon!"
-messages$(354, 1) = " как оружие!"
+messages$(354, 0) = " for a new "
+messages$(354, 1) = " для нового "
 
-messages$(355, 0) = " because"
-messages$(355, 1) = " потому что"
+messages$(355, 0) = " is"
+messages$(355, 1) = " является"
 
-messages$(356, 0) = " could've killed someone..."
-messages$(356, 1) = " мог убить человека..."
+messages$(356, 0) = " is under"
+messages$(356, 1) = " находится под"
 
-messages$(357, 0) = " for a new "
-messages$(357, 1) = " для нового "
+messages$(357, 0) = " or anybody else!"
+messages$(357, 1) = " или любой другой!"
 
-messages$(358, 0) = " has become so aggressive that even"
-messages$(358, 1) = " стал настолько агрессивным, что даже"
+messages$(358, 0) = " so badly"
+messages$(358, 1) = " так сильно"
 
-messages$(359, 0) = " in damages..."
-messages$(359, 1) = " в ущерб..."
+messages$(359, 0) = " to"
+messages$(359, 1) = " к"
 
-messages$(360, 0) = " in medical fees..."
-messages$(360, 1) = " на оплату медицинских услуг..."
+messages$(360, 0) = " to your sentence!"
+messages$(360, 1) = " к твоему приговору!"
 
-messages$(361, 0) = " is"
-messages$(361, 1) = " является"
+messages$(361, 0) = " was used for any crime!"
+messages$(361, 1) = " был использован для любого преступления!"
 
-messages$(362, 0) = " is a particularly aggressive inmate and"
-messages$(362, 1) = " является особенно агрессивным заключенным и"
+messages$(362, 0) = " when he fell on the ground..."
+messages$(362, 1) = " когда он упал на землю..."
 
-messages$(363, 0) = " is scarred for life because of you!"
-messages$(363, 1) = " травмирован на всю жизнь из-за тебя!"
+messages$(363, 0) = " where"
+messages$(363, 1) = " куда"
 
-messages$(364, 0) = " is under"
-messages$(364, 1) = " находится под"
+messages$(364, 0) = " will calm you down, and"
+messages$(364, 1) = " успокоит тебя и"
 
-messages$(365, 0) = " is your last victim, "
-messages$(365, 1) = " твоя последняя жертва, "
+messages$(365, 0) = " will straighten you out, and"
+messages$(365, 1) = " выпрямит тебя и"
 
-messages$(366, 0) = " or anybody else!"
-messages$(366, 1) = " или любой другой!"
+messages$(366, 0) = " would"
+messages$(366, 1) = " бы"
 
-messages$(367, 0) = " so badly"
-messages$(367, 1) = " так сильно"
+messages$(367, 0) = " yet..."
+messages$(367, 1) = " пока что..."
 
-messages$(368, 0) = " survived!"
-messages$(368, 1) = " выжил!"
+messages$(368, 0) = "! I see"
+messages$(368, 1) = "! Я понимаю"
 
-messages$(369, 0) = " to"
-messages$(369, 1) = " к"
+messages$(369, 0) = "! It was a"
+messages$(369, 1) = "! Это был"
 
-messages$(370, 0) = " to address it..."
-messages$(370, 1) = " обращаться с ним..."
+messages$(370, 0) = "#FIRST# and heard your defence..."
+messages$(370, 1) = "#FIRST# и выслушал оправдания..."
 
-messages$(371, 0) = " to your sentence!"
-messages$(371, 1) = " к твоему приговору!"
+messages$(371, 0) = "#FIRST# are under investigation..."
+messages$(371, 1) = "#FIRST# находятся под следствием..."
 
-messages$(372, 0) = " was caught stealing a "
-messages$(372, 1) = " был пойман на краже "
+messages$(372, 0) = "#FIRST# days"
+messages$(372, 1) = "#FIRST# дней"
 
-messages$(373, 0) = " was never in any serious danger..."
-messages$(373, 1) = " никогда не подвергался серьезной опасности..."
+messages$(373, 0) = "#FIRST# days in Southtown Correctional Facility!"
+messages$(373, 1) = "#FIRST# дням в исправительном учреждении Сауттауна!"
 
-messages$(374, 0) = " was used for any crime!"
-messages$(374, 1) = " был использован для любого преступления!"
+messages$(374, 0) = "#FIRST# has become so aggressive that even"
+messages$(374, 1) = "#FIRST# настолько агрессивен, что даже"
 
-messages$(375, 0) = " when he fell on the ground..."
-messages$(375, 1) = " когда он упал на землю..."
+messages$(375, 0) = "#FIRST# is a known member of '#SECOND#'"
+messages$(375, 1) = "#FIRST# состоит в банде '#SECOND#'"
 
-messages$(376, 0) = " where"
-messages$(376, 1) = " куда"
+messages$(376, 0) = "#FIRST# is a particularly aggressive inmate and"
+messages$(376, 1) = "#FIRST# - особенно агрессивный заключенный, и"
 
-messages$(377, 0) = " will calm you down, and"
-messages$(377, 1) = " успокоит тебя и"
+messages$(377, 0) = "#FIRST# is scarred for life because of you!"
+messages$(377, 1) = "#FIRST# травмирован на всю жизнь из-за тебя!"
 
-messages$(378, 0) = " will straighten you out, and"
-messages$(378, 1) = " выпрямит тебя и"
+messages$(378, 0) = "#FIRST# is your last victim, #SECOND#!"
+messages$(378, 1) = "#FIRST# твоя последняя жертва, #SECOND#!"
 
-messages$(379, 0) = " would"
-messages$(379, 1) = " бы"
+messages$(379, 0) = "#FIRST# seems to have a problem with authority!"
+messages$(379, 1) = "У #FIRST# похоже, проблемы с законом!"
 
-messages$(380, 0) = " yet..."
-messages$(380, 1) = " пока что..."
+messages$(380, 0) = "#FIRST# to your sentence. Take it as a warning!"
+messages$(380, 1) = "#FIRST# к вашему приговору. Примите это как предупреждение!"
 
-messages$(381, 0) = "! I see"
-messages$(381, 1) = "! Я понимаю"
+messages$(381, 0) = "#FIRST# was caught carrying a #SECOND#"
+messages$(381, 1) = "#FIRST# был пойман с #SECOND#"
 
-messages$(382, 0) = "! I was just"
-messages$(382, 1) = "! я был просто"
+messages$(382, 0) = "#FIRST# was caught out of his cell during"
+messages$(382, 1) = "#FIRST# был пойман вне камеры во время"
 
-messages$(383, 0) = "! I was there when it"
-messages$(383, 1) = "! Я был там, когда это"
+messages$(383, 0) = "#FIRST# was caught stealing a #SECOND#!"
+messages$(383, 1) = "#FIRST# был пойман на краже #SECOND#!"
 
-messages$(384, 0) = "! It was a"
-messages$(384, 1) = "! Это был"
+messages$(384, 0) = "#FIRST# was caught trading #SECOND#!"
+messages$(384, 1) = "#FIRST# был пойман на продаже #SECOND#!"
 
-messages$(385, 0) = "! You're"
-messages$(385, 1) = "! Вы"
+messages$(385, 0) = "#FIRST# was never in any serious danger..."
+messages$(385, 1) = "#FIRST# никогда не подвергался серьезной опасности..."
 
-messages$(386, 0) = "! You're under"
-messages$(386, 1) = "! Ты под"
+messages$(386, 0) = "#FIRST# was seen wielding a #SECOND#!"
+messages$(386, 1) = "#FIRST# был замечен с #SECOND#!"
 
-messages$(387, 0) = "#FIRST# and heard your defence..."
-messages$(387, 1) = "#FIRST# и выслушал оправдания..."
+messages$(387, 0) = "#FIRST#! It just looks suspicious..."
+messages$(387, 1) = "#FIRST#! Выглядит подозрительно...."
 
-messages$(388, 0) = "#FIRST# days"
-messages$(388, 1) = "#FIRST# дней"
+messages$(388, 0) = "#FIRST#'s recent death is just one of"
+messages$(388, 1) = "Недавняя смерть #FIRST# - лишь одна из"
 
-messages$(389, 0) = "#FIRST# days in Southtown Correctional Facility!"
-messages$(389, 1) = "#FIRST# дням в исправительном учреждении Сауттауна!"
+messages$(389, 0) = "#FIRST#, i'm not here to do your job!"
+messages$(389, 1) = "#FIRST#, я здесь не для того, чтобы делать твою работу!"
 
-messages$(390, 0) = "#FIRST# is a known member of '#SECOND#'"
-messages$(390, 1) = "#FIRST# состоит в банде '#SECOND#'"
+messages$(390, 0) = "#FIRST#, it's not my job to share"
+messages$(390, 1) = "#FIRST#, это не моя работа -"
 
-messages$(391, 0) = "#FIRST# seems to have a problem with authority!"
-messages$(391, 1) = "У #FIRST# похоже, проблемы с законом!"
+messages$(391, 0) = "#FIRST#, there's no evidence to suggest"
+messages$(391, 1) = "#FIRST#, нет оснований предполагать"
 
-messages$(392, 0) = "#FIRST# to your sentence. Take it as a warning!"
-messages$(392, 1) = "#FIRST# к вашему приговору. Примите это как предупреждение!"
+messages$(392, 0) = "#FIRST#, this court has seen you accused"
+messages$(392, 1) = "#FIRST#, вы обвиняетесь в"
 
-messages$(393, 0) = "#FIRST# was caught carrying a #SECOND#"
-messages$(393, 1) = "#FIRST# был пойман с #SECOND#"
+messages$(393, 0) = "#FIRST#, what were you doing while"
+messages$(393, 1) = "#FIRST#, что ты делал в то время"
 
-messages$(394, 0) = "#FIRST# was caught out of his cell during"
-messages$(394, 1) = "#FIRST# был пойман вне камеры во время"
+messages$(394, 0) = "#FIRST#, you murdered #SECOND# because"
+messages$(394, 1) = "#FIRST#, ты убил #SECOND# потому что ты"
 
-messages$(395, 0) = "#FIRST# was caught trading #SECOND#!"
-messages$(395, 1) = "#FIRST# был пойман на продаже #SECOND#!"
+messages$(395, 0) = "#FIRST#. So, #SECOND#, what's the story?"
+messages$(395, 1) = "#FIRST#. Итак, #SECOND#, в чем дело?"
 
-messages$(396, 0) = "#FIRST# was seen wielding a #SECOND#!"
-messages$(396, 1) = "#FIRST# был замечен с #SECOND#!"
+messages$(396, 0) = ", and adding "
+messages$(396, 1) = ", и добавление "
 
-messages$(397, 0) = "#FIRST#! It just looks suspicious..."
-messages$(397, 1) = "#FIRST#! Выглядит подозрительно...."
+messages$(397, 0) = ", and was on my way to"
+messages$(397, 1) = ", и был на пути к"
 
-messages$(398, 0) = "#FIRST#, i'm not here to do your job!"
-messages$(398, 1) = "#FIRST#, я здесь не для того, чтобы делать твою работу!"
+messages$(398, 0) = ", this court has seen you accused"
+messages$(398, 1) = ", суд признал вас виновным"
 
-messages$(399, 0) = "#FIRST#, there's no evidence to suggest"
-messages$(399, 1) = "#FIRST#, нет оснований предполагать"
+messages$(399, 0) = "...Prisoner #FIRST#!"
+messages$(399, 1) = "...Заключенного #FIRST#! "
 
-messages$(400, 0) = "#FIRST#, this court has seen you accused"
-messages$(400, 1) = "#FIRST#, вы обвиняетесь в"
+messages$(400, 0) = "1 day"
+messages$(400, 1) = "1 день"
 
-messages$(401, 0) = "#FIRST#. So, #SECOND#, what's the story?"
-messages$(401, 1) = "#FIRST#. Итак, #SECOND#, в чем дело?"
+messages$(401, 0) = "A fatality doesn't look good on anybody's record..."
+messages$(401, 1) = "Сметрельный исход не несет выгоды никому..."
 
-messages$(402, 0) = "'s recent death is just one of"
-messages$(402, 1) = "недавняя смерть - лишь одна из"
+messages$(402, 0) = "A prisoner has no business carrying a"
+messages$(402, 1) = "Заключенный не имеет права носить"
 
-messages$(403, 0) = ", and adding "
-messages$(403, 1) = ", и добавление "
+messages$(403, 0) = "A prisoner has no right to such weapons..."
+messages$(403, 1) = "Заключенный не имеет права на ношение оружия..."
 
-messages$(404, 0) = ", and was on my way to"
-messages$(404, 1) = ", и был на пути к"
+messages$(404, 0) = "ATTENTION! Prisoner #FIRST# is under"
+messages$(404, 1) = "ВНИМАНИЕ! Заключенный #FIRST# был"
 
-messages$(405, 0) = ", but"
-messages$(405, 1) = ", но"
+messages$(405, 0) = "ATTENTION! Prisoner #FIRST# is wanted for"
+messages$(405, 1) = "ВНИМАНИЕ! Заключенный #FIRST# разыскивается за"
 
-messages$(406, 0) = ", it's not my job to share"
-messages$(406, 1) = ", это не моя работа - делиться"
+messages$(406, 0) = "After hearing each of your statements and reviewing"
+messages$(406, 1) = "Выслушав каждое ваше утверждение и просмотрев"
 
-messages$(407, 0) = ", this court has seen you accused"
-messages$(407, 1) = ", суд признал вас виновным"
+messages$(407, 0) = "All you had to do was usher him to his cell..."
+messages$(407, 1) = "Вам нужно было просто провести его в камеру..."
 
-messages$(408, 0) = ", what were you doing while"
-messages$(408, 1) = ", что ты делал в то время"
+messages$(408, 0) = "An inmate can't just 'stroll' out of the prison..."
+messages$(408, 1) = "Заключенным нельзя просто «гулять» по тюрьме..."
 
-messages$(409, 0) = ", you animal!"
-messages$(409, 1) = ", ты животное!"
+messages$(409, 0) = "Business is over, #FIRST#! You're under"
+messages$(409, 1) = "Дело окончено, #FIRST#! Ты"
 
-messages$(410, 0) = ", you murdered "
-messages$(410, 1) = ", ты убил "
+messages$(410, 0) = "God knows what he had planned..."
+messages$(410, 1) = "Бог знает, что он задумал..."
 
-messages$(411, 0) = "...Prisoner "
-messages$(411, 1) = "...Заключенный "
+messages$(411, 0) = "HARD time! You'll be lucky if you survive..."
+messages$(411, 1) = "ТЯЖЕЛЫЙ срок! Вам повезет, если выживете..."
 
-messages$(412, 0) = "1 day"
-messages$(412, 1) = "1 день"
+messages$(412, 0) = "He cares more about his fix than rehabilitation..."
+messages$(412, 1) = "Он больше заботится о зависимости, чем о реабилитации..."
 
-messages$(413, 0) = "A fatality doesn't look good on anybody's record..."
-messages$(413, 1) = "Фаталити не выглядит хорошо ни для кого..."
+messages$(413, 0) = "He disrupts the system by ignoring my orders..."
+messages$(413, 1) = "Он разрушает систему, игнорируя мои приказы..."
 
-messages$(414, 0) = "A prisoner has no business carrying a"
-messages$(414, 1) = "Заключенный не имеет права носить"
+messages$(414, 0) = "He lost #FIRST# when he fell on the ground..."
+messages$(414, 1) = "Он потерял #FIRST#, когда упал..."
 
-messages$(415, 0) = "A prisoner has no right to such weapons..."
-messages$(415, 1) = "Заключенный не имеет права на ношение оружия..."
+messages$(415, 0) = "He's turning prison life into a business..."
+messages$(415, 1) = "Он превращает тюремную жизнь в бизнес..."
 
-messages$(416, 0) = "ATTENTION! Prisoner #FIRST# is under"
-messages$(416, 1) = "ВНИМАНИЕ! Заключенный #FIRST# был"
+messages$(416, 0) = "I can't blame this man for taking the edge off"
+messages$(416, 1) = "Я не могу винить этого человека за то, что он сгладил"
 
-messages$(417, 0) = "ATTENTION! Prisoner #FIRST# is wanted for"
-messages$(417, 1) = "ВНИМАНИЕ! Заключенный #FIRST# разыскивается за"
+messages$(417, 0) = "I can't punish this man over your suspicions!"
+messages$(417, 1) = "Я не могу наказать этого человека за ваши подозрения!"
 
-messages$(418, 0) = "After hearing each of your statements and reviewing"
-messages$(418, 1) = "Выслушав каждое ваше утверждение и просмотрев"
+messages$(418, 0) = "I didn't 'steal' that #FIRST#! I was just"
+messages$(418, 1) = "Я не 'крал' #FIRST#! Я просто"
 
-messages$(419, 0) = "All you had to do was usher him to his cell..."
-messages$(419, 1) = "Вам нужно было просто провести его в камеру..."
+messages$(419, 0) = "I didn't hurt anybody with that #FIRST#!"
+messages$(419, 1) = "Я не использовал #FIRST# для чего либо!"
 
-messages$(420, 0) = "An inmate can't just 'stroll' out of the prison..."
-messages$(420, 1) = "Заключенным нельзя просто «гулять» по тюрьме..."
+messages$(420, 0) = "I didn't kill #FIRST# or anybody else!"
+messages$(420, 1) = "Я не убивал #FIRST# или кого либо еще!"
 
-messages$(421, 0) = "Business is over, "
-messages$(421, 1) = "Бизнес окончен, "
+messages$(421, 0) = "I didn't kill #FIRST#! I was there when it"
+messages$(421, 1) = "Я не убивал #FIRST#! Я был там"
 
-messages$(422, 0) = "God knows what he had planned..."
-messages$(422, 1) = "Бог знает, что он задумал..."
+messages$(422, 0) = "I find you GUILTY and sentence you to"
+messages$(422, 1) = "Вы ВИНОВНЫ и приговариватесь к"
 
-messages$(423, 0) = "HARD time! You'll be lucky if you survive..."
-messages$(423, 1) = "ТЯЖЕЛЫЙ срок! Вам повезет, если выживете..."
+messages$(423, 0) = "I found that #FIRST#, and was on my way to"
+messages$(423, 1) = "Я нашел #FIRST# и хотел"
 
-messages$(424, 0) = "He cares more about his fix than rehabilitation..."
-messages$(424, 1) = "Он больше заботится о зависимости, чем о реабилитации..."
+messages$(424, 0) = "I have no choice but to seize your bank account"
+messages$(424, 1) = "Я должен конфисковать ваш банковский счет"
 
-messages$(425, 0) = "He disrupts the system by ignoring my orders..."
-messages$(425, 1) = "Он разрушает систему, игнорируя мои приказы..."
+messages$(425, 0) = "I just happened to be holding it at the time..."
+messages$(425, 1) = "Оно было у меня случайно в то время..."
 
-messages$(426, 0) = "He lost "
-messages$(426, 1) = "Он потерял "
+messages$(426, 0) = "I know that gang culture offers sanctuary, but"
+messages$(426, 1) = "Я знаю, что банды предлагают убежища, но"
 
-messages$(427, 0) = "He's turning prison life into a business..."
-messages$(427, 1) = "Он превращает тюремную жизнь в бизнес..."
+messages$(427, 0) = "I never intended to hurt #FIRST#!"
+messages$(427, 1) = "Я не причинял боль #FIRST#! "
 
-messages$(428, 0) = "I can't blame this man for taking the edge off"
-messages$(428, 1) = "Я не могу винить этого человека за то, что он сгладил"
+messages$(428, 0) = "I never tried to hurt anybody! I was just going"
+messages$(428, 1) = "Я никогда не пытался никого обидеть! Я просто шел по"
 
-messages$(429, 0) = "I can't punish this man over your suspicions!"
-messages$(429, 1) = "Я не могу наказать этого человека за ваши подозрения!"
+messages$(429, 0) = "I saw you take that #FIRST#, #SECOND#!"
+messages$(429, 1) = "Я видел, как ты взял #FIRST#, #SECOND#!"
 
-messages$(430, 0) = "I didn't 'steal' that "
-messages$(430, 1) = "я не 'украл' это "
+messages$(430, 0) = "I see no evidence of an escape attempt here."
+messages$(430, 1) = "Я не вижу здесь доказательств попытки побега."
 
-messages$(431, 0) = "I didn't hurt anybody with that "
-messages$(431, 1) = "я никого этим не обидел "
+messages$(431, 0) = "I see no reason to punish this man over a bit of"
+messages$(431, 1) = "Я не вижу причин наказывать этого человека за"
 
-messages$(432, 0) = "I didn't kill "
-messages$(432, 1) = "я не убивал"
+messages$(432, 0) = "I sentence you to an extra #FIRST# to think about that,"
+messages$(432, 1) = "Я приговариваю вас дополнительно к #FIRST#,"
 
-messages$(433, 0) = "I find you GUILTY and sentence you to"
-messages$(433, 1) = "Вы ВИНОВНЫ и приговариватесь к"
+messages$(433, 0) = "I was forced to do the warden's job! It's anarchy"
+messages$(433, 1) = "Меня заставили выполнять работу надзирателя! Там анархия"
 
-messages$(434, 0) = "I found that #FIRST#, and was on my way to"
-messages$(434, 1) = "Я нашел #FIRST# и хотел"
+messages$(434, 0) = "I wasn't 'trading' that #FIRST#! It was a"
+messages$(434, 1) = "Я не 'продавал' #FIRST#! Это был"
 
-messages$(435, 0) = "I have no choice but to seize your bank account"
-messages$(435, 1) = "Я должен конфисковать ваш банковский счет"
+messages$(435, 0) = "I wasn't doing anything wrong! I was simply making"
+messages$(435, 1) = "Я не делал ничего плохого! я просто"
 
-messages$(436, 0) = "I just happened to be holding it at the time..."
-messages$(436, 1) = "Я просто случайно держал его в то время..."
+messages$(436, 0) = "I wasn't trying to escape! I was making my way"
+messages$(436, 1) = "Я не пытался сбежать! я шел"
 
-messages$(437, 0) = "I know that gang culture offers sanctuary, but"
-messages$(437, 1) = "Я знаю, что банды предлагают убежища, но"
+messages$(437, 0) = "I'd like to nip this in the bud by adding"
+messages$(437, 1) = "Я хотел бы пресечь это в зародыше, добавив"
 
-messages$(438, 0) = "I never intended to hurt "
-messages$(438, 1) = "Я никогда не собирался причинять боль "
+messages$(438, 0) = "I'm fining you $#FIRST#, and adding #SECOND# to"
+messages$(438, 1) = "Я оштрафую вас на #FIRST#$ и добавляю #SECOND# к"
 
-messages$(439, 0) = "I never tried to hurt anybody! I was just going"
-messages$(439, 1) = "Я никогда не пытался никого обидеть! я просто собирался"
+messages$(439, 0) = "I'm not out of control - he's a control freak!"
+messages$(439, 1) = "Я не выхожу из-под контроля - он помешан на контроле!"
 
-messages$(440, 0) = "I saw you take that "
-messages$(440, 1) = "Я видел, как ты взял это "
+messages$(440, 0) = "I'm now handing you over to the wardens, and"
+messages$(440, 1) = "Теперь я передаю вас надзирателям, и они"
 
-messages$(441, 0) = "I see no evidence of an escape attempt here."
-messages$(441, 1) = "Я не вижу здесь доказательств попытки побега."
+messages$(441, 0) = "I'm sentencing you to another day to make up for"
+messages$(441, 1) = "Вы приговорены к еще одному дню, чтобы"
 
-messages$(442, 0) = "I see no reason to punish this man over a bit of"
-messages$(442, 1) = "Я не вижу причин наказывать этого человека за"
+messages$(442, 0) = "I've got my own rules to uphold - i haven't got"
+messages$(442, 1) = "У меня свои правила, которые я соблюдаю - у меня нет"
 
-messages$(443, 0) = "I sentence you to an extra #FIRST# to think about that,"
-messages$(443, 1) = "Я приговариваю вас дополнительно к #FIRST#,"
+messages$(443, 0) = "I've simply found my place in a community!"
+messages$(443, 1) = "Я просто нашел свое место в сообществе!"
 
-messages$(444, 0) = "I was forced to do the warden's job! It's anarchy"
-messages$(444, 1) = "Меня заставили выполнять работу надзирателя! это анархия"
+messages$(444, 0) = "If an item comes between your prisoners, just"
+messages$(444, 1) = "Если не можете разобраться, просто"
 
-messages$(445, 0) = "I wasn't 'trading' that #FIRST#! It was a"
-messages$(445, 1) = "Я не 'продавал' #FIRST#! Это был"
+messages$(445, 0) = "In fact, i was there to help save their lives..."
+messages$(445, 1) = "На самом деле, я был там, чтобы спасти их..."
 
-messages$(446, 0) = "I wasn't doing anything wrong! I was simply making"
-messages$(446, 1) = "Я не делал ничего плохого! я просто"
+messages$(446, 0) = "It sounds like nothing more than an accident."
+messages$(446, 1) = "Похоже, это не более чем несчастный случай."
 
-messages$(447, 0) = "I wasn't trying to escape! I was making my way"
-messages$(447, 1) = "Я не пытался сбежать! я шел"
+messages$(447, 0) = "It was a disagreement that got out of hand..."
+messages$(447, 1) = "Это были разногласия, которые вышли из-под контроля..."
 
-messages$(448, 0) = "I'd like to nip this in the bud by adding"
-messages$(448, 1) = "Я хотел бы пресечь это в зародыше, добавив"
+messages$(448, 0) = "It's a miracle that #FIRST# survived!"
+messages$(448, 1) = "Это чудо, что #FIRST# выжил!"
 
-messages$(449, 0) = "I'm fining you $#FIRST#, and adding #SECOND# to"
-messages$(449, 1) = "Я оштрафую вас на #FIRST#$ и добавляю #SECOND# к"
+messages$(449, 0) = "Just because a man is carrying a #FIRST#,"
+messages$(449, 1) = "Только потому, что кто то несет #FIRST#"
 
-messages$(450, 0) = "I'm not out of control - he's a control freak!"
-messages$(450, 1) = "Я не выхожу из-под контроля - он помешан на контроле!"
+messages$(450, 0) = "Just give me a minute to think over the facts..."
+messages$(450, 1) = "Просто дайте мне минуту подумать над фактами..."
 
-messages$(451, 0) = "I'm now handing you over to the wardens, and"
-messages$(451, 1) = "Теперь я передаю вас надзирателям, и они"
+messages$(451, 0) = "Just try to deal with it better next time..."
+messages$(451, 1) = "Просто постарайся в следующий раз справиться с этим лучше..."
 
-messages$(452, 0) = "I'm sentencing you to another day to make up for"
-messages$(452, 1) = "Вы приговорены к еще одному дню, чтобы"
+messages$(452, 0) = "Let's see you explain this to a judge..."
+messages$(452, 1) = "Посмотрим, как ты объяснишь это судье..."
 
-messages$(453, 0) = "I've got my own rules to uphold - i haven't got"
-messages$(453, 1) = "У меня свои правила, которые я соблюдаю - у меня нет"
+messages$(453, 0) = "Maybe another #FIRST# will calm you down, and"
+messages$(453, 1) = "Может быть, еще #FIRST# вас успокоят, а еще"
 
-messages$(454, 0) = "I've simply found my place in a community!"
-messages$(454, 1) = "Я просто нашел свое место в сообществе!"
+messages$(454, 0) = "Nothing the prisoners do is ever enough for him..."
+messages$(454, 1) = "Ему никогда не достаточно того, что делают заключенные..."
 
-messages$(455, 0) = "If an item comes between your prisoners, just"
-messages$(455, 1) = "Если предмет окажется между вашими заключенными, просто"
+messages$(455, 0) = "OK, you can both stop bickering! I'll settle this."
+messages$(455, 1) = "Ладно, вы оба можете перестать ссориться! Я улажу это."
 
-messages$(456, 0) = "In fact, i was there to help save their lives..."
-messages$(456, 1) = "На самом деле, я был там, чтобы помочь спасти их жизни..."
+messages$(456, 0) = "On the contrary, relationships can offer stability."
+messages$(456, 1) = "Наоборот, отношения могут предложить стабильность."
 
-messages$(457, 0) = "It sounds like nothing more than an accident."
-messages$(457, 1) = "Похоже, это не более чем несчастный случай."
+messages$(457, 0) = "One death on your hands can be explained away,"
+messages$(457, 1) = "Одна смерть на твоих руках может быть объяснена,"
 
-messages$(458, 0) = "It was a disagreement that got out of hand..."
-messages$(458, 1) = "Это было разногласие, которое вышло из-под контроля..."
+messages$(458, 0) = "Our only agenda is to support each other..."
+messages$(458, 1) = "Все что мы делаем - поддерживаем друг друга..."
 
-messages$(459, 0) = "It's a miracle that "
-messages$(459, 1) = "Это чудо, что "
+messages$(459, 0) = "Perhaps a judge will teach you some respect..."
+messages$(459, 1) = "Возможно, судья научит вас уважению..."
 
-messages$(460, 0) = "Just because a man is carrying a "
-messages$(460, 1) = "Только потому, что мужчина несет "
+messages$(460, 0) = "Perhaps another #FIRST#  will straighten you out, and"
+messages$(460, 1) = "Возможно, еще #FIRST# вас выправят, и "
 
-messages$(461, 0) = "Just give me a minute to think over the facts..."
-messages$(461, 1) = "Просто дайте мне минуту подумать над фактами..."
+messages$(461, 0) = "Perhaps you need to find some friends of your own!"
+messages$(461, 1) = "Возможно, вам нужно найти себе друзей!"
 
-messages$(462, 0) = "Just try to deal with it better next time..."
-messages$(462, 1) = "Просто постарайся в следующий раз справиться с этим лучше..."
+messages$(462, 0) = "Preparing Court Case"
+messages$(462, 1) = "Подготовка судебного дела"
 
-messages$(463, 0) = "Let's see you explain this to a judge..."
-messages$(463, 1) = "Посмотрим, как ты объяснишь это судье..."
+messages$(463, 0) = "Prison is a place of learning - not fighting!"
+messages$(463, 1) = "Тюрьма - место обучения, а не боя!"
 
-messages$(464, 0) = "Maybe another "
-messages$(464, 1) = "Может быть, другой "
+messages$(464, 0) = "Simply confiscate the item and leave it at that..."
+messages$(464, 1) = "Просто заберите его и закончим на этом..."
 
-messages$(465, 0) = "Nothing the prisoners do is ever enough for him..."
-messages$(465, 1) = "Ему никогда не достаточно того, что делают заключенные..."
+messages$(465, 0) = "Since you obviously need more time to think about"
+messages$(465, 1) = "Вам, очевидно, нужно больше времени, чтобы подумать об"
 
-messages$(466, 0) = "OK, you can both stop bickering! I'll settle this."
-messages$(466, 1) = "Ладно, вы оба можете перестать ссориться! Я улажу это."
+messages$(466, 0) = "Sorry to blow your high, #FIRST#, but"
+messages$(466, 1) = "Извини, что обламал кайф, #FIRST#, но "
 
-messages$(467, 0) = "On the contrary, relationships can offer stability."
-messages$(467, 1) = "Наоборот, отношения могут предложить стабильность."
+messages$(467, 0) = "Stop being so melodramatic, and simply confiscate"
+messages$(467, 1) = "Хватит разводить мелодраму, просто конфисковуй"
 
-messages$(468, 0) = "One death on your hands can be explained away,"
-messages$(468, 1) = "Одна смерть на твоих руках может быть объяснена,"
+messages$(468, 0) = "That may not be a 'long' time, but it will be"
+messages$(468, 1) = "Это может быть не 'долгий' срок, но это будет"
 
-messages$(469, 0) = "Our only agenda is to support each other..."
-messages$(469, 1) = "Все что мы делаем - поддерживаем друг друга..."
+messages$(469, 0) = "That medication is there to be used - not abused!"
+messages$(469, 1) = "Это лекарство нужно использовать, а не злоупотреблять им!"
 
-messages$(470, 0) = "Perhaps a judge will teach you some respect..."
-messages$(470, 1) = "Возможно, судья научит вас уважению..."
+messages$(470, 0) = "The only thing that has taken a 'beating' here"
+messages$(470, 1) = "Единственное, что здесь 'побито'"
 
-messages$(471, 0) = "Perhaps another "
-messages$(471, 1) = "Возможно, другой "
+messages$(471, 0) = "The simple fact is that #FIRST# would"
+messages$(471, 1) = "Простой факт заключается в том, что #FIRST# был бы"
 
-messages$(472, 0) = "Perhaps you need to find some friends of your own!"
-messages$(472, 1) = "Возможно, вам нужно найти себе друзей!"
+messages$(472, 0) = "The simple fact is that these supposed victims"
+messages$(472, 1) = "Простой факт заключается в том, что эти предполагаемые жертвы"
 
-messages$(473, 0) = "Preparing Court Case"
-messages$(473, 1) = "Подготовка судебного дела"
+messages$(473, 0) = "The thief can't keep his hands to himself..."
+messages$(473, 1) = "Вор не может держать руки при себе..."
 
-messages$(474, 0) = "Prison is a place of learning - not fighting!"
-messages$(474, 1) = "Тюрьма - место обучения, а не боя!"
+messages$(474, 0) = "The trial has gone on quite long enough, so i'd"
+messages$(474, 1) = "Суд длился достаточно долго, так что"
 
-messages$(475, 0) = "Simply confiscate the item and leave it at that..."
-messages$(475, 1) = "Просто заберите его и закончим на этом..."
+messages$(475, 0) = "The wardens are there for the safety of the"
+messages$(475, 1) = "Смотрители здесь для безопасности заключенных"
 
-messages$(476, 0) = "Since you obviously need more time to think about"
-messages$(476, 1) = "Поскольку вам, очевидно, нужно больше времени, чтобы подумать о"
+messages$(476, 0) = "There's a difference between 'using' and 'abusing'..."
+messages$(476, 1) = "Есть разница между 'использовать' и 'злоупотреблять'..."
 
-messages$(477, 0) = "Sorry to blow your high, "
-messages$(477, 1) = "Извини, что взорвал тебя, "
+messages$(477, 0) = "These men have already lost their freedom, and"
+messages$(477, 1) = "Эти люди уже потеряли свободу, и"
 
-messages$(478, 0) = "Stop being so melodramatic, and simply confiscate"
-messages$(478, 1) = "Хватит быть таким мелодраматичным, и просто конфисковать"
+messages$(478, 0) = "This animal beat #FIRST# so badly"
+messages$(478, 1) = "Это животное избило #FIRST# так сильно,"
 
-messages$(479, 0) = "That may not be a 'long' time, but it will be"
-messages$(479, 1) = "Это может быть не 'долгий' срок, но это будет"
+messages$(479, 0) = "This animal viciously attacked #FIRST#"
+messages$(479, 1) = "Это животное жестоко напало на #FIRST#"
 
-messages$(480, 0) = "That medication is there to be used - not abused!"
-messages$(480, 1) = "Это лекарство нужно использовать, а не злоупотреблять им!"
+messages$(480, 0) = "This animal was caught using a #FIRST# as a"
+messages$(480, 1) = "Это животное было поймано использовав #FIRST# как"
 
-messages$(481, 0) = "The only thing that has taken a 'beating' here"
-messages$(481, 1) = "Единственное, что здесь 'потрепало'"
+messages$(481, 0) = "This is extremely disturbing behaviour, and i"
+messages$(481, 1) = "Это чрезвычайно тревожное поведение, и я"
 
-messages$(482, 0) = "The simple fact is that "
-messages$(482, 1) = "Простой факт заключается в том, что "
+messages$(482, 0) = "This junkie has descended into a life of drug abuse!"
+messages$(482, 1) = "Этот торчок был пойман на употреблении наркотиков!"
 
-messages$(483, 0) = "The simple fact is that these supposed victims"
-messages$(483, 1) = "Простой факт заключается в том, что эти предполагаемые жертвы"
+messages$(483, 0) = "This man isn't trying to run a business empire..."
+messages$(483, 1) = "Этот человек не управляет бизнес-империей..."
 
-messages$(484, 0) = "The thief can't keep his hands to himself..."
-messages$(484, 1) = "Вор не может держать себя в руках..."
+messages$(484, 0) = "This psycho viciously attacked #FIRST#"
+messages$(484, 1) = "Этот псих напал на #FIRST#"
 
-messages$(485, 0) = "The trial has gone on quite long enough, so i'd"
-messages$(485, 1) = "Суд длился достаточно долго, так что"
+messages$(485, 0) = "This supposed 'gang' shouldn't affect your job..."
+messages$(485, 1) = "Эта 'банда' не должна влиять на вашу работу..."
 
-messages$(486, 0) = "The wardens are there for the safety of the"
-messages$(486, 1) = "Надзиратели там для безопасности"
+messages$(486, 0) = "Violent behaviour doesn't show much progress..."
+messages$(486, 1) = "Агрессивное поведение не дает большого прогресса..."
 
-messages$(487, 0) = "There's a difference between 'using' and 'abusing'..."
-messages$(487, 1) = "Есть разница между 'использовать' и 'злоупотреблять'..."
+messages$(487, 0) = "We caught you red-handed, #FIRST#! You're"
+messages$(487, 1) = "Мы поймали тебя с поличным, #FIRST#! Ты"
 
-messages$(488, 0) = "These men have already lost their freedom, and"
-messages$(488, 1) = "Эти люди уже потеряли свободу, и"
+messages$(488, 0) = "We're gathered to hear the case against Prisoner"
+messages$(488, 1) = "Мы собрались, чтобы услышать дело против Заключенного"
 
-messages$(489, 0) = "This animal beat "
-messages$(489, 1) = "Это животное бьется "
+messages$(489, 0) = "We've had enough of your attitude, #FIRST#!"
+messages$(489, 1) = "Нам надоело твое отношение, #FIRST#!"
 
-messages$(490, 0) = "This animal viciously attacked "
-messages$(490, 1) = "Это животное жестоко напало "
+messages$(490, 0) = "When the wardens tell you to do something, you"
+messages$(490, 1) = "Когда вам говорят что-то делать, вы"
 
-messages$(491, 0) = "This animal was caught using a "
-messages$(491, 1) = "Это животное было поймано с помощью "
+messages$(491, 0) = "You almost killed #FIRST#, you animal!"
+messages$(491, 1) = "Животное, ты чуть не убил #FIRST#!"
 
-messages$(492, 0) = "This is extremely disturbing behaviour, and i"
-messages$(492, 1) = "Это чрезвычайно тревожное поведение, и я"
+messages$(492, 0) = "You could've killed someone with that #FIRST#!"
+messages$(492, 1) = "Вы могли бы убить кого-нибудь с помощью #FIRST#!"
 
-messages$(493, 0) = "This junkie has descended into a life of drug abuse!"
-messages$(493, 1) = "Этот торчок был пойман на употреблении наркотиков!"
+messages$(493, 0) = "You deserve to be behind bars for another #FIRST#,"
+messages$(493, 1) = "Вы заслуживаете быть за решеткой еще #FIRST#, "
 
-messages$(494, 0) = "This man isn't trying to run a business empire..."
-messages$(494, 1) = "Этот человек не управляет бизнес-империей..."
+messages$(494, 0) = "You joined the wrong gang, #FIRST#!"
+messages$(494, 1) = "Вы связались не с той компанией, #FIRST#!"
 
-messages$(495, 0) = "This psycho viciously attacked "
-messages$(495, 1) = "Этот псих злобно атаковал "
+messages$(495, 0) = "You just picked the wrong fight, #FIRST#!"
+messages$(495, 1) = "Ты выбрал не тот бой, #FIRST#!"
 
-messages$(496, 0) = "This supposed 'gang' shouldn't affect your job..."
-messages$(496, 1) = "Эта 'банда' не должна влиять на вашу работу..."
+messages$(496, 0) = "You just wanted a scapegoat, #FIRST#!"
+messages$(496, 1) = "Ты просто нашел козла отпущения, #FIRST#!"
 
-messages$(497, 0) = "Violent behaviour doesn't show much progress..."
-messages$(497, 1) = "Агрессивное поведение не показывает большого прогресса..."
+messages$(497, 0) = "You killed #FIRST#, you animal!"
+messages$(497, 1) = "Животное, ты убил #FIRST#!"
 
-messages$(498, 0) = "We caught you red-handed, "
-messages$(498, 1) = "Мы поймали тебя с поличным, "
+messages$(498, 0) = "You should be able to control your own prisoners..."
+messages$(498, 1) = "Вы должны быть в состоянии контролировать своих заключенных..."
 
-messages$(499, 0) = "We're gathered to hear the case against Prisoner"
-messages$(499, 1) = "Мы собрались, чтобы услышать дело против Заключенного"
+messages$(499, 0) = "You should be able to defuse the odd scuffle..."
+messages$(499, 1) = "Вы должны быть в состоянии остановить драку..."
 
-messages$(500, 0) = "We've had enough of your attitude, "
-messages$(500, 1) = "У нас было достаточно вашего отношения,"
+messages$(500, 0) = "You should be able to handle your own prisoners..."
+messages$(500, 1) = "Вы должны уметь обращаться с заключенными..."
 
-messages$(501, 0) = "When the wardens tell you to do something, you"
-messages$(501, 1) = "Когда вам говорят что-то делать, вы"
+messages$(501, 0) = "You shouldn't be fighting at all - let alone with"
+messages$(501, 1) = "Вы вообще не должны драться, не говоря уже о"
 
-messages$(502, 0) = "You almost killed "
-messages$(502, 1) = "Ты чуть не убил"
+messages$(502, 0) = "You're a menace to society, and i don't want"
+messages$(502, 1) = "Ты угроза обществу, и я не хочу"
 
-messages$(503, 0) = "You could've killed someone with that "
-messages$(503, 1) = "Вы могли бы убить кого-нибудь с этим "
+messages$(503, 0) = "You're an evil human being, and i wouldn't"
+messages$(503, 1) = "Ты злой человек, и я не удивлюсь, если"
 
-messages$(504, 0) = "You deserve to be behind bars for another "
-messages$(504, 1) = "Вы заслуживаете быть за решеткой для другого "
+messages$(504, 0) = "You're being a drama queen, #FIRST#!"
+messages$(504, 1) = "Какая драма, #FIRST#! "
 
-messages$(505, 0) = "You joined the wrong gang, "
-messages$(505, 1) = "Вы присоединились к неправильной банде, "
+messages$(505, 0) = "You're evidently a threat to your fellow inmates..."
+messages$(505, 1) = "Очевидно, вы представляете угрозу для своих сокамерников..."
 
-messages$(506, 0) = "You just picked the wrong fight, "
-messages$(506, 1) = "Ты просто выбрал не тот бой, "
+messages$(506, 0) = "You're going down for murder..."
+messages$(506, 1) = "Ты сядешь за убийство..."
 
-messages$(507, 0) = "You just wanted a scapegoat, "
-messages$(507, 1) = "Ты просто хотел козла отпущения, "
+messages$(507, 0) = "You're going down for serial murder..."
+messages$(507, 1) = "Ты сядешь за серийное убийство..."
 
-messages$(508, 0) = "You killed "
-messages$(508, 1) = "Ты убит"
+messages$(508, 0) = "You're not supposed to 'profit' from the prison"
+messages$(508, 1) = "Вы не должны 'извлекать выгоду' из тюремного"
 
-messages$(509, 0) = "You should be able to control your own prisoners..."
-messages$(509, 1) = "Вы должны быть в состоянии контролировать своих заключенных..."
+messages$(509, 0) = "You're on a slippery slope, #FIRST#! I see"
+messages$(509, 1) = "Ты на скользкой дорожке, #FIRST#! Я вижу"
 
-messages$(510, 0) = "You should be able to defuse the odd scuffle..."
-messages$(510, 1) = "Вы должны быть в состоянии разрядить странную потасовку..."
+messages$(510, 0) = "You're under arrest for assault with a weapon..."
+messages$(510, 1) = "Вы арестованы за нападение с применением оружия..."
 
-messages$(511, 0) = "You should be able to handle your own prisoners..."
-messages$(511, 1) = "Вы должны уметь обращаться с заключенными..."
+messages$(511, 0) = "You're under arrest for assaulting a warden..."
+messages$(511, 1) = "Ты арестован за нападение на смотрителя..."
 
-messages$(512, 0) = "You shouldn't be fighting at all - let alone with"
-messages$(512, 1) = "Вы вообще не должны драться, не говоря уже о"
+messages$(512, 0) = "You're under arrest for attempted murder..."
+messages$(512, 1) = "Вы арестованы за покушение на убийство..."
 
-messages$(513, 0) = "You're a menace to society, and i don't want"
-messages$(513, 1) = "Ты угроза обществу, и я не хочу"
+messages$(513, 0) = "You're under arrest for grievous bodily harm..."
+messages$(513, 1) = "Вы арестованы за нанесение тяжких телесных повреждений..."
 
-messages$(514, 0) = "You're an evil human being, and i wouldn't"
-messages$(514, 1) = "Ты злой человек, и я бы не стал"
+messages$(514, 0) = "You're under arrest for stealing..."
+messages$(514, 1) = "Ты арестован за кражу..."
 
-messages$(515, 0) = "You're being a drama queen, "
-messages$(515, 1) = "Ты становишься королевой драмы, "
+messages$(515, 0) = "You've done nothing to help your rehabilitation..."
+messages$(515, 1) = "Вы ничего не сделали для своей реабилитации..."
 
-messages$(516, 0) = "You're evidently a threat to your fellow inmates..."
-messages$(516, 1) = "Очевидно, вы представляете угрозу для своих сокамерников..."
+messages$(516, 0) = "You've got no reason to be outside of your block"
+messages$(516, 1) = "У вас не было причин быть вне камеры"
 
-messages$(517, 0) = "You're going down for murder..."
-messages$(517, 1) = "Ты идешь за убийство..."
+messages$(517, 0) = "You've got quite an imagination, #FIRST#!"
+messages$(517, 1) = "У тебя хорошее воображение, #FIRST#!"
 
-messages$(518, 0) = "You're going down for serial murder..."
-messages$(518, 1) = "Вы сядете за серийное убийство..."
+messages$(518, 0) = "You've thrown your last punch, #FIRST#! You're"
+messages$(518, 1) = "Ты нанес свой последний удар, #FIRST#! Ты"
 
-messages$(519, 0) = "You're not supposed to 'profit' from the prison"
-messages$(519, 1) = "Вы не должны 'извлекать выгоду' из тюремного"
+messages$(519, 0) = "Your little adventure is over, Magellan!"
+messages$(519, 1) = "Твое маленькое приключение окончено, Магеллан!"
 
-messages$(520, 0) = "You're on a slippery slope, "
-messages$(520, 1) = "Ты на скользкой дорожке, "
+messages$(520, 0) = "a day"
+messages$(520, 1) = "день"
 
-messages$(521, 0) = "You're under arrest for assault with a weapon..."
-messages$(521, 1) = "Вы арестованы за нападение с применением оружия..."
+messages$(521, 0) = "a gang which conspires against the prison system!"
+messages$(521, 1) = "которая замышляет что то против тюремной системы!"
 
-messages$(522, 0) = "You're under arrest for assaulting a warden..."
-messages$(522, 1) = "Вы арестованы за нападение на надзирателя..."
+messages$(522, 0) = "about my day and caught this guy in a bad mood..."
+messages$(522, 1) = "своим делам и застал этого парня в плохом настроении..."
 
-messages$(523, 0) = "You're under arrest for attempted murder..."
-messages$(523, 1) = "Вы арестованы за покушение на убийство..."
+messages$(523, 0) = "all of these people were dropping dead?!"
+messages$(523, 1) = "когда все эти люди падали замертво?!"
 
-messages$(524, 0) = "You're under arrest for grievous bodily harm..."
-messages$(524, 1) = "Вы арестованы за нанесение тяжких телесных повреждений..."
+messages$(524, 0) = "and add another day for the one you've wasted..."
+messages$(524, 1) = "и добавить еще один день к вашему заключению..."
 
-messages$(525, 0) = "You're under arrest for stealing..."
-messages$(525, 1) = "Вы арестованы за кражу..."
+messages$(525, 0) = "and i also order you to pay $#FIRST# in medical fees..."
+messages$(525, 1) = "и я также приказываю вам заплатить #FIRST#$ на медицинские расходы..."
 
-messages$(526, 0) = "You've done nothing to help your rehabilitation..."
-messages$(526, 1) = "Вы ничего не сделали для своей реабилитации..."
+messages$(526, 0) = "and i must also seize the fortune that you've amassed..."
+messages$(526, 1) = "и так же я должен конфисковать накопленное имущество..."
 
-messages$(527, 0) = "You've got no reason to be outside of your block"
-messages$(527, 1) = "У вас не было причин быть вне камеры"
+messages$(527, 0) = "and i order you to pay $#FIRST# in medical fees..."
+messages$(527, 1) = "и я приказываю вам заплатить #FIRST#$ на медицинские расходы..."
 
-messages$(528, 0) = "You've got quite an imagination, #FIRST#!"
-messages$(528, 1) = "У тебя хорошее воображение, #FIRST#!"
+messages$(528, 0) = "and left the poor man fighting for his life!"
+messages$(528, 1) = "и оставил беднягу бороться за свою жизнь!"
 
-messages$(529, 0) = "You've thrown your last punch, "
-messages$(529, 1) = "Ты нанес свой последний удар, "
+messages$(529, 0) = "and succeeded in taking the poor man's life!"
+messages$(529, 1) = "и ему удалось забрать жизнь бедняги!"
 
-messages$(530, 0) = "Your little adventure is over, Magellan!"
-messages$(530, 1) = "Твое маленькое приключение окончено, Магеллан!"
+messages$(530, 0) = "and terminate your affiliation with the gang..."
+messages$(530, 1) = "и прекратить вашу связь с бандой..."
 
-messages$(531, 0) = "a day"
-messages$(531, 1) = "день"
+messages$(531, 0) = "arrest for assaulting a warden!"
+messages$(531, 1) = "аррестован за нападение на смотрителя!"
 
-messages$(532, 0) = "a gang which conspires against the prison system!"
-messages$(532, 1) = "которая замышляет что то против тюремной системы!"
+messages$(532, 0) = "arrest for carrying a #FIRST#!"
+messages$(532, 1) = "арестован за ношение #FIRST#!"
 
-messages$(533, 0) = "about my day and caught this guy in a bad mood..."
-messages$(533, 1) = "о моем дне и поймал этого парня в плохом настроении..."
+messages$(533, 0) = "arrest for conspiring to escape!"
+messages$(533, 1) = "арестован за сговор с целью побега!"
 
-messages$(534, 0) = "all of these people were dropping dead?!"
-messages$(534, 1) = "все эти люди падали замертво?!"
+messages$(534, 0) = "arrest for disobeying the prison rules!"
+messages$(534, 1) = "арестован за несоблюдение тюремного распорядка!"
 
-messages$(535, 0) = "and add another day for the one you've wasted..."
-messages$(535, 1) = "и добавить еще один день к вашему заключению..."
+messages$(535, 0) = "arrest for trading #FIRST#!"
+messages$(535, 1) = "арестован за продажу #FIRST#!"
 
-messages$(536, 0) = "and i also order you to pay $"
-messages$(536, 1) = "и я также приказываю вам заплатить $"
+messages$(536, 0) = "assaulting another inmate!"
+messages$(536, 1) = "нападение на другого заключенного!"
 
-messages$(537, 0) = "and i must also seize the fortune that you've amassed..."
-messages$(537, 1) = "и так же я должен конфисковать накопленное имущество..."
+messages$(537, 0) = "back to my cell when this guy grabbed me..."
+messages$(537, 1) = "обратно в камеру, когда он схватил меня..."
 
-messages$(538, 0) = "and i order you to pay $"
-messages$(538, 1) = "и я приказываю вам заплатить $"
+messages$(538, 0) = "be surprised if you never leave this place..."
+messages$(538, 1) = "ты никогда не покинешь это место..."
 
-messages$(539, 0) = "and left the poor man fighting for his life!"
-messages$(539, 1) = "и оставил беднягу бороться за свою жизнь!"
+messages$(539, 0) = "but several makes you a cold-blooded killer!"
+messages$(539, 1) = "но несколько делают вас хладнокровным убийцей!"
 
-messages$(540, 0) = "and succeeded in taking the poor man's life!"
-messages$(540, 1) = "и удалось забрать жизнь бедняги!"
+messages$(540, 0) = "confiscate the damn thing and leave it at that..."
+messages$(540, 1) = "конфискуйте эту чертову штуку и оставьте все как есть..."
 
-messages$(541, 0) = "and terminate your affiliation with the gang..."
-messages$(541, 1) = "и прекратить вашу связь с бандой..."
+messages$(541, 0) = "do it! You're in no position to disagree..."
+messages$(541, 1) = "делаете это! У вас нет выбора..."
 
-messages$(542, 0) = "arrest for assaulting a warden!"
-messages$(542, 1) = "аррестован за нападение на смотрителя!"
+messages$(542, 0) = "drug abuse!"
+messages$(542, 1) = "употребление наркотиков!"
 
-messages$(543, 0) = "arrest for carrying a #FIRST#!"
-messages$(543, 1) = "арестован за ношение #FIRST#!"
+messages$(543, 0) = "during lockdown! All it does is arouse suspicion..."
+messages$(543, 1) = "ночью! Это вызывает подозрения..."
 
-messages$(544, 0) = "arrest for conspiring to escape!"
-messages$(544, 1) = "арестован за сговор с целью побега!"
+messages$(544, 0) = "engaging in gang activity!"
+messages$(544, 1) = "участие в бандитской деятельности!"
 
-messages$(545, 0) = "arrest for disobeying the prison rules!"
-messages$(545, 1) = "арестован за несоблюдение тюремного распорядка!"
+messages$(545, 0) = "experience - you're supposed to be punished by it!"
+messages$(545, 1) = "опыта - вы должны быть наказаны!"
 
-messages$(546, 0) = "arrest for trading #FIRST#!"
-messages$(546, 1) = "арестован за продажу #FIRST#!"
+messages$(546, 0) = "had to be restrained from harming the others!"
+messages$(546, 1) = "его нужно изолировать от других!"
 
-messages$(547, 0) = "assaulting another inmate!"
-messages$(547, 1) = "нападение на другого заключенного!"
+messages$(547, 0) = "happened, but i wasn't responsible for his death..."
+messages$(547, 1) = "когда это произошло, но я не виноват в его смерти..."
 
-messages$(548, 0) = "back to my cell when this guy grabbed me..."
-messages$(548, 1) = "обратно в камеру, когда он схватил меня..."
+messages$(548, 0) = "i also order you to pay $#FIRST# for a new #SECOND#..."
+messages$(548, 1) = "приказываю вам заплатить #FIRST#$ за новый #SECOND#..."
 
-messages$(549, 0) = "be surprised if you never leave this place..."
-messages$(549, 1) = "удивлюсь, если никогда не покинешь это место..."
+messages$(549, 0) = "i also order you to pay $#FIRST# in damages..."
+messages$(549, 1) = "я прикажу выплатить вам #FIRST# в качестве компенсации за ущерб..."
 
-messages$(550, 0) = "but several makes you a cold-blooded killer!"
-messages$(550, 1) = "но несколько делают вас хладнокровным убийцей!"
+messages$(550, 0) = "in there, so i constantly have to defend myself..."
+messages$(550, 1) = "поэтому мне постоянно приходится защищаться..."
 
-messages$(551, 0) = "confiscate the damn thing and leave it at that..."
-messages$(551, 1) = "конфисковать эту чертову вещь и оставить на этом..."
+messages$(551, 0) = "is your ego! You should give as good as you get..."
+messages$(551, 1) = " это ваше эго! Вы должны отдавать отчет своим действиям..."
 
-messages$(552, 0) = "do it! You're in no position to disagree..."
-messages$(552, 1) = "делаете это! У вас нет выбора..."
+messages$(552, 0) = "it comes at a deadly price and must be avoided!"
+messages$(552, 1) = "это имеет большую цену, и этого следует избегать!"
 
-messages$(553, 0) = "drug abuse!"
-messages$(553, 1) = "употребление наркотиков!"
+messages$(553, 0) = "it doesn't mean he plans to use it as a weapon!"
+messages$(553, 1) = "нельзя сказать, что он планирует использовать его как оружие!"
 
-messages$(554, 0) = "during lockdown! All it does is arouse suspicion..."
-messages$(554, 1) = "ночью! Это вызывает подозрения..."
+messages$(554, 0) = "like to take this moment to deliver my verdict..."
+messages$(554, 1) = "я бы хотел вынести свой вердикт..."
 
-messages$(555, 0) = "engaging in gang activity!"
-messages$(555, 1) = "участие в бандитской деятельности!"
+messages$(555, 0) = "lockdown! He was obviously trying to escape..."
+messages$(555, 1) = "комендатского часа! Он явно пытался сбежать..."
 
-messages$(556, 0) = "experience - you're supposed to be punished by it!"
-messages$(556, 1) = "опыта - вы должны быть наказаны!"
+messages$(556, 0) = "make up for the ones you've spent in a stupor!"
+messages$(556, 1) = "сроку, в качестве компенсации!"
 
-messages$(557, 0) = "had to be restrained from harming the others!"
-messages$(557, 1) = "нужно было воздерживаться от причинения вреда другим!"
+messages$(557, 0) = "many that can be traced back to this psycho!"
+messages$(557, 1) = "многих которые можно отнести к этому психу!"
 
-messages$(558, 0) = "happened, but i wasn't responsible for his death..."
-messages$(558, 1) = "произошло, но я не виноват в его смерти..."
+messages$(558, 0) = "mutilating the body of #NAFIRSTME#!"
+messages$(558, 1) = "нанесение тяжких телесных повреждений #FIRST#!"
 
-messages$(559, 0) = "i also order you to pay $"
-messages$(559, 1) = "я также приказываю вам заплатить $"
+messages$(559, 0) = "no amount of possessions can't change that fact..."
+messages$(559, 1) = "никакое имущество этого не изменит..."
 
-messages$(560, 0) = "in there, so i constantly have to defend myself..."
-messages$(560, 1) = "там, поэтому мне постоянно приходится защищаться..."
+messages$(560, 0) = "of "
+messages$(560, 1) = "в "
 
-messages$(561, 0) = "is your ego! You should give as good as you get..."
-messages$(561, 1) = "ваше эго! Вы должны отдавать ровно столько, сколько получаете..."
+messages$(561, 0) = "out the toys amongst the children!"
+messages$(561, 1) = "раздавать игрушки детям!"
 
-messages$(562, 0) = "it comes at a deadly price and must be avoided!"
-messages$(562, 1) = "это имеет большую цену, и этого следует избегать!"
+messages$(562, 0) = "prison life! Just try to be more compassionate..."
+messages$(562, 1) = "тюремную жизнь! Просто постарайтесь быть более лояльным..."
 
-messages$(563, 0) = "it doesn't mean he plans to use it as a weapon!"
-messages$(563, 1) = "это не значит, что он планирует использовать его как оружие!"
+messages$(563, 0) = "prisoners and shouldn't have to take their abuse!"
+messages$(563, 1) = "и им не придется терпеть их жестокость!"
 
-messages$(564, 0) = "like to take this moment to deliver my verdict..."
-messages$(564, 1) = "я бы хотел вынести свой вердикт..."
+messages$(564, 0) = "report it to the wardens when they grabbed me!"
+messages$(564, 1) = "сообщить о нем, когда они схватили меня!"
 
-messages$(565, 0) = "lockdown! He was obviously trying to escape..."
-messages$(565, 1) = "комендатского часа! Он явно пытался сбежать..."
+messages$(565, 0) = "roughhousing! Simply keep a close eye on him..."
+messages$(565, 1) = "хулиганство! Просто внимательно следите за ним..."
 
-messages$(566, 0) = "make up for the ones you've spent in a stupor!"
-messages$(566, 1) = "сроку, в качестве компенсации!"
+messages$(566, 0) = "sentence you to an extra #FIRST# to address it..."
+messages$(566, 1) = "приговариваю вас на #FIRST#, что бы разобраться в этом... "
 
-messages$(567, 0) = "many that can be traced back to this psycho!"
-messages$(567, 1) = "много чего можно проследить до этого психа!"
+messages$(567, 0) = "simple exchange of resources between friends..."
+messages$(567, 1) = "простой обмен между друзьями..."
 
-messages$(568, 0) = "mutilating the body of #NAFIRSTME#!"
-messages$(568, 1) = "нанесение тяжких телесных повреждений #FIRST#!"
+messages$(568, 0) = "stealing a #FIRST#!"
+messages$(568, 1) = "кражу #FIRST#!"
 
-messages$(569, 0) = "no amount of possessions can't change that fact..."
-messages$(569, 1) = "никакое имущество этого не изменит..."
+messages$(569, 0) = "still be alive if you were doing your job!"
+messages$(569, 1) = "все еще жив, если бы вы выполняли свою работу!"
 
-messages$(570, 0) = "of "
-messages$(570, 1) = "в "
+messages$(570, 0) = "such items before the situation turns violent..."
+messages$(570, 1) = "такие предметы до того, как ситуация станет жестокой..."
 
-messages$(571, 0) = "out the toys amongst the children!"
-messages$(571, 1) = "разбросайте игрушки среди детей!"
+messages$(571, 0) = "that poison won't help your rehabilitation!"
+messages$(571, 1) = "этот яд не поможет вашей реабилитации!"
 
-messages$(572, 0) = "prison life! Just try to be more compassionate..."
-messages$(572, 1) = "тюремную жизнь! Просто постарайтесь быть более лояльным..."
+messages$(572, 0) = "that the poor man lost #FIRST#!"
+messages$(572, 1) = "от чего тот потерял #FIRST#!"
 
-messages$(573, 0) = "prisoners and shouldn't have to take their abuse!"
-messages$(573, 1) = "заключенные и не должны терпеть их оскорбления!"
+messages$(573, 0) = "that this "
+messages$(573, 1) = "что это "
 
-messages$(574, 0) = "report it to the wardens when they grabbed me!"
-messages$(574, 1) = "сообщить о нем, когда они схватили меня!"
+messages$(574, 0) = "that this #FIRST# was used for any crime!"
+messages$(574, 1) = "что #FIRST# использован в преступных целях!"
 
-messages$(575, 0) = "roughhousing! Simply keep a close eye on him..."
-messages$(575, 1) = "хулиганство! Просто внимательно следите за ним..."
+messages$(575, 0) = "that, i'm adding another #FIRST# to your sentence!"
+messages$(575, 1) = "этом, я добавляю еще #FIRST# к вашему сроку!"
 
-messages$(576, 0) = "s..."
-messages$(576, 1) = "с..."
+messages$(576, 0) = "the attempted murder of #FIRST#!"
+messages$(576, 1) = "покушение на убийство #FIRST#!"
 
-messages$(577, 0) = "sentence you to an extra "
-messages$(577, 1) = "приговорить вас к дополнительному "
+messages$(577, 0) = "the evidence, this court rules in favour of..."
+messages$(577, 1) = "доказательства, этот суд принимает решение в пользу..."
 
-messages$(578, 0) = "simple exchange of resources between friends..."
-messages$(578, 1) = "простой обмен между друзьями..."
+messages$(578, 0) = "the murder of #FIRST#!"
+messages$(578, 1) = "убийство #FIRST#!"
 
-messages$(579, 0) = "stealing a #FIRST#!"
-messages$(579, 1) = "кражу #FIRST#!"
+messages$(579, 0) = "the one you've wasted! Take it as a warning..."
+messages$(579, 1) = "наверстать тот, который вы потратили впустую!"
 
-messages$(580, 0) = "still be alive if you were doing your job!"
-messages$(580, 1) = "все еще жив, если ты выполняешь свою работу!"
+messages$(580, 0) = "they'll help you settle into your new home..."
+messages$(580, 1) = "помогут вам обустроиться в вашем новом доме..."
 
-messages$(581, 0) = "such items before the situation turns violent..."
-messages$(581, 1) = "такие предметы до того, как ситуация станет жестокой..."
+messages$(581, 0) = "time for yours! Just try to be more tolerant..."
+messages$(581, 1) = "времени на вас! Просто будьте терпимее..."
 
-messages$(582, 0) = "that poison won't help your rehabilitation!"
-messages$(582, 1) = "этот яд не поможет вашей реабилитации!"
+messages$(582, 0) = "to see you released for another #FIRST# yet..."
+messages$(582, 1) = "что бы тебя не выпусткали еще #FIRST#..."
 
-messages$(583, 0) = "that the poor man lost "
-messages$(583, 1) = "что бедняга потерял "
+messages$(583, 0) = "trying to take back what was mine..."
+messages$(583, 1) = "пытался вернуть то, что принадлежало мне..."
 
-messages$(584, 0) = "that this "
-messages$(584, 1) = "что это "
+messages$(584, 0) = "under arrest for assaulting another inmate..."
+messages$(584, 1) = "арестован за нападение на другого заключенного..."
 
-messages$(585, 0) = "that this #FIRST# was used for any crime!"
-messages$(585, 1) = "что #FIRST# использован в преступных целях!"
+messages$(585, 0) = "under arrest for carrying a #FIRST#..."
+messages$(585, 1) = "арестован за ношение #FIRST#..."
 
-messages$(586, 0) = "that, i'm adding another "
-messages$(586, 1) = "это, я добавляю еще "
+messages$(586, 0) = "us wardens aren't safe from his outbursts!"
+messages$(586, 1) = "мы, смотрители, не застрахованы от его агрессии!"
 
-messages$(587, 0) = "the attempted murder of #FIRST#!"
-messages$(587, 1) = "покушение на убийство #FIRST#!"
+messages$(587, 0) = "use of the medication that the prison provides..."
+messages$(587, 1) = "применял лекарства, которые предоставляет тюрьма..."
 
-messages$(588, 0) = "the evidence, this court rules in favour of..."
-messages$(588, 1) = "доказательства, этот суд принимает решение в пользу..."
+messages$(588, 0) = "using a #FIRST# as a weapon!"
+messages$(588, 1) = "использование #FIRST# как оружия!"
 
-messages$(589, 0) = "the murder of #FIRST#!"
-messages$(589, 1) = "убийство #FIRST#!"
+messages$(589, 0) = "weapon! He intended to do some serious damage..."
+messages$(589, 1) = "оружия! Он намеревался нанести серьезный ущерб..."
 
-messages$(590, 0) = "the one you've wasted! Take it as a warning..."
-messages$(590, 1) = "наверстать тот, который вы потратили впустую!"
+messages$(590, 0) = "weapons! That #FIRST# could've killed someone..."
+messages$(590, 1) = "оружии! Этот #FIRST# мог кого то убить..."
 
-messages$(591, 0) = "they'll help you settle into your new home..."
-messages$(591, 1) = "помогут вам обустроиться в вашем новом доме..."
+messages$(591, 0) = "would all be alive if you were doing your job!"
+messages$(591, 1) = "все были бы живы, если бы вы делали свою работу!"
 
-messages$(592, 0) = "time for yours! Just try to be more tolerant..."
-messages$(592, 1) = "времени на вас! Просто будьте терпимее..."
+messages$(592, 0) = "you have absolutely no respect for human life!"
+messages$(592, 1) = "абсолютно не уважаешь человеческую жизнь!"
 
-messages$(593, 0) = "to see you released for another "
-messages$(593, 1) = "Увидеть, как тебя освободили для другого "
-
-messages$(594, 0) = "trying to take back what was mine..."
-messages$(594, 1) = "пытаясь вернуть то, что было моим..."
-
-messages$(595, 0) = "under arrest for assaulting another inmate..."
-messages$(595, 1) = "арестован за нападение на другого заключенного..."
-
-messages$(596, 0) = "us wardens aren't safe from his outbursts!"
-messages$(596, 1) = "мы, надзиратели, не застрахованы от его вспышек!"
-
-messages$(597, 0) = "use of the medication that the prison provides..."
-messages$(597, 1) = "применял лекарства, которые предоставляет тюрьма..."
-
-messages$(598, 0) = "using a #FIRST# as a weapon!"
-messages$(598, 1) = "использование #FIRST# как оружия!"
-
-messages$(599, 0) = "weapon! He intended to do some serious damage..."
-messages$(599, 1) = "оружие! Он намеревался нанести серьезный ущерб..."
-
-messages$(600, 0) = "weapons! That "
-messages$(600, 1) = "оружие! Что "
-
-messages$(601, 0) = "would all be alive if you were doing your job!"
-messages$(601, 1) = "все были бы живы, если бы вы делали свою работу!"
-
-messages$(602, 0) = "you have absolutely no respect for human life!"
-messages$(602, 1) = "вы абсолютно не уважаете человеческую жизнь!"
-
-messages$(603, 0) = "you sinking back into a life of crime..."
-messages$(603, 1) = "вы погружаетесь обратно в преступную жизнь ..."
+messages$(593, 0) = "you sinking back into a life of crime..."
+messages$(593, 1) = "как вы снова погружаетесь в преступную жизнь..."
