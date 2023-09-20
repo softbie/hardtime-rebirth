@@ -49,155 +49,155 @@ messages$(366, 1) = " находится под"
 messages$(367, 0) = " is wanted"
 messages$(367, 1) = " разыскивается"
 
-messages$(368, 0) = " is wanted for"
-messages$(368, 1) = " разыскивается для"
+messages$(368, 0) = " is your last victim, "
+messages$(368, 1) = " твоя последняя жертва, "
 
-messages$(369, 0) = " is your last victim, "
-messages$(369, 1) = " твоя последняя жертва, "
+messages$(369, 0) = " or anybody else!"
+messages$(369, 1) = " или любой другой!"
 
-messages$(370, 0) = " or anybody else!"
-messages$(370, 1) = " или любой другой!"
+messages$(370, 0) = " so badly"
+messages$(370, 1) = " так сильно"
 
-messages$(371, 0) = " so badly"
-messages$(371, 1) = " так сильно"
+messages$(371, 0) = " survived!"
+messages$(371, 1) = " выжил!"
 
-messages$(372, 0) = " survived!"
-messages$(372, 1) = " выжил!"
+messages$(372, 0) = " to"
+messages$(372, 1) = " к"
 
-messages$(373, 0) = " to"
-messages$(373, 1) = " к"
+messages$(373, 0) = " to address it..."
+messages$(373, 1) = " обращаться с ним..."
 
-messages$(374, 0) = " to address it..."
-messages$(374, 1) = " обращаться с ним..."
+messages$(374, 0) = " to your sentence!"
+messages$(374, 1) = " к твоему приговору!"
 
-messages$(375, 0) = " to your sentence!"
-messages$(375, 1) = " к твоему приговору!"
+messages$(375, 0) = " to your sentence. Take it as a warning!"
+messages$(375, 1) = " к вашему приговору. Примите это как предупреждение!"
 
-messages$(376, 0) = " to your sentence. Take it as a warning!"
-messages$(376, 1) = " к вашему приговору. Примите это как предупреждение!"
+messages$(376, 0) = " was caught carrying a "
+messages$(376, 1) = " был пойман с "
 
-messages$(377, 0) = " was caught carrying a "
-messages$(377, 1) = " был пойман с "
+messages$(377, 0) = " was caught stealing a "
+messages$(377, 1) = " был пойман на краже "
 
-messages$(378, 0) = " was caught stealing a "
-messages$(378, 1) = " был пойман на краже "
+messages$(378, 0) = " was caught trading "
+messages$(378, 1) = " был пойман на торговле "
 
-messages$(379, 0) = " was caught trading "
-messages$(379, 1) = " был пойман на торговле "
+messages$(379, 0) = " was never in any serious danger..."
+messages$(379, 1) = " никогда не подвергался серьезной опасности..."
 
-messages$(380, 0) = " was never in any serious danger..."
-messages$(380, 1) = " никогда не подвергался серьезной опасности..."
+messages$(380, 0) = " was seen wielding a "
+messages$(380, 1) = " был замечен с "
 
-messages$(381, 0) = " was seen wielding a "
-messages$(381, 1) = " был замечен с "
+messages$(381, 0) = " was used for any crime!"
+messages$(381, 1) = " был использован для любого преступления!"
 
-messages$(382, 0) = " was used for any crime!"
-messages$(382, 1) = " был использован для любого преступления!"
+messages$(382, 0) = " when he fell on the ground..."
+messages$(382, 1) = " когда он упал на землю..."
 
-messages$(383, 0) = " when he fell on the ground..."
-messages$(383, 1) = " когда он упал на землю..."
+messages$(383, 0) = " where"
+messages$(383, 1) = " куда"
 
-messages$(384, 0) = " where"
-messages$(384, 1) = " куда"
+messages$(384, 0) = " will calm you down, and"
+messages$(384, 1) = " успокоит тебя и"
 
-messages$(385, 0) = " will calm you down, and"
-messages$(385, 1) = " успокоит тебя и"
+messages$(385, 0) = " will straighten you out, and"
+messages$(385, 1) = " выпрямит тебя и"
 
-messages$(386, 0) = " will straighten you out, and"
-messages$(386, 1) = " выпрямит тебя и"
+messages$(386, 0) = " would"
+messages$(386, 1) = " бы"
 
-messages$(387, 0) = " would"
-messages$(387, 1) = " бы"
+messages$(387, 0) = " yet..."
+messages$(387, 1) = " пока что..."
 
-messages$(388, 0) = " yet..."
-messages$(388, 1) = " пока что..."
+messages$(388, 0) = "! I see"
+messages$(388, 1) = "! Я понимаю"
 
-messages$(389, 0) = "! I see"
-messages$(389, 1) = "! Я понимаю"
+messages$(389, 0) = "! I was just"
+messages$(389, 1) = "! я был просто"
 
-messages$(390, 0) = "! I was just"
-messages$(390, 1) = "! я был просто"
+messages$(390, 0) = "! I was there when it"
+messages$(390, 1) = "! Я был там, когда это"
 
-messages$(391, 0) = "! I was there when it"
-messages$(391, 1) = "! Я был там, когда это"
+messages$(391, 0) = "! It just looks suspicious..."
+messages$(391, 1) = "! Выглядит подозрительно...."
 
-messages$(392, 0) = "! It just looks suspicious..."
-messages$(392, 1) = "! Выглядит подозрительно...."
+messages$(392, 0) = "! It was a"
+messages$(392, 1) = "! Это был"
 
-messages$(393, 0) = "! It was a"
-messages$(393, 1) = "! Это был"
+messages$(393, 0) = "! You're"
+messages$(393, 1) = "! Вы"
 
-messages$(394, 0) = "! You're"
-messages$(394, 1) = "! Вы"
+messages$(394, 0) = "! You're under"
+messages$(394, 1) = "! Ты под"
 
-messages$(395, 0) = "! You're under"
-messages$(395, 1) = "! Ты под"
+messages$(395, 0) = "#COUNT# days in Southtown Correctional Facility!"
+messages$(395, 1) = "#COUNT# дням в исправительном учреждении Сауттауна!"
 
-messages$(396, 0) = "#COUNT# days in Southtown Correctional Facility!"
-messages$(396, 1) = "#COUNT# дням в исправительном учреждении Сауттауна!"
+messages$(396, 0) = "#CRIME# and heard your defence..."
+messages$(396, 1) = "#CRIME# и выслушал оправдания..."
 
-messages$(397, 0) = "#CRIME# and heard your defence..."
-messages$(397, 1) = "#CRIME# и выслушал оправдания..."
+messages$(397, 0) = "#NAME# seems to have a problem with authority!"
+messages$(397, 1) = "У #NAME# похоже, проблемы с законом!"
 
-messages$(398, 0) = "#NAME# seems to have a problem with authority!"
-messages$(398, 1) = "У #NAME# похоже, проблемы с законом!"
+messages$(398, 0) = "#NAME# was caught out of his cell during"
+messages$(398, 1) = "#NAME# был пойман вне камеры во время"
 
-messages$(399, 0) = "#NAME# was caught out of his cell during"
-messages$(399, 1) = "#NAME# был пойман вне камеры во время"
+messages$(399, 0) = "#NAME#, i'm not here to do your job!"
+messages$(399, 1) = "#NAME#, я здесь не для того, чтобы делать твою работу!"
 
-messages$(400, 0) = "#NAME#, i'm not here to do your job!"
-messages$(400, 1) = "#NAME#, я здесь не для того, чтобы делать твою работу!"
+messages$(400, 0) = "#NAME#, this court has seen you accused"
+messages$(400, 1) = "#NAME#, вы обвиняетесь в"
 
-messages$(401, 0) = "#NAME#, this court has seen you accused"
-messages$(401, 1) = "#NAME#, вы обвиняетесь в"
+messages$(401, 0) = "'s recent death is just one of"
+messages$(401, 1) = "недавняя смерть - лишь одна из"
 
-messages$(402, 0) = "'s recent death is just one of"
-messages$(402, 1) = "недавняя смерть - лишь одна из"
+messages$(402, 0) = ", and adding "
+messages$(402, 1) = ", и добавление "
 
-messages$(403, 0) = ", and adding "
-messages$(403, 1) = ", и добавление "
+messages$(403, 0) = ", and was on my way to"
+messages$(403, 1) = ", и был на пути к"
 
-messages$(404, 0) = ", and was on my way to"
-messages$(404, 1) = ", и был на пути к"
+messages$(404, 0) = ", but"
+messages$(404, 1) = ", но"
 
-messages$(405, 0) = ", but"
-messages$(405, 1) = ", но"
+messages$(405, 0) = ", it's not my job to share"
+messages$(405, 1) = ", это не моя работа - делиться"
 
-messages$(406, 0) = ", it's not my job to share"
-messages$(406, 1) = ", это не моя работа - делиться"
+messages$(406, 0) = ", there's no evidence to suggest"
+messages$(406, 1) = ", нет оснований предполагать"
 
-messages$(407, 0) = ", there's no evidence to suggest"
-messages$(407, 1) = ", нет оснований предполагать"
+messages$(407, 0) = ", this court has seen you accused"
+messages$(407, 1) = ", суд признал вас виновным"
 
-messages$(408, 0) = ", this court has seen you accused"
-messages$(408, 1) = ", суд признал вас виновным"
+messages$(408, 0) = ", what were you doing while"
+messages$(408, 1) = ", что ты делал в то время"
 
-messages$(409, 0) = ", what were you doing while"
-messages$(409, 1) = ", что ты делал в то время"
+messages$(409, 0) = ", you animal!"
+messages$(409, 1) = ", ты животное!"
 
-messages$(410, 0) = ", you animal!"
-messages$(410, 1) = ", ты животное!"
+messages$(410, 0) = ", you murdered "
+messages$(410, 1) = ", ты убил "
 
-messages$(411, 0) = ", you murdered "
-messages$(411, 1) = ", ты убил "
+messages$(411, 0) = "...Prisoner "
+messages$(411, 1) = "...Заключенный "
 
-messages$(412, 0) = "...Prisoner "
-messages$(412, 1) = "...Заключенный "
+messages$(412, 0) = "1 day"
+messages$(412, 1) = "1 день"
 
-messages$(413, 0) = "1 day"
-messages$(413, 1) = "1 день"
+messages$(413, 0) = "A fatality doesn't look good on anybody's record..."
+messages$(413, 1) = "Фаталити не выглядит хорошо ни для кого..."
 
-messages$(414, 0) = "A fatality doesn't look good on anybody's record..."
-messages$(414, 1) = "Фаталити не выглядит хорошо ни для кого..."
+messages$(414, 0) = "A prisoner has no business carrying a"
+messages$(414, 1) = "Заключенный не имеет права носить"
 
-messages$(415, 0) = "A prisoner has no business carrying a"
-messages$(415, 1) = "Заключенный не имеет права носить"
+messages$(415, 0) = "A prisoner has no right to such weapons..."
+messages$(415, 1) = "Заключенный не имеет права на ношение оружия..."
 
-messages$(416, 0) = "A prisoner has no right to such weapons..."
-messages$(416, 1) = "Заключенный не имеет права на ношение оружия..."
+messages$(416, 0) = "ATTENTION! Prisoner #NAME# is under"
+messages$(416, 1) = "ВНИМАНИЕ! Заключенный #NAME# был"
 
-messages$(417, 0) = "ATTENTION! Prisoner "
-messages$(417, 1) = "ВНИМАНИЕ! Заключенный"
+messages$(417, 0) = "ATTENTION! Prisoner #NAME# is wanted for"
+messages$(417, 1) = "ВНИМАНИЕ! Заключенный #NAME# разыскивается за"
 
 messages$(418, 0) = "After hearing each of your statements and reviewing"
 messages$(418, 1) = "Выслушав каждое ваше утверждение и просмотрев"
@@ -560,7 +560,7 @@ messages$(537, 0) = "and terminate your affiliation with the gang..."
 messages$(537, 1) = "и прекратить вашу связь с бандой..."
 
 messages$(538, 0) = "arrest for assaulting a warden!"
-messages$(538, 1) = "арестовать за нападение на надзирателя!"
+messages$(538, 1) = "аррестован за нападение на смотрителя!"
 
 messages$(539, 0) = "arrest for carrying a "
 messages$(539, 1) = "арест за ношение "
@@ -601,98 +601,98 @@ messages$(550, 1) = "за участие в бандитской деятельности!"
 messages$(551, 0) = "for stealing a "
 messages$(551, 1) = "за кражу "
 
-messages$(552, 0) = "for using a "
-messages$(552, 1) = "за использование "
+messages$(552, 0) = "had to be restrained from harming the others!"
+messages$(552, 1) = "нужно было воздерживаться от причинения вреда другим!"
 
-messages$(553, 0) = "had to be restrained from harming the others!"
-messages$(553, 1) = "нужно было воздерживаться от причинения вреда другим!"
+messages$(553, 0) = "happened, but i wasn't responsible for his death..."
+messages$(553, 1) = "произошло, но я не виноват в его смерти..."
 
-messages$(554, 0) = "happened, but i wasn't responsible for his death..."
-messages$(554, 1) = "произошло, но я не виноват в его смерти..."
+messages$(554, 0) = "i also order you to pay $"
+messages$(554, 1) = "я также приказываю вам заплатить $"
 
-messages$(555, 0) = "i also order you to pay $"
-messages$(555, 1) = "я также приказываю вам заплатить $"
+messages$(555, 0) = "in there, so i constantly have to defend myself..."
+messages$(555, 1) = "там, поэтому мне постоянно приходится защищаться..."
 
-messages$(556, 0) = "in there, so i constantly have to defend myself..."
-messages$(556, 1) = "там, поэтому мне постоянно приходится защищаться..."
+messages$(556, 0) = "is your ego! You should give as good as you get..."
+messages$(556, 1) = "ваше эго! Вы должны отдавать ровно столько, сколько получаете..."
 
-messages$(557, 0) = "is your ego! You should give as good as you get..."
-messages$(557, 1) = "ваше эго! Вы должны отдавать ровно столько, сколько получаете..."
+messages$(557, 0) = "it comes at a deadly price and must be avoided!"
+messages$(557, 1) = "это имеет большую цену, и этого следует избегать!"
 
-messages$(558, 0) = "it comes at a deadly price and must be avoided!"
-messages$(558, 1) = "это имеет большую цену, и этого следует избегать!"
+messages$(558, 0) = "it doesn't mean he plans to use it as a weapon!"
+messages$(558, 1) = "это не значит, что он планирует использовать его как оружие!"
 
-messages$(559, 0) = "it doesn't mean he plans to use it as a weapon!"
-messages$(559, 1) = "это не значит, что он планирует использовать его как оружие!"
+messages$(559, 0) = "like to take this moment to deliver my verdict..."
+messages$(559, 1) = "я бы хотел вынести свой вердикт..."
 
-messages$(560, 0) = "like to take this moment to deliver my verdict..."
-messages$(560, 1) = "я бы хотел вынести свой вердикт..."
+messages$(560, 0) = "lockdown! He was obviously trying to escape..."
+messages$(560, 1) = "комендатского часа! Он явно пытался сбежать..."
 
-messages$(561, 0) = "lockdown! He was obviously trying to escape..."
-messages$(561, 1) = "комендатского часа! Он явно пытался сбежать..."
+messages$(561, 0) = "make up for the ones you've spent in a stupor!"
+messages$(561, 1) = "компенсируйте те, что вы провели в ступоре!"
 
-messages$(562, 0) = "make up for the ones you've spent in a stupor!"
-messages$(562, 1) = "компенсируйте те, что вы провели в ступоре!"
+messages$(562, 0) = "many that can be traced back to this psycho!"
+messages$(562, 1) = "много чего можно проследить до этого психа!"
 
-messages$(563, 0) = "many that can be traced back to this psycho!"
-messages$(563, 1) = "много чего можно проследить до этого психа!"
+messages$(563, 0) = "mutilating the body of #NAME#!"
+messages$(563, 1) = "нанесение тяжких телесных повреждений #NAME#!"
 
-messages$(564, 0) = "mutilating the body of "
-messages$(564, 1) = "изувечивание тела "
+messages$(564, 0) = "of "
+messages$(564, 1) = "в "
 
-messages$(565, 0) = "of "
-messages$(565, 1) = "в "
+messages$(565, 0) = "out the toys amongst the children!"
+messages$(565, 1) = "разбросайте игрушки среди детей!"
 
-messages$(566, 0) = "out the toys amongst the children!"
-messages$(566, 1) = "разбросайте игрушки среди детей!"
+messages$(566, 0) = "prison life! Just try to be more compassionate..."
+messages$(566, 1) = "тюремную жизнь! Просто постарайтесь быть более лояльным..."
 
-messages$(567, 0) = "prison life! Just try to be more compassionate..."
-messages$(567, 1) = "тюремную жизнь! Просто постарайтесь быть более лояльным..."
+messages$(567, 0) = "prisoners and shouldn't have to take their abuse!"
+messages$(567, 1) = "заключенные и не должны терпеть их оскорбления!"
 
-messages$(568, 0) = "prisoners and shouldn't have to take their abuse!"
-messages$(568, 1) = "заключенные и не должны терпеть их оскорбления!"
+messages$(568, 0) = "report it to the wardens when they grabbed me!"
+messages$(568, 1) = "сообщить о нем, когда они схватили меня!"
 
-messages$(569, 0) = "report it to the wardens when they grabbed me!"
-messages$(569, 1) = "сообщить о нем, когда они схватили меня!"
+messages$(569, 0) = "roughhousing! Simply keep a close eye on him..."
+messages$(569, 1) = "хулиганство! Просто внимательно следите за ним..."
 
-messages$(570, 0) = "roughhousing! Simply keep a close eye on him..."
-messages$(570, 1) = "хулиганство! Просто внимательно следите за ним..."
+messages$(570, 0) = "s..."
+messages$(570, 1) = "с..."
 
-messages$(571, 0) = "s..."
-messages$(571, 1) = "с..."
+messages$(571, 0) = "sentence you to an extra "
+messages$(571, 1) = "приговорить вас к дополнительному "
 
-messages$(572, 0) = "sentence you to an extra "
-messages$(572, 1) = "приговорить вас к дополнительному "
+messages$(572, 0) = "simple exchange of resources between friends..."
+messages$(572, 1) = "простой обмен ресурсами между друзьями..."
 
-messages$(573, 0) = "simple exchange of resources between friends..."
-messages$(573, 1) = "простой обмен ресурсами между друзьями..."
+messages$(573, 0) = "still be alive if you were doing your job!"
+messages$(573, 1) = "все еще жив, если ты выполняешь свою работу!"
 
-messages$(574, 0) = "still be alive if you were doing your job!"
-messages$(574, 1) = "все еще жив, если ты выполняешь свою работу!"
+messages$(574, 0) = "such items before the situation turns violent..."
+messages$(574, 1) = "такие предметы до того, как ситуация станет жестокой..."
 
-messages$(575, 0) = "such items before the situation turns violent..."
-messages$(575, 1) = "такие предметы до того, как ситуация станет жестокой..."
+messages$(575, 0) = "that poison won't help your rehabilitation!"
+messages$(575, 1) = "этот яд не поможет вашей реабилитации!"
 
-messages$(576, 0) = "that poison won't help your rehabilitation!"
-messages$(576, 1) = "этот яд не поможет вашей реабилитации!"
+messages$(576, 0) = "that the poor man lost "
+messages$(576, 1) = "что бедняга потерял "
 
-messages$(577, 0) = "that the poor man lost "
-messages$(577, 1) = "что бедняга потерял "
+messages$(577, 0) = "that this "
+messages$(577, 1) = "что это "
 
-messages$(578, 0) = "that this "
-messages$(578, 1) = "что это "
+messages$(578, 0) = "that this #NAME# was used for any crime!"
+messages$(578, 1) = "что #NAME# использован в преступных целях!"
 
-messages$(579, 0) = "that this #NAME# was used for any crime!"
-messages$(579, 1) = "что #NAME# использован в преступных целях!"
+messages$(579, 0) = "that, i'm adding another "
+messages$(579, 1) = "это, я добавляю еще "
 
-messages$(580, 0) = "that, i'm adding another "
-messages$(580, 1) = "это, я добавляю еще "
+messages$(580, 0) = "the attempted murder of #NAME#!"
+messages$(580, 1) = "покушение на убийство #NAME#!"
 
-messages$(581, 0) = "the attempted murder of "
-messages$(581, 1) = "покушение на убийство "
+messages$(581, 0) = "the evidence, this court rules in favour of..."
+messages$(581, 1) = "доказательства, этот суд принимает решение в пользу..."
 
-messages$(582, 0) = "the evidence, this court rules in favour of..."
-messages$(582, 1) = "доказательства, этот суд принимает решение в пользу..."
+messages$(582, 0) = "the murder of #NAME#!"
+messages$(582, 1) = "убийство #NAME#!"
 
 messages$(583, 0) = "the one you've wasted! Take it as a warning..."
 messages$(583, 1) = "наверстать тот, который вы потратили впустую!"
@@ -721,20 +721,23 @@ messages$(590, 1) = "мы, надзиратели, не застрахованы от его вспышек!"
 messages$(591, 0) = "use of the medication that the prison provides..."
 messages$(591, 1) = "применял лекарства, которые предоставляет тюрьма..."
 
-messages$(592, 0) = "wanted for drug abuse!"
-messages$(592, 1) = "разыскивается за употребление наркотиков!"
+messages$(592, 0) = "using a #NAME# as a weapon!"
+messages$(592, 1) = "использование #NAME# как оружия!"
 
-messages$(593, 0) = "weapon! He intended to do some serious damage..."
-messages$(593, 1) = "оружие! Он намеревался нанести серьезный ущерб..."
+messages$(593, 0) = "wanted for drug abuse!"
+messages$(593, 1) = "разыскивается за употребление наркотиков!"
 
-messages$(594, 0) = "weapons! That "
-messages$(594, 1) = "оружие! Что "
+messages$(594, 0) = "weapon! He intended to do some serious damage..."
+messages$(594, 1) = "оружие! Он намеревался нанести серьезный ущерб..."
 
-messages$(595, 0) = "would all be alive if you were doing your job!"
-messages$(595, 1) = "все были бы живы, если бы вы делали свою работу!"
+messages$(595, 0) = "weapons! That "
+messages$(595, 1) = "оружие! Что "
 
-messages$(596, 0) = "you have absolutely no respect for human life!"
-messages$(596, 1) = "вы абсолютно не уважаете человеческую жизнь!"
+messages$(596, 0) = "would all be alive if you were doing your job!"
+messages$(596, 1) = "все были бы живы, если бы вы делали свою работу!"
 
-messages$(597, 0) = "you sinking back into a life of crime..."
-messages$(597, 1) = "вы погружаетесь обратно в преступную жизнь ..."
+messages$(597, 0) = "you have absolutely no respect for human life!"
+messages$(597, 1) = "вы абсолютно не уважаете человеческую жизнь!"
+
+messages$(598, 0) = "you sinking back into a life of crime..."
+messages$(598, 1) = "вы погружаетесь обратно в преступную жизнь ..."

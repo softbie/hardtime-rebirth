@@ -1336,7 +1336,7 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamChar(slot))+translate(" is under"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #NAME# is under", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("arrest for assaulting a warden!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -1346,8 +1346,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamChar(slot))+translate(" is wanted"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("for using a ")+Lower$(weapName$(weapType(gamItem(slot))))+translate(" as a weapon!"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("using a #NAME# as a weapon!", "#NAME#", Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1356,8 +1356,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamChar(slot))+translate(" is wanted for"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("mutilating the body of ")+charName$(gamVictim(slot))+"!",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("mutilating the body of #NAME#!", "#NAME#", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1366,8 +1366,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamChar(slot))+translate(" is wanted for"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("the attempted murder of ")+charName$(gamVictim(slot))+"!",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("the attempted murder of #NAME#!", "#NAME", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
@@ -1376,8 +1376,8 @@ Function CrimePromos(cyc,v,y#)
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamChar(slot))+translate(" is wanted for"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("the murder of ")+charName$(gamVictim(slot))+"!",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #NAME# is wanted for", "#NAME#", CellName$(gamChar(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("the murder of #NAME#!", "#NAME#", charName$(gamVictim(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
