@@ -80,7 +80,7 @@ Function Gameplay()
 ;adjust resolution
 ChangeResolution(optRes,1)
 ;load location
-Loader(translate("Please Wait"),translate("Loading") + " " +textLocation$(gamLocation(slot)))
+Loader(translate("Please Wait"),translate("Loading #FIRST#", textLocation$(gamLocation(slot))))
 LoadWorld()
 ;load atmosphere
 Loader(translate("Please Wait"),translate("Loading Atmosphere"))
@@ -557,7 +557,7 @@ If go=-1 Or go=3 Or charHealth(gamChar(slot))=<0
  ChannelVolume chTheme,musicVol#
 EndIf
 ;remove world
-If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Leaving ")+textLocation$(oldLocation))
+If charHealth(gamChar(slot))>0 Then Loader(translate("Please Wait"),translate("Leaving #FIRST#", textLocation$(oldLocation)))
 FreeTimer timer
 FreeEntity fader
 FreeEntity world
@@ -819,17 +819,17 @@ Function DisplayFile(char,x,y) ;100,530
  OutlineStraight(Upper$(charName$(char)),rX#(x)+129,rY#(y)-39,0,0,0,160,255,200)
  OutlineStraight(translate("AREA") + ":",rX#(x)+80,rY#(y)-22,0,0,0,0,255,130)
  namer$=Upper$(textLocation(charLocation(char)))
- If charRole(char)=0 Then namer$="CELL "+charCell(char)+", "+Upper$(textBlock$(charBlock(char)))+" BLOCK"
- If charLocation(char)=0 And charHealth(char)=<0 Then namer$="DECEASED"
- If charLocation(char)=0 And charHealth(char)>0 Then namer$="RELEASED"
- If charRole(char)=2 Then namer$="COURTROOM"
+ If charRole(char)=0 Then namer$=translate("CELL #FIRST#, #SECOND# BLOCK", charCell(char), Upper$(textBlock$(charBlock(char))))
+ If charLocation(char)=0 And charHealth(char)=<0 Then namer$=translate("DECEASED")
+ If charLocation(char)=0 And charHealth(char)>0 Then namer$=translate("RELEASED")
+ If charRole(char)=2 Then namer$=translate("COURTROOM")
  OutlineStraight(namer$,rX#(x)+127,rY#(y)-22,0,0,0,160,255,200)
  ;health data
  If gamLocation(slot)=6
   OutlineStraight(translate("HEALTH") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
   affix$=""
   If charInjured(char)>0 Then affix$=" (INJURED)" 
-  If charRole(char)=<1 And charLocation(char)=0 And charHealth(char)=0 Then affix$=" (DEAD)" 
+  If charRole(char)=<1 And charLocation(char)=0 And charHealth(char)=0 Then affix$=translate(" (DEAD)" )
   OutlineStraight(charHealth(char)+"%"+affix$,rX#(x)+143,rY#(y)+2,0,0,0,160,255,200)
   OutlineStraight(translate("STRENGTH") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(charStrength(char)+"%",rX#(x)+163,rY#(y)+19,0,0,0,160,255,200)
@@ -839,7 +839,7 @@ Function DisplayFile(char,x,y) ;100,530
  ;mental data
  If gamLocation(slot)=4
   OutlineStraight(translate("HAPPINESS") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
-  If charBreakdown(char)>0 Then affix$=" (MANIC)" Else affix$=""
+  If charBreakdown(char)>0 Then affix$=translate(" (MANIC)") Else affix$=""
   OutlineStraight(charHappiness(char)+"%"+affix$,rX#(x)+171,rY#(y)+2,0,0,0,160,255,200)
   OutlineStraight(translate("INTELLIGENCE") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(charIntelligence(char)+"%",rX#(x)+185,rY#(y)+19,0,0,0,160,255,200)
@@ -850,7 +850,7 @@ Function DisplayFile(char,x,y) ;100,530
  If gamLocation(slot)=9
   OutlineStraight(translate("SENTENCE") + ":",rX#(x)+80,rY#(y)+2,0,0,0,0,255,130)
   namer$=Upper$(GetSentence$(charSentence(char)))
-  If charSentence(char)=0 Then namer$="NONE"
+  If charSentence(char)=0 Then namer$=translate("NONE")
   OutlineStraight(namer$,rX#(x)+161,rY#(y)+2,0,0,0,160,255,200)
   OutlineStraight(translate("CRIME") + ":",rX#(x)+80,rY#(y)+19,0,0,0,0,255,130)
   OutlineStraight(Upper$(textCrime$(charCrime(char))),rX#(x)+133,rY#(y)+19,0,0,0,160,255,200)
