@@ -583,7 +583,7 @@ Function LoadTextures()
  tMachine=LoadTexture("Weapons/Textures/Machine.png",4)
  tPistol=LoadTexture("Weapons/Textures/Pistol.png",4)
  ;facial expressions
- Loader(translate("Please Wait"),"Loading Expressions")
+ Loader(translate("Please Wait"),translate("Loading Expressions"))
  tEars=LoadTexture("Characters/Expressions/Ears.JPG")
  For count=1 To 3
   tEyes(count)=LoadTexture("Characters/Expressions/Eyes0"+count+".JPG")
