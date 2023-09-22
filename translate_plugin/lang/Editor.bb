@@ -29,7 +29,7 @@ messages$(48, 0) = "(Press BACKSPACE to change)"
 messages$(48, 1) = "(Нажмите BACKSPACE для изменения)"
 
 messages$(49, 0) = "(Points Remaining #FIRST#)"
-messages$(49, 1) = "(Осталось очков #FIRST)"
+messages$(49, 1) = "(Осталось очков #FIRST#)"
 
 messages$(50, 0) = "(No Points Remaining!)"
 messages$(50, 1) = "(Очков не осталось!)"
