@@ -10,12 +10,15 @@ Include "translate_plugin/Main.bb"
 ; first - строка для замены ключа #FIRST#
 ; second - строка для замены ключа #SECOND#
 ; Возвращает строку с произведенными заменами, можно указать как два аргумента так и только один
-Function replacement$(string$, firstReplace$ = "", secondReplace$ = "")
+Function replacement$(string$, firstReplace$ = "", secondReplace$ = "", thirdReplace$ = "")
     If Len(firstReplace$) > 0 Then
         string$ = Replace$(string$, "#FIRST#", firstReplace$)
     EndIf
     If Len(secondReplace$) > 0 Then
         string$ = Replace$(string$, "#SECOND#", secondReplace$)
+    EndIf
+    If Len(thirdReplace$) > 0 Then
+        string$ = Replace$(string$, "#THIRD#", thirdReplace$)
     EndIf
     Return string$
 End Function
@@ -25,9 +28,9 @@ End Function
 ; first - строка для подстановки в ключ #FIRST#
 ; second - строка для подстановки в ключ #SECOND#
 ; Возвращает переведенную или оригинальную строку
-Function translate$(title$, firstReplace$ = "", secondReplace$ = "")
+Function translate$(title$, firstReplace$ = "", secondReplace$ = "", thirdReplace$ = "")
 	For i = 0 To messagesCount
-		If title$ = messages$(i, 0) Then Return replacement$(messages$(i, 1), firstReplace$, secondReplace$)
+		If title$ = messages$(i, 0) Then Return replacement$(messages$(i, 1), firstReplace$, secondReplace$, thirdReplace$)
 	Next
-    Return replacement$(title$, firstReplace$, secondReplace$)
+    Return replacement$(title$, firstReplace$, secondReplace$, thirdReplace$)
 End Function
