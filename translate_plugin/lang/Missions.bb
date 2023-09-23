@@ -177,3 +177,102 @@ messages$(1502, 1) = "Мне нужно знать больше о #FIRST#."
 
 messages$(1503, 0) = "Try to infiltrate that gang by #FIRST#:00 tomorrow..."
 messages$(1503, 1) = "Попробуй проникнуть в эту банду до #FIRST#:00 завтра..."
+
+messages$(1504, 0) = "Hey, remember you're on a mission to"
+messages$(1504, 1) = "Эй, помни, ты должен"
+
+messages$(1505, 0) = "raise your strength to #FIRST#% by #SECOND#:00..."
+messages$(1505, 1) = "прокачать силу до #FIRST#% к #SECOND#:00..."
+
+messages$(1506, 0) = "raise your agility to #FIRST#% by #SECOND#:00..."
+messages$(1506, 1) = "прокачать ловкость до #FIRST#% к #SECOND#:00..."
+
+messages$(1507, 0) = "raise your intelligence to #FIRST#% by #SECOND#:00..."
+messages$(1507, 1) = "прокачать интеллект до #FIRST#% к #SECOND#:00..."
+
+messages$(1508, 0) = "acquire a reputation of #FIRST#% by #SECOND#:00..."
+messages$(1508, 1) = "повысить репутацию до #FIRST#% к #SECOND#:00..."
+
+messages$(1509, 0) = "reduce your reputation to #FIRST#% by #SECOND#:00..."
+messages$(1509, 1) = "понизить репутацию до #FIRST#% к #SECOND#:00..."
+
+messages$(1510, 0) = "get out of debt by #FIRST#:00..."
+messages$(1510, 1) = "вылезти из долгов к #SECOND#:00..."
+
+messages$(1511, 0) = "amass a fortune of $#FIRST# by #SECOND#:00..."
+messages$(1511, 1) = "накопить #FIRST#$ к #SECOND#:00..."
+
+messages$(1512, 0) = "make your hair like mine by #FIRST#:00..."
+messages$(1512, 1) = "сделать прическу как у меня к #SECOND#:00..."
+
+messages$(1513, 0) = "make your outfit like mine by #FIRST#:00..."
+messages$(1513, 1) = "подобрать наряд как у меня к #SECOND#:00..."
+
+messages$(1514, 0) = "bring me a #FIRST# by #SECOND#:00..."
+messages$(1514, 1) = "принести #FIRST# к #SECOND#:00..."
+
+messages$(1515, 0) = "Hey, remember to deliver that #FIRST# to"
+messages$(1515, 1) = "Эй, помни, ты должен принести #FIRST#"
+
+messages$(1516, 0) = "#FIRST# in the #SECOND# by #THRID#:00..."
+messages$(1516, 1) = "#FIRST# в #SECOND# к #THRID#:00..."
+
+messages$(1517, 0) = "kill #FIRST# by #SECOND#:00..."
+messages$(1517, 1) = "убить #FIRST# к #SECOND#:00..."
+
+messages$(1518, 0) = "injure #FIRST# by #SECOND#:00..."
+messages$(1518, 1) = "покалечить #FIRST# к #SECOND#:00..."
+
+messages$(1519, 0) = "attack #FIRST# by #SECOND#:00..."
+messages$(1519, 1) = "напасть на #FIRST# к #SECOND#:00..."
+
+messages$(1520, 0) = "Hey, remember you need to meet a guy called"
+messages$(1520, 1) = "Эй, помни, ты должен познакомиться с парнем"
+
+messages$(1521, 0) = "'#FIRST#' in the #SECOND# by #THRID#:00..."
+messages$(1521, 1) = "по имени '#FIRST#' в #SECOND# к #THRID#:00..."
+
+messages$(1522, 0) = "Hey, remember i need to know who lives in"
+messages$(1522, 1) = "Эй, помни, ты должен узнать, кто живет в"
+
+messages$(1523, 0) = "Cell #FIRST# of the #SECOND# Block by #THRID#:00..."
+messages$(1523, 1) = "Камере #FIRST# #SECOND# Блок к #THRID#:00..."
+
+messages$(1524, 0) = "Hey, remember i'm depending on you"
+messages$(1524, 1) = "Эй, помни, я рассчитываю, что ты"
+
+messages$(1525, 0) = "to watch my back until #FIRST#:00..."
+messages$(1525, 1) = "прикроешь мою спину к #FIRST#:00..."
+
+messages$(1526, 0) = "Hey, remember you're on a mission"
+messages$(1526, 1) = "Эй, помни, ты на задании, что бы"
+
+messages$(1527, 0) = "to get arrested by #FIRST#:00..."
+messages$(1527, 1) = "тебя арестовали к #FIRST#:00..."
+
+messages$(1528, 0) = "join #FIRST# by #SECOND#:00..."
+messages$(1528, 1) = "вступить в #FIRST# к #SECOND#:00..."
+
+messages$(1529, 0) = "You couldn't accomplish one little task for me?"
+messages$(1529, 1) = "Ты не смог выполнить маленькое задание для меня?"
+
+messages$(1530, 0) = "No wonder you're behind bars, you useless moron!"
+messages$(1530, 1) = "Не удивительно, что ты за решеткой, бесполезный идиот!"
+
+messages$(1531, 0) = "You screwed up, #FIRST#! That's the last"
+messages$(1531, 1) = "Ты облажался, #FIRST#! Это последний"
+
+messages$(1532, 0) = "time i ask you to do something for me..."
+messages$(1532, 1) = "раз, когда я тебя о чем то просил..."
+
+messages$(1533, 0) = "You let down the whole gang, #FIRST#!"
+messages$(1533, 1) = "Ты подвел всю банду, #FIRST#!"
+
+messages$(1534, 0) = "You're no longer worthy of wearing that ink..."
+messages$(1534, 1) = "Ты не достоин носить эти знаки..."
+
+messages$(1535, 0) = "You ignored my advice, #FIRST#! Since you're not"
+messages$(1535, 1) = "Ты проигнорировал мой совет, #FIRST#! Поскольку ты"
+
+messages$(1536, 0) = "making progress, i'll just extend your sentence..."
+messages$(1536, 1) = "ничего не добился, я просто продлю тебе срок..."
