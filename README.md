@@ -4,7 +4,7 @@
 
 **Прогресс**
 
-![image](https://progress-bar.dev/40/?width=320&color=green&suffix=%)
+![image](https://progress-bar.dev/55/?width=320&color=green&suffix=%)
 
 
 Русификация игры [HardTime](http://www.mdickie.com/prev_hardtime.htm) от [MDickie](http://www.mdickie.com/)
