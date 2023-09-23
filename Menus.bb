@@ -707,7 +707,7 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
  ;make transition?
  If width<>GraphicsWidth() Or height<>GraphicsHeight()
   If task>0 Then Loader(translate("Please Wait"),translate("Adjusting Resolution"))
-  Graphics3D width,height,16,0
+  Graphics3D width,height,16,2
   If task>0 ;restore media
    LoadImages()
    Loader(translate("Please Wait"),translate("Restoring Media"))
