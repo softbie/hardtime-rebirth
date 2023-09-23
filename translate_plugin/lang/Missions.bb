@@ -276,3 +276,132 @@ messages$(1535, 1) = "Ты проигнорировал мой совет, #FIRST#! Поскольку ты"
 
 messages$(1536, 0) = "making progress, i'll just extend your sentence..."
 messages$(1536, 1) = "ничего не добился, я просто продлю тебе срок..."
+
+messages$(1537, 0) = "Nice work, my friend! You did what i asked."
+messages$(1537, 1) = "Хорошая работа, друг мой! Ты сделал то, что я просил."
+
+messages$(1538, 0) = "I've wired $#FIRST# to your account as a reward..."
+messages$(1538, 1) = "Я перевел #FIRST#$ на твой счет в качестве вознаграждения..."
+
+messages$(1539, 0) = "Nice work, #FIRST#! That really helped me out."
+messages$(1539, 1) = "Хорошая работа, #FIRST#! Ты реально выручил."
+
+messages$(1540, 0) = "You've earned every penny of this $#FIRST# reward..."
+messages$(1540, 1) = "Ты заработал каждую копейку из этой награды в #FIRST#$..."
+
+messages$(1541, 0) = "You've done the gang proud, #FIRST#!"
+messages$(1541, 1) = "Ты порадовал банду, #FIRST#!"
+
+messages$(1542, 0) = "Take $#FIRST# as a reward for your efforts..."
+messages$(1542, 1) = "Возьми #FIRST#$ в качестве награды за работу..."
+
+messages$(1543, 0) = "You're on the right path, #FIRST#! You"
+messages$(1543, 1) = "Ты на верном пути, #FIRST#! Ты"
+
+messages$(1544, 0) = "deserve to have a day taken off your sentence..."
+messages$(1544, 1) = "заслужил смягчение приговора на один день..."
+
+messages$(1545, 0) = "Nice work, #FIRST#! Since you're making progress,"
+messages$(1545, 1) = "Хорошая работа, #FIRST#! Поскольку ты делаешь"
+
+messages$(1546, 0) = "i'll have a day taken off your sentence..."
+messages$(1546, 1) = "успехи, я сниму с тебя срок на один день..."
+
+messages$(1547, 0) = "Damn, i've missed the #FIRST#:00 deadline!"
+messages$(1547, 1) = "Черт, я просрал срок до #FIRST#:00!"
+
+messages$(1548, 0) = "That guy on the phone won't be happy..."
+messages$(1548, 1) = "Тот парень по телефону будет недоволен..."
+
+messages$(1549, 0) = "#FIRST# is gonna give me hell..."
+messages$(1549, 1) = "#FIRST# превратит мою жизнь в ад..."
+
+messages$(1550, 0) = "Hey, #FIRST#, #SECOND# asked me"
+messages$(1550, 1) = "Эй, #FIRST#, #SECOND# попросил"
+
+messages$(1551, 0) = "to deliver this #FIRST# to you..."
+messages$(1551, 1) = "передать тебе #FIRST#..."
+
+messages$(1552, 0) = "Oh, thanks! I gave the money to #FIRST#,"
+messages$(1552, 1) = "О, спасибо! #FIRST# получил от меня деньги,"
+
+messages$(1553, 0) = "so i guess you should ask him for your cut..."
+messages$(1553, 1) = "тебе стоит попросить у него свою долю..."
+
+messages$(1554, 0) = "Hey, #FIRST#, i received a call asking"
+messages$(1554, 1) = "Эй, #FIRST#, мне позвонили и попросили"
+
+messages$(1555, 0) = "me to deliver this #FIRST# to you..."
+messages$(1555, 1) = "доставить тебе #FIRST#..."
+
+messages$(1556, 0) = "Oh, thanks! I was going to pay him $#FIRST#,"
+messages$(1556, 1) = "О, спасибо! Я хотел заплатить ему #FIRST#$,"
+
+messages$(1557, 0) = "but i guess that money should go to you now..."
+messages$(1557, 1) = "но думаю, что тебе они нужнее..."
+
+messages$(1558, 0) = "Hey, #FIRST#, do you know #SECOND#?"
+messages$(1558, 1) = "Эй, #FIRST#, ты знаешь парня по имени #SECOND#?"
+
+messages$(1559, 0) = "He asked me to get a message to you..."
+messages$(1559, 1) = "Он просил меня передать тебе сообщение..."
+
+messages$(1560, 0) = "Hey, #FIRST#, i received a call from"
+messages$(1560, 1) = "Эй, #FIRST#, мне кто-то позвонил и"
+
+messages$(1561, 0) = "someone asking me to meet you here..."
+messages$(1561, 1) = "попросил встретиться с тобой здесь..."
+
+messages$(1562, 0) = "Yeah, i know what that's about! Thanks for the"
+messages$(1562, 1) = "Да, я понял о чем ты! Спасибо за сообщение."
+
+messages$(1563, 0) = "message. Go back and tell him everything's fine..."
+messages$(1563, 1) = "Вернись и скажи ему, что все в порядке..."
+
+messages$(1564, 0) = "Hey, are you from Cell #FIRST# of the #SECOND# Block?"
+messages$(1564, 1) = "Эй, ты из #FIRST# камеры #SECOND# блок?"
+
+messages$(1565, 0) = "#FIRST# has been looking for you..."
+messages$(1565, 1) = "#FIRST# искал тебя..."
+
+messages$(1566, 0) = "Someone on the phone was asking after for you.."
+messages$(1566, 1) = "Кто-то по телефону спрашивал о тебе..."
+
+messages$(1567, 0) = "Yeah, my name is #FIRST#! Thanks for the"
+messages$(1567, 1) = "Да, меня зовут #FIRST#! Спасибо за"
+
+messages$(1568, 0) = "message. Go back and tell him i'm on the way..."
+messages$(1568, 1) = "сообщение. Вернись и скажи ему что я уже в пути..."
+
+messages$(1569, 0) = "Yes, abort mission..."
+messages$(1569, 1) = "Да, прервать миссию..."
+
+messages$(1570, 0) = "Hey, #FIRST#, i hear you're running errands"
+messages$(1570, 1) = "Эй, #FIRST#, я слышал ты на побегушках"
+
+messages$(1571, 0) = "for some guy on the other end of a phone?"
+messages$(1571, 1) = "у какого то парня на том конце телефона?"
+
+messages$(1572, 0) = "Hey, #FIRST#, a little bird tells me that"
+messages$(1572, 1) = "Эй, #FIRST#, мне тут птичка нашептала, что"
+
+messages$(1573, 0) = "you're running errands for #FIRST#?"
+messages$(1573, 1) = "ты на побегушках у парня по имени #FIRST#?"
+
+messages$(1574, 0) = "The only orders you have to obey are MINE!"
+messages$(1574, 1) = "Ты должен делать только то, что скажу тебе Я!"
+
+messages$(1575, 0) = "Give up this nonsense before i get suspicious..."
+messages$(1575, 1) = "Прекращай страдать ерундой, пока я тебя не начал подозревать..."
+
+messages$(1576, 0) = "Good for you! He never really cared about you."
+messages$(1576, 1) = "Тебе повезло! Он не был заинтересован в твоей выгоде."
+
+messages$(1577, 0) = "He was just using you to do his dirty work..."
+messages$(1577, 1) = "Он просто использовал тебя для выполнения грязной работы..."
+
+messages$(1578, 0) = "Whatever they're paying you, it's not worth it!"
+messages$(1578, 1) = "Сколько бы он тебе не платил, оно того не стоит!"
+
+messages$(1579, 0) = "I'll make sure you never leave this place..."
+messages$(1579, 1) = "Я позабочусь о том, чтобы ты никогда не вышел от сюда..."

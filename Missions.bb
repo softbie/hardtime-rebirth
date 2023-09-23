@@ -506,8 +506,8 @@ Function MissionPromos(cyc,v,y#)
     gamMission(slot)=0 : gamClient(slot)=0
     promoEffect=1
    EndIf
-   Outline("Nice work, my friend! You did what i asked.",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("I've wired $"+GetFigure$(gamReward(slot))+" to your account as a reward...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Nice work, my friend! You did what i asked."),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("I've wired $#FIRST# to your account as a reward...", GetFigure$(gamReward(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
@@ -529,8 +529,8 @@ Function MissionPromos(cyc,v,y#)
     gamMission(slot)=0 : gamClient(slot)=0
     promoEffect=1
    EndIf
-   Outline("Nice work, "+charName$(pChar(v))+"! That really helped me out.",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("You've earned every penny of this $"+GetFigure$(gamReward(slot))+" reward...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Nice work, #FIRST#! That really helped me out.", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You've earned every penny of this $#FIRST# reward...", GetFigure$(gamReward(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
@@ -552,8 +552,8 @@ Function MissionPromos(cyc,v,y#)
     gamMission(slot)=0 : gamClient(slot)=0
     promoEffect=1
    EndIf
-   Outline("You've done the gang proud, "+charName$(pChar(v))+"!",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("Take $"+GetFigure$(gamReward(slot))+" as a reward for your efforts...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("You've done the gang proud, #FIRST#!", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Take $#FIRST# as a reward for your efforts...", GetFigure$(gamReward(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>25 And promoTim<325 And charGang(pChar(cyc))=6
    Speak(cyc,3)
@@ -566,8 +566,8 @@ Function MissionPromos(cyc,v,y#)
     gamMission(slot)=0 : gamClient(slot)=0
     promoEffect=1
    EndIf
-   Outline("You're on the right path, "+charName$(pChar(v))+"! You",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("deserve to have a day taken off your sentence...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("You're on the right path, #FIRST#! You", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("deserve to have a day taken off your sentence..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
@@ -584,8 +584,8 @@ Function MissionPromos(cyc,v,y#)
     gamMission(slot)=0 : gamClient(slot)=0
     promoEffect=1
    EndIf
-   Outline("Nice work, "+CellName$(pChar(v))+"! Since you're making progress,",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("i'll have a day taken off your sentence...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Nice work, #FIRST#! Since you're making progress,", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("i'll have a day taken off your sentence..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
@@ -598,9 +598,9 @@ Function MissionPromos(cyc,v,y#)
     charReputation(pChar(cyc))=charReputation(pChar(cyc))-1
     promoEffect=1
    EndIf 
-   Outline("Damn, i've missed the "+gamDeadline(slot)+":00 deadline!",rX#(400),rY#(520),30,30,30,250,250,250)
-   If gamClient(slot)=0 Then Outline("That guy on the phone won't be happy...",rX#(400),rY#(560),30,30,30,250,250,250)
-   If gamClient(slot)>0 Then Outline(charName$(gamClient(slot))+" is gonna give me hell...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Damn, i've missed the #FIRST#:00 deadline!", gamDeadline(slot)),rX#(400),rY#(520),30,30,30,250,250,250)
+   If gamClient(slot)=0 Then Outline(translate("That guy on the phone won't be happy..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   If gamClient(slot)>0 Then Outline(translate("#FIRST# is gonna give me hell...", charName$(gamClient(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf 
@@ -609,8 +609,8 @@ Function MissionPromos(cyc,v,y#)
   If promoTim>25 And promoTim<325
    Speak(cyc,3)
    If pWeapon(cyc)>0 And pAnim(cyc)<20 Then ChangeAnim(cyc,25) : ChangeAnim(v,26)
-   Outline("Hey, "+charName$(pChar(v))+", "+charName$(gamClient(slot))+" asked me",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("to deliver this "+Lower$(weapName$(gamItem(slot)))+" to you...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, #SECOND# asked me", charName$(pChar(v)), charName$(gamClient(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("to deliver this #FIRST# to you...", Lower$(weapName$(gamItem(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
    Speak(v,3)
@@ -620,8 +620,8 @@ Function MissionPromos(cyc,v,y#)
     ChangeRelationship(pChar(cyc),pChar(v),1) 
     promoEffect=1
    EndIf
-   Outline("Oh, thanks! I gave the money to "+charName$(gamClient(slot))+",",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("so i guess you should ask him for your cut...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Oh, thanks! I gave the money to #FIRST#,", charName$(gamClient(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("so i guess you should ask him for your cut..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
@@ -631,11 +631,11 @@ Function MissionPromos(cyc,v,y#)
    Speak(cyc,3)
    If pWeapon(cyc)>0 And pAnim(cyc)<20 Then ChangeAnim(cyc,25) : ChangeAnim(v,26)
    If gamClient(slot)>0
-    Outline("Hey, "+charName$(pChar(v))+", "+charName$(gamClient(slot))+" asked me",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline("to deliver this "+Lower$(weapName$(gamItem(slot)))+" to you...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, #FIRST#, #SECOND# asked me", charName$(pChar(v)), charName$(gamClient(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("to deliver this #FIRST# to you...", Lower$(weapName$(gamItem(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
    Else
-    Outline("Hey, "+charName$(pChar(v))+", i received a call asking",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline("me to deliver this "+Lower$(weapName$(gamItem(slot)))+" to you...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, #FIRST#, i received a call asking", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("me to deliver this #FIRST# to you...", Lower$(weapName$(gamItem(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
   EndIf
   If promoTim>350 And promoTim<650
@@ -648,8 +648,8 @@ Function MissionPromos(cyc,v,y#)
     ChangeRelationship(pChar(cyc),pChar(v),1) 
     gamMission(slot)=0 : promoEffect=1
    EndIf
-   Outline("Oh, thanks! I was going to pay him $"+GetFigure$(gamReward(slot))+",",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("but i guess that money should go to you now...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Oh, thanks! I was going to pay him $#FIRST#,", GetFigure$(gamReward(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("but i guess that money should go to you now..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf 
@@ -658,11 +658,11 @@ Function MissionPromos(cyc,v,y#)
   If promoTim>25 And promoTim<325
    Speak(cyc,3)
    If gamClient(slot)>0
-    Outline("Hey, "+charName$(pChar(v))+", do you know "+charName$(gamClient(slot))+"?",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline("He asked me to get a message to you...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, #FIRST#, do you know #SECOND#?", charName$(pChar(v)), charName$(gamClient(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("He asked me to get a message to you..."),rX#(400),rY#(560),30,30,30,250,250,250)
    Else
-    Outline("Hey, "+charName$(pChar(v))+", i received a call from",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline("someone asking me to meet you here...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, #FIRST#, i received a call from", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("someone asking me to meet you here..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
   EndIf
   If promoTim>350 And promoTim<650
@@ -673,8 +673,8 @@ Function MissionPromos(cyc,v,y#)
     ChangeRelationship(pChar(cyc),pChar(v),1) 
     promoEffect=1
    EndIf
-   Outline("Yeah, i know what that's about! Thanks for the",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("message. Go back and tell him everything's fine...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Yeah, i know what that's about! Thanks for the"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("message. Go back and tell him everything's fine..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf 
@@ -683,11 +683,11 @@ Function MissionPromos(cyc,v,y#)
   If promoTim>25 And promoTim<325
    Speak(cyc,3)
    If gamClient(slot)>0
-    Outline("Hey, are you from Cell "+charCell(pChar(v))+" of the "+textBlock$(charBlock(pChar(v)))+" Block?",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline(charName$(gamClient(slot))+" has been looking for you...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, are you from Cell #FIRST# of the #SECOND# Block?", charCell(pChar(v)), textBlock$(charBlock(pChar(v)))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("#FIRST# has been looking for you...", charName$(gamClient(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
    Else
-    Outline("Hey, are you from Cell "+charCell(pChar(v))+" of the "+textBlock$(charBlock(pChar(v)))+" Block?",rX#(400),rY#(520),30,30,30,250,250,250)
-    Outline("Someone on the phone was asking after for you...",rX#(400),rY#(560),30,30,30,250,250,250)
+    Outline(translate("Hey, are you from Cell #FIRST# of the #SECOND# Block?", charCell(pChar(v)), textBlock$(charBlock(pChar(v)))),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("Someone on the phone was asking after for you..."),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
   EndIf
   If promoTim>350 And promoTim<650
@@ -698,29 +698,29 @@ Function MissionPromos(cyc,v,y#)
     ChangeRelationship(pChar(cyc),pChar(v),1) 
     promoEffect=1
    EndIf
-   Outline("Yeah, my name is "+charName$(pChar(v))+"! Thanks for the",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("message. Go back and tell him i'm on the way...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Yeah, my name is #FIRST#! Thanks for the", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("message. Go back and tell him i'm on the way..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 ;: promoUsed(gamPromo)=1
  EndIf
  ;179. WARDEN ASKS YOU TO GIVE UP MISSION
  If gamPromo=179
   ;intro
-  optionA$="Yes, abort mission..." : optionB$="No, forget it!" 
+  optionA$=translate("Yes, abort mission...") : optionB$=translate("No, forget it!")
   If promoStage=0 And promoTim>25 And promoTim<325 And gamClient(slot)=0
    Speak(cyc,1)
-   Outline("Hey, "+CellName$(pChar(v))+", i hear you're running errands",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("for some guy on the other end of a phone?",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, i hear you're running errands", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("for some guy on the other end of a phone?"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>25 And promoTim<325 And gamClient(slot)>0
    Speak(cyc,1)
-   Outline("Hey, "+CellName$(pChar(v))+", a little bird tells me that",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("you're running errands for "+charName$(gamClient(slot))+"?",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, a little bird tells me that", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("you're running errands for #FIRST#?", charName$(gamClient(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
    Speak(cyc,1)
-   Outline("The only orders you have to obey are MINE!",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("Give up this nonsense before i get suspicious...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("The only orders you have to obey are MINE!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Give up this nonsense before i get suspicious..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>650 Then camFoc=v
   If promoStage=0 And promoTim>675 Then promoStage=1 : foc=1 : keytim=20
@@ -734,8 +734,8 @@ Function MissionPromos(cyc,v,y#)
     CompleteMission(-1)
     promoEffect=1
    EndIf
-   Outline("Good for you! He never really cared about you.",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("He was just using you to do his dirty work...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Good for you! He never really cared about you."),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("He was just using you to do his dirty work..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=3 And promoTim>325 And promoTim<625
    Speak(cyc,1)
@@ -747,8 +747,8 @@ Function MissionPromos(cyc,v,y#)
     If randy=1 And charGang(pChar(v))>0 And gamWarrant(slot)<2 Then gamWarrant(slot)=2
     promoEffect=1
    EndIf
-   Outline("Whatever they're paying you, it's not worth it!",rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline("I'll make sure you never leave this place...",rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Whatever they're paying you, it's not worth it!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("I'll make sure you never leave this place..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=>2 And promoTim>625 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
