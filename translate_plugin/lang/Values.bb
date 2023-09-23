@@ -21,3 +21,6 @@ messages$(37, 1) = "Загрузка теней"
 
 messages$(38, 0) = "Loading Expressions"
 messages$(38, 1) = "Загрузка выражений"
+
+messages$(39, 0) = "Loading Images"
+messages$(39, 1) = "Загрузка изображений"

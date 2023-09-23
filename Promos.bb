@@ -537,8 +537,8 @@ Function DisplayPromo()
   optionA$=translate("Yes, drop weapon...") : optionB$=translate("No, it's mine!") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+CellName$(pChar(v))+translate(", stop where you are! What"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("are you doing with that ")+Lower$(weapName$(weapType(pWeapon(v))))+translate("?"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, stop where you are! What", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("are you doing with that #FIRST#?", Lower$(weapName$(weapType(pWeapon(v))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
    Speak(cyc,1)
@@ -579,7 +579,7 @@ Function DisplayPromo()
  If gamPromo=2
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+CellName$(pChar(v))+translate(", didn't you hear the buzzer? This"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, didn't you hear the buzzer? This", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("place has been locked down for the night!"),rX#(400),rY#(560),30,30,30,250,250,250) 
   EndIf
   If promoTim>350 And promoTim<650
@@ -589,7 +589,7 @@ Function DisplayPromo()
     charReputation(pChar(v))=charReputation(pChar(v))-1
     promoEffect=1
    EndIf
-   Outline(translate("You're supposed to be in the ")+textBlock$(charBlock(pChar(v)))+translate(" Block."),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You're supposed to be in the #FIRST# Block.", textBlock$(charBlock(pChar(v)))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("Make your way there before i drag your sorry ass!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -598,7 +598,7 @@ Function DisplayPromo()
  If gamPromo=3
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Come on, ")+CellName$(pChar(v))+translate(", get back to your cell! We're"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Come on, #FIRST#, get back to your cell! We're", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("trying to lock this place down for the night..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
