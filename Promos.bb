@@ -1071,11 +1071,11 @@ Function DisplayPromo()
  ;24. LAWYER OFFERS TO REDUCE SENTENCE
  If gamPromo=24
   ;intro
-  optionA$=translate("Yes, pay $")+GetFigure$(promoCash)+"!" : optionB$=translate("No, forget it...") 
+  optionA$=translate("Yes, pay $#FIRST#!", GetFigure$(promoCash)) : optionB$=translate("No, forget it...")
   If promoStage=0 And promoTim<25 Then promoCash=GetPromoMoney(1)
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,3)
-   Outline(translate("Hi, ")+charName$(pChar(v))+translate(", it's your lawyer speaking."),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hi, #FIRST#, it's your lawyer speaking.", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("I've got some good news about your case!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1085,7 +1085,7 @@ Function DisplayPromo()
   EndIf
   If promoStage=0 And promoTim>675 And promoTim<975
    Speak(cyc,3)
-   Outline(translate("The only problem is we'll need $")+GetFigure$(promoCash)+translate(" to take"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("The only problem is we'll need $#FIRST# to take", GetFigure$(promoCash)),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("it to court. Do you want to wire me the money?"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promotim>975 Then camFoc=v
@@ -1102,7 +1102,7 @@ Function DisplayPromo()
     promoEffect=1
    EndIf
    Outline(translate("Alright, i'll get onto it immediately! Your"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("sentence should be down to just ")+Lower$(GetFigure$(charSentence(pChar(v))))+translate(" days..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("sentence should be down to just #FIRST# days...", Lower$(GetFigure$(charSentence(pChar(v))))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=3 And promoTim>325 And promoTim<625
    Speak(cyc,1)
@@ -1145,7 +1145,7 @@ Function DisplayPromo()
  If gamPromo=28
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+CellName$(pChar(v))+translate(", we both know that you"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, we both know that you", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("deserved to be crucified by that judge!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
@@ -1171,7 +1171,7 @@ Function DisplayPromo()
  If gamPromo=29
   If promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+CellName$(pChar(v))+translate(", we both know that"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, we both know that", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("justice was done in that courtroom!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
