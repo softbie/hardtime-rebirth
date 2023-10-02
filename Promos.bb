@@ -1219,7 +1219,7 @@ Function DisplayPromo()
   EndIf
   If promoTim>25 And promoTim<325 And charRole(gamFatality(slot))=1
    Speak(cyc,2)
-   Outline(translate("ATTENTION! #FIRST#", charName$(gamFatality(slot)))+,rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! #FIRST#", charName$(gamFatality(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("has been found dead!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650 And (charAttacker(gamFatality(slot))=0 Or charWitness(charAttacker(gamFatality(slot)))=0)
