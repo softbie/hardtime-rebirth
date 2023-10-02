@@ -1193,13 +1193,13 @@ Function DisplayPromo()
   If promoEffect=0 Then ProduceSound(FindChild(world,"Tanoy01"),sTanoy,22050,1) : promoEffect=1
   If promoTim>25 And promoTim<325 And charRole(gamArrival(slot))=0
    Speak(cyc,2)
-   Outline(translate("ATTENTION! A new inmate called '")+charName$(gamArrival(slot))+translate("'"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("will now occupy Cell ")+charCell(gamArrival(slot))+translate(" of the ")+textBlock$(charBlock(gamArrival(slot)))+translate(" Block..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! A new inmate called '#FIRST#'", charName$(gamArrival(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("will now occupy Cell #FIRST# of the #SECOND# Block...", charCell(gamArrival(slot)), textBlock$(charBlock(gamArrival(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>25 And promoTim<325 And charRole(gamArrival(slot))=1
    Speak(cyc,2)
-   Outline(translate("ATTENTION! A new officer called '")+charName$(gamArrival(slot))+translate("'"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("will now patrol the ")+textLocation$(charLocation(gamArrival(slot)))+translate(" area..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! A new officer called '#FIRST#'", charName$(gamArrival(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("will now patrol the #FIRST# area...", textLocation$(charLocation(gamArrival(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>325 And promoTim<9975 Then promoTim=9975 : gamArrival(slot)=0
  EndIf
@@ -1214,12 +1214,12 @@ Function DisplayPromo()
   EndIf
   If promoTim>25 And promoTim<325 And charRole(gamFatality(slot))=0
    Speak(cyc,2)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamFatality(slot))+translate(", otherwise known"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("as '")+charName$(gamFatality(slot))+translate("', has been found dead!"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST#, otherwise known", CellName$(gamFatality(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("as '#FIRST#', has been found dead!", charName$(gamFatality(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>25 And promoTim<325 And charRole(gamFatality(slot))=1
    Speak(cyc,2)
-   Outline(translate("ATTENTION! ")+charName$(gamFatality(slot)),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! #FIRST#", charName$(gamFatality(slot)))+,rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("has been found dead!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650 And (charAttacker(gamFatality(slot))=0 Or charWitness(charAttacker(gamFatality(slot)))=0)
@@ -1230,7 +1230,7 @@ Function DisplayPromo()
   If promoTim>350 And promoTim<650 And charAttacker(gamFatality(slot))>0 And charWitness(charAttacker(gamFatality(slot)))>0
    Speak(cyc,2)
    Outline(translate("His untimely death is thought to be related"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("to a dispute with ")+charName$(charAttacker(gamFatality(slot)))+translate("..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("to a dispute with #FIRST#...", charName$(charAttacker(gamFatality(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>675 And promoTim<975 And charRole(gamFatality(slot))=0
    Speak(cyc,2)
@@ -1250,12 +1250,12 @@ Function DisplayPromo()
   If promoTim>25 And promoTim<9975 Then ShowPhoto(gamRelease(slot))
   If promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("ATTENTION! Prisoner ")+CellName$(gamRelease(slot))+translate(", otherwise known"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("as '")+charName$(gamRelease(slot))+translate("', has been released..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("ATTENTION! Prisoner #FIRST#, otherwise known", CellName$(gamRelease(slot))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("as '#FIRST#', has been released...", charName$(gamRelease(slot))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
    Speak(cyc,2)
-   Outline(translate("He served his sentence for ")+Lower$(textCrime$(charCrime(gamRelease(slot)))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("He served his sentence for #FIRST#", Lower$(textCrime$(charCrime(gamRelease(slot))))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("and we now welcome him back into society..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>650 And promoTim<9975 Then promoTim=9975 : gamRelease(slot)=0
@@ -1266,7 +1266,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", your skin is white"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, your skin is white", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("but you're not letting it shine bright!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1307,7 +1307,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", you've been sent to"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, you've been sent to", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("this prison to serve a greater cause..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1348,7 +1348,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", aren't you tired of"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, aren't you tired of", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("being judged by the colour of your skin?"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1389,7 +1389,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", haven't you ever heard"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, haven't you ever heard", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("that the pen is mightier than the sword?"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1430,7 +1430,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", i'm sure you know"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, i'm sure you know", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("that only the strong survive in here?"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1471,7 +1471,7 @@ Function DisplayPromo()
   optionA$=translate("Yes, join gang!") : optionB$=translate("No thanks...") 
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", don't forget that the"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, don't forget that the", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("point of prison is to better yourself..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -1505,8 +1505,8 @@ Function DisplayPromo()
  If gamPromo=39
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", watch who you mess with!"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(charName$(charPromoRef(pChar(cyc)))+translate(" is a member of ")+textGang$(charGang(pChar(cyc)))+translate("..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, watch who you mess with!", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("#FIRST# is a member of #SECOND#...", charName$(charPromoRef(pChar(cyc))), textGang$(charGang(pChar(cyc)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
    Speak(cyc,1)
@@ -1528,7 +1528,7 @@ Function DisplayPromo()
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
    Outline(translate("Hey, do you know who you're messing with?!"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("I'm a member of ")+textGang$(charGang(pChar(cyc)))+translate("..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("I'm a member of #FIRST#...", textGang$(charGang(pChar(cyc)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
    Speak(cyc,1)
@@ -1547,8 +1547,8 @@ Function DisplayPromo()
  If gamPromo=41
   If promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", why are you attacking"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("a fellow member of ")+textGang$(charGang(pChar(cyc)))+translate("?!"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, why are you attacking", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("a fellow member of #FIRST#?!", textGang$(charGang(pChar(cyc)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoTim>350 And promoTim<650
    Speak(cyc,1)
