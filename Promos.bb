@@ -2004,17 +2004,17 @@ Function DisplayPromo()
  ;55. WITNESS BLACKMAILS YOU
  If gamPromo=55
   ;intro
-  optionA$=translate("Yes, pay $")+GetFigure$(promoCash)+"..." : optionB$=translate("No, i don't care!") 
+  optionA$=translate("Yes, pay $#FIRST#...", GetFigure$(promoCash)) : optionB$=translate("No, i don't care!")
   If promoStage=0 And promoTim<25 Then promoCash=GetPromoMoney(1)
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", i saw what you did!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, i saw what you did!", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("I could send you down for a long time..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
    Speak(cyc,2)
    Outline(translate("Fortunately for you, i'm a compassionate man and"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("may be willing to forget what i saw for $")+GetFigure$(promoCash)+translate("?"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("may be willing to forget what i saw for $#FIRST#?", GetFigure$(promoCash)),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promotim>650 Then camFoc=v
   If promoStage=0 And promoTim>675 Then promoStage=1 : foc=1 : keytim=20
@@ -2046,17 +2046,17 @@ Function DisplayPromo()
  ;56. INMATE OFFERS TO TAKE BLAME
  If gamPromo=56
   ;intro
-  optionA$=translate("Yes, pay $")+GetFigure$(promoCash)+"..." : optionB$=translate("No, i don't care!") 
+  optionA$=translate("Yes, pay $#FIRST#...", GetFigure$(promoCash)) : optionB$=translate("No, i don't care!")
   If promoStage=0 And promoTim<25 Then promoCash=GetPromoMoney(1)
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,1)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", what have you been up to?"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("Word is you're wanted for ")+Lower$(textWarrant$(gamWarrant(slot)))+translate("!"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, what have you been up to?", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Word is you're wanted for #FIRST#!", Lower$(textWarrant$(gamWarrant(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
    Speak(cyc,2)
    Outline(translate("Fortunately for you, i need money - and may be"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("willing to take the blame if you pay me $")+GetFigure$(promoCash)+translate("?"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("willing to take the blame if you pay me $#FIRST#?", GetFigure$(promoCash)),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promotim>650 Then camFoc=v
   If promoStage=0 And promoTim>675 Then promoStage=1 : foc=1 : keytim=20
@@ -2096,7 +2096,7 @@ Function DisplayPromo()
  ;57. INMATE ASKS YOU TO TAKE BLAME
  If gamPromo=57
   ;intro
-  optionA$=translate("Yes, accept $")+GetFigure$(promoCash)+"!" : optionB$=translate("No thanks...") 
+  optionA$=translate("Yes, accept $#FIRST#!", GetFigure$(promoCash)) : optionB$=translate("No thanks...")
   If promoStage=0 And promoTim<25
    promoVariable=Rnd(1,14)
    promoCash=Rnd(promoVariable*50,promoVariable*100)
@@ -2104,13 +2104,13 @@ Function DisplayPromo()
   EndIf
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,3)
-   Outline(translate("Hey, ")+charName$(pChar(v))+translate(", you've got to help me!"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("The wardens want me for ")+Lower$(textWarrant$(promoVariable))+translate("!"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("Hey, #FIRST#, you've got to help me!", charName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("The wardens want me for #FIRST#!", Lower$(textWarrant$(promoVariable))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
    Speak(cyc,3)
    Outline(translate("Take the heat for me and i won't forget it!"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(translate("I'll even pay you $")+GetFigure$(promoCash)+translate(" for your trouble?"),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("I'll even pay you $#FIRST# for your trouble?", GetFigure$(promoCash)),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promotim>650 Then camFoc=v
   If promoStage=0 And promoTim>675 Then promoStage=1 : foc=1 : keytim=20
@@ -2142,7 +2142,7 @@ Function DisplayPromo()
     Next
     promoEffect=1
    EndIf
-   Outline(translate("You're turning down $")+GetFigure$(promoCash)+translate(" to tell a few lies?!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You're turning down $#FIRST# to tell a few lies?!", GetFigure$(promoCash)),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("Don't come to me the next time you need a favour..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=>2 And promoTim>625 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
@@ -2150,11 +2150,11 @@ Function DisplayPromo()
  ;58. WARDEN THREATENS TO MAKE UP CHARGE
  If gamPromo=58
   ;intro
-  optionA$=translate("Yes, pay $")+GetFigure$(promoCash)+"..." : optionB$=translate("No, do your worst!") 
+  optionA$=translate("Yes, pay $#FIRST#...", GetFigure$(promoCash)) : optionB$=translate("No, do your worst!")
   If promoStage=0 And promoTim<25 Then promoCash=GetPromoMoney(1)
   If promoStage=0 And promoTim>25 And promoTim<325
    Speak(cyc,2)
-   Outline(translate("You know, ")+CellName$(pChar(v))+translate(", being a warden is a very"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("You know, #FIRST#, being a warden is a very", CellName$(pChar(v))),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("respectable job. People believe whatever you say!"),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promoTim>350 And promoTim<650
@@ -2164,7 +2164,7 @@ Function DisplayPromo()
   EndIf
   If promoStage=0 And promoTim>675 And promoTim<975
    Speak(cyc,1)
-   Outline(translate("Give me $")+GetFigure$(promoCash)+translate(" or i'll give you an example!"),rX#(400),rY#(520),30,30,30,250,250,250)
+   Outline(translate("Give me $#FIRST# or i'll give you an example!", GetFigure$(promoCash)),rX#(400),rY#(520),30,30,30,250,250,250)
    Outline(translate("I could have you before a judge right now..."),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=0 And promotim>975 Then camFoc=v
@@ -2195,7 +2195,7 @@ Function DisplayPromo()
     promoEffect=1
    EndIf
    Outline(translate("Wrong move! It turns out you're wanted for"),rX#(400),rY#(520),30,30,30,250,250,250)
-   Outline(Lower$(textWarrant$(gamWarrant(slot)))+translate("! I'll have to take you in..."),rX#(400),rY#(560),30,30,30,250,250,250)
+   Outline(translate("#FIRST#! I'll have to take you in...", Lower$(textWarrant$(gamWarrant(slot)))),rX#(400),rY#(560),30,30,30,250,250,250)
   EndIf
   If promoStage=>2 And promoTim>625 And promoTim<9975 Then promoTim=9975 : promoUsed(gamPromo)=1
  EndIf
