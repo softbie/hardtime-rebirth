@@ -286,7 +286,7 @@ messages$(456, 1) = "! я понимаю"
 messages$(457, 0) = "you sinking back into a life of crime..."
 messages$(457, 1) = "как вы снова погружаетесь в преступную жизнь..."
 
-messages$(458, 0) = "Perhaps another #FIRST#  will straighten you out, and"
+messages$(458, 0) = "Perhaps another #FIRST# will straighten you out, and"
 messages$(458, 1) = "¬озможно, еще #FIRST# вас выправ€т, и "
 
 messages$(459, 0) = " will straighten you out, and"
@@ -599,7 +599,7 @@ messages$(561, 0) = "under arrest for assaulting another inmate..."
 messages$(561, 1) = "арестован за нападение на другого заключенного..."
 
 messages$(562, 0) = "You just picked the wrong fight, #FIRST#!"
-messages$(562, 1) = "“ы выбрал не тот бой, #FIRST#!"
+messages$(562, 1) = "“ы выбрал не того противника, #FIRST#!"
 
 messages$(563, 0) = "You're under arrest for assaulting a warden..."
 messages$(563, 1) = "“ы арестован за нападение на смотрител€..."

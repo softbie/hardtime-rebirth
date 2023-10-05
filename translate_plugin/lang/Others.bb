@@ -73,8 +73,8 @@ messages$(23, 1) = "Генерация игры"
 messages$(24, 0) = "Restoring Game"
 messages$(24, 1) = "Восстановление игры"
 
-messages$(25, 0) = "Version"
-messages$(25, 1) = "Версия"
+messages$(25, 0) = "Version #FIRST#"
+messages$(25, 1) = "Версия #FIRST#"
 
 messages$(26, 0) = "Adjusting Resolution"
 messages$(26, 1) = "Настройка разрешения"

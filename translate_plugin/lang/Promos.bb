@@ -271,2096 +271,2057 @@ messages$(694, 1) = "Нет причин ни для кого из нас держать обиду,"
 messages$(695, 0) = "so just toe the line and we won't have a problem..."
 messages$(695, 1) = "так что просто соблюдай правила, и у нас не будет проблем..."
 
-messages$(696, 0) = "ATTENTION!"
-messages$(696, 1) = "ВНИМАНИЕ!"
+messages$(696, 0) = "Unfortunately, no witnesses have come forward"
+messages$(696, 1) = "К сожалению, ни один свидетель не смог"
 
-messages$(697, 0) = "Unfortunately, no witnesses have come forward"
-messages$(697, 1) = "К сожалению, ни один свидетель не смог"
+messages$(697, 0) = "to shed light on the circumstances of his death..."
+messages$(697, 1) = "пролить свет на обстоятельства его смерти..."
 
-messages$(698, 0) = "to shed light on the circumstances of his death..."
-messages$(698, 1) = "пролить свет на обстоятельства его смерти..."
+messages$(698, 0) = "His untimely death is thought to be related"
+messages$(698, 1) = "Считается, что его безвременная смерть связана"
 
-messages$(699, 0) = "His untimely death is thought to be related"
-messages$(699, 1) = "Считается, что его безвременная смерть связана"
+messages$(699, 0) = "Our condolences go out to both his friends within the"
+messages$(699, 1) = "Мы выражаем соболезнования как его друзьям в тюрьме,"
 
-messages$(700, 0) = "Our condolences go out to both his friends within the"
-messages$(700, 1) = "Мы выражаем соболезнования как его друзьям в тюрьме,"
+messages$(700, 0) = "prison and the family that he leaves behind outside..."
+messages$(700, 1) = "так и семье, которую он оставил снаружи..."
 
-messages$(701, 0) = "prison and the family that he leaves behind outside..."
-messages$(701, 1) = "так и семье, которую он оставил снаружи..."
+messages$(701, 0) = "We at the prison are deeply saddened by his passing,"
+messages$(701, 1) = "Мы в тюрьме глубоко опечалены его кончиной,"
 
-messages$(702, 0) = "We at the prison are deeply saddened by his passing,"
-messages$(702, 1) = "Мы в тюрьме глубоко опечалены его кончиной,"
+messages$(702, 0) = "and our condolences go to his family on the outside..."
+messages$(702, 1) = "и наши соболезнования его семье снаружи..."
 
-messages$(703, 0) = "and our condolences go to his family on the outside..."
-messages$(703, 1) = "и наши соболезнования его семье снаружи..."
+messages$(703, 0) = "and we now welcome him back into society..."
+messages$(703, 1) = "и теперь мы приветствуем его возвращение в общество..."
 
-messages$(704, 0) = "and we now welcome him back into society..."
-messages$(704, 1) = "и теперь мы приветствуем его возвращение в общество..."
+messages$(704, 0) = "but you're not letting it shine bright!"
+messages$(704, 1) = "но ты не даешь ей сиять ярко!"
 
-messages$(705, 0) = "but you're not letting it shine bright!"
-messages$(705, 1) = "но ты не даешь ей сиять ярко!"
+messages$(705, 0) = "Why don't you join The Suns Of God and help us"
+messages$(705, 1) = "Почему бы тебе не присоединиться к The Suns Of God и не помочь нам"
 
-messages$(706, 0) = "Why don't you join The Suns Of God and help us"
-messages$(706, 1) = "Почему бы тебе не присоединиться к The Suns Of God и не помочь нам"
+messages$(706, 0) = "purify this place? We could use a guy like you..."
+messages$(706, 1) = "очистить это место? Нам бы пригодился такой парень, как ты..."
 
-messages$(707, 0) = "purify this place? We could use a guy like you..."
-messages$(707, 1) = "очистить это место? Нам бы пригодился такой парень, как ты..."
+messages$(707, 0) = "Welcome to the family, brother! Discovering"
+messages$(707, 1) = "Добро пожаловать в семью, брат! Раскрытие"
 
-messages$(708, 0) = "Welcome to the family, brother! Discovering"
-messages$(708, 1) = "Добро пожаловать в семью, брат! Раскрытие"
+messages$(708, 0) = "your roots is the first step to growing strong..."
+messages$(708, 1) = "своих корней – первый шаг к тому, чтобы стать сильным..."
 
-messages$(709, 0) = "your roots is the first step to growing strong..."
-messages$(709, 1) = "своих корней – первый шаг к тому, чтобы стать сильным..."
+messages$(709, 0) = "You're either with us or against us! If you're"
+messages$(709, 1) = "Ты либо с нами, либо против нас! Если ты не"
 
-messages$(710, 0) = "You're either with us or against us! If you're"
-messages$(710, 1) = "Ты либо с нами, либо против нас! Если ты не"
+messages$(710, 0) = "not part of the solution, you're the problem..."
+messages$(710, 1) = "часть решения, ты и есть проблема..."
 
-messages$(711, 0) = "not part of the solution, you're the problem..."
-messages$(711, 1) = "часть решения, ты и есть проблема..."
+messages$(711, 0) = "this prison to serve a greater cause..."
+messages$(711, 1) = "тюрьму, чтобы служить великому делу..."
 
-messages$(712, 0) = "this prison to serve a greater cause..."
-messages$(712, 1) = "тюрьму, чтобы служить великому делу..."
+messages$(712, 0) = "Join The Avatars Of Allah and help us wage war"
+messages$(712, 1) = "Присоединяйся к The Avatars Of Allah и помоги нам вести войну"
 
-messages$(713, 0) = "Join The Avatars Of Allah and help us wage war"
-messages$(713, 1) = "Присоединяйся к The Avatars Of Allah и помоги нам вести войну"
+messages$(713, 0) = "on the infidels! We could use a guy like you..."
+messages$(713, 1) = "против неверных! Нам бы пригодился такой парень, как ты..."
 
-messages$(714, 0) = "on the infidels! We could use a guy like you..."
-messages$(714, 1) = "против неверных! Нам бы пригодился такой парень, как ты..."
+messages$(714, 0) = "Welcome to the family, brother! Surrender your"
+messages$(714, 1) = "Добро пожаловать в семью, брат! Отдай свою"
 
-messages$(715, 0) = "Welcome to the family, brother! Surrender your"
-messages$(715, 1) = "Добро пожаловать в семью, брат! Отдай свою"
+messages$(715, 0) = "life to the cause and justice will be done..."
+messages$(715, 1) = "жизнь делу, и справедливость восторжествует..."
 
-messages$(716, 0) = "life to the cause and justice will be done..."
-messages$(716, 1) = "жизнь делу, и справедливость восторжествует..."
+messages$(716, 0) = "You're either with us or against us! If you don't"
+messages$(716, 1) = "Ты либо с нами, либо против нас! Если ты не"
 
-messages$(717, 0) = "You're either with us or against us! If you don't"
-messages$(717, 1) = "Ты либо с нами, либо против нас! Если ты не"
+messages$(717, 0) = "kill the infidels, you'll die alongside them..."
+messages$(717, 1) = "убиваешь неверных, ты умрешь вместе с ними..."
 
-messages$(718, 0) = "kill the infidels, you'll die alongside them..."
-messages$(718, 1) = "убиваешь неверных, ты умрешь вместе с ними..."
+messages$(718, 0) = "being judged by the colour of your skin?"
+messages$(718, 1) = "твои поступки судят по цвету кожи?"
 
-messages$(719, 0) = "being judged by the colour of your skin?"
-messages$(719, 1) = "твои поступки судят по цвету кожи?"
+messages$(719, 0) = "This place is designed to keep the black man down,"
+messages$(719, 1) = "Это место предназначено для сдерживания чернокожих,"
 
-messages$(720, 0) = "This place is designed to keep the black man down,"
-messages$(720, 1) = "Это место предназначено для сдерживания чернокожих,"
+messages$(720, 0) = "but join The Dark Side and we can fight back!"
+messages$(720, 1) = "но присоединяйся к The Dark Side, и мы сможем дать отпор!"
 
-messages$(721, 0) = "but join The Dark Side and we can fight back!"
-messages$(721, 1) = "но присоединяйся к The Dark Side, и мы сможем дать отпор!"
+messages$(721, 0) = "that the pen is mightier than the sword?"
+messages$(721, 1) = "что перо сильнее меча?"
 
-messages$(722, 0) = "that the pen is mightier than the sword?"
-messages$(722, 1) = "что перо сильнее меча?"
+messages$(722, 0) = "Knowledge is power, so join The Powers That Be"
+messages$(722, 1) = "Знание - сила, так что присоединяйся к The Powers That Be"
 
-messages$(723, 0) = "Knowledge is power, so join The Powers That Be"
-messages$(723, 1) = "Знание - сила, так что присоединяйся к The Powers That Be"
+messages$(723, 0) = "and we can bring down this system from within!"
+messages$(723, 1) = "и мы сможем сокрушить эту систему изнутри!"
 
-messages$(724, 0) = "and we can bring down this system from within!"
-messages$(724, 1) = "и мы сможем сокрушить эту систему изнутри!"
+messages$(724, 0) = "Welcome to the family, brother! If we put our heads"
+messages$(724, 1) = "Добро пожаловать в семью, брат! Если мы объединим наши головы"
 
-messages$(725, 0) = "Welcome to the family, brother! If we put our heads"
-messages$(725, 1) = "Добро пожаловать в семью, брат! Если мы объединим наши головы"
+messages$(725, 0) = "together, we'll have dominion over the animals..."
+messages$(725, 1) = "мы будем властвовать над животными..."
 
-messages$(726, 0) = "together, we'll have dominion over the animals..."
-messages$(726, 1) = "мы будем властвовать над животными..."
+messages$(726, 0) = "If you're not intelligent enough to see sense,"
+messages$(726, 1) = "Если ты недостаточно умен, чтобы видеть смысл,"
 
-messages$(727, 0) = "If you're not intelligent enough to see sense,"
-messages$(727, 1) = "Если ты недостаточно умен, чтобы видеть смысл,"
+messages$(727, 0) = "we can't use your worthless brain anyway!"
+messages$(727, 1) = "мы все равно не сможем использовать твой никчемный мозг!"
 
-messages$(728, 0) = "we can't use your worthless brain anyway!"
-messages$(728, 1) = "мы все равно не сможем использовать твой никчемный мозг!"
+messages$(728, 0) = "that only the strong survive in here?"
+messages$(728, 1) = "что здесь выживают только сильнейшие?"
 
-messages$(729, 0) = "that only the strong survive in here?"
-messages$(729, 1) = "что здесь выживают только сильнейшие?"
+messages$(729, 0) = "So why not join The Gladiators and fight alongside"
+messages$(729, 1) = "Присоединяйся к The Gladiators и сражайся бок о бок"
 
-messages$(730, 0) = "So why not join The Gladiators and fight alongside"
-messages$(730, 1) = "Присоединяйся к The Gladiators и сражайся бок о бок"
+messages$(730, 0) = "your fellow athletes? We could use a guy like you..."
+messages$(730, 1) = "со своими товарищами. Нам бы пригодился такой парень, как ты..."
 
-messages$(731, 0) = "your fellow athletes? We could use a guy like you..."
-messages$(731, 1) = "со своими товарищами. Нам бы пригодился такой парень, как ты..."
+messages$(731, 0) = "Welcome to the team, soldier! Wear the ink"
+messages$(731, 1) = "Добро пожаловать в команду, солдат! Носи тату"
 
-messages$(732, 0) = "Welcome to the team, soldier! Wear the ink"
-messages$(732, 1) = "Добро пожаловать в команду, солдат! Носи тату"
+messages$(732, 0) = "with pride and we'll always have your back..."
+messages$(732, 1) = "с гордостью, и мы всегда поддержим тебя..."
 
-messages$(733, 0) = "with pride and we'll always have your back..."
-messages$(733, 1) = "с гордостью, и мы всегда поддержим тебя..."
+messages$(733, 0) = "You're either with us or against us - and this is"
+messages$(733, 1) = "Ты либо с нами, либо против нас - и это"
 
-messages$(734, 0) = "You're either with us or against us - and this is"
-messages$(734, 1) = "Ты либо с нами, либо против нас - и это"
+messages$(734, 0) = "one wall you really don't want to come up against!"
+messages$(734, 1) = "одна стена, с которой ты действительно не хочешь столкнуться!"
 
-messages$(735, 0) = "one wall you really don't want to come up against!"
-messages$(735, 1) = "одна стена, с которой ты действительно не хочешь столкнуться!"
+messages$(735, 0) = "point of prison is to better yourself..."
+messages$(735, 1) = "смысл тюрьмы в том, чтобы стать лучше..."
 
-messages$(736, 0) = "point of prison is to better yourself..."
-messages$(736, 1) = "смысл тюрьмы в том, чтобы стать лучше..."
+messages$(736, 0) = "Join The Peaks and we'll guide you to your"
+messages$(736, 1) = "Присоединяйся к The Peaks, и мы проведем тебя к"
 
-messages$(737, 0) = "Join The Peaks and we'll guide you to your"
-messages$(737, 1) = "Присоединяйся к The Peaks, и мы проведем тебя к"
+messages$(737, 0) = "highest self! You'll be out before you know it..."
+messages$(737, 1) = "высшему Я! Ты выйдешь прежде, чем узнаешь об этом..."
 
-messages$(738, 0) = "highest self! You'll be out before you know it..."
-messages$(738, 1) = "высшему Я! Ты выйдешь прежде, чем узнаешь об этом..."
+messages$(738, 0) = "Welcome to the family, brother! We don't offer"
+messages$(738, 1) = "Добро пожаловать в семью, брат! Мы не предлагаем"
 
-messages$(739, 0) = "Welcome to the family, brother! We don't offer"
-messages$(739, 1) = "Добро пожаловать в семью, брат! Мы не предлагаем"
+messages$(739, 0) = "an easy life, but it will be a meaningful one..."
+messages$(739, 1) = "легкую жизнь, но она будет наполнена смыслом..."
 
-messages$(740, 0) = "an easy life, but it will be a meaningful one..."
-messages$(740, 1) = "легкую жизнь, но она будет наполнена смыслом..."
+messages$(740, 0) = "That's your choice, but do remember that those"
+messages$(740, 1) = "Это твой выбор, но помни, что тех,"
 
-messages$(741, 0) = "That's your choice, but do remember that those"
-messages$(741, 1) = "Это твой выбор, но помни, что тех,"
+messages$(741, 0) = "who live by the sword will die by the same fate..."
+messages$(741, 1) = "кто живет мечом, умрет от него же..."
 
-messages$(742, 0) = "who live by the sword will die by the same fate..."
-messages$(742, 1) = "кто живет мечом, умрет от него же..."
+messages$(742, 0) = "An attack on one of us is an attack on the"
+messages$(742, 1) = "Нападение на одного из нас - это нападение на"
 
-messages$(743, 0) = "An attack on one of us is an attack on the"
-messages$(743, 1) = "Нападение на одного из нас - это нападение на"
+messages$(743, 0) = "whole crew, so pick your battles carefully!"
+messages$(743, 1) = "всех, так что тщательнее выбирай оппонента!"
 
-messages$(744, 0) = "whole crew, so pick your battles carefully!"
-messages$(744, 1) = "всех, так что тщательнее выбирай оппонента!"
+messages$(744, 0) = "Hey, do you know who you're messing with?!"
+messages$(744, 1) = "Эй, ты знаешь, с кем ты связываешься?!"
 
-messages$(745, 0) = "Hey, do you know who you're messing with?!"
-messages$(745, 1) = "Эй, ты знаешь, с кем ты связываешься?!"
+messages$(745, 0) = "This ink means something! One word from me"
+messages$(745, 1) = "Эти тату кое что значат! Одно мое слово"
 
-messages$(746, 0) = "This ink means something! One word from me"
-messages$(746, 1) = "Эти тату кое что значат! Одно мое слово"
+messages$(746, 0) = "and the whole crew will be on your back..."
+messages$(746, 1) = "и вся банда будет за твоей спиной..."
 
-messages$(747, 0) = "and the whole crew will be on your back..."
-messages$(747, 1) = "и вся банда будет за твоей спиной..."
+messages$(747, 0) = "The last thing a crew needs is civil war!"
+messages$(747, 1) = "Последнее, что нужно банде, это внутренняя грызня!"
 
-messages$(748, 0) = "The last thing a crew needs is civil war!"
-messages$(748, 1) = "Последнее, что нужно банде, это внутренняя грызня!"
+messages$(748, 0) = "A traitor doesn't deserve to wear that ink..."
+messages$(748, 1) = "Предатель не заслуживает носить эти тату..."
 
-messages$(749, 0) = "A traitor doesn't deserve to wear that ink..."
-messages$(749, 1) = "Предатель не заслуживает носить эти тату..."
+messages$(749, 0) = "on"
+messages$(749, 1) = "на"
 
-messages$(750, 0) = "on"
-messages$(750, 1) = "на"
+messages$(750, 0) = "Don't you know the only way out is DEATH?"
+messages$(750, 1) = "Разве ты не знаешь, что единственный выход - СМЕРТЬ?"
 
-messages$(751, 0) = "Don't you know the only way out is DEATH?"
-messages$(751, 1) = "Разве ты не знаешь, что единственный выход - СМЕРТЬ?"
+messages$(751, 0) = "You soon will when the others hear about this!"
+messages$(751, 1) = "Скоро она настигнет тебя, когда остальные узнают!"
 
-messages$(752, 0) = "You soon will when the others hear about this!"
-messages$(752, 1) = "Скоро она настигнет тебя, когда остальные узнают!"
+messages$(752, 0) = "Brother, what hurts you so much that you"
+messages$(752, 1) = "Брат, тебе на столько больно, что"
 
-messages$(753, 0) = "Brother, what hurts you so much that you"
-messages$(753, 1) = "Брат, тебе на столько больно, что"
+messages$(753, 0) = "feel you need to hurt me to heal it?"
+messages$(753, 1) = "ты ищешь исцеления в моей боли?"
 
-messages$(754, 0) = "feel you need to hurt me to heal it?"
-messages$(754, 1) = "ты ищешь исцеления в моей боли?"
+messages$(754, 0) = "Come, you will find that the respect of these"
+messages$(754, 1) = "Пойдем, уважение этих людей не стоит того"
 
-messages$(755, 0) = "Come, you will find that the respect of these"
-messages$(755, 1) = "Пойдем, уважение этих людей не стоит того"
+messages$(755, 0) = "men isn't worth sacrificing your soul for..."
+messages$(755, 1) = "чтобы ради него жертвовать своей душой..."
 
-messages$(756, 0) = "men isn't worth sacrificing your soul for..."
-messages$(756, 1) = "чтобы ради него жертвовать своей душой..."
+messages$(756, 0) = "Brother, what is it you're hoping to attain?"
+messages$(756, 1) = "Брат, ты чего добиваешься?"
 
-messages$(757, 0) = "Brother, what is it you're hoping to attain?"
-messages$(757, 1) = "Брат, ты чего добиваешься?"
+messages$(757, 0) = "Will that"
+messages$(757, 1) = "Будет ли это"
 
-messages$(758, 0) = "Will that"
-messages$(758, 1) = "Будет ли это"
+messages$(758, 0) = "Detach yourself from these possessions, and you"
+messages$(758, 1) = "Отрекись от всего и ты увидешь, что"
 
-messages$(759, 0) = "Detach yourself from these possessions, and you"
-messages$(759, 1) = "Отрекись от всего и ты увидешь, что"
+messages$(759, 0) = "will discover that what matters can never be lost..."
+messages$(759, 1) = "истинно ценные вещи невозможно потерять..."
 
-messages$(760, 0) = "will discover that what matters can never be lost..."
-messages$(760, 1) = "истинно ценные вещи невозможно потерять..."
+messages$(760, 0) = "Why don't you leave before it's too late?"
+messages$(760, 1) = "Почему бы и тебе не уйти, пока не стало слишком поздно?"
 
-messages$(761, 0) = "Why don't you leave before it's too late?"
-messages$(761, 1) = "Почему бы и тебе не уйти, пока не стало слишком поздно?"
+messages$(761, 0) = "They'll only use you to do their dirty work!"
+messages$(761, 1) = "Они используют тебя только для выполнения грязной работы!"
 
-messages$(762, 0) = "They'll only use you to do their dirty work!"
-messages$(762, 1) = "Они используют тебя только для выполнения грязной работы!"
+messages$(762, 0) = "Good for you! They're gonna come after us when"
+messages$(762, 1) = "Супер! Они придут за нами, когда"
 
-messages$(763, 0) = "Good for you! They're gonna come after us when"
-messages$(763, 1) = "Супер! Они придут за нами, когда"
+messages$(763, 0) = "they hear about this, but we'll survive together..."
+messages$(763, 1) = "услышат об этом, но мы выживем вместе..."
 
-messages$(764, 0) = "they hear about this, but we'll survive together..."
-messages$(764, 1) = "услышат об этом, но мы выживем вместе..."
+messages$(764, 0) = "In that case, we can no longer be friends!"
+messages$(764, 1) = "В таком случае мы больше не можем быть друзьями!"
 
-messages$(765, 0) = "In that case, we can no longer be friends!"
-messages$(765, 1) = "В таком случае мы больше не можем быть друзьями!"
+messages$(765, 0) = "I want nothing to do with #FIRST#..."
+messages$(765, 1) = "я не хочу иметь ничего общего с #FIRST#..."
 
-messages$(766, 0) = "I want nothing to do with #FIRST#..."
-messages$(766, 1) = "я не хочу иметь ничего общего с #FIRST#..."
+messages$(766, 0) = "at a member of"
+messages$(766, 1) = "у члена"
 
-messages$(767, 0) = "at a member of"
-messages$(767, 1) = "у члена"
+messages$(767, 0) = "Do you want me to get you into the gang too?"
+messages$(767, 1) = "Тоже хочешь присоединиться к нам?"
 
-messages$(768, 0) = "Do you want me to get you into the gang too?"
-messages$(768, 1) = "Тоже хочешь присоединиться к нам?"
+messages$(768, 0) = "Their support can make life easier in here!"
+messages$(768, 1) = "Наша поддержка может сделать жизнь здесь проще!"
 
-messages$(769, 0) = "Their support can make life easier in here!"
-messages$(769, 1) = "Наша поддержка может сделать жизнь здесь проще!"
+messages$(769, 0) = "Welcome to the family, brother! Trust me, it's"
+messages$(769, 1) = "Добро пожаловать в семью, брат! Поверь мне,"
 
-messages$(770, 0) = "Welcome to the family, brother! Trust me, it's"
-messages$(770, 1) = "Добро пожаловать в семью, брат! Поверь мне,"
+messages$(770, 0) = "much better to be with us than against us..."
+messages$(770, 1) = "лучше быть с нами, чем против нас..."
 
-messages$(771, 0) = "much better to be with us than against us..."
-messages$(771, 1) = "лучше быть с нами, чем против нас..."
+messages$(771, 0) = "of"
+messages$(771, 1) = "из"
 
-messages$(772, 0) = "of"
-messages$(772, 1) = "из"
+messages$(772, 0) = "It's great to be onboard! I hope we can"
+messages$(772, 1) = "Приятно быть на борту! Я надеюсь, что мы"
 
-messages$(773, 0) = "It's great to be onboard! I hope we can"
-messages$(773, 1) = "Приятно быть на борту! Я надеюсь, что мы"
+messages$(773, 0) = "work together to rule this place..."
+messages$(773, 1) = "сработаемся, чтобы править этим местом..."
 
-messages$(774, 0) = "work together to rule this place..."
-messages$(774, 1) = "сработаемся, чтобы править этим местом..."
+messages$(774, 0) = "Would you be willing to sell it for $#FIRST#?"
+messages$(774, 1) = "Продашь мне его за #FIRST#$?"
 
-messages$(775, 0) = "Would you be willing to sell it for $#FIRST#?"
-messages$(775, 1) = "Продашь мне его за #FIRST#$?"
+messages$(775, 0) = "Great! This should come in handy."
+messages$(775, 1) = "Отлично! Это должно пригодиться."
 
-messages$(776, 0) = "Great! This should come in handy."
-messages$(776, 1) = "Отлично! Это должно пригодиться."
+messages$(776, 0) = "Maybe we'll do business again some time..."
+messages$(776, 1) = "Может быть, когда-нибудь снова поработаем..."
 
-messages$(777, 0) = "Maybe we'll do business again some time..."
-messages$(777, 1) = "Может быть, когда-нибудь снова поработаем..."
+messages$(777, 0) = "Fine! If you won't sell it, i'll have to take it!"
+messages$(777, 1) = "Отлично! Если ты не продашь его, мне придется его забрать!"
 
-messages$(778, 0) = "Fine! If you won't sell it, i'll have to take it!"
-messages$(778, 1) = "Отлично! Если ты не продашь его, мне придется его забрать!"
+messages$(778, 0) = "Assholes like you deserve to be robbed..."
+messages$(778, 1) = "Такие засранцы, как ты, заслуживают того, чтобы их ограбили..."
 
-messages$(779, 0) = "Assholes like you deserve to be robbed..."
-messages$(779, 1) = "Такие засранцы, как ты, заслуживают того, чтобы их ограбили..."
+messages$(779, 0) = "Good for you! I hope you enjoy it."
+messages$(779, 1) = "Повезло тебе! Я надеюсь, ты оценишь."
 
-messages$(780, 0) = "Good for you! I hope you enjoy it."
-messages$(780, 1) = "Повезло тебе! Я надеюсь, ты оценишь."
+messages$(780, 0) = "Hey, it's your choice! But don't come crying"
+messages$(780, 1) = "Эй, это твой выбор! Но не плачь"
 
-messages$(781, 0) = "Hey, it's your choice! But don't come crying"
-messages$(781, 1) = "Эй, это твой выбор! Но не плачь"
+messages$(781, 0) = "to me the next time you need something..."
+messages$(781, 1) = "в следующий раз, когда тебе что-то понадобится..."
 
-messages$(782, 0) = "to me the next time you need something..."
-messages$(782, 1) = "в следующий раз, когда тебе что-то понадобится..."
+messages$(782, 0) = ", do you want this"
+messages$(782, 1) = ", Вы хотите, чтобы это"
 
-messages$(783, 0) = ", do you want this"
-messages$(783, 1) = ", Вы хотите, чтобы это"
+messages$(783, 0) = "I don't need it anymore, so it's up for grabs..."
+messages$(783, 1) = "Мне он больше не нужен, так можешь его взять..."
 
-messages$(784, 0) = "I don't need it anymore, so it's up for grabs..."
-messages$(784, 1) = "Мне он больше не нужен, так можешь его взять..."
+messages$(784, 0) = "Consider it yours, my friend! I hope you"
+messages$(784, 1) = "Считай его своим, мой друг! Я надеюсь ты"
 
-messages$(785, 0) = "Consider it yours, my friend! I hope you"
-messages$(785, 1) = "Считай его своим, мой друг! Я надеюсь ты"
+messages$(785, 0) = "get as much use out of it as i did..."
+messages$(785, 1) = "получить от этого столько же пользы, сколько и я..."
 
-messages$(786, 0) = "get as much use out of it as i did..."
-messages$(786, 1) = "получить от этого столько же пользы, сколько и я..."
+messages$(786, 0) = "Hey, i was just trying to make your life easier!"
+messages$(786, 1) = "Эй, я просто пытался облегчить тебе жизнь!"
 
-messages$(787, 0) = "Hey, i was just trying to make your life easier!"
-messages$(787, 1) = "Эй, я просто пытался облегчить тебе жизнь!"
+messages$(787, 0) = "Maybe somebody else in here will appreciate it..."
+messages$(787, 1) = "Может быть, здесь кто-нибудь еще оценит..."
 
-messages$(788, 0) = "Maybe somebody else in here will appreciate it..."
-messages$(788, 1) = "Может быть, здесь кто-нибудь еще оценит..."
+messages$(788, 0) = "We're cracking down on that gang, so give"
+messages$(788, 1) = "Мы расправимся с этой бандой, так что сдай их"
 
-messages$(789, 0) = "We're cracking down on that gang, so give"
-messages$(789, 1) = "Мы расправимся с этой бандой, так что сдай их"
+messages$(789, 0) = "them up or we'll make an example out of you!"
+messages$(789, 1) = "или мы сделаем из тебя пример!"
 
-messages$(790, 0) = "them up or we'll make an example out of you!"
-messages$(790, 1) = "или мы сделаем из тебя пример!"
+messages$(790, 0) = "Good for you! Those guys never cared about you."
+messages$(790, 1) = "Хорошо! Эти парни никогда не заботились о тебе."
 
-messages$(791, 0) = "Good for you! Those guys never cared about you."
-messages$(791, 1) = "Хорошо! Эти парни никогда не заботились о тебе."
+messages$(791, 0) = "They just wanted someone to do their dirty work..."
+messages$(791, 1) = "Они просто хотели, чтобы кто-то делал их грязную работу..."
 
-messages$(792, 0) = "They just wanted someone to do their dirty work..."
-messages$(792, 1) = "Они просто хотели, чтобы кто-то делал их грязную работу..."
+messages$(792, 0) = "You're willing to take the heat for those assholes?!"
+messages$(792, 1) = "Ты готов принять удар на себя за этих придурков?!"
 
-messages$(793, 0) = "You're willing to take the heat for those assholes?!"
-messages$(793, 1) = "Ты готов принять удар на себя за этих придурков?!"
+messages$(793, 0) = "Perhaps you need reminding who runs this place..."
+messages$(793, 1) = "Возможно, тебе нужно напомнить, кто управляет этим местом..."
 
-messages$(794, 0) = "Perhaps you need reminding who runs this place..."
-messages$(794, 1) = "Возможно, тебе нужно напомнить, кто управляет этим местом..."
+messages$(794, 0) = "Fortunately for you, i'm feeling generous!"
+messages$(794, 1) = "К счастью для тебя, я очень щедрый!"
 
-messages$(795, 0) = "Fortunately for you, i'm feeling generous!"
-messages$(795, 1) = "К счастью для тебя, я очень щедрый!"
+messages$(795, 0) = "It seems you're not the man we're looking for!"
+messages$(795, 1) = "Кажется, ты не тот человек, которого мы ищем!"
 
-messages$(796, 0) = "It seems you're not the man we're looking for!"
-messages$(796, 1) = "Кажется, ты не тот человек, которого мы ищем!"
+messages$(796, 0) = "I can't even remember what the crime was now..."
+messages$(796, 1) = "Я даже не могу вспомнить, что это было за преступление..."
 
-messages$(797, 0) = "I can't even remember what the crime was now..."
-messages$(797, 1) = "Я даже не могу вспомнить, что это было за преступление..."
+messages$(797, 0) = "Fine! If you won't accept my help, all that"
+messages$(797, 1) = "Отлично! Если ты не принимаешь мою помощь,"
 
-messages$(798, 0) = "Fine! If you won't accept my help, all that"
-messages$(798, 1) = "Отлично! Если ты не принимаешь мою помощь,"
+messages$(798, 0) = "remains is to drag you before the judge..."
+messages$(798, 1) = "остается только тащить тебя к судье..."
 
-messages$(799, 0) = "remains is to drag you before the judge..."
-messages$(799, 1) = "остается только тащить тебя к судье..."
+messages$(799, 0) = "This is where you get paid for making items -"
+messages$(799, 1) = "Здесь вам платят за изготовление предметов -"
 
-messages$(800, 0) = "This is where you get paid for making items -"
-messages$(800, 1) = "Здесь вам платят за изготовление предметов -"
+messages$(800, 0) = "not taking them! Put that back where it belongs..."
+messages$(800, 1) = "не трогай их! Верни это на место..."
 
-messages$(801, 0) = "not taking them! Put that back where it belongs..."
-messages$(801, 1) = "не трогай их! Верни это на место..."
+messages$(801, 0) = "You morons never know when to quit! You could"
+messages$(801, 1) = "Вы, придурки, никогда не знаете, когда остановиться! Ты мог"
 
-messages$(802, 0) = "You morons never know when to quit! You could"
-messages$(802, 1) = "Вы, придурки, никогда не знаете, когда остановиться! Ты мог"
+messages$(802, 0) = "have earned, but now i'm gonna make you pay..."
+messages$(802, 1) = "заработать, но теперь я заставлю тебя заплатить..."
 
-messages$(803, 0) = "have earned, but now i'm gonna make you pay..."
-messages$(803, 1) = "заработать, но теперь я заставлю тебя заплатить..."
+messages$(803, 0) = "I'll be scarred for life because of you!"
+messages$(803, 1) = "Я буду в шрамах на всю жизнь из-за тебя!"
 
-messages$(804, 0) = "I'll be scarred for life because of you!"
-messages$(804, 1) = "Я буду в шрамах на всю жизнь из-за тебя!"
+messages$(804, 0) = "I'm never gonna forgive your for this!"
+messages$(804, 1) = "Я никогда не прощу тебя за это!"
 
-messages$(805, 0) = "I'm never gonna forgive your for this!"
-messages$(805, 1) = "Я никогда не прощу тебя за это!"
+messages$(805, 0) = "I won't stop until you feel the same pain..."
+messages$(805, 1) = "Я не остановлюсь, пока ты не почувствуешь ту же боль..."
 
-messages$(806, 0) = "I won't stop until you feel the same pain..."
-messages$(806, 1) = "Я не остановлюсь, пока ты не почувствуешь ту же боль..."
+messages$(806, 0) = "I could send you down for a long time..."
+messages$(806, 1) = "Я мог бы заложить тебя на долгое время..."
 
-messages$(807, 0) = "I could send you down for a long time..."
-messages$(807, 1) = "Я мог бы заложить тебя на долгое время..."
+messages$(807, 0) = "Fortunately for you, i'm a compassionate man and"
+messages$(807, 1) = "К счастью для тебя, я достаточно сострадателен и"
 
-messages$(808, 0) = "Fortunately for you, i'm a compassionate man and"
-messages$(808, 1) = "К счастью для тебя, я достаточно сострадателен и"
+messages$(808, 0) = "may be willing to forget what i saw for $#FIRST#?"
+messages$(808, 1) = "я могу забыть увиденное за #FIRST#$"
 
-messages$(809, 0) = "may be willing to forget what i saw for $#FIRST#?"
-messages$(809, 1) = "я могу забыть увиденное за #FIRST#$"
+messages$(809, 0) = "Turns out i didn't see anything after all!"
+messages$(809, 1) = "Оказывается, я ничего не видел!"
 
-messages$(810, 0) = "Turns out i didn't see anything after all!"
-messages$(810, 1) = "Оказывается, я ничего не видел!"
+messages$(810, 0) = "I guess the wardens just lost their case..."
+messages$(810, 1) = "Думаю, смотрители только что проиграли..."
 
-messages$(811, 0) = "I guess the wardens just lost their case..."
-messages$(811, 1) = "Думаю, смотрители только что проиграли..."
+messages$(811, 0) = "Fine, have it your way! When the wardens hear my"
+messages$(811, 1) = "Ладно, будь по-твоему! Когда смотрители услышат мою"
 
-messages$(812, 0) = "Fine, have it your way! When the wardens hear my"
-messages$(812, 1) = "Ладно, будь по-твоему! Когда смотрители услышат мою"
+messages$(812, 0) = "version of the story they'll throw away the key..."
+messages$(812, 1) = "версию истории, они запрут тебя здесь надолго..."
 
-messages$(813, 0) = "version of the story they'll throw away the key..."
-messages$(813, 1) = "версию истории, они запрут тебя здесь надолго..."
+messages$(813, 0) = "Fortunately for you, i need money - and may be"
+messages$(813, 1) = "К счастью для тебя, мне нужны деньги - и может быть"
 
-messages$(814, 0) = "Fortunately for you, i need money - and may be"
-messages$(814, 1) = "К счастью для тебя, мне нужны деньги - и может быть"
+messages$(814, 0) = "willing to take the blame if you pay me $#FIRST#?"
+messages$(814, 1) = "я готов взять на себя вину за #FIRST#$"
 
-messages$(815, 0) = "willing to take the blame if you pay me $#FIRST#?"
-messages$(815, 1) = "я готов взять на себя вину за #FIRST#$"
+messages$(815, 0) = "This should ease the pain when i take the heat!"
+messages$(815, 1) = "Это должно помочь, я приму удар на себя!"
 
-messages$(816, 0) = "This should ease the pain when i take the heat!"
-messages$(816, 1) = "Это должно помочь, я приму удар на себя!"
+messages$(816, 0) = "I'm never getting out, so i might as well profit..."
+messages$(816, 1) = "Я никогда не выйду, так что я мог бы извлечь выгоду..."
 
-messages$(817, 0) = "I'm never getting out, so i might as well profit..."
-messages$(817, 1) = "Я никогда не выйду, так что я мог бы извлечь выгоду..."
+messages$(817, 0) = "Fine, have it your way! I'll take the side"
+messages$(817, 1) = "Ладно, будь по-твоему! Я встану на сторону"
 
-messages$(818, 0) = "Fine, have it your way! I'll take the side"
-messages$(818, 1) = "Ладно, будь по-твоему! Я встану на сторону"
+messages$(818, 0) = "of the wardens and make sure you go down..."
+messages$(818, 1) = "смотрителей и удостоверюсь, что тебя не выпустят..."
 
-messages$(819, 0) = "of the wardens and make sure you go down..."
-messages$(819, 1) = "смотрителей и удостоверюсь, что тебя не выпустят..."
+messages$(819, 0) = "The wardens want me for #FIRST#!"
+messages$(819, 1) = "Надзиратели ищут меня за #FIRST#!"
 
-messages$(820, 0) = "The wardens want me for #FIRST#!"
-messages$(820, 1) = "Надзиратели ищут меня за #FIRST#!"
+messages$(820, 0) = "Take the heat for me and i won't forget it!"
+messages$(820, 1) = "Возьми удар на себя, и я этого не забуду!"
 
-messages$(821, 0) = "Take the heat for me and i won't forget it!"
-messages$(821, 1) = "Возьми удар на себя, и я этого не забуду!"
+messages$(821, 0) = "Thanks, you just saved my life! Here's your money."
+messages$(821, 1) = "Спасибо, ты просто спас мне жизнь! Вот твои деньги."
 
-messages$(822, 0) = "Thanks, you just saved my life! Here's your money."
-messages$(822, 1) = "Спасибо, ты просто спас мне жизнь! Вот твои деньги."
+messages$(822, 0) = "Having a friend like you will be worth every penny..."
+messages$(822, 1) = "Иметь друга, как ты, стоит каждой потраченной копейки..."
 
-messages$(823, 0) = "Having a friend like you will be worth every penny..."
-messages$(823, 1) = "Иметь друга, как ты, стоит каждой потраченной копейки..."
+messages$(823, 0) = "Don't come to me the next time you need a favour..."
+messages$(823, 1) = "Не приходи ко мне в следующий раз, когда тебе понадобится помощь..."
 
-messages$(824, 0) = "Don't come to me the next time you need a favour..."
-messages$(824, 1) = "Не приходи ко мне в следующий раз, когда тебе понадобится помощь..."
+messages$(824, 0) = "respectable job. People believe whatever you say!"
+messages$(824, 1) = "очень респектабельно. Люди верят всему, что вы говорите!"
 
-messages$(825, 0) = "respectable job. People believe whatever you say!"
-messages$(825, 1) = "очень респектабельно. Люди верят всему, что вы говорите!"
+messages$(825, 0) = "For instance, i don't have to SEE you morons"
+messages$(825, 1) = "Например, мне не нужно ВИДЕТЬ как вы, дебилы, совершаете"
 
-messages$(826, 0) = "For instance, i don't have to SEE you morons"
-messages$(826, 1) = "Например, мне не нужно ВИДЕТЬ как вы, дебилы, совершаете"
+messages$(826, 0) = "committing a crime - all i have to do is SAY it!"
+messages$(826, 1) = "преступления - все, что мне нужно сделать, это просто СКАЗАТЬ!"
 
-messages$(827, 0) = "committing a crime - all i have to do is SAY it!"
-messages$(827, 1) = "преступления - все, что мне нужно сделать, это просто СКАЗАТЬ!"
+messages$(827, 0) = "I could have you before a judge right now..."
+messages$(827, 1) = "Я мог бы вызвать тебя к судье прямо сейчас..."
 
-messages$(828, 0) = "I could have you before a judge right now..."
-messages$(828, 1) = "Я мог бы вызвать тебя к судье прямо сейчас..."
+messages$(828, 0) = "A wise choice! It would have been a shame"
+messages$(828, 1) = "Мудрый выбор! Было бы стыдно"
 
-messages$(829, 0) = "A wise choice! It would have been a shame"
-messages$(829, 1) = "Мудрый выбор! Было бы стыдно"
+messages$(829, 0) = "if you ruined your life for no reason..."
+messages$(829, 1) = "ломать свою жизнь без причины..."
 
-messages$(830, 0) = "if you ruined your life for no reason..."
-messages$(830, 1) = "ломать свою жизнь без причины..."
+messages$(830, 0) = "Wrong move! It turns out you're wanted for"
+messages$(830, 1) = "Ответ неверный! Оказывается, ты в розыске за"
 
-messages$(831, 0) = "Wrong move! It turns out you're wanted for"
-messages$(831, 1) = "Ответ неверный! Оказывается, ты в розыске за"
+messages$(831, 0) = "#FIRST#! I'll have to take you in..."
+messages$(831, 1) = "#FIRST#! Я должен буду задержать тебя..."
 
-messages$(832, 0) = "#FIRST#! I'll have to take you in..."
-messages$(832, 1) = "#FIRST#! Я должен буду задержать тебя..."
+messages$(832, 0) = "It's only a matter of time before we catch you..."
+messages$(832, 1) = "Это только вопрос времени, когда мы поймаем тебя..."
 
-messages$(833, 0) = "You're wanted for"
-messages$(833, 1) = "Тебя разыскивают за"
+messages$(833, 0) = "Give yourself up! The sooner you face the charges,"
+messages$(833, 1) = "Сдавайся! Чем раньше тебе выдвинут обвинения,"
 
-messages$(834, 0) = "It's only a matter of time before we catch you..."
-messages$(834, 1) = "Это только вопрос времени, когда мы поймаем тебя..."
+messages$(834, 0) = "the sooner you can get on with your rehabilitation..."
+messages$(834, 1) = "тем быстрее ты начнешь реабилитацию..."
 
-messages$(835, 0) = "Give yourself up! The sooner you face the charges,"
-messages$(835, 1) = "Сдавайся! Чем раньше вы столкнетесь с обвинениями,"
+messages$(835, 0) = "Would you like me to escort you outside?"
+messages$(835, 1) = "Хочешь, я провожу тебя на улицу?"
 
-messages$(836, 0) = "the sooner you can get on with your rehabilitation..."
-messages$(836, 1) = "тем быстрее вы начнете реабилитацию..."
+messages$(836, 0) = "OK, you're a free man now so i wish you luck!"
+messages$(836, 1) = "Ладно, теперь ты свободный человек, так что желаю тебе удачи!"
 
-messages$(837, 0) = "You've served your sentence,"
-messages$(837, 1) = "Вы отбыли свой срок,"
+messages$(837, 0) = "We'll keep you posted on what happens in here..."
+messages$(837, 1) = "Мы будем держать тебя в курсе, что здесь происходит..."
 
-messages$(838, 0) = "Would you like me to escort you outside?"
-messages$(838, 1) = "Хочешь, я провожу тебя на улицу?"
+messages$(838, 0) = "Alright, i'll give you some time to say goodbye."
+messages$(838, 1) = "Хорошо, я дам тебе немного времени, чтобы попрощаться."
 
-messages$(839, 0) = "OK, you're a free man now so i wish you luck!"
-messages$(839, 1) = "Ладно, теперь ты свободный человек, так что желаю тебе удачи!"
+messages$(839, 0) = "You'll have to leave this place eventually though..."
+messages$(839, 1) = "Однако в конце концов тебе придется покинуть это место..."
 
-messages$(840, 0) = "We'll keep you posted on what happens in here..."
-messages$(840, 1) = "Мы будем держать вас в курсе, что здесь происходит..."
+messages$(840, 0) = "Whoa, i think i've lost some weight!"
+messages$(840, 1) = "Ого, кажется, я похудела!"
 
-messages$(841, 0) = "Alright, i'll give you some time to say goodbye."
-messages$(841, 1) = "Хорошо, я дам тебе немного времени, чтобы попрощаться."
+messages$(841, 0) = "I certainly feel lighter on my feet..."
+messages$(841, 1) = "Я определенно чувствую себя легче..."
 
-messages$(842, 0) = "You'll have to leave this place eventually though..."
-messages$(842, 1) = "Однако в конце концов вам придется покинуть это место..."
+messages$(842, 0) = "Whoa, i think i've gained some weight!"
+messages$(842, 1) = "Вау, кажется, я набрал вес!"
 
-messages$(843, 0) = "Whoa, i think i've lost some weight!"
-messages$(843, 1) = "Ого, кажется, я похудела!"
+messages$(843, 0) = "I certainly feel a lot more powerful..."
+messages$(843, 1) = "Я чувствую себя намного сильнее..."
 
-messages$(844, 0) = "I certainly feel lighter on my feet..."
-messages$(844, 1) = "Конечно, мне легче на ногах..."
+messages$(844, 0) = "Hello? Who's that?! Sorry, i was hoping to"
+messages$(844, 1) = "Привет? Это кто?! Извините, я надеялся"
 
-messages$(845, 0) = "Whoa, i think i've gained some weight!"
-messages$(845, 1) = "Вау, кажется, я набрала вес!"
+messages$(845, 0) = "speak to somebody called '#FIRST#'..."
+messages$(845, 1) = "поговорить с кое-кем по имени '#FIRST#'..."
 
-messages$(846, 0) = "I certainly feel a lot more powerful..."
-messages$(846, 1) = "Я, конечно, чувствую себя намного сильнее..."
+messages$(846, 0) = "I was just calling to check you're alright!"
+messages$(846, 1) = "Я просто хочу убедиться что ты в порядке!"
 
-messages$(847, 0) = "Hello? Who's that?! Sorry, i was hoping to"
-messages$(847, 1) = "Привет? Это кто?! Извините, я надеялся"
+messages$(847, 0) = "We all miss you back to home, and we hope"
+messages$(847, 1) = "Мы все скучаем по тебе, и мы надеемся"
 
-messages$(848, 0) = "speak to somebody called '"
-messages$(848, 1) = "поговорить с кем-то по имени '"
+messages$(848, 0) = "you get out soon! Keep your head up, friend..."
+messages$(848, 1) = "что ты скоро выйдешь! Держи выше нос, друг..."
 
-messages$(849, 0) = ", how are you holding up?"
-messages$(849, 1) = ", как ты держишься?"
+messages$(849, 0) = "Hi, darling, it's your wife here. We miss you!"
+messages$(849, 1) = "Привет, дорогой, это твоя жена. Мы скучаем по тебе!"
 
-messages$(850, 0) = "I was just calling to check you're alright!"
-messages$(850, 1) = "Я просто звонил, чтобы убедиться, что ты в порядке!"
+messages$(850, 0) = "I thought you might like to talk to the kids?"
+messages$(850, 1) = "Я подумала, может, ты захочешь поговорить с детьми?"
 
-messages$(851, 0) = "We all miss you back to home, and we hope"
-messages$(851, 1) = "Мы все скучаем по тебе домой, и мы надеемся"
+messages$(851, 0) = "Hi, kids! I know you wish i was home, but"
+messages$(851, 1) = "Привет, дети! Я знаю, вы хотите, чтобы я был дома, но"
 
-messages$(852, 0) = "you get out soon! Keep your head up, friend..."
-messages$(852, 1) = "ты скорее выходи! Держи голову выше, друг..."
+messages$(852, 0) = "daddy has got some important work to do..."
+messages$(852, 1) = "папочка занят важными делами..."
 
-messages$(853, 0) = "Hi, darling, it's your wife here. We miss you!"
-messages$(853, 1) = "Привет, дорогой, это твоя жена. Мы скучаем по тебе!"
+messages$(853, 0) = "I'm a 'secret agent' like we saw on TV!"
+messages$(853, 1) = "Я 'секретный агент', как те, что мы видели по телевизору!"
 
-messages$(854, 0) = "I thought you might like to talk to the kids?"
-messages$(854, 1) = "Я подумал, может, ты захочешь поговорить с детьми?"
+messages$(854, 0) = "Be good while i'm saving the world! Bye..."
+messages$(854, 1) = "Ведите себя хорошо, пока я спасаю мир! Пока..."
 
-messages$(855, 0) = "Hi, kids! I know you wish i was home, but"
-messages$(855, 1) = "Привет, дети! Я знаю, ты хочешь, чтобы я был дома, но"
+messages$(855, 0) = "One of those idiots messed up your paperwork,"
+messages$(855, 1) = "Один из тех идиотов испортил твои документы,"
 
-messages$(856, 0) = "daddy has got some important work to do..."
-messages$(856, 1) = "у папы важные дела..."
+messages$(856, 0) = "so we should be able to claim back a day!"
+messages$(856, 1) = "так что мы можем сократить тебе пару дней!"
 
-messages$(857, 0) = "I'm a 'secret agent' like we saw on TV!"
-messages$(857, 1) = "Я «секретный агент», которого мы видели по телевизору!"
+messages$(857, 0) = "an appeal. Do you want to wire me the money?"
+messages$(857, 1) = "аппеляцию. Вы хотите перевести мне деньги?"
 
-messages$(858, 0) = "Be good while i'm saving the world! Bye..."
-messages$(858, 1) = "Будь добр, пока я спасаю мир! До свидания..."
+messages$(858, 0) = ", i hear you're doing a good"
+messages$(858, 1) = ", я слышал, ты хорошо поступаешь"
 
-messages$(859, 0) = "One of those idiots messed up your paperwork,"
-messages$(859, 1) = "Один из тех идиотов испортил твои документы,"
+messages$(859, 0) = "I want you out of prison as soon as possible"
+messages$(859, 1) = "Я хочу, чтобы ты вышел из тюрьмы как можно скорее"
 
-messages$(860, 0) = "so we should be able to claim back a day!"
-messages$(860, 1) = "так что мы должны быть в состоянии требовать назад день!"
+messages$(860, 0) = "so that i can put you to work on the street!"
+messages$(860, 1) = "что бы я мог отправить тебя работать на улицу!"
 
-messages$(861, 0) = " to file"
-messages$(861, 1) = " подать"
+messages$(861, 0) = "I'll pull some strings with the wardens and"
+messages$(861, 1) = "Я подергаю за ниточки со смотрителями и"
 
-messages$(862, 0) = "an appeal. Do you want to wire me the money?"
-messages$(862, 1) = "обращение. Вы хотите перевести мне деньги?"
+messages$(862, 0) = "try to get some time shaved off your sentence..."
+messages$(862, 1) = "и попробую сократить твой срок..."
 
-messages$(863, 0) = ", i hear you're doing a good"
-messages$(863, 1) = ", я слышал, ты хорошо поступаешь"
+messages$(863, 0) = "Listen, i'm a journalist and i'm trying to put"
+messages$(863, 1) = "Слушайте, я журналист и пытаюсь собрать"
 
-messages$(864, 0) = "job of representing"
-messages$(864, 1) = "работа по представлению"
+messages$(864, 0) = "together a piece about life inside prison..."
+messages$(864, 1) = "материалы о жизни в тюрьме..."
 
-messages$(865, 0) = " in there?"
-messages$(865, 1) = " там?"
+messages$(865, 0) = "I'd love to hear about your experiences! Would"
+messages$(865, 1) = "Я хотел бы услышать о вашем опыте! Готовы"
 
-messages$(866, 0) = "I want you out of prison as soon as possible"
-messages$(866, 1) = "Я хочу, чтобы ты вышел из тюрьмы как можно скорее"
+messages$(866, 0) = "you be willing to share your story for $#FIRST#?"
+messages$(866, 1) = "ли вы поделиться своей историей за #FIRST#$?"
 
-messages$(867, 0) = "so that i can put you to work on the street!"
-messages$(867, 1) = "так что я могу заставить вас работать на улице!"
+messages$(867, 0) = "Thanks for taking part! I'm sure the public"
+messages$(867, 1) = "Спасибо за участие! Я уверен, общественность"
 
-messages$(868, 0) = "I'll pull some strings with the wardens and"
-messages$(868, 1) = "Я подергаю за ниточки с надзирателями и"
+messages$(868, 0) = "will be fascinated by what you have to say..."
+messages$(868, 1) = "будет очарована тем, что вы расскажете..."
 
-messages$(869, 0) = "try to get some time shaved off your sentence..."
-messages$(869, 1) = "попробуй сократить время приговора..."
+messages$(869, 0) = "No one cares what you morons have to say anyway..."
+messages$(869, 1) = "Все равно никого не волнует, что вы, дебилы, говорите..."
 
-messages$(870, 0) = "Listen, i'm a journalist and i'm trying to put"
-messages$(870, 1) = "Послушайте, я журналист, и я пытаюсь"
+messages$(870, 0) = "Listen, i'm a filmmaker and i'd like to make a"
+messages$(870, 1) = "Послушайте, я кинорежиссер, и я хотел бы снять"
 
-messages$(871, 0) = "together a piece about life inside prison..."
-messages$(871, 1) = "вместе кусок о жизни в тюрьме..."
+messages$(871, 0) = "project about the rise and fall of a criminal!"
+messages$(871, 1) = "фильм о взлете и падении преступника!"
 
-messages$(872, 0) = "I'd love to hear about your experiences! Would"
-messages$(872, 1) = "Я хотел бы услышать о ваших впечатлениях! Бы"
+messages$(872, 0) = "Would you be interested in taking part if"
+messages$(872, 1) = "Было бы вам интересно принять участие, если"
 
-messages$(873, 0) = "you be willing to share your story for $"
-messages$(873, 1) = "вы готовы поделиться своей историей за $"
+messages$(873, 0) = "i paid $#FIRST# for the rights to your story?"
+messages$(873, 1) = "я заплачу #FIRST#$ за права на вашу историю?"
 
-messages$(874, 0) = "Thanks for taking part! I'm sure the public"
-messages$(874, 1) = "Спасибо за участие! я уверен, общественность"
+messages$(874, 0) = "will be fascinated by your life story..."
+messages$(874, 1) = "будет очарована историей вашей жизни..."
 
-messages$(875, 0) = "will be fascinated by what you have to say..."
-messages$(875, 1) = "будет очарован тем, что вы скажете..."
+messages$(875, 0) = "No one cares about your pathetic life anyway..."
+messages$(875, 1) = "Никому нет дела до твоей жалкой жизни..."
 
-messages$(876, 0) = " to talk to me?!"
-messages$(876, 1) = " поговорить со мной?!"
+messages$(876, 0) = "I hope the money was worth it, you rat!"
+messages$(876, 1) = "Надеюсь, деньги того стоили, крыса!"
 
-messages$(877, 0) = "No one cares what you morons have to say anyway..."
-messages$(877, 1) = "Все равно никого не волнует, что вы, дебилы, говорите..."
+messages$(877, 0) = "Nobody around here will trust you again..."
+messages$(877, 1) = "Никто здесь больше не будет тебе доверять..."
 
-messages$(878, 0) = "Listen, i'm a filmmaker and i'd like to make a"
-messages$(878, 1) = "Послушайте, я кинорежиссер, и я хотел бы снять"
+messages$(878, 0) = "That means you're in Cell"
+messages$(878, 1) = "Это означает, что вы находитесь в Cell"
 
-messages$(879, 0) = "project about the rise and fall of a criminal!"
-messages$(879, 1) = "проект о взлете и падении преступника!"
+messages$(879, 0) = "so head over there and make yourself at home..."
+messages$(879, 1) = "так что иди туда и чувствуй себя как дома..."
 
-messages$(880, 0) = "Would you be interested in taking part if"
-messages$(880, 1) = "Было бы вам интересно принять участие, если"
+messages$(880, 0) = "You shouldn't be fighting at all - let alone with"
+messages$(880, 1) = "Вы вообще не должны драться, не говоря уже о"
 
-messages$(881, 0) = "i paid $"
-messages$(881, 1) = "я заплатил $"
+messages$(881, 0) = "weapons! Put that down or there'll be trouble..."
+messages$(881, 1) = "оружии! Положи это, или будут проблемы..."
 
-messages$(882, 0) = " for the rights to your story?"
-messages$(882, 1) = " за права на вашу историю?"
+messages$(882, 0) = "You think i'm scared of a #FIRST#?"
+messages$(882, 1) = "Ты думаешь, я боюсь #FIRST#?"
 
-messages$(883, 0) = "will be fascinated by your life story..."
-messages$(883, 1) = "будет очарован историей вашей жизни..."
+messages$(883, 0) = "I'll take it and shove it up your ass!"
+messages$(883, 1) = "Я возьму его и засуну тебе в задницу!"
 
-messages$(884, 0) = " to become a star?!"
-messages$(884, 1) = " стать звездой?!"
+messages$(884, 0) = "Listen, #FIRST#, i understand that a prisoner"
+messages$(884, 1) = "Слушай, #FIRST#, я понимаю, что заключенный"
 
-messages$(885, 0) = "No one cares about your pathetic life anyway..."
-messages$(885, 1) = "Никому нет дела до твоей жалкой жизни..."
+messages$(885, 0) = "needs to do his dirt to survive in here..."
+messages$(885, 1) = "должен делать грязные вещи, чтобы выжить здесь..."
 
-messages$(886, 0) = "I hope the money was worth it, you rat!"
-messages$(886, 1) = "Надеюсь, деньги того стоили, крыса!"
+messages$(886, 0) = "That's why i'd like to help! Give me $#FIRST#"
+messages$(886, 1) = "Вот почему я хотел бы помочь! Дай мне #FIRST#$"
 
-messages$(887, 0) = "Nobody around here will trust you again..."
-messages$(887, 1) = "Никто здесь больше не будет тебе доверять..."
+messages$(887, 0) = "and i'll cut you some slack for an hour or so?"
+messages$(887, 1) = "и я дам тебе послабление на час или около того?"
 
-messages$(888, 0) = "Alright,"
-messages$(888, 1) = "Хорошо,"
+messages$(888, 0) = "Thanks! This should buy you a little breathing"
+messages$(888, 1) = "Спасибо! Это должно дать тебе"
 
-messages$(889, 0) = ", that's you processed!"
-messages$(889, 1) = ", это вы обработаны!"
+messages$(889, 0) = "space. Just stay away from the other wardens..."
+messages$(889, 1) = "передышку. Просто держись подальше от других смотрителей..."
 
-messages$(890, 0) = "You're now known as Prisoner"
-messages$(890, 1) = "Теперь вы известны как Заключенный"
+messages$(890, 0) = "In that case, i'll ride you harder than ever!"
+messages$(890, 1) = "Тогда, я прокачусь по тебе сильнее, чем когда-либо!"
 
-messages$(891, 0) = "That means you're in Cell"
-messages$(891, 1) = "Это означает, что вы находитесь в Cell"
+messages$(891, 0) = "It's better to be with me than against me..."
+messages$(891, 1) = "Лучше быть со мной, чем против меня..."
 
-messages$(892, 0) = "so head over there and make yourself at home..."
-messages$(892, 1) = "так что иди туда и чувствуй себя как дома..."
+messages$(892, 0) = "Prison can be a cold place, #FIRST#!"
+messages$(892, 1) = "Тюрьма может быть холодным местом, #FIRST#!"
 
-messages$(893, 0) = ", i saw what you did to"
-messages$(893, 1) = ", я видел, что ты сделал с"
+messages$(893, 0) = "You need somebody to look out for you..."
+messages$(893, 1) = "Тебе нужен кто-то, кто присмотрит за тобой..."
 
-messages$(894, 0) = " with that"
-messages$(894, 1) = " с этим"
+messages$(894, 0) = "I can offer that protection! Give me $#FIRST#"
+messages$(894, 1) = "Я могу предложить эту защиту! Дай мне #FIRST#$"
 
-messages$(895, 0) = "You shouldn't be fighting at all - let alone with"
-messages$(895, 1) = "Вы вообще не должны драться, не говоря уже о"
+messages$(895, 0) = "and i'll watch your back for an hour or so?"
+messages$(895, 1) = "и я буду смотреть за твоей спиной в течение часа или около того..."
 
-messages$(896, 0) = "weapons! Put that down or there'll be trouble..."
-messages$(896, 1) = "оружие! Положи это, или будут проблемы..."
+messages$(896, 0) = "Thanks! This should buy you some peace of mind."
+messages$(896, 1) = "Спасибо! Ты вложился в свое спокойствие."
 
-messages$(897, 0) = "You think i'm scared of a"
-messages$(897, 1) = "Ты думаешь, я боюсь"
+messages$(897, 0) = "Do your thing and leave the worrying to me..."
+messages$(897, 1) = "Делай свое дело, а заботы оставь мне..."
 
-messages$(898, 0) = "I'll take it and shove it up your ass!"
-messages$(898, 1) = "Я возьму его и засуну тебе в задницу!"
+messages$(898, 0) = "Fine, then add me to your list of enemies!"
+messages$(898, 1) = "Хорошо, тогда добавь меня в свой список врагов!"
 
-messages$(899, 0) = "Listen,"
-messages$(899, 1) = "Слушать,"
+messages$(899, 0) = "I guess you just can't help some people..."
+messages$(899, 1) = "Я думаю, ты просто не можешь помочь другим людям..."
 
-messages$(900, 0) = ", i understand that a prisoner"
-messages$(900, 1) = ", я понимаю, что заключенный"
+messages$(900, 0) = "so don't step out of line from now on..."
+messages$(900, 1) = "так что впредь не переступай черту..."
 
-messages$(901, 0) = "needs to do his dirt to survive in here..."
-messages$(901, 1) = "должен сделать свою грязь, чтобы выжить здесь ..."
+messages$(901, 0) = "I've got to go now,"
+messages$(901, 1) = "Я должен идти,"
 
-messages$(902, 0) = "That's why i'd like to help! Give me $"
-messages$(902, 1) = "Вот почему я хотел бы помочь! Дай мне $"
+messages$(902, 0) = "maybe we'll do business again some time..."
+messages$(902, 1) = "может быть, когда-нибудь снова поработаем..."
 
-messages$(903, 0) = "and i'll cut you some slack for an hour or so?"
-messages$(903, 1) = "и я дам тебе послабление на час или около того?"
+messages$(903, 0) = "Don't worry, #FIRST#! I'm gonna get"
+messages$(903, 1) = "Не волнуйся, #FIRST#! Я накажу"
 
-messages$(904, 0) = "Thanks! This should buy you a little breathing"
-messages$(904, 1) = "Спасибо! Это должно купить вам немного дыхания"
+messages$(904, 0) = "! I'm gonna get"
+messages$(904, 1) = "! я собираюсь получить"
 
-messages$(905, 0) = "space. Just stay away from the other wardens..."
-messages$(905, 1) = "пространство. Просто держись подальше от других надзирателей..."
+messages$(905, 0) = " #FIRST# for what he did to you..."
+messages$(905, 1) = "#FIRST# за то, что он сделал с тобой..."
 
-messages$(906, 0) = "In that case, i'll ride you harder than ever!"
-messages$(906, 1) = "В таком случае, я оседлаю тебя сильнее, чем когда-либо!"
+messages$(906, 0) = "Thanks for helping me out, #FIRST#!"
+messages$(906, 1) = "Спасибо за помощь, #FIRST#!"
 
-messages$(907, 0) = "It's better to be with me than against me..."
-messages$(907, 1) = "Лучше быть со мной, чем против меня..."
+messages$(907, 0) = "#FIRST# needs to be taught a lesson..."
+messages$(907, 1) = "#FIRST# нужно проучить..."
 
-messages$(908, 0) = "Prison can be a cold place,"
-messages$(908, 1) = "Тюрьма может быть холодным местом,"
+messages$(908, 0) = "Stay out of my business, #FIRST#!"
+messages$(908, 1) = "Не лезь в мои дела, #FIRST#!"
 
-messages$(909, 0) = "You need somebody to look out for you..."
-messages$(909, 1) = "Тебе нужен кто-то, кто присмотрит за тобой..."
+messages$(909, 0) = "I can handle a punk like #FIRST#..."
+messages$(909, 1) = "Я справлюсь с такой шпаной, как #FIRST#..."
 
-messages$(910, 0) = "I can offer that protection! Give me $"
-messages$(910, 1) = "Я могу предложить эту защиту! Дай мне $"
+messages$(910, 0) = "Hey, #FIRST#, what's your problem?!"
+messages$(910, 1) = "Эй, #FIRST#, у тебя какие то проблемы?!"
 
-messages$(911, 0) = "and i'll watch your back for an hour or so?"
-messages$(911, 1) = "и я буду смотреть за твоей спиной в течение часа или около того?"
+messages$(911, 0) = "I thought we were friends, but i guess not..."
+messages$(911, 1) = "Я думал, что мы друзья, но, похоже, нет..."
 
-messages$(912, 0) = "Thanks! This should buy you some peace of mind."
-messages$(912, 1) = "Спасибо! Это должно купить вам душевное спокойствие."
+messages$(912, 0) = "I can take care of him if you want? Just give"
+messages$(912, 1) = "Я могу позаботиться о нем, если хочешь. Просто дай"
 
-messages$(913, 0) = "Do your thing and leave the worrying to me..."
-messages$(913, 1) = "Делай свое дело, а заботы оставь мне..."
+messages$(913, 0) = "me $#FIRST# and he'll never bother you again!"
+messages$(913, 1) = "мне #FIRST#$ и он больше никогда не побеспокоит тебя!"
 
-messages$(914, 0) = "Fine, then add me to your list of enemies!"
-messages$(914, 1) = "Хорошо, тогда добавь меня в свой список врагов!"
+messages$(914, 0) = "Consider it done! As soon as i see that"
+messages$(914, 1) = "Считай, что все сделано! Как только я увижу этого"
 
-messages$(915, 0) = "I guess you just can't help some people..."
-messages$(915, 1) = "Я думаю, вы просто не можете помочь некоторым людям..."
+messages$(915, 0) = "asshole, he'll wish he'd never been born..."
+messages$(915, 1) = "мудака, он пожалеет, что родился на свет..."
 
-messages$(916, 0) = "Time's up,"
-messages$(916, 1) = "Время вышло,"
+messages$(916, 0) = "Maybe it's YOU that deserves a beating!"
+messages$(916, 1) = "Может быть, это ТЫ заслуживаешь побоев!"
 
-messages$(917, 0) = "! I have to get back to work,"
-messages$(917, 1) = "! Я должен вернуться к работе,"
+messages$(917, 0) = "#FIRST# would pay to see that..."
+messages$(917, 1) = "#FIRST# заплатил бы, чтобы увидеть это..."
 
-messages$(918, 0) = "so don't step out of line from now on..."
-messages$(918, 1) = "так что впредь не выходи за рамки..."
+messages$(918, 0) = "He was a dear friend of mine, and i won't"
+messages$(918, 1) = "Он был моим дорогим другом, и я не"
 
-messages$(919, 0) = "I've got to go now,"
-messages$(919, 1) = "Я должен идти,"
+messages$(919, 0) = "rest until you pay for what you've done!"
+messages$(919, 1) = "успокоюсь, пока ты не заплатишь за содеянное!"
 
-messages$(920, 0) = ", but"
-messages$(920, 1) = ", но"
+messages$(920, 0) = "Hey, #FIRST#, thanks for getting rid"
+messages$(920, 1) = "Эй, #FIRST#, спасибо что избавился"
 
-messages$(921, 0) = "maybe we'll do business again some time..."
-messages$(921, 1) = "может быть, когда-нибудь снова поработаем..."
+messages$(921, 0) = "Hey, #FIRST#, i hear you're friends with"
+messages$(921, 1) = "Эй, #FIRST#, я слышал, ты дружишь с"
 
-messages$(922, 0) = "Don't worry,"
-messages$(922, 1) = "Не волнуйся,"
+messages$(922, 0) = "#FIRST#? Me too, so it's nice to meet you!"
+messages$(922, 1) = "#FIRST#? Я тоже, так что приятно познакомиться!"
 
-messages$(923, 0) = "! I'm gonna get"
-messages$(923, 1) = "! я собираюсь получить"
+messages$(923, 0) = "Any friend of his is a friend of mine,"
+messages$(923, 1) = "Любой его друг - мой друг,"
 
-messages$(924, 0) = " for what he did to you..."
-messages$(924, 1) = " за то, что он сделал с тобой..."
+messages$(924, 0) = "so let me know if you ever need a favour..."
+messages$(924, 1) = "так что дай знать, если тебе понадобится помощь..."
 
-messages$(925, 0) = "Thanks for helping me out,"
-messages$(925, 1) = "Спасибо за помощь,"
+messages$(925, 0) = "Hey, #FIRST#, i hear you've got a problem"
+messages$(925, 1) = "Эй, #FIRST#, я слышал у тебя проблемы"
 
-messages$(926, 0) = " needs to be taught a lesson..."
-messages$(926, 1) = " надо преподать урок..."
+messages$(926, 0) = "If he doesn't like you, i don't like you"
+messages$(926, 1) = "Если ты ему не нравишься, то и мне ты тоже не"
 
-messages$(927, 0) = "Stay out of my business,"
-messages$(927, 1) = "Не лезь в мои дела,"
+messages$(927, 0) = "either - so you better watch your back!"
+messages$(927, 1) = "нравишься, так что тебе лучше следить за своей спиной!"
 
-messages$(928, 0) = "I can handle a punk like"
-messages$(928, 1) = "Я могу справиться с панком, как"
+messages$(928, 0) = "Hey #FIRST#, why do you hang out"
+messages$(928, 1) = "Эй, #FIRST#, зачем ты тусуешься"
 
-messages$(929, 0) = ", what's your problem?!"
-messages$(929, 1) = ", в чем твоя проблема?!"
+messages$(929, 0) = "with an asshole like #FIRST#?!"
+messages$(929, 1) = "с таким мудаком как #FIRST#?!"
 
-messages$(930, 0) = "I thought we were friends, but i guess not..."
-messages$(930, 1) = "Я думал, что мы друзья, но, похоже, нет..."
+messages$(930, 0) = "Cut that loser out of your life, or we'll"
+messages$(930, 1) = "Вычеркни этого неудачника из своей жизни, иначе мы"
 
-messages$(931, 0) = ", i hear you've been"
-messages$(931, 1) = ", я слышал, ты был"
+messages$(931, 0) = "have to assume that you're just as bad!"
+messages$(931, 1) = "будем думать, что ты такой же лузер!"
 
-messages$(932, 0) = "having trouble with"
-messages$(932, 1) = "проблемы с"
+messages$(932, 0) = "if you ruined your life because of that guy..."
+messages$(932, 1) = "если ты разрушил свою жизнь из-за этого парня..."
 
-messages$(933, 0) = "I can take care of him if you want? Just give"
-messages$(933, 1) = "Я могу позаботиться о нем, если хочешь? Просто дай"
+messages$(933, 0) = "That tells me everything i need to know about you!"
+messages$(933, 1) = "Это говорит мне все, что мне нужно знать о тебе!"
 
-messages$(934, 0) = "me $"
-messages$(934, 1) = "мне $"
+messages$(934, 0) = "If you share his company, you'll share his fate..."
+messages$(934, 1) = "Если ты разделяешь его компанию, то разделишь и его судьбу..."
 
-messages$(935, 0) = " and he'll never bother you again!"
-messages$(935, 1) = " и он больше никогда не побеспокоит тебя!"
+messages$(935, 0) = "Hey, #FIRST#, i can't believe that you"
+messages$(935, 1) = "Эй, #FIRST#, я не могу поверить, что ты"
 
-messages$(936, 0) = "Consider it done! As soon as i see that"
-messages$(936, 1) = "Считайте, что сделано! Как только я это увижу"
+messages$(936, 0) = "sold me out to be friends with #FIRST#?!"
+messages$(936, 1) = "променял меня, чтобы дружить с #FIRST#..."
 
-messages$(937, 0) = "asshole, he'll wish he'd never been born..."
-messages$(937, 1) = "мудак, он пожалеет, что никогда не родился..."
+messages$(937, 0) = "If that's your idea of friendship then i'm"
+messages$(937, 1) = "Если это твое представление о дружбе, то я"
 
-messages$(938, 0) = "Maybe it's YOU that deserves a beating!"
-messages$(938, 1) = "Может быть, это ТЫ заслуживаешь побоев!"
+messages$(938, 0) = "glad to have you out of my life, you traitor!"
+messages$(938, 1) = "рад, что ты ушел из моей жизни, предатель!"
 
-messages$(939, 0) = " would pay to see that..."
-messages$(939, 1) = " заплатил бы, чтобы увидеть это..."
+messages$(939, 0) = "Don't listen to that judge, #FIRST#!"
+messages$(939, 1) = "Не слушай этого судью, #FIRST#!"
 
-messages$(940, 0) = ", i know that you were"
-messages$(940, 1) = ", я знаю, что ты был"
+messages$(940, 0) = "His 'guilty' verdict makes you innocent to us..."
+messages$(940, 1) = "Его 'обвинительный' приговор делает тебя невиновным для нас..."
 
-messages$(941, 0) = "responsible for"
-messages$(941, 1) = "ответственный за"
+messages$(941, 0) = "It's the ones that come back from court without"
+messages$(941, 1) = "С подозрением следует относиться к тем, кто"
 
-messages$(942, 0) = "'s death!"
-messages$(942, 1) = "смерть!"
+messages$(942, 0) = "doing their time that you have to be suspicious of..."
+messages$(942, 1) = "возвращается из суда, не отсидев своего часа..."
 
-messages$(943, 0) = "He was a dear friend of mine, and i won't"
-messages$(943, 1) = "Он был моим дорогим другом, и я не буду"
+messages$(943, 0) = "You're a snitch, #FIRST#! Who did you"
+messages$(943, 1) = "Ты стукач, #FIRST#! Кого"
 
-messages$(944, 0) = "rest until you pay for what you've done!"
-messages$(944, 1) = "отдыхай, пока не заплатишь за содеянное!"
+messages$(944, 0) = "! Who did you"
+messages$(944, 1) = "! Кто ты"
 
-messages$(945, 0) = ", thanks for getting rid"
-messages$(945, 1) = ", спасибо что избавился"
+messages$(945, 0) = "give up to get that judge off your back?!"
+messages$(945, 1) = "ты сдал, чтобы избавиться от судьи?!"
 
-messages$(946, 0) = "! I wish i'd done it myself..."
-messages$(946, 1) = "! Хотел бы я сделать это сам..."
+messages$(946, 0) = "When a man comes back from court without getting"
+messages$(946, 1) = "Когда человек возвращается из суда, не получив"
 
-messages$(947, 0) = ", i hear you're friends with"
-messages$(947, 1) = ", я слышал, ты дружишь с"
+messages$(947, 0) = "time, there can only be one explanation for it..."
+messages$(947, 1) = "срока, этому может быть только одно объяснение..."
 
-messages$(948, 0) = "? Me too, so it's nice to meet you!"
-messages$(948, 1) = "? Я тоже, так что приятно познакомиться!"
+messages$(948, 0) = "Your actions have brought shame on us,"
+messages$(948, 1) = "Твои действия нас опозорили,"
 
-messages$(949, 0) = "Any friend of his is a friend of mine,"
-messages$(949, 1) = "Любой его друг — мой друг,"
+messages$(949, 0) = "#FIRST#. This is the end for you..."
+messages$(949, 1) = "#FIRST#. Это конец для тебя..."
 
-messages$(950, 0) = "so let me know if you ever need a favour..."
-messages$(950, 1) = "так что дай мне знать, если тебе когда-нибудь понадобится услуга..."
+messages$(950, 0) = "We wish you luck with your rehabilitation, but"
+messages$(950, 1) = "Желаем тебе удачи в реабилитации, но"
 
-messages$(951, 0) = ", i hear you've got a problem"
-messages$(951, 1) = ", я слышал у тебя проблема"
+messages$(951, 0) = "i'm afraid it cannot continue under our banner..."
+messages$(951, 1) = "боюсь, тебе с нами не по пути..."
 
-messages$(952, 0) = "with"
-messages$(952, 1) = "с"
+messages$(952, 0) = "He happens to be a friend of mine, so get"
+messages$(952, 1) = "Он мой друг, так что"
 
-messages$(953, 0) = "? Well, he's a friend of mine!"
-messages$(953, 1) = "? Ну, он мой друг!"
+messages$(953, 0) = "out before i kick you out on his behalf!"
+messages$(953, 1) = "свали, пока я не вышвырнул тебя от туда!"
 
-messages$(954, 0) = "If he doesn't like you, i don't like you"
-messages$(954, 1) = "Если ты ему не нравишься, ты мне не нравишься"
+messages$(954, 0) = "I've always wanted to join that gang!"
+messages$(954, 1) = "Я всегда хотел присоединиться к этой банде!"
 
-messages$(955, 0) = "either - so you better watch your back!"
-messages$(955, 1) = "либо - так что лучше берегись!"
+messages$(955, 0) = "Do you think you could find a place for me?"
+messages$(955, 1) = "Как ты думаешь, ты мог бы найти место для меня?"
 
-messages$(956, 0) = ", why do you hang out"
-messages$(956, 1) = ", зачем ты тусуешься"
+messages$(956, 0) = "I'm sure i'd be a great asset to the cause..."
+messages$(956, 1) = "Я уверен, что буду большим подспорьем для дела..."
 
-messages$(957, 0) = "with an asshole like"
-messages$(957, 1) = "с таким мудаком"
+messages$(957, 0) = "Great! You won't regret this, i promise!"
+messages$(957, 1) = "Супер! Вы не пожалеете об этом, обещаю!"
 
-messages$(958, 0) = "Cut that loser out of your life, or we'll"
-messages$(958, 1) = "Вычеркни этого неудачника из своей жизни, иначе мы"
+messages$(958, 0) = "Who wants to join your pathetic club anyway?!"
+messages$(958, 1) = "Кто вообще хочет вступить в ваш жалкий клуб?!"
 
-messages$(959, 0) = "have to assume that you're just as bad!"
-messages$(959, 1) = "должны предположить, что вы так же плохо!"
+messages$(959, 0) = "Everybody knows you're a laughing stock here..."
+messages$(959, 1) = "Все знают, что ты здесь посмешище..."
 
-messages$(960, 0) = "if you ruined your life because of that guy..."
-messages$(960, 1) = "если ты разрушил свою жизнь из-за этого парня..."
+messages$(960, 0) = "Trouble is there's a strict selection process,"
+messages$(960, 1) = "Проблема в том, что существует строгий процесс отбора,"
 
-messages$(961, 0) = "That tells me everything i need to know about you!"
-messages$(961, 1) = "Это говорит мне все, что мне нужно знать о тебе!"
+messages$(961, 0) = "but $#FIRST# might tempt me to overlook it?"
+messages$(961, 1) = "но #FIRST#$ может соблазнить меня не заметить его?"
 
-messages$(962, 0) = "If you share his company, you'll share his fate..."
-messages$(962, 1) = "Если вы разделите его компанию, вы разделите его судьбу..."
+messages$(962, 0) = "Thanks for your generous contribution! I'm"
+messages$(962, 1) = "Спасибо за щедрый вклад! Я"
 
-messages$(963, 0) = ", i can't believe that you"
-messages$(963, 1) = ", я не могу поверить, что ты"
+messages$(963, 0) = "sure you'll be a great asset to the gang..."
+messages$(963, 1) = "уверен, ты будешь принесешь пользу банде..."
 
-messages$(964, 0) = "sold me out to be friends with"
-messages$(964, 1) = "продал меня, чтобы дружить с"
+messages$(964, 0) = "You'll never make any progress in here with that"
+messages$(964, 1) = "С таким отношением ты никогда не добьешься здесь"
 
-messages$(965, 0) = "If that's your idea of friendship then i'm"
-messages$(965, 1) = "Если это твое представление о дружбе, то я"
+messages$(965, 0) = "attitude! You need to learn to grease the wheels..."
+messages$(965, 1) = "никакого прогресса! Тебе надо научиться лояльности..."
 
-messages$(966, 0) = "glad to have you out of my life, you traitor!"
-messages$(966, 1) = "рад, что ты ушел из моей жизни, предатель!"
+messages$(966, 0) = "Well, dream on - because you need a tough"
+messages$(966, 1) = "Ну мечтай дальше - ведь тебе нужна серьезная"
 
-messages$(967, 0) = "Don't listen to that judge,"
-messages$(967, 1) = "Не слушай этого судью,"
+messages$(967, 0) = "reputation if you want to hang with us!"
+messages$(967, 1) = "репутация, если ты хочешь остаться с нами!"
 
-messages$(968, 0) = "His 'guilty' verdict makes you innocent to us..."
-messages$(968, 1) = "Его «виновный» вердикт делает вас невиновным для нас..."
+messages$(968, 0) = "Well, dream on - because you need to be"
+messages$(968, 1) = "Ну, мечтай, потому что ты должен быть"
 
-messages$(969, 0) = "It's the ones that come back from court without"
-messages$(969, 1) = "Это те, которые возвращаются из суда без"
+messages$(969, 0) = "intelligent if you want to hang with us!"
+messages$(969, 1) = "более умным, если хочешь быть с нами!"
 
-messages$(970, 0) = "doing their time that you have to be suspicious of..."
-messages$(970, 1) = "делают свое время, что вы должны быть подозрительны ..."
+messages$(970, 0) = "physically fit to keep the pace with us!"
+messages$(970, 1) = "физически готовым идти в ногу с нами!"
 
-messages$(971, 0) = "You're a snitch,"
-messages$(971, 1) = "Ты стукач,"
+messages$(971, 0) = "Well, dream on - because your reputation"
+messages$(971, 1) = "Ну, мечтай - ведь твоя репутация"
 
-messages$(972, 0) = "! Who did you"
-messages$(972, 1) = "! Кто ты"
+messages$(972, 0) = "is too violent for you to be one of us!"
+messages$(972, 1) = "слишком велика, чтобы быть одним из нас!"
 
-messages$(973, 0) = "give up to get that judge off your back?!"
-messages$(973, 1) = "сдаться, чтобы избавиться от этого судьи?!"
+messages$(973, 0) = " was free!"
+messages$(973, 1) = " был свободен!"
 
-messages$(974, 0) = "When a man comes back from court without getting"
-messages$(974, 1) = "Когда человек возвращается из суда, не получив"
+messages$(974, 0) = "You need to kick up some of that money you've"
+messages$(974, 1) = "Ты должен отдать часть заработанных денег от"
 
-messages$(975, 0) = "time, there can only be one explanation for it..."
-messages$(975, 1) = "время, этому может быть только одно объяснение..."
+messages$(975, 0) = "Just remember that the family comes first..."
+messages$(975, 1) = "Просто помни, что семья на первом месте..."
 
-messages$(976, 0) = "Your actions have brought shame on us,"
-messages$(976, 1) = "Твои действия нас опозорили,"
+messages$(976, 0) = "In that case, take your ass somewhere else!"
+messages$(976, 1) = "В таком случае тащи свою задницу в другое место!"
 
-messages$(977, 0) = ". This is the end for you..."
-messages$(977, 1) = ". Это конец для тебя..."
+messages$(977, 0) = "We haven't got any room for passengers..."
+messages$(977, 1) = "У нас нет места для пассажиров..."
 
-messages$(978, 0) = "We wish you luck with your rehabilitation, but"
-messages$(978, 1) = "Желаем вам удачи в реабилитации, но"
+messages$(978, 0) = "aren't supposed to dress like that!"
+messages$(978, 1) = "не потерпит такую одежду!"
 
-messages$(979, 0) = "i'm afraid it cannot continue under our banner..."
-messages$(979, 1) = "Боюсь, дальше под нашими знамёнами это продолжаться не может..."
+messages$(979, 0) = "Return to how you were when you joined us,"
+messages$(979, 1) = "Вернись к тому, каким ты был, когда присоединился к нам,"
 
-messages$(980, 0) = ", what are you doing"
-messages$(980, 1) = ", что ты делаешь"
+messages$(980, 0) = "or we'll have to question your loyalty!"
+messages$(980, 1) = "или мы поставим под вопрос твою лояльность!"
 
-messages$(981, 0) = "in there?! That's"
-messages$(981, 1) = "там?! Это"
+messages$(981, 0) = "Good! That looks much better!"
+messages$(981, 1) = "Хорошо! Это выглядит намного лучше!"
 
-messages$(982, 0) = "'s cell..."
-messages$(982, 1) = "ячейка..."
+messages$(982, 0) = "Now don't let it happen again..."
+messages$(982, 1) = "Теперь пусть это не повторится..."
 
-messages$(983, 0) = "He happens to be a friend of mine, so get"
-messages$(983, 1) = "Он мой друг, так что"
+messages$(983, 0) = "If you're so ashamed of us then get out!"
+messages$(983, 1) = "Если тебе так стыдно за нас, то убирайся!"
 
-messages$(984, 0) = "out before i kick you out on his behalf!"
-messages$(984, 1) = "выйди, пока я не вышвырнул тебя от его имени!"
+messages$(984, 0) = "We don't need traitors like you in the gang..."
+messages$(984, 1) = "Нам не нужны предатели вроде тебя в банде..."
 
-messages$(985, 0) = "I've always wanted to join that gang!"
-messages$(985, 1) = "Я всегда хотел присоединиться к этой банде!"
+messages$(985, 0) = "been seeing eye-to-eye in recent weeks..."
+messages$(985, 1) = "сходились во взглядах последнюю неделю..."
 
-messages$(986, 0) = "Do you think you could find a place for me?"
-messages$(986, 1) = "Как вы думаете, вы могли бы найти место для меня?"
+messages$(986, 0) = "Well, i for one am tired of the bickering"
+messages$(986, 1) = "Ну, я, например, устал от ссор"
 
-messages$(987, 0) = "I'm sure i'd be a great asset to the cause..."
-messages$(987, 1) = "Я уверен, что я был бы большим активом для дела..."
+messages$(987, 0) = "so what d'you say we put it all behind us?"
+messages$(987, 1) = "так что ты скажешь, что бы мы оставили все это позади?"
 
-messages$(988, 0) = "Great! You won't regret this, i promise!"
-messages$(988, 1) = "Большой! Вы не пожалеете об этом, обещаю!"
+messages$(988, 0) = "Great! That's one less thing to worry about!"
+messages$(988, 1) = "Супер! Одним поводом для беспокойства меньше!"
 
-messages$(989, 0) = "I'll do anything for"
-messages$(989, 1) = "я сделаю все для"
+messages$(989, 0) = "You need all the friends you can get in here..."
+messages$(989, 1) = "Тебе нужны все друзья, которых ты можешь найти здесь..."
 
-messages$(990, 0) = "Who wants to join your pathetic club anyway?!"
-messages$(990, 1) = "Кто вообще хочет вступить в ваш жалкий клуб?!"
+messages$(990, 0) = "Fine! We'll wage war until you stop breathing!"
+messages$(990, 1) = "Отлично! Мы будем вести войну, пока ты не перестанешь дышать!"
 
-messages$(991, 0) = "Everybody knows you're a laughing stock here..."
-messages$(991, 1) = "Все знают, что ты здесь посмешище..."
+messages$(991, 0) = "You'll learn that pride comes before a fall..."
+messages$(991, 1) = "Ты узнаешь, что гордость предшествует падению..."
 
-messages$(992, 0) = ", i'm sure you'd like to"
-messages$(992, 1) = ", я уверен, что вы хотели бы"
+messages$(992, 0) = "Welcome to the jungle! My name is #FIRST#,"
+messages$(992, 1) = "Добро пожаловать в джунгли! Меня зовут #FIRST#,"
 
-messages$(993, 0) = "be a member of"
-messages$(993, 1) = "быть членом"
+messages$(993, 0) = "and i live in Cell #FIRST# of the #SECOND# Block..."
+messages$(993, 1) = "и я живу в клетке #FIRST#, #SECOND# блок..."
 
-messages$(994, 0) = " like me?"
-messages$(994, 1) = " как я?"
+messages$(994, 0) = "Welcome to the jungle! I'm #FIRST#,"
+messages$(994, 1) = "Добро пожаловать в джунгли! Я #FIRST#,"
 
-messages$(995, 0) = "Trouble is there's a strict selection process,"
-messages$(995, 1) = "Проблема в том, что существует строгий процесс отбора,"
+messages$(995, 0) = "and i'm a member of #FIRST#..."
+messages$(995, 1) = "и я член банды #FIRST#..."
 
-messages$(996, 0) = "but $"
-messages$(996, 1) = "но $"
+messages$(996, 0) = "Life can be pretty tough inside this place,"
+messages$(996, 1) = "Жизнь в этом месте может быть довольно тяжелой,"
 
-messages$(997, 0) = " might tempt me to overlook it?"
-messages$(997, 1) = " может соблазнить меня не заметить его?"
+messages$(997, 0) = "so look me up if you ever need a friend..."
+messages$(997, 1) = "так что найди меня, если тебе когда-нибудь понадобится друг..."
 
-messages$(998, 0) = "Thanks for your generous contribution! I'm"
-messages$(998, 1) = "Спасибо за ваш щедрый вклад! Я"
+messages$(998, 0) = "so look us up if you ever need some support..."
+messages$(998, 1) = "так что обращайся, если понадобится помощь..."
 
-messages$(999, 0) = "sure you'll be a great asset to the gang..."
-messages$(999, 1) = "уверен, ты будешь большим активом для банды..."
+messages$(999, 0) = "I'm"
+messages$(999, 1) = "Я"
 
-messages$(1000, 0) = "You'll never make any progress in here with that"
-messages$(1000, 1) = "Вы никогда не добьетесь здесь никакого прогресса с этим"
+messages$(1000, 0) = "Stay out of my way and we won't have a problem..."
+messages$(1000, 1) = "Держись подальше от меня, и у нас не будет проблем..."
 
-messages$(1001, 0) = "attitude! You need to learn to grease the wheels..."
-messages$(1001, 1) = "отношение! Вам нужно научиться смазывать колеса..."
+messages$(1001, 0) = " - a member of"
+messages$(1001, 1) = " - член"
 
-messages$(1002, 0) = "Well, dream on - because you need a tough"
-messages$(1002, 1) = "Ну мечтай дальше - ведь тебе нужна жесткая"
+messages$(1002, 0) = " from"
+messages$(1002, 1) = " из"
 
-messages$(1003, 0) = "reputation if you want to hang with us!"
-messages$(1003, 1) = "репутацию, если вы хотите повесить с нами!"
+messages$(1003, 0) = "Cell"
+messages$(1003, 1) = "Клетка"
 
-messages$(1004, 0) = "Well, dream on - because you need to be"
-messages$(1004, 1) = "Ну, мечтай, потому что ты должен быть"
+messages$(1004, 0) = " of"
+messages$(1004, 1) = " из"
 
-messages$(1005, 0) = "intelligent if you want to hang with us!"
-messages$(1005, 1) = "умный, если вы хотите повесить с нами!"
+messages$(1005, 0) = "#FIRST# and we rule this place..."
+messages$(1005, 1) = "#FIRST# и мы правим этим местом..."
 
-messages$(1006, 0) = "physically fit to keep the pace with us!"
-messages$(1006, 1) = "физически готовы идти в ногу с нами!"
+messages$(1006, 0) = "I'm new here, but i hope we can be friends!"
+messages$(1006, 1) = "Я новенький, но я надеюсь, что мы можем быть друзьями!"
 
-messages$(1007, 0) = "Well, dream on - because your reputation"
-messages$(1007, 1) = "Ну, мечтай - ведь твоя репутация"
+messages$(1007, 0) = "Hey, there's a new king in town and his name"
+messages$(1007, 1) = "Эй, в городе новый король и его имя"
 
-messages$(1008, 0) = "is too violent for you to be one of us!"
-messages$(1008, 1) = "слишком жесток для вас, чтобы быть одним из нас!"
+messages$(1008, 0) = "is"
+messages$(1008, 1) = "является"
 
-messages$(1009, 0) = ", nobody said being a"
-messages$(1009, 1) = ", никто не сказал быть"
+messages$(1009, 0) = "Well, it looks like we're sharing this cell!"
+messages$(1009, 1) = "Что ж, похоже, мы делим эту камеру!"
 
-messages$(1010, 0) = "member of"
-messages$(1010, 1) = "член"
+messages$(1010, 0) = "Don't worry, i'm sure we'll get along fine..."
+messages$(1010, 1) = "Не волнуйся, я уверен, мы поладим..."
 
-messages$(1011, 0) = " was free!"
-messages$(1011, 1) = " был свободен!"
+messages$(1011, 0) = "So i guess i've got to share this cell with you?"
+messages$(1011, 1) = "Так что, я должен разделить эту камеру с тобой?"
 
-messages$(1012, 0) = "You need to kick up some of that money you've"
-messages$(1012, 1) = "Вам нужно поднять часть этих денег, которые у вас есть"
+messages$(1012, 0) = "Just stay out of my way and we'll be alright..."
+messages$(1012, 1) = "Просто держись подальше от меня, и мы будем в порядке..."
 
-messages$(1013, 0) = "earned in our name! $"
-messages$(1013, 1) = "заработано от нашего имени! $"
+messages$(1013, 0) = "Damn, i can't believe i have to share a cell!"
+messages$(1013, 1) = "Черт, я не могу поверить, что мне приходится делить камеру!"
 
-messages$(1014, 0) = " should cover it..."
-messages$(1014, 1) = " надо покрыть..."
+messages$(1014, 0) = "You better stay in the corner and shut up..."
+messages$(1014, 1) = "Лучше стой в углу и молчи..."
 
-messages$(1015, 0) = "You're a good earner,"
-messages$(1015, 1) = "Ты хорошо зарабатываешь,"
+messages$(1015, 0) = "shaken up to stop you getting too comfortable!"
+messages$(1015, 1) = "чтобы ты не чувствовал себя слишком комфортно!"
 
-messages$(1016, 0) = "Just remember that the family comes first..."
-messages$(1016, 1) = "Просто помните, что семья на первом месте..."
+messages$(1016, 0) = "Head over there and make yourself at home..."
+messages$(1016, 1) = "Отправляйся туда и чувствуй себя как дома..."
 
-messages$(1017, 0) = "In that case, take your ass somewhere else!"
-messages$(1017, 1) = "В таком случае тащи свою задницу в другое место!"
+messages$(1017, 0) = "ATTENTION! The prison seems be"
+messages$(1017, 1) = "ВНИМАНИЕ! Кажется, в тюрьме"
 
-messages$(1018, 0) = "We haven't got any room for passengers..."
-messages$(1018, 1) = "У нас нет места для пассажиров..."
+messages$(1018, 0) = "suffering from a power failure!"
+messages$(1018, 1) = "отключилось электричество!"
 
-messages$(1019, 0) = "aren't supposed to dress like that!"
-messages$(1019, 1) = "нельзя так одеваться!"
+messages$(1019, 0) = "Please be patient while the problem"
+messages$(1019, 1) = "Пожалуйста, наберитесь терпения, пока наш"
 
-messages$(1020, 0) = "Return to how you were when you joined us,"
-messages$(1020, 1) = "Вернись к тому, каким ты был, когда присоединился к нам,"
+messages$(1020, 0) = "is rectified by our technical staff..."
+messages$(1020, 1) = "технический персонал не устранит проблему..."
 
-messages$(1021, 0) = "or we'll have to question your loyalty!"
-messages$(1021, 1) = "или нам придется подвергнуть сомнению вашу лояльность!"
+messages$(1021, 0) = "ATTENTION! The prison has been"
+messages$(1021, 1) = "ВНИМАНИЕ! Тюрьма стала"
 
-messages$(1022, 0) = "Good! That looks much better!"
-messages$(1022, 1) = "Хороший! Это выглядит намного лучше!"
+messages$(1022, 0) = "targeted for a terrorist attack!"
+messages$(1022, 1) = "целью теракта!"
 
-messages$(1023, 0) = "Now don't let it happen again..."
-messages$(1023, 1) = "Теперь пусть это не повторится..."
+messages$(1023, 0) = "All inmates should find a safe place to"
+messages$(1023, 1) = "Все заключенные должны найти безопасное место,"
 
-messages$(1024, 0) = "If you're so ashamed of us then get out!"
-messages$(1024, 1) = "Если тебе так стыдно за нас, то убирайся!"
+messages$(1024, 0) = "hide until the threat has been removed..."
+messages$(1024, 1) = "где можно спрятаться, пока угроза не будет устранена..."
 
-messages$(1025, 0) = "We don't need traitors like you in the gang..."
-messages$(1025, 1) = "Нам не нужны предатели вроде тебя в банде..."
+messages$(1025, 0) = "YOU'RE ALL GOING TO DIE!!!"
+messages$(1025, 1) = "ВЫ ВСЕ УМРЕТЕ!!!"
 
-messages$(1026, 0) = ", i know we haven't"
-messages$(1026, 1) = ", я знаю, что у нас нет"
+messages$(1026, 0) = "We've rigged the prison with explosives..."
+messages$(1026, 1) = "Мы начинили тюрьму взрывчаткой..."
 
-messages$(1027, 0) = "been seeing eye-to-eye in recent weeks..."
-messages$(1027, 1) = "в последние недели сходились во взглядах..."
+messages$(1027, 0) = "Run for your life like a coward - or accept"
+messages$(1027, 1) = "Спасайтесь бегством, как трус, или смиритесь"
 
-messages$(1028, 0) = "Well, i for one am tired of the bickering"
-messages$(1028, 1) = "Ну, я, например, устал от ссор"
+messages$(1028, 0) = "that your blood will be spilt for the cause!"
+messages$(1028, 1) = "с тем, что за это дело будет пролита ваша кровь!"
 
-messages$(1029, 0) = "so what d'you say we put it all behind us?"
-messages$(1029, 1) = "так что ты скажешь, что мы оставили все это позади?"
+messages$(1029, 0) = "EVERYBODY RUN FOR YOUR LIVES!"
+messages$(1029, 1) = "СПАСАЙТЕСЬ КТО МОЖЕТ!"
 
-messages$(1030, 0) = "Great! That's one less thing to worry about!"
-messages$(1030, 1) = "Большой! Это одним поводом для беспокойства меньше!"
+messages$(1030, 0) = " has got a"
+messages$(1030, 1) = " есть"
 
-messages$(1031, 0) = "You need all the friends you can get in here..."
-messages$(1031, 1) = "Тебе нужны все друзья, которых ты можешь найти здесь..."
+messages$(1031, 0) = "Welcome to the Exercise Yard, #FIRST#!"
+messages$(1031, 1) = "Добро пожаловать на прогулочный двор, #FIRST#!"
 
-messages$(1032, 0) = "Fine! We'll wage war until you stop breathing!"
-messages$(1032, 1) = "Отлично! Мы будем вести войну, пока вы не перестанете дышать!"
+messages$(1032, 0) = "This is where you come to improve your body..."
+messages$(1032, 1) = "Сюда приходят совершенствовать свое тело..."
 
-messages$(1033, 0) = "You'll learn that pride comes before a fall..."
-messages$(1033, 1) = "Вы узнаете, что гордость предшествует падению..."
+messages$(1033, 0) = "You can improve your strength by lifting weights,"
+messages$(1033, 1) = "Ты можешь увеличить свою силу, поднимая тяжести,"
 
-messages$(1034, 0) = "Welcome to the jungle! My name is"
-messages$(1034, 1) = "Добро пожаловать в джунгли! Меня зовут"
+messages$(1034, 0) = "or improve your agility by running around the yard..."
+messages$(1034, 1) = "или повысить ловкость, бегая по двору..."
 
-messages$(1035, 0) = "and i live in Cell"
-messages$(1035, 1) = "и я живу в клетке"
+messages$(1035, 0) = "But if that sounds too boring, you could always"
+messages$(1035, 1) = "Но если это звучит слишком скучно, ты всегда можешь"
 
-messages$(1036, 0) = "Welcome to the jungle! I'm"
-messages$(1036, 1) = "Добро пожаловать в джунгли! Я"
+messages$(1036, 0) = "try shooting hoops! It's a fun way to keep fit..."
+messages$(1036, 1) = "покидать мяч! Это хороший способ держать себя в форме..."
 
-messages$(1037, 0) = "and i'm a member of"
-messages$(1037, 1) = "и я член"
+messages$(1037, 0) = "Welcome to the Study,"
+messages$(1037, 1) = "Добро пожаловать в исследование,"
 
-messages$(1038, 0) = "Life can be pretty tough inside this place,"
-messages$(1038, 1) = "Жизнь может быть довольно жесткой в ??этом месте,"
+messages$(1038, 0) = "People come here to expand their minds..."
+messages$(1038, 1) = "Люди приходят сюда, чтобы расширить свое сознание..."
 
-messages$(1039, 0) = "so look me up if you ever need a friend..."
-messages$(1039, 1) = "Так что найди меня, если тебе когда-нибудь понадобится друг..."
+messages$(1039, 0) = "You can improve your intelligence by reading"
+messages$(1039, 1) = "Ты можешь улучшить свой интеллект, читая"
 
-messages$(1040, 0) = "so look us up if you ever need some support..."
-messages$(1040, 1) = "так что обращайтесь к нам, если вам когда-нибудь понадобится поддержка..."
+messages$(1040, 0) = "a book, or earn money by sorting those files..."
+messages$(1040, 1) = "книги или зарабатывать деньги, сортируя эти файлы..."
 
-messages$(1041, 0) = "I'm"
-messages$(1041, 1) = "Я"
+messages$(1041, 0) = "If you know how to use a computer, you might even"
+messages$(1041, 1) = "Если ты умеешь пользоваться компьютером, ты даже"
 
-messages$(1042, 0) = " from Cell"
-messages$(1042, 1) = " из сотового"
+messages$(1042, 0) = "want to access some information about your peers!"
+messages$(1042, 1) = "в силах получить доступ к информации о сокамерниках!"
 
-messages$(1043, 0) = "Stay out of my way and we won't have a problem..."
-messages$(1043, 1) = "Держись подальше от меня, и у нас не будет проблем..."
+messages$(1043, 0) = "Welcome to the Medical Bay, #FIRST#!"
+messages$(1043, 1) = "Добро пожаловать в медпункт, #FIRST#!"
 
-messages$(1044, 0) = " - a member of"
-messages$(1044, 1) = " - член"
+messages$(1044, 0) = "This is where you come if you feel weak..."
+messages$(1044, 1) = "Приходи сюда, если почувствуешь слабость..."
 
-messages$(1045, 0) = "Watch your back, new boy! I'm"
-messages$(1045, 1) = "Следи за спиной, новенький! Я"
+messages$(1045, 0) = "You can rest your bones on one of the beds, or"
+messages$(1045, 1) = "Ты можешь отдохнуть на одной из кроватей, или"
 
-messages$(1046, 0) = " from"
-messages$(1046, 1) = " из"
+messages$(1046, 0) = "help the healing process with a dose of drugs..."
+messages$(1046, 1) = "помочь заживлению дозой лекарств..."
 
-messages$(1047, 0) = "Cell"
-messages$(1047, 1) = "Клетка"
+messages$(1047, 0) = "If you know what you're doing, you could even"
+messages$(1047, 1) = "Если ты знаешь, что делаешь, то можешь даже"
 
-messages$(1048, 0) = " Block and i rule this place..."
-messages$(1048, 1) = " Заблокируй, и я буду править этим местом..."
+messages$(1048, 0) = "earn good money by concocting the chemicals!"
+messages$(1048, 1) = "заработать хорошие деньги, изобретая химикаты!"
 
-messages$(1049, 0) = " of"
-messages$(1049, 1) = " из"
+messages$(1049, 0) = "Welcome to the Canteen, #FIRST#!"
+messages$(1049, 1) = "Добро пожаловать в столовую, #FIRST#!"
 
-messages$(1050, 0) = " and we rule this place..."
-messages$(1050, 1) = " и мы правим этим местом..."
+messages$(1050, 0) = "Meals are served here everyday at 13:00..."
+messages$(1050, 1) = "Блюда подаются здесь каждый день в 13:00..."
 
-messages$(1051, 0) = ", my name is"
-messages$(1051, 1) = ", меня зовут"
+messages$(1051, 0) = "You can also earn a little bit of money by"
+messages$(1051, 1) = "Ты также можешь заработать немного денег,"
 
-messages$(1052, 0) = "I'm new here, but i hope we can be friends!"
-messages$(1052, 1) = "Я новичок здесь, но я надеюсь, что мы можем быть друзьями!"
+messages$(1052, 0) = "helping to prepare food behind the counter..."
+messages$(1052, 1) = "помогая в приготовлении еды за прилавком..."
 
-messages$(1053, 0) = "Hey, there's a new king in town and his name"
-messages$(1053, 1) = "Эй, в городе новый король и его имя"
+messages$(1053, 0) = "Welcome to the Main Hall, #FIRST#!"
+messages$(1053, 1) = "Добро пожаловать в главный зал, #FIRST#!"
 
-messages$(1054, 0) = "is"
-messages$(1054, 1) = "является"
+messages$(1054, 0) = "This is the heart of the entire prison..."
+messages$(1054, 1) = "Это сердце всей тюрьмы..."
 
-messages$(1055, 0) = "! Watch your step around me..."
-messages$(1055, 1) = "! Смотри, как ты шагаешь вокруг меня..."
+messages$(1055, 0) = "There's not much to do, but you can occupy"
+messages$(1055, 1) = "Здесь делать особо нечего, но можно занять"
 
-messages$(1056, 0) = "Well, it looks like we're sharing this cell!"
-messages$(1056, 1) = "Что ж, похоже, мы делим эту камеру!"
+messages$(1056, 0) = "your mind by watching TV or using the computer..."
+messages$(1056, 1) = "себя просмотром телевизора или работой за компьютером..."
 
-messages$(1057, 0) = "Don't worry, i'm sure we'll get along fine..."
-messages$(1057, 1) = "Не волнуйся, я уверен, мы поладим..."
+messages$(1057, 0) = "It's worth keeping an eye on the phones too,"
+messages$(1057, 1) = "За телефонами тоже стоит следить,"
 
-messages$(1058, 0) = "So i guess i've got to share this cell with you?"
-messages$(1058, 1) = "Так что, я думаю, я должен разделить эту камеру с вами?"
+messages$(1058, 0) = "because we get some interesting calls here!"
+messages$(1058, 1) = "потому что мы получаем некоторые интересные звонки здесь!"
 
-messages$(1059, 0) = "Just stay out of my way and we'll be alright..."
-messages$(1059, 1) = "Просто держись подальше от меня, и мы будем в порядке..."
+messages$(1059, 0) = "Welcome to the Workshop, #FIRST#!"
+messages$(1059, 1) = "Добро пожаловать в мастерскую, #FIRST#!"
 
-messages$(1060, 0) = "Damn, i can't believe i have to share a cell!"
-messages$(1060, 1) = "Черт, я не могу поверить, что мне приходится делить мобильный!"
+messages$(1060, 0) = "This is where items are created..."
+messages$(1060, 1) = "Здесь создаются предметы..."
 
-messages$(1061, 0) = "You better stay in the corner and shut up..."
-messages$(1061, 1) = "Лучше стой в углу и молчи..."
+messages$(1061, 0) = "You get paid for everything you produce,"
+messages$(1061, 1) = "Тебе платят за все, что ты производишь,"
 
-messages$(1062, 0) = ", the prison system has been"
-messages$(1062, 1) = ", тюремная система была"
+messages$(1062, 0) = "but you have to leave it on the bench..."
+messages$(1062, 1) = "но ты должен оставить его на скамейке..."
 
-messages$(1063, 0) = "shaken up to stop you getting too comfortable!"
-messages$(1063, 1) = "встряхнул, чтобы остановить вас слишком комфортно!"
+messages$(1063, 0) = "Welcome to the Bathroom, #FIRST#!"
+messages$(1063, 1) = "Добро пожаловать в душевую, #FIRST#!"
 
-messages$(1064, 0) = "You're now in Cell"
-messages$(1064, 1) = "Вы находитесь в Cell"
+messages$(1064, 0) = "A lot of shady stuff happens in here..."
+messages$(1064, 1) = "Здесь происходит много темных вещей..."
 
-messages$(1065, 0) = "Head over there and make yourself at home..."
-messages$(1065, 1) = "Отправляйся туда и чувствуй себя как дома..."
+messages$(1065, 0) = "This is the one place the wardens aren't"
+messages$(1065, 1) = "Это единственное место, где нет смотрителей."
 
-messages$(1066, 0) = "ATTENTION! The prison seems be"
-messages$(1066, 1) = "ВНИМАНИЕ! Тюрьма, кажется"
+messages$(1066, 0) = "allowed, so you can do whatever you want!"
+messages$(1066, 1) = "так что ты можешь делать все, что хочешь!"
 
-messages$(1067, 0) = "suffering from a power failure!"
-messages$(1067, 1) = "страдает от отключения электричества!"
+messages$(1067, 0) = "That's sad news. He was a good friend of mine..."
+messages$(1067, 1) = "Это печальная новость. Он был моим хорошим другом..."
 
-messages$(1068, 0) = "Please be patient while the problem"
-messages$(1068, 1) = "Пожалуйста, будьте терпеливы, пока проблема"
+messages$(1068, 0) = "I guess he finally got what was coming to him!"
+messages$(1068, 1) = "Думаю, он наконец-то получил то, что заслужил!"
 
-messages$(1069, 0) = "is rectified by our technical staff..."
-messages$(1069, 1) = "исправляется нашим техническим персоналом..."
+messages$(1069, 0) = "Good for him! He deserves a better life..."
+messages$(1069, 1) = "Это хорошо! Он заслуживает лучшей жизни..."
 
-messages$(1070, 0) = "ATTENTION! The prison has been"
-messages$(1070, 1) = "ВНИМАНИЕ! Тюрьма стала"
+messages$(1070, 0) = "He doesn't deserve it, but i'm glad he's gone!"
+messages$(1070, 1) = "Он этого не заслуживает, но я рад, что он ушел!"
 
-messages$(1071, 0) = "targeted for a terrorist attack!"
-messages$(1071, 1) = "целью теракта!"
+messages$(1071, 0) = "I just wanted to say goodbye before i leave..."
+messages$(1071, 1) = "Я просто хотел попрощаться перед отъездом..."
 
-messages$(1072, 0) = "All inmates should find a safe place to"
-messages$(1072, 1) = "Все заключенные должны найти безопасное место для"
+messages$(1072, 0) = ", i'm getting released soon!"
+messages$(1072, 1) = ", меня скоро выпустят!"
 
-messages$(1073, 0) = "hide until the threat has been removed..."
-messages$(1073, 1) = "спрятаться, пока угроза не будет устранена..."
+messages$(1073, 0) = "I'll be living it up while you're in here..."
+messages$(1073, 1) = "Я буду жить на свободе, пока ты здесь..."
 
-messages$(1074, 0) = "YOU'RE ALL GOING TO DIE!!!"
-messages$(1074, 1) = "ВЫ ВСЕ УМРЕТЕ!!!"
+messages$(1074, 0) = "We'll miss you, but good luck out there!"
+messages$(1074, 1) = "Мы будем скучать по тебе, но удачи там!"
 
-messages$(1075, 0) = "We've rigged the prison with explosives..."
-messages$(1075, 1) = "Мы начинили тюрьму взрывчаткой..."
+messages$(1075, 0) = "If it's up to me, you'll leave in a wheelchair!"
+messages$(1075, 1) = "Если это зависит от меня, ты уедешь в инвалидной коляске!"
 
-messages$(1076, 0) = "Run for your life like a coward - or accept"
-messages$(1076, 1) = "Беги за свою жизнь как трус - или прими"
+messages$(1076, 0) = "You better prepare your troops - because we're"
+messages$(1076, 1) = "Вам лучше подготовить свои войска, потому что мы"
 
-messages$(1077, 0) = "that your blood will be spilt for the cause!"
-messages$(1077, 1) = "что ваша кровь будет пролита за дело!"
+messages$(1077, 0) = "gonna wage war until there's only one gang left!"
+messages$(1077, 1) = "будем вести войну, пока не останется только одна банда!"
 
-messages$(1078, 0) = "EVERYBODY RUN FOR YOUR LIVES!"
-messages$(1078, 1) = "ВСЕ БЕГУТ ЗА СВОИ ЖИЗНИ!"
+messages$(1078, 0) = "I could crush a weakling like you with one hand..."
+messages$(1078, 1) = "Я мог бы раздавить такого слабака, как ты, одной рукой..."
 
-messages$(1079, 0) = " has got a"
-messages$(1079, 1) = " есть"
+messages$(1079, 0) = "I wish i was as strong as you, #FIRST#!"
+messages$(1079, 1) = "Хотел бы я быть таким же сильным, как ты, #FIRST#!"
 
-messages$(1080, 0) = "Welcome to the Exercise Yard,"
-messages$(1080, 1) = "Добро пожаловать на прогулочный двор,"
+messages$(1080, 0) = "I'm sure it gets you through some tough times..."
+messages$(1080, 1) = "Я уверен, что это поможет тебе пережить трудные времена..."
 
-messages$(1081, 0) = "This is where you come to improve your body..."
-messages$(1081, 1) = "Сюда приходят совершенствовать свое тело..."
+messages$(1081, 0) = "Hey, #FIRST#, you're a lazy asshole!"
+messages$(1081, 1) = "Эй, #FIRST#, ты ленивый мудак!"
 
-messages$(1082, 0) = "You can improve your strength by lifting weights,"
-messages$(1082, 1) = "Вы можете улучшить свою силу, поднимая тяжести,"
+messages$(1082, 0) = "I can probably walk faster than you run..."
+messages$(1082, 1) = "Я, могу ходить быстрее, чем ты бегаешь..."
 
-messages$(1083, 0) = "or improve your agility by running around the yard..."
-messages$(1083, 1) = "или улучшите свою ловкость, бегая по двору..."
+messages$(1083, 0) = "I wish i was as fit as you, #FIRST#!"
+messages$(1083, 1) = "Хотел бы я быть таким же здоровым, как ты, #FIRST#!"
 
-messages$(1084, 0) = "But if that sounds too boring, you could always"
-messages$(1084, 1) = "Но если это звучит слишком скучно, вы всегда можете"
+messages$(1084, 0) = "I'm sure it makes life a lot easier in here..."
+messages$(1084, 1) = "Я уверен, что это делает жизнь здесь намного проще..."
 
-messages$(1085, 0) = "try shooting hoops! It's a fun way to keep fit..."
-messages$(1085, 1) = "попробуй стрелять в обручи! Это интересный способ поддерживать себя в форме..."
+messages$(1085, 0) = "Hey, #FIRST#, you must be retarded!"
+messages$(1085, 1) = "Эй, #FIRST#, ты, должно быть, отсталый!"
 
-messages$(1086, 0) = "Welcome to the Study,"
-messages$(1086, 1) = "Добро пожаловать в исследование,"
+messages$(1086, 0) = "I've never met anybody as stupid as you..."
+messages$(1086, 1) = "Я никогда не встречал никого настолько тупого, как ты..."
 
-messages$(1087, 0) = "People come here to expand their minds..."
-messages$(1087, 1) = "Люди приходят сюда, чтобы расширить свое сознание..."
+messages$(1087, 0) = "I wish i was as smart as you, #FIRST#!"
+messages$(1087, 1) = "Хотел бы я быть таким же умным, как ты, #FIRST#!"
 
-messages$(1088, 0) = "You can improve your intelligence by reading"
-messages$(1088, 1) = "Вы можете улучшить свой интеллект, читая"
+messages$(1088, 0) = "I bet you can have any job you want in here..."
+messages$(1088, 1) = "Держу пари, ты можешь получить здесь любую работу..."
 
-messages$(1089, 0) = "a book, or earn money by sorting those files..."
-messages$(1089, 1) = "книгу или зарабатывать деньги, сортируя эти файлы..."
+messages$(1089, 0) = "You're nothing but a pussy, #FIRST#!"
+messages$(1089, 1) = "Ты всего лишь плевок, #FIRST#!"
 
-messages$(1090, 0) = "If you know how to use a computer, you might even"
-messages$(1090, 1) = "Если вы умеете пользоваться компьютером, вы можете даже"
+messages$(1090, 0) = "The wardens respect you more than the inmates..."
+messages$(1090, 1) = "Смотретели уважают тебя больше, чем заключенные..."
 
-messages$(1091, 0) = "want to access some information about your peers!"
-messages$(1091, 1) = "хотите получить доступ к некоторой информации о ваших сверстников!"
+messages$(1091, 0) = "I wish i had your reputation, #FIRST#!"
+messages$(1091, 1) = "Хотел бы я иметь твою репутацию, #FIRST#!"
 
-messages$(1092, 0) = "Welcome to the Medical Bay,"
-messages$(1092, 1) = "Добро пожаловать в медицинский отсек,"
+messages$(1092, 0) = "I bet it keeps a lot of people off your back..."
+messages$(1092, 1) = "Бьюсь об заклад, это отпугивает многих людей от тебя..."
 
-messages$(1093, 0) = "This is where you come if you feel weak..."
-messages$(1093, 1) = "Сюда вы приходите, если чувствуете слабость..."
+messages$(1093, 0) = "That's loose change to me, you peasant!"
+messages$(1093, 1) = "Для меня это мелочь, холоп!"
 
-messages$(1094, 0) = "You can rest your bones on one of the beds, or"
-messages$(1094, 1) = "Вы можете отдохнуть на одной из кроватей, или"
+messages$(1094, 0) = "I wish i was as rich as you, #FIRST#!"
+messages$(1094, 1) = "Хотел бы я быть таким же богатым, как ты, #FIRST#!"
 
-messages$(1095, 0) = "help the healing process with a dose of drugs..."
-messages$(1095, 1) = "помогите процессу заживления дозой лекарств..."
+messages$(1095, 0) = "I bet $"
+messages$(1095, 1) = "Держу пари, $"
 
-messages$(1096, 0) = "If you know what you're doing, you could even"
-messages$(1096, 1) = "Если вы знаете, что делаете, вы можете даже"
+messages$(1096, 0) = "Eeewww! You make me sick, #FIRST#!"
+messages$(1096, 1) = "Ээээээ! Меня от тебя тошнит, #FIRST#!"
 
-messages$(1097, 0) = "earn good money by concocting the chemicals!"
-messages$(1097, 1) = "зарабатывай хорошие деньги, изобретая химикаты!"
+messages$(1097, 0) = "Take your fat ass somewhere else..."
+messages$(1097, 1) = "Унеси свою толстую задницу куда-нибудь в другое место..."
 
-messages$(1098, 0) = "Welcome to the Canteen,"
-messages$(1098, 1) = "Добро пожаловать в столовую,"
+messages$(1098, 0) = "Haha! You're a little runt, #FIRST#!"
+messages$(1098, 1) = "Ха-ха! Ну ты и дистрофик, #FIRST#!"
 
-messages$(1099, 0) = "Meals are served here everyday at 13:00..."
-messages$(1099, 1) = "Блюда подаются здесь каждый день в 13:00..."
+messages$(1099, 0) = "I'd love to break that pencil neck of yours..."
+messages$(1099, 1) = "Я бы хотел сломать твою карандашную шею..."
 
-messages$(1100, 0) = "You can also earn a little bit of money by"
-messages$(1100, 1) = "Вы также можете заработать немного денег,"
+messages$(1100, 0) = "Hey, #FIRST#, you think you're a big man"
+messages$(1100, 1) = "Эй, #FIRST#, думаешь, что ты большой человек"
 
-messages$(1101, 0) = "helping to prepare food behind the counter..."
-messages$(1101, 1) = "помощь в приготовлении еды за прилавком..."
+messages$(1101, 0) = "because you're doing time for #FIRST#?!"
+messages$(1101, 1) = "потому что ты мотаешь срок за #FIRST#?!"
 
-messages$(1102, 0) = "Welcome to the Main Hall,"
-messages$(1102, 1) = "Добро пожаловать в Главный зал,"
+messages$(1102, 0) = "Well, screw that because i'm in here for"
+messages$(1102, 1) = "Это все херня, потому что я здесь за"
 
-messages$(1103, 0) = "This is the heart of the entire prison..."
-messages$(1103, 1) = "Это сердце всей тюрьмы..."
+messages$(1103, 0) = "#FIRST# - and that's even worse!"
+messages$(1103, 1) = "#FIRST# - и это еще хуже!"
 
-messages$(1104, 0) = "There's not much to do, but you can occupy"
-messages$(1104, 1) = "Делать особо нечего, но можно занять"
+messages$(1104, 0) = "Animals like you should be in another prison!"
+messages$(1104, 1) = "Такие животные, как ты, должны быть в другой тюрьме!"
 
-messages$(1105, 0) = "your mind by watching TV or using the computer..."
-messages$(1105, 1) = "ваш разум, когда вы смотрите телевизор или работаете за компьютером..."
+messages$(1105, 0) = "I'm only in here for #FIRST#..."
+messages$(1105, 1) = "Я здесь всего лишь за #FIRST#..."
 
-messages$(1106, 0) = "It's worth keeping an eye on the phones too,"
-messages$(1106, 1) = "За телефонами тоже стоит следить,"
+messages$(1106, 0) = "Don't worry, i'm sure you didn't do it!"
+messages$(1106, 1) = "Не волнуйся, я уверен, что ты этого не делал!"
 
-messages$(1107, 0) = "because we get some interesting calls here!"
-messages$(1107, 1) = "потому что мы получаем некоторые интересные звонки здесь!"
+messages$(1107, 0) = "I've been accused of #FIRST#..."
+messages$(1107, 1) = "Меня обвинили в #FIRST#..."
 
-messages$(1108, 0) = "Welcome to the Workshop,"
-messages$(1108, 1) = "Добро пожаловать в Мастерскую,"
+messages$(1108, 0) = "Haha! Look at #FIRST# working!"
+messages$(1108, 1) = "Ха-ха! Посмотрите, #FIRST# работает!"
 
-messages$(1109, 0) = "This is where items are created..."
-messages$(1109, 1) = "Здесь создаются предметы..."
+messages$(1109, 0) = " working!"
+messages$(1109, 1) = " работающий!"
 
-messages$(1110, 0) = "You get paid for everything you produce,"
-messages$(1110, 1) = "Вам платят за все, что вы производите,"
+messages$(1110, 0) = "Who are you trying to impress?"
+messages$(1110, 1) = "На кого ты пытаешься произвести впечатление?"
 
-messages$(1111, 0) = "but you have to leave it on the bench..."
-messages$(1111, 1) = "но ты должен оставить его на скамейке..."
+messages$(1111, 0) = "Only the wardens respect a hard worker!"
+messages$(1111, 1) = "Трудяг уважают только смотрители!"
 
-messages$(1112, 0) = "Welcome to the Bathroom,"
-messages$(1112, 1) = "Добро пожаловать в ванную,"
+messages$(1112, 0) = "Real thugs earn their money doing dirt..."
+messages$(1112, 1) = "Настоящие бандиты зарабатывают на грязи..."
 
-messages$(1113, 0) = "A lot of shady stuff happens in here..."
-messages$(1113, 1) = "Здесь происходит много темных вещей..."
+messages$(1113, 0) = "Hey, what are you doing in the #FIRST# Block?"
+messages$(1113, 1) = "Эй, что ты забыл в #FIRST# блоке?"
 
-messages$(1114, 0) = "This is the one place the wardens aren't"
-messages$(1114, 1) = "Это единственное место, где нет надзирателей."
+messages$(1114, 0) = "This is where REAL criminals do their time!"
+messages$(1114, 1) = "Здесь мотают срок только НАСТОЯЩИЕ преступники!"
 
-messages$(1115, 0) = "allowed, so you can do whatever you want!"
-messages$(1115, 1) = "разрешено, так что вы можете делать все, что хотите!"
+messages$(1115, 0) = "You better scurry back to the safety of the"
+messages$(1115, 1) = "Тебе лучше вернуться в безопасный"
 
-messages$(1116, 0) = "Have you heard about"
-messages$(1116, 1) = "Ты слышал о"
+messages$(1116, 0) = "#FIRST# Block before you get in above your head!"
+messages$(1116, 1) = "#FIRST# блок, прежде чем получишь в голову!"
 
-messages$(1117, 0) = "'s death?"
-messages$(1117, 1) = "смерть?"
+messages$(1117, 0) = "Hey, you're from the #FIRST# Block too?"
+messages$(1117, 1) = "Эй, ты тоже из #FIRST# блока?"
 
-messages$(1118, 0) = "That's sad news. He was a good friend of mine..."
-messages$(1118, 1) = "Это печальная новость. Он был моим хорошим другом..."
+messages$(1118, 0) = "Guys like us should stick together!"
+messages$(1118, 1) = "Такие, как мы, должны держаться вместе!"
 
-messages$(1119, 0) = "I guess he finally got what was coming to him!"
-messages$(1119, 1) = "Думаю, он наконец-то получил то, что ему предстояло!"
+messages$(1119, 0) = "intelligent guy? Maybe you can help me..."
+messages$(1119, 1) = "умный парень? Возможно ты можешь помочь мне..."
 
-messages$(1120, 0) = "'s release?"
-messages$(1120, 1) = "релиз?"
+messages$(1120, 0) = "I haven't got a clue how to invest the money i"
+messages$(1120, 1) = "Я понятия не имею, как инвестировать деньги, которые я"
 
-messages$(1121, 0) = "Good for him! He deserves a better life..."
-messages$(1121, 1) = "Хорошо для него! Он заслуживает лучшей жизни..."
+messages$(1121, 0) = "earn at this place! Can you make it work for me?"
+messages$(1121, 1) = "заработал в этом месте! Можешь заставить это работать на меня?"
 
-messages$(1122, 0) = "He doesn't deserve it, but i'm glad he's gone!"
-messages$(1122, 1) = "Он этого не заслуживает, но я рад, что он ушел!"
+messages$(1122, 0) = "Thanks, that should boost my pathetic pension!"
+messages$(1122, 1) = "Спасибо, это должно увеличить мою жалкую пенсию!"
 
-messages$(1123, 0) = ", i'm getting out of here soon!"
-messages$(1123, 1) = ", я скоро уйду отсюда!"
+messages$(1123, 0) = "Maybe i can return the favour some time..."
+messages$(1123, 1) = "Может быть, когда-нибудь я смогу вернуть должок..."
 
-messages$(1124, 0) = "I just wanted to say goodbye before i leave..."
-messages$(1124, 1) = "Я просто хотел попрощаться перед отъездом..."
+messages$(1124, 0) = "I don't need the advice of a criminal anyway!"
+messages$(1124, 1) = "В любом случае, мне не нужен совет преступника!"
 
-messages$(1125, 0) = ", i'm getting released soon!"
-messages$(1125, 1) = ", меня скоро выпустят!"
+messages$(1125, 0) = "You'd probably land me behind bars with you..."
+messages$(1125, 1) = "Ты, наверное, хотел подставить меня, что бы меня задержали..."
 
-messages$(1126, 0) = "I'll be living it up while you're in here..."
-messages$(1126, 1) = "Я буду жить, пока ты здесь..."
+messages$(1126, 0) = ", i've got the power to have"
+messages$(1126, 1) = ", у меня есть власть иметь"
 
-messages$(1127, 0) = ", i hear you get out soon?"
-messages$(1127, 1) = "Я слышал, ты скоро выйдешь?"
+messages$(1127, 0) = "precious days taken off a guy's sentence..."
+messages$(1127, 1) = "сокращать драгоценные дни приговора..."
 
-messages$(1128, 0) = "We'll miss you, but good luck out there!"
-messages$(1128, 1) = "Мы будем скучать по вам, но удачи там!"
+messages$(1128, 0) = "You normally have to earn that privilege, but"
+messages$(1128, 1) = "Обычно ты должен заслужить эту привилегию, но"
 
-messages$(1129, 0) = "If it's up to me, you'll leave in a wheelchair!"
-messages$(1129, 1) = "Если это зависит от меня, ты уедешь в инвалидной коляске!"
+messages$(1129, 0) = " and it might ease the process?"
+messages$(1129, 1) = " а это может облегчить процесс?"
 
-messages$(1130, 0) = "Hey, it's time for"
-messages$(1130, 1) = "Эй, пора"
+messages$(1130, 0) = "Thanks for your generous contribution! A nice guy"
+messages$(1130, 1) = "Спасибо за ваш щедрый вклад! Хороший парень"
 
-messages$(1131, 0) = " to go!"
-messages$(1131, 1) = " идти!"
+messages$(1131, 0) = "like you deserves to be out as soon as possible..."
+messages$(1131, 1) = "как ты заслуживает выйти как можно скорее..."
 
-messages$(1132, 0) = " rule this place now..."
-messages$(1132, 1) = " править этим местом сейчас..."
+messages$(1132, 0) = "You should be honoured that i made such an offer!"
+messages$(1132, 1) = "Ты должен гордиться тем, что я сделал такое предложение!"
 
-messages$(1133, 0) = "You better prepare your troops - because we're"
-messages$(1133, 1) = "Вам лучше подготовить свои войска, потому что мы"
+messages$(1133, 0) = "Since you don't appreciate it, i'll ADD time..."
+messages$(1133, 1) = "Так как ты не оценил это, я УВЕЛИЧУ срок..."
 
-messages$(1134, 0) = "gonna wage war until there's only one gang left!"
-messages$(1134, 1) = "будем вести войну, пока не останется только одна банда!"
+messages$(1134, 0) = "have time taken off for good behaviour..."
+messages$(1134, 1) = "отгул за хорошее поведение..."
 
-messages$(1135, 0) = "You're a pathetic specimen,"
-messages$(1135, 1) = "Ты жалкий образец,"
+messages$(1135, 0) = "How did you manage to clock up #FIRST# days, #SECOND#?!"
+messages$(1135, 1) = "Как тебе удалось отмотать #FIRST# дней, #SECOND#?!"
 
-messages$(1136, 0) = "I could crush a weakling like you with one hand..."
-messages$(1136, 1) = "Я мог бы раздавить такого слабака, как ты, одной рукой..."
+messages$(1136, 0) = " days,"
+messages$(1136, 1) = " дни,"
 
-messages$(1137, 0) = "I wish i was as strong as you,"
-messages$(1137, 1) = "Хотел бы я быть таким же сильным, как ты,"
+messages$(1137, 0) = "This prison is supposed to have a fast turnover..."
+messages$(1137, 1) = "В этой тюрьме, должно быть, большая текучка..."
 
-messages$(1138, 0) = "I'm sure it gets you through some tough times..."
-messages$(1138, 1) = "Я уверен, что это поможет вам пережить трудные времена..."
+messages$(1138, 0) = "Since you're not responding to rehabilitation,"
+messages$(1138, 1) = "Поскольку ты не идешь на реабилитацию,"
 
-messages$(1139, 0) = ", you're a lazy asshole!"
-messages$(1139, 1) = ", ты ленивый мудак!"
+messages$(1139, 0) = "we might as well sentence you to DEATH!"
+messages$(1139, 1) = "мы можем приговорить тебя к СМЕРТИ!"
 
-messages$(1140, 0) = "I can probably walk faster than you run..."
-messages$(1140, 1) = "Я, наверное, могу ходить быстрее, чем ты бежишь..."
+messages$(1140, 0) = "You're wasting your time, #FIRST#! There's"
+messages$(1140, 1) = "Ты тратишь свое время, #FIRST#! Здесь"
 
-messages$(1141, 0) = "I wish i was as fit as you,"
-messages$(1141, 1) = "Хотел бы я быть таким же здоровым, как ты,"
+messages$(1141, 0) = "no money to be made during lockdown..."
+messages$(1141, 1) = "нельзя заработать после отбоя..."
 
-messages$(1142, 0) = "I'm sure it makes life a lot easier in here..."
-messages$(1142, 1) = "Я уверен, что это делает жизнь здесь намного проще..."
+messages$(1142, 0) = ", did you see what"
+messages$(1142, 1) = ", ты видел что"
 
-messages$(1143, 0) = ", you must be retarded!"
-messages$(1143, 1) = ", ты, должно быть, отсталый!"
+messages$(1143, 0) = "just did? Help me get that son of a bitch!"
+messages$(1143, 1) = "только что? Помоги мне поймать этого сукина сына!"
 
-messages$(1144, 0) = "I've never met anybody as stupid as you..."
-messages$(1144, 1) = "Я никогда не встречал никого настолько глупого, как ты..."
+messages$(1144, 0) = "Thank God! Now let's teach him a lesson!"
+messages$(1144, 1) = "Слава Богу! А теперь давай преподадим ему урок!"
 
-messages$(1145, 0) = "I wish i was as smart as you,"
-messages$(1145, 1) = "Хотел бы я быть таким же умным, как ты,"
+messages$(1145, 0) = "He's got no chance against both of us..."
+messages$(1145, 1) = "У него нет шансов против нас обоих..."
 
-messages$(1146, 0) = "I bet you can have any job you want in here..."
-messages$(1146, 1) = "Держу пари, ты можешь получить здесь любую работу, которую захочешь..."
+messages$(1146, 0) = "You're leaving me to face him on my own?! If"
+messages$(1146, 1) = "Ты оставляешь меня один на один с ним? Если"
 
-messages$(1147, 0) = "You're nothing but a pussy,"
-messages$(1147, 1) = "Ты всего лишь киска,"
+messages$(1147, 0) = "that's your idea of friendship then forget it!"
+messages$(1147, 1) = "это твое представление о дружбе, тогда забудь об этом!"
 
-messages$(1148, 0) = "The wardens respect you more than the inmates..."
-messages$(1148, 1) = "Надзиратели уважают вас больше, чем заключенные..."
+messages$(1148, 0) = "How did you lose #FIRST#, #SECOND#?!"
+messages$(1148, 1) = "Как ты потерял #FIRST#, #SECOND#?!"
 
-messages$(1149, 0) = "I wish i had your reputation,"
-messages$(1149, 1) = "Хотел бы я иметь твою репутацию,"
+messages$(1149, 0) = "You can't go through life with that wound..."
+messages$(1149, 1) = "С такой раной невозможно прожить жизнь..."
 
-messages$(1150, 0) = "I bet it keeps a lot of people off your back..."
-messages$(1150, 1) = "Бьюсь об заклад, это отпугивает многих людей от тебя..."
+messages$(1150, 0) = "I can repair the damage if you want, but"
+messages$(1150, 1) = "Я могу возместить ущерб, если хочешь, но"
 
-messages$(1151, 0) = ", is $"
-messages$(1151, 1) = ", это $"
+messages$(1151, 0) = "There you go! You're as good as new! Just"
+messages$(1151, 1) = "Ну вот! Ты как новенький! Просто"
 
-messages$(1152, 0) = " all you're worth?"
-messages$(1152, 1) = " все, что вы стоите?"
+messages$(1152, 0) = "look after yourself a little better this time..."
+messages$(1152, 1) = "в этот раз позаботься о себе получше..."
 
-messages$(1153, 0) = "That's loose change to me, you peasant!"
-messages$(1153, 1) = "Для меня это мелочь, крестьянин!"
+messages$(1153, 0) = "Fine! I'll leave you to struggle through"
+messages$(1153, 1) = "Отлично! Я оставлю тебя бороться"
 
-messages$(1154, 0) = "I wish i was as rich as you,"
-messages$(1154, 1) = "Хотел бы я быть таким же богатым, как ты,"
+messages$(1154, 0) = "life as a disgusting little cripple..."
+messages$(1154, 1) = "за свою жизнь отвратительного маленького калеки..."
 
-messages$(1155, 0) = "I bet $"
-messages$(1155, 1) = "Держу пари, $"
+messages$(1155, 0) = "incarcerated for being corrupt!"
+messages$(1155, 1) = "заключен за коррупцию!"
 
-messages$(1156, 0) = " makes life a lot easier in here..."
-messages$(1156, 1) = " здесь жить намного легче..."
+messages$(1156, 0) = "He will now be known as #FIRST#"
+messages$(1156, 1) = "Теперь он будет известен как #FIRST#"
 
-messages$(1157, 0) = "Eeewww! You make me sick,"
-messages$(1157, 1) = "Ээээээ! Меня от тебя тошнит,"
+messages$(1157, 0) = "Oooh, i feel terrible all of a sudden!"
+messages$(1157, 1) = "Оооо, я вдруг чувствую себя ужасно!"
 
-messages$(1158, 0) = "Take your fat ass somewhere else..."
-messages$(1158, 1) = "Унеси свою толстую задницу куда-нибудь в другое место..."
+messages$(1158, 0) = "I must be coming down with something..."
+messages$(1158, 1) = "Видимо, я чем-то заболел..."
 
-messages$(1159, 0) = "Haha! You're a little runt,"
-messages$(1159, 1) = "Ха-ха! Ты маленький коротышка,"
+messages$(1159, 0) = "studying if you want to get a job!"
+messages$(1159, 1) = "на учебу, если хочешь получить работу!"
 
-messages$(1160, 0) = "I'd love to break that pencil neck of yours..."
-messages$(1160, 1) = "Я бы хотел сломать твою карандашную шею..."
+messages$(1160, 0) = "qualifications for you if you want?"
+messages$(1160, 1) = "твои характеристики, если хочешь?"
 
-messages$(1161, 0) = ", you think you're a big man"
-messages$(1161, 1) = ", вы думаете, что вы большой человек"
+messages$(1161, 0) = "No problem! Once i edit your test scores, people"
+messages$(1161, 1) = "Без проблем! Как только я изменю результаты тестов, люди"
 
-messages$(1162, 0) = "because you're doing time for"
-messages$(1162, 1) = "потому что ты делаешь время для"
+messages$(1162, 0) = "will think you have an intelligence of #FIRST#%..."
+messages$(1162, 1) = "будут думать, что у тебя #FIRST#% интеллекта..."
 
-messages$(1163, 0) = "Well, screw that because i'm in here for"
-messages$(1163, 1) = "Ну, к черту это, потому что я здесь для"
+messages$(1163, 0) = "%..."
+messages$(1163, 1) = "%..."
 
-messages$(1164, 0) = " - and that's even worse!"
-messages$(1164, 1) = " - и это еще хуже!"
+messages$(1164, 0) = "You'll never get anywhere with that attitude!"
+messages$(1164, 1) = "С таким отношением ничего не добьешься!"
 
-messages$(1165, 0) = ", i hear you're"
-messages$(1165, 1) = ", я слышал ты"
+messages$(1165, 0) = "You're not in high school anymore, bookworm..."
+messages$(1165, 1) = "Ты больше не в старшей школе, книжный червь..."
 
-messages$(1166, 0) = "in here for"
-messages$(1166, 1) = "здесь для"
+messages$(1166, 0) = "You need to watch where you're going..."
+messages$(1166, 1) = "Надо смотреть куда идешь..."
 
-messages$(1167, 0) = "Animals like you should be in another prison!"
-messages$(1167, 1) = "Такие животные, как ты, должны быть в другой тюрьме!"
+messages$(1167, 0) = "Get away from me before i kick you away!"
+messages$(1167, 1) = "Отойди от меня, пока я тебя не выпнул!"
 
-messages$(1168, 0) = "I'm only in here for"
-messages$(1168, 1) = "Я здесь только для"
+messages$(1168, 0) = "You don't eyeball me unless you want a fight!"
+messages$(1168, 1) = "Не смотри мне в глаза, если не хочешь драки!"
 
-messages$(1169, 0) = "Don't worry, i'm sure you didn't do it!"
-messages$(1169, 1) = "Не волнуйся, я уверен, что ты этого не делал!"
+messages$(1169, 0) = "Go and clean yourself up in the Bathroom..."
+messages$(1169, 1) = "Иди и помойся в душевой..."
 
-messages$(1170, 0) = "I've been accused of"
-messages$(1170, 1) = "меня обвинили в"
+messages$(1170, 0) = "STOP! I can't take any more, #FIRST#!"
+messages$(1170, 1) = "СТОЙ! Я так больше не могу, #FIRST#!"
 
-messages$(1171, 0) = "Haha! Look at"
-messages$(1171, 1) = "Ха-ха! смотреть на"
+messages$(1171, 0) = "Will you leave me alone if i give you $#FIRST#?"
+messages$(1171, 1) = "Ты оставишь меня в покое, если я дам тебе #FIRST#$?"
 
-messages$(1172, 0) = " working!"
-messages$(1172, 1) = " работающий!"
+messages$(1172, 0) = "Thank God! Here's your money."
+messages$(1172, 1) = "Слава Богу! Вот твои деньги."
 
-messages$(1173, 0) = "Who are you trying to impress?"
-messages$(1173, 1) = "На кого ты пытаешься произвести впечатление?"
+messages$(1173, 0) = "Now please leave me in peace..."
+messages$(1173, 1) = "Теперь, пожалуйста, оставь меня в покое..."
 
-messages$(1174, 0) = "Only the wardens respect a hard worker!"
-messages$(1174, 1) = "Трудягу уважают только надзиратели!"
+messages$(1174, 0) = "Fine! If you want to fight to the death,"
+messages$(1174, 1) = "Отлично! Если ты хочешь драться насмерть,"
 
-messages$(1175, 0) = "Real thugs earn their money doing dirt..."
-messages$(1175, 1) = "Настоящие бандиты зарабатывают на грязи..."
+messages$(1175, 0) = "i'll have to give you everything i've got!"
+messages$(1175, 1) = "я должен дать тебе все, что у меня есть!"
 
-messages$(1176, 0) = "Hey, what are you doing in the"
-messages$(1176, 1) = "Эй, что ты делаешь в"
+messages$(1176, 0) = "but i'll let you live if you give me $#FIRST#?"
+messages$(1176, 1) = "но я позволю тебе жить, если ты дашь мне #FIRST#$..."
 
-messages$(1177, 0) = "This is where REAL criminals do their time!"
-messages$(1177, 1) = "Вот где отбывают срок НАСТОЯЩИЕ преступники!"
+messages$(1177, 0) = "I guess you can put a price on human life!"
+messages$(1177, 1) = "Я знал, что ты знаешь цену человеческой жизни!"
 
-messages$(1178, 0) = "You better scurry back to the safety of the"
-messages$(1178, 1) = "Вам лучше вернуться в безопасное место"
+messages$(1178, 0) = "You just bought yourself a second chance..."
+messages$(1178, 1) = "Ты только что купил себе второй шанс..."
 
-messages$(1179, 0) = " Block before you get in above your head!"
-messages$(1179, 1) = " Блокируйте, прежде чем попасть выше головы!"
+messages$(1179, 0) = "You don't think your life is worth $#FIRST#?"
+messages$(1179, 1) = "Ты думаешь твоя жизнь не стоит #FIRST#$?"
 
-messages$(1180, 0) = "Hey, you're from the"
-messages$(1180, 1) = "Эй, ты из"
+messages$(1180, 0) = "I guess you won't mind losing it then!"
+messages$(1180, 1) = "Получается, ты не против потерять ее!"
 
-messages$(1181, 0) = "Guys like us should stick together!"
-messages$(1181, 1) = "Такие, как мы, должны держаться вместе!"
+messages$(1181, 0) = "Your status makes you a target to me..."
+messages$(1181, 1) = "Твой статус делает тебя мишенью для меня..."
 
-messages$(1182, 0) = ", i hear that you're an"
-messages$(1182, 1) = ", я слышал, что ты"
+messages$(1182, 0) = "The only thing wrong with having a reputation"
+messages$(1182, 1) = "Единственное, что плохо в репутации, это то,"
 
-messages$(1183, 0) = "intelligent guy? Maybe you can help me..."
-messages$(1183, 1) = "умный парень? Возможно ты можешь помочь мне..."
+messages$(1183, 0) = "is that i can earn one by kicking your ass!"
+messages$(1183, 1) = "что я могу заработать ее, надеря тебе задницу!"
 
-messages$(1184, 0) = "I haven't got a clue how to invest the money i"
-messages$(1184, 1) = "Я понятия не имею, как инвестировать деньги, которые я"
+messages$(1184, 0) = "Hello, i represent a human rights group and we'd"
+messages$(1184, 1) = "Здравствуйте, я представляю правозащитную группу, и мы"
 
-messages$(1185, 0) = "earn at this place! Can you make it work for me?"
-messages$(1185, 1) = "заработок в этом месте! Можете ли вы заставить его работать на меня?"
+messages$(1185, 0) = "like to support you during this difficult time..."
+messages$(1185, 1) = "хотели бы поддержать вас в это трудное время..."
 
-messages$(1186, 0) = "Thanks, that should boost my pathetic pension!"
-messages$(1186, 1) = "Спасибо, это должно увеличить мою жалкую пенсию!"
+messages$(1186, 0) = "Please accept a charitable donation of $#FIRST# to"
+messages$(1186, 1) = "Примите благотворительное пожертвование в размере #FIRST#$"
 
-messages$(1187, 0) = "Maybe i can return the favour some time..."
-messages$(1187, 1) = "Может быть, когда-нибудь я смогу вернуть должок..."
+messages$(1187, 0) = " to"
+messages$(1187, 1) = " к"
 
-messages$(1188, 0) = "I don't need the advice of a criminal anyway!"
-messages$(1188, 1) = "В любом случае, мне не нужен совет преступника!"
+messages$(1188, 0) = "help fight your case and bring you some comfort!"
+messages$(1188, 1) = "которое поможет вам бороться с вашим делом и утешит вас!"
 
-messages$(1189, 0) = "You'd probably land me behind bars with you..."
-messages$(1189, 1) = "Ты бы, наверное, посадил меня за решетку вместе с тобой..."
+messages$(1189, 0) = "afraid you're still not fit to leave yet..."
+messages$(1189, 1) = "боюсь, ты еще не в состоянии уйти..."
 
-messages$(1190, 0) = ", i've got the power to have"
-messages$(1190, 1) = ", у меня есть власть иметь"
+messages$(1190, 0) = "To survive on the outside, you'll need strength,"
+messages$(1190, 1) = "Чтобы выжить снаружи, тебе понадобится сила,"
 
-messages$(1191, 0) = "precious days taken off a guy's sentence..."
-messages$(1191, 1) = "драгоценные дни сняли с парня приговор..."
+messages$(1191, 0) = "agility, and intelligence ratings of at least 70%!"
+messages$(1191, 1) = "ловкость, и интеллект не менее 70%!"
 
-messages$(1192, 0) = "You normally have to earn that privilege, but"
-messages$(1192, 1) = "Обычно вы должны заслужить эту привилегию, но"
+messages$(1192, 0) = "Get to work on that, and perhaps you'll be"
+messages$(1192, 1) = "Поработай над этим, и, возможно, будешь"
 
-messages$(1193, 0) = "slip me $"
-messages$(1193, 1) = "подсунь мне $"
+messages$(1193, 0) = "considered for release some other time..."
+messages$(1193, 1) = "рассматриваться для выпуска в другой раз..."
 
-messages$(1194, 0) = " and it might ease the process?"
-messages$(1194, 1) = " а это может облегчить процесс?"
+messages$(1194, 0) = "afraid we can't let you leave just yet..."
+messages$(1194, 1) = "Боюсь, мы пока не можем позволить тебе уйти..."
 
-messages$(1195, 0) = "Thanks for your generous contribution! A nice guy"
-messages$(1195, 1) = "Спасибо за ваш щедрый вклад! хороший парень"
+messages$(1195, 0) = "You'll need at least $1'000 to build a life on"
+messages$(1195, 1) = "Тебе понадобится не менее 1'000$, чтобы построить жизнь на"
 
-messages$(1196, 0) = "like you deserves to be out as soon as possible..."
-messages$(1196, 1) = "как вы заслуживаете быть как можно скорее ..."
+messages$(1196, 0) = "the outside! You've only earned $#FIRST# so far..."
+messages$(1196, 1) = "воле! На данный момент ты заработал только $#FIRST#..."
 
-messages$(1197, 0) = "You should be honoured that i made such an offer!"
-messages$(1197, 1) = "Вы должны гордиться тем, что я сделал такое предложение!"
+messages$(1197, 0) = "You know he's not suitable for #FIRST#!"
+messages$(1197, 1) = "Ты знаешь, что он не подходит для #FIRST#!"
 
-messages$(1198, 0) = "Since you don't appreciate it, i'll ADD time..."
-messages$(1198, 1) = "Так как вы не оцените, я добавлю время..."
+messages$(1198, 0) = "Since you obviously can't be trusted, you're out"
+messages$(1198, 1) = "Поскольку тебе явно нельзя доверять, ты выгнан"
 
-messages$(1199, 0) = "That's good work,"
-messages$(1199, 1) = "Это хорошая работа,"
+messages$(1199, 0) = "of the gang - and you can take that loser with you!"
+messages$(1199, 1) = "из банды - и ты можешь взять этого неудачника с собой!"
 
-messages$(1200, 0) = "! You deserve to"
-messages$(1200, 1) = "! Вы заслуживаете"
+messages$(1200, 0) = ", good call on"
+messages$(1200, 1) = ", добрый звонок"
 
-messages$(1201, 0) = "have time taken off for good behaviour..."
-messages$(1201, 1) = "отгул за хорошее поведение..."
+messages$(1201, 0) = "#FIRST# get stronger by the day..."
+messages$(1201, 1) = "#FIRST# становится сильнее день ото дня..."
 
-messages$(1202, 0) = "How did you manage to clock up"
-messages$(1202, 1) = "Как тебе удалось разогнаться"
+messages$(1202, 0) = "You better watch your back, #FIRST#!"
+messages$(1202, 1) = "Следи лучше за своей спиной, #FIRST#!"
 
-messages$(1203, 0) = " days,"
-messages$(1203, 1) = " дни,"
+messages$(1203, 0) = "We don't like"
+messages$(1203, 1) = "нам не нравится"
 
-messages$(1204, 0) = "This prison is supposed to have a fast turnover..."
-messages$(1204, 1) = "В этой тюрьме должна быть быстрая текучка..."
+messages$(1204, 0) = "We should stick together, #FIRST#!"
+messages$(1204, 1) = "Мы должны держаться вместе, #FIRST#!"
 
-messages$(1205, 0) = "Since you're not responding to rehabilitation,"
-messages$(1205, 1) = "Поскольку вы не отвечаете на реабилитацию,"
+messages$(1205, 0) = "Yes, drop weapon..."
+messages$(1205, 1) = "Да, выбросить..."
 
-messages$(1206, 0) = "we might as well sentence you to DEATH!"
-messages$(1206, 1) = "мы могли бы также приговорить вас к СМЕРТИ!"
+messages$(1206, 0) = "No, it's mine!"
+messages$(1206, 1) = "Нет, это мое!"
 
-messages$(1207, 0) = "You're wasting your time,"
-messages$(1207, 1) = "Вы тратите свое время,"
+messages$(1207, 0) = "Yes, give up seat..."
+messages$(1207, 1) = "Да, уступить место..."
 
-messages$(1208, 0) = "! There's"
-messages$(1208, 1) = "! Есть"
+messages$(1208, 0) = "No, go away!"
+messages$(1208, 1) = "Нет, уходи!"
 
-messages$(1209, 0) = "no money to be made during lockdown..."
-messages$(1209, 1) = "во время сна денег не заработать..."
+messages$(1209, 0) = "Yes, give up bed..."
+messages$(1209, 1) = "Да, отказаться от кровати..."
 
-messages$(1210, 0) = ", did you see what"
-messages$(1210, 1) = ", ты видел что"
+messages$(1210, 0) = "Yes, get up..."
+messages$(1210, 1) = "Да, встать..."
 
-messages$(1211, 0) = "just did? Help me get that son of a bitch!"
-messages$(1211, 1) = "только что сделал? Помогите мне поймать этого сукина сына!"
+messages$(1211, 0) = "No, leave me alone!"
+messages$(1211, 1) = "Нет, отвали!"
 
-messages$(1212, 0) = "Thank God! Now let's teach him a lesson!"
-messages$(1212, 1) = "Слава Богу! Теперь преподаем ему урок!"
+messages$(1212, 0) = "Yes, give item..."
+messages$(1212, 1) = "Да, отдать..."
 
-messages$(1213, 0) = "He's got no chance against both of us..."
-messages$(1213, 1) = "У него нет шансов против нас обоих..."
+messages$(1213, 0) = "Yes, return item..."
+messages$(1213, 1) = "Да, вернуть..."
 
-messages$(1214, 0) = "You're leaving me to face him on my own?! If"
-messages$(1214, 1) = "Ты оставляешь меня один на один с ним? Если"
+messages$(1214, 0) = "Yes, drop item..."
+messages$(1214, 1) = "Да, выбросить..."
 
-messages$(1215, 0) = "that's your idea of friendship then forget it!"
-messages$(1215, 1) = "это твое представление о дружбе, тогда забудь об этом!"
+messages$(1215, 0) = "No, forget it..."
+messages$(1215, 1) = "Нет, забудь..."
 
-messages$(1216, 0) = "How did you lose"
-messages$(1216, 1) = "Как ты проиграл"
+messages$(1216, 0) = "Yes, join gang!"
+messages$(1216, 1) = "Да, присоединиться!"
 
-messages$(1217, 0) = "You can't go through life with that wound..."
-messages$(1217, 1) = "С этой раной по жизни не пройдешь..."
+messages$(1217, 0) = "No thanks..."
+messages$(1217, 1) = "Нет, спасибо..."
 
-messages$(1218, 0) = "I can repair the damage if you want, but"
-messages$(1218, 1) = "Я могу возместить ущерб, если хочешь, но"
+messages$(1218, 0) = "Yes, leave gang..."
+messages$(1218, 1) = "Да, покинуть банду..."
 
-messages$(1219, 0) = "i'll need $"
-messages$(1219, 1) = "мне нужно $"
+messages$(1219, 0) = "No, forget it!"
+messages$(1219, 1) = "Нет, забудь!"
 
-messages$(1220, 0) = " to perform the operation?"
-messages$(1220, 1) = " выполнить операцию?"
+messages$(1220, 0) = "No sale..."
+messages$(1220, 1) = "Не продается..."
 
-messages$(1221, 0) = "There you go! You're as good as new! Just"
-messages$(1221, 1) = "Ну вот! Ты как новенький! Просто"
+messages$(1221, 0) = "Yes, accept item!"
+messages$(1221, 1) = "Да, принять!"
 
-messages$(1222, 0) = "look after yourself a little better this time..."
-messages$(1222, 1) = "в этот раз позаботься о себе получше..."
+messages$(1222, 0) = "No, i don't care!"
+messages$(1222, 1) = "Нет, мне все равно!"
 
-messages$(1223, 0) = "Fine! I'll leave you to struggle through"
-messages$(1223, 1) = "Отлично! Я оставлю тебя бороться"
+messages$(1223, 0) = "No, do your worst!"
+messages$(1223, 1) = "Нет, валяй!"
 
-messages$(1224, 0) = "life as a disgusting little cripple..."
-messages$(1224, 1) = "жизнь отвратительного маленького калеки..."
+messages$(1224, 0) = "Yes, let me go!"
+messages$(1224, 1) = "Да, выпусти меня!"
 
-messages$(1225, 0) = " has been"
-messages$(1225, 1) = " был"
+messages$(1225, 0) = "No, not yet..."
+messages$(1225, 1) = "Нет, не сейчас..."
 
-messages$(1226, 0) = "incarcerated for being corrupt!"
-messages$(1226, 1) = "посадили за коррупцию!"
+messages$(1226, 0) = "Yes, give up friend..."
+messages$(1226, 1) = "Да, расстаться..."
 
-messages$(1227, 0) = "He will now be known as"
-messages$(1227, 1) = "Теперь он будет известен как"
+messages$(1227, 0) = "Yes, recruit member..."
+messages$(1227, 1) = "Да, принять..."
 
-messages$(1228, 0) = "from Cell"
-messages$(1228, 1) = "из камеры"
+messages$(1228, 0) = "Yes, conform to gang..."
+messages$(1228, 1) = "Да, подчиниться..."
 
-messages$(1229, 0) = "Oooh, i feel terrible all of a sudden!"
-messages$(1229, 1) = "Оооо, я вдруг чувствую себя ужасно!"
+messages$(1229, 0) = "Yes, make friends..."
+messages$(1229, 1) = "Да, дружить..."
 
-messages$(1230, 0) = "I must be coming down with something..."
-messages$(1230, 1) = "Должно быть, я чем-то заболел..."
+messages$(1230, 0) = "Yes, help warden..."
+messages$(1230, 1) = "Да, помочь..."
 
-messages$(1231, 0) = ", don't waste your time"
-messages$(1231, 1) = ", не тратьте время"
+messages$(1231, 0) = "Yes, help friend!"
+messages$(1231, 1) = "Да, помочь!"
 
-messages$(1232, 0) = "studying if you want to get a job!"
-messages$(1232, 1) = "учитесь, если хотите получить работу!"
+messages$(1232, 0) = "No, sorry..."
+messages$(1232, 1) = "Нет, прости..."
 
-messages$(1233, 0) = "Just give me $"
-messages$(1233, 1) = "Просто дай мне $"
+messages$(1233, 0) = "Hey, #FIRST#, stop where you are! What"
+messages$(1233, 1) = "Эй, #FIRST#, стой на месте! Что"
 
-messages$(1234, 0) = " and i can forge the"
-messages$(1234, 1) = " и я могу подделать"
+messages$(1234, 0) = "Your bed is in Cell #FIRST#. Use that one or"
+messages$(1234, 1) = "Твоя кровать в камере #FIRST#. Иди туда или"
 
-messages$(1235, 0) = "qualifications for you if you want?"
-messages$(1235, 1) = "квалификации для вас, если вы хотите?"
+messages$(1235, 0) = "Hey, #FIRST#, what's the problem here?"
+messages$(1235, 1) = "Эй, #FIRST#, в чем проблема?"
 
-messages$(1236, 0) = "No problem! Once i edit your test scores, people"
-messages$(1236, 1) = "Без проблем! Как только я отредактирую ваши результаты тестов, люди"
+messages$(1236, 0) = "Hey, #FIRST#, you've got no business"
+messages$(1236, 1) = "Эй, #FIRST#, ты не имеешь права"
 
-messages$(1237, 0) = "will think you have an intelligence of"
-messages$(1237, 1) = "будет думать, что у вас есть интеллект"
+messages$(1237, 0) = "Hey, #FIRST#, didn't you hear the bell? Dinner"
+messages$(1237, 1) = "Эй, #FIRST#, не слышал звонка? Обед"
 
-messages$(1238, 0) = "%..."
-messages$(1238, 1) = "%..."
+messages$(1238, 0) = "Hey, #FIRST#, get out of that seat!"
+messages$(1238, 1) = "Эй, #FIRST#, встань с этого места!"
 
-messages$(1239, 0) = "You'll never get anywhere with that attitude!"
-messages$(1239, 1) = "С таким отношением ничего не добьешься!"
+messages$(1239, 0) = "Hey, #FIRST#, get out of that bed!"
+messages$(1239, 1) = "Эй, #FIRST#, вставай с кровати!"
 
-messages$(1240, 0) = "You're not in high school anymore, bookworm..."
-messages$(1240, 1) = "Ты больше не в старшей школе, книжный червь..."
+messages$(1240, 0) = "Hey, #FIRST#, i was sitting there!"
+messages$(1240, 1) = "Эй, #FIRST#, я сидел там!"
 
-messages$(1241, 0) = ", get out of my way!"
-messages$(1241, 1) = ", прочь с дороги!"
+messages$(1241, 0) = "Hey, #FIRST#, i was sleeping there!"
+messages$(1241, 1) = "Эй, #FIRST#, я вообще то спал!"
 
-messages$(1242, 0) = "You need to watch where you're going..."
-messages$(1242, 1) = "надо смотреть куда идешь..."
+messages$(1242, 0) = "Hey, #FIRST#, sleeping time is over!"
+messages$(1242, 1) = "Эй, #FIRST#, время сна закончилось!"
 
-messages$(1243, 0) = ", are you following me?"
-messages$(1243, 1) = ", ты следуешь за мной?"
+messages$(1243, 0) = "Hey, #FIRST#, get out of that cell!"
+messages$(1243, 1) = "Эй, #FIRST#, проваливай из клетки!"
 
-messages$(1244, 0) = "Get away from me before i kick you away!"
-messages$(1244, 1) = "Отойди от меня, пока я тебя не выгнал!"
+messages$(1244, 0) = "Hey, #FIRST#, watch who you mess with!"
+messages$(1244, 1) = "Эй, #FIRST#, смотри с кем связываешься!"
 
-messages$(1245, 0) = "What are you looking at,"
-messages$(1245, 1) = "На что ты смотришь,"
+messages$(1245, 0) = "#FIRST# is a personal friend of mine..."
+messages$(1245, 1) = "#FIRST# - мой друг..."
 
-messages$(1246, 0) = "You don't eyeball me unless you want a fight!"
-messages$(1246, 1) = "Не смотри мне в глаза, если не хочешь драки!"
+messages$(1246, 0) = "Hey, #FIRST#, i need that #SECOND#!"
+messages$(1246, 1) = "Эй, #FIRST#, мне нужен этот #SECOND#!"
 
-messages$(1247, 0) = ", you look a mess!"
-messages$(1247, 1) = ", ты выглядишь беспорядок!"
+messages$(1247, 0) = "Hey, #FIRST#, that's my #SECOND#!"
+messages$(1247, 1) = "Эй, #FIRST#, этот #SECOND# мой!"
 
-messages$(1248, 0) = "Go and clean yourself up in the Bathroom..."
-messages$(1248, 1) = "Иди и помойся в ванной..."
+messages$(1248, 0) = "That's right. Step away from the #FIRST#"
+messages$(1248, 1) = "Правильно. Отойди от #FIRST#"
 
-messages$(1249, 0) = "STOP! I can't take any more,"
-messages$(1249, 1) = "ОСТАНОВКА! Я больше не могу,"
+messages$(1249, 0) = "Yes, pay $#FIRST#!"
+messages$(1249, 1) = "Да, заплатить #FIRST#$!"
 
-messages$(1250, 0) = "Will you leave me alone if i give you $"
-messages$(1250, 1) = "Ты оставишь меня в покое, если я дам тебе $"
+messages$(1250, 0) = "Hi, #FIRST#, it's your lawyer speaking."
+messages$(1250, 1) = "Привет, #FIRST#, это твой адвокат."
 
-messages$(1251, 0) = "Thank God! Here's your money."
-messages$(1251, 1) = "Слава Богу! Вот ваши деньги."
+messages$(1251, 0) = "The only problem is we'll need $#FIRST# to take"
+messages$(1251, 1) = "Проблема в том, что нам понадобится #FIRST#$, чтобы"
 
-messages$(1252, 0) = "Now please leave me in peace..."
-messages$(1252, 1) = "Теперь, пожалуйста, оставьте меня в покое..."
+messages$(1252, 0) = "Hey, #FIRST#, we both know that you"
+messages$(1252, 1) = "Эй, #FIRST#, мы оба знаем, что ты"
 
-messages$(1253, 0) = "Fine! If you want to fight to the death,"
-messages$(1253, 1) = "Отлично! Если ты хочешь драться насмерть,"
+messages$(1253, 0) = "Hey, #FIRST#, we both know that"
+messages$(1253, 1) = "Эй, #FIRST#, мы оба знаем, что"
 
-messages$(1254, 0) = "i'll have to give you everything i've got!"
-messages$(1254, 1) = "я должен дать вам все, что у меня есть!"
+messages$(1254, 0) = "ATTENTION! A new inmate called '#FIRST#'"
+messages$(1254, 1) = "ВНИМАНИЕ! Новый заключенный по имени '#FIRST#'"
 
-messages$(1255, 0) = "It's all over,"
-messages$(1255, 1) = "Все кончено,"
+messages$(1255, 0) = "will now occupy Cell #FIRST# of the #SECOND# Block..."
+messages$(1255, 1) = "теперь будет занимать #SECOND# блок - камера #FIRST#..."
 
-messages$(1256, 0) = "! You can't win,"
-messages$(1256, 1) = "! Вы не можете победить,"
+messages$(1256, 0) = "ATTENTION! A new officer called '#FIRST#'"
+messages$(1256, 1) = "ВНИМАНИЕ! Прибыл новый смотритель по имени '#FIRST#'"
 
-messages$(1257, 0) = "but i'll let you live if you give me $"
-messages$(1257, 1) = "но я позволю тебе жить, если ты дашь мне $"
+messages$(1257, 0) = "will now patrol the #FIRST# area..."
+messages$(1257, 1) = "теперь будет патрулировать #FIRST#"
 
-messages$(1258, 0) = "I guess you can put a price on human life!"
-messages$(1258, 1) = "Я думаю, вы можете установить цену на человеческую жизнь!"
+messages$(1258, 0) = "ATTENTION! Prisoner #FIRST#, otherwise known"
+messages$(1258, 1) = "ВНИМАНИЕ! Заключенный #FIRST#, также известный"
 
-messages$(1259, 0) = "You just bought yourself a second chance..."
-messages$(1259, 1) = "Вы только что купили себе второй шанс..."
+messages$(1259, 0) = "as '#FIRST#', has been found dead!"
+messages$(1259, 1) = "как '#FIRST#' был найден мертвым!"
 
-messages$(1260, 0) = "You don't think your life is worth $"
-messages$(1260, 1) = "Вы не думаете, что ваша жизнь стоит $"
+messages$(1260, 0) = "ATTENTION! #FIRST#"
+messages$(1260, 1) = "ВНИМАНИЕ! #FIRST#"
 
-messages$(1261, 0) = "I guess you won't mind losing it then!"
-messages$(1261, 1) = "Я думаю, вы не будете против потерять его тогда!"
+messages$(1261, 0) = "has been found dead!"
+messages$(1261, 1) = "найден мертвым!"
 
-messages$(1262, 0) = ", i'm not scared of you!"
-messages$(1262, 1) = ", я тебя не боюсь!"
+messages$(1262, 0) = "to a dispute with #FIRST#..."
+messages$(1262, 1) = "с его недавним спором с #FIRST#..."
 
-messages$(1263, 0) = "Your status makes you a target to me..."
-messages$(1263, 1) = "Твой статус делает тебя мишенью для меня..."
+messages$(1263, 0) = "as '#FIRST#', has been released..."
+messages$(1263, 1) = "как '#FIRST#', был выпущен на свободу..."
 
-messages$(1264, 0) = "The only thing wrong with having a reputation"
-messages$(1264, 1) = "Единственное, что не так с репутацией"
+messages$(1264, 0) = "He served his sentence for #FIRST#"
+messages$(1264, 1) = "Он отбывал срок за #FIRST#"
 
-messages$(1265, 0) = "is that i can earn one by kicking your ass!"
-messages$(1265, 1) = "в том, что я могу заработать один, надрав тебе задницу!"
+messages$(1265, 0) = "Hey, #FIRST#, your skin is white"
+messages$(1265, 1) = "Эй, #FIRST#, твоя кожа белая,"
 
-messages$(1266, 0) = "Hello, i represent a human rights group and we'd"
-messages$(1266, 1) = "Здравствуйте, я представляю правозащитную группу, и мы бы"
+messages$(1266, 0) = "Hey, #FIRST#, you've been sent to"
+messages$(1266, 1) = "Эй, #FIRST#, тебя отправили в эту"
 
-messages$(1267, 0) = "like to support you during this difficult time..."
-messages$(1267, 1) = "хотелось бы поддержать вас в это трудное время..."
+messages$(1267, 0) = "Hey, #FIRST#, aren't you tired of"
+messages$(1267, 1) = "Эй, #FIRST#, тебе не надоело, что"
 
-messages$(1268, 0) = "Please accept a charitable donation of $"
-messages$(1268, 1) = "Примите благотворительное пожертвование в размере $"
+messages$(1268, 0) = "Hey, #FIRST#, haven't you ever heard"
+messages$(1268, 1) = "Эй, #FIRST#, ты никогда не слышал,"
 
-messages$(1269, 0) = " to"
-messages$(1269, 1) = " к"
+messages$(1269, 0) = "Hey, #FIRST#, i'm sure you know"
+messages$(1269, 1) = "Эй, #FIRST#, я уверен, ты знаешь"
 
-messages$(1270, 0) = "help fight your case and bring you some comfort!"
-messages$(1270, 1) = "помочь бороться с вашим случаем и принести вам некоторое утешение!"
+messages$(1270, 0) = "Hey, #FIRST#, don't forget that the"
+messages$(1270, 1) = "Эй, #FIRST#, не забывай, что"
 
-messages$(1271, 0) = ", but i'm"
-messages$(1271, 1) = ", но я"
+messages$(1271, 0) = "#FIRST# is a member of #SECOND#..."
+messages$(1271, 1) = "#FIRST# - член банды #SECOND#..."
 
-messages$(1272, 0) = "afraid you're still not fit to leave yet..."
-messages$(1272, 1) = "Боюсь, ты еще не в состоянии уйти..."
+messages$(1272, 0) = "I'm a member of #FIRST#..."
+messages$(1272, 1) = "Я член банды #FIRST#..."
 
-messages$(1273, 0) = "To survive on the outside, you'll need strength,"
-messages$(1273, 1) = "Чтобы выжить снаружи, вам понадобится сила,"
+messages$(1273, 0) = "Hey, #FIRST#, why are you attacking"
+messages$(1273, 1) = "Эй, #FIRST#, зачем ты напал на"
 
-messages$(1274, 0) = "agility, and intelligence ratings of at least 70%!"
-messages$(1274, 1) = "ловкость, а рейтинг интеллекта не менее 70%!"
+messages$(1274, 0) = "a fellow member of #FIRST#?!"
+messages$(1274, 1) = "члена банды #FIRST#?!"
 
-messages$(1275, 0) = "Get to work on that, and perhaps you'll be"
-messages$(1275, 1) = "Поработайте над этим, и, возможно, вы будете"
+messages$(1275, 0) = "Hey, #FIRST#, how could you turn"
+messages$(1275, 1) = "Эй, #FIRST#, как ты мог отвернуться"
 
-messages$(1276, 0) = "considered for release some other time..."
-messages$(1276, 1) = "рассматривается для выпуска в другой раз..."
+messages$(1276, 0) = "your back on #FIRST#?!"
+messages$(1276, 1) = "от #FIRST#?!"
 
-messages$(1277, 0) = "afraid we can't let you leave just yet..."
-messages$(1277, 1) = "Боюсь, мы пока не можем позволить тебе уйти..."
+messages$(1277, 0) = "Hey, #FIRST#, how could you turn your back"
+messages$(1277, 1) = "Эй, #FIRST#, как ты мог предать"
 
-messages$(1278, 0) = "You'll need at least $1'000 to build a life on"
-messages$(1278, 1) = "Вам понадобится не менее 1000 долларов, чтобы построить жизнь на"
+messages$(1278, 0) = "on #FIRST# to join #SECOND#?!"
+messages$(1278, 1) = "#FIRST# ради #SECOND#?!"
 
-messages$(1279, 0) = "the outside! You've only earned $"
-messages$(1279, 1) = "снаружи! Вы заработали только $"
+messages$(1279, 0) = "Will that #FIRST# really bring you happiness?"
+messages$(1279, 1) = "Принесет ли #FIRST# тебе счастье?"
 
-messages$(1280, 0) = " so far..."
-messages$(1280, 1) = " уже..."
+messages$(1280, 0) = "Hey, #FIRST#, i thought you should"
+messages$(1280, 1) = "Эй, #FIRST#, ты должен знать, что"
 
-messages$(1281, 0) = ", why did you recruit"
-messages$(1281, 1) = ", зачем вы наняли"
+messages$(1281, 0) = "know that i've left #FIRST#!"
+messages$(1281, 1) = "я ушел из #FIRST#!"
 
-messages$(1282, 0) = "You know he's not suitable for"
-messages$(1282, 1) = "Вы знаете, что он не подходит для"
+messages$(1282, 0) = "Hey, #FIRST#, you're now looking"
+messages$(1282, 1) = "Эй, #FIRST#, ты стоишь перед"
 
-messages$(1283, 0) = "Since you obviously can't be trusted, you're out"
-messages$(1283, 1) = "Поскольку вам явно нельзя доверять, вы вышли"
+messages$(1283, 0) = "at a member of #FIRST#!"
+messages$(1283, 1) = "членом банды #FIRST#!"
 
-messages$(1284, 0) = "of the gang - and you can take that loser with you!"
-messages$(1284, 1) = "банды - и ты можешь взять этого неудачника с собой!"
+messages$(1284, 0) = "My loyalties lie with #FIRST#..."
+messages$(1284, 1) = "Я предан #FIRST#..."
 
-messages$(1285, 0) = ", good call on"
-messages$(1285, 1) = ", добрый звонок"
+messages$(1285, 0) = "Hey, #FIRST#, i'm now a member"
+messages$(1285, 1) = "Эй, #FIRST#, теперь я тоже член"
 
-messages$(1286, 0) = " get stronger by the day..."
-messages$(1286, 1) = " становись сильнее день ото дня..."
+messages$(1286, 0) = "of #FIRST# as well!"
+messages$(1286, 1) = "банды #FIRST#!"
 
-messages$(1287, 0) = "You better watch your back,"
-messages$(1287, 1) = "Ты лучше следи за своей спиной,"
+messages$(1287, 0) = "Yes, accept $#FIRST#!"
+messages$(1287, 1) = "Да, принять #FIRST#$!"
 
-messages$(1288, 0) = "We don't like"
-messages$(1288, 1) = "нам не нравится"
+messages$(1288, 0) = "Hey, #FIRST#, would you be interested"
+messages$(1288, 1) = "Эй, #FIRST#, хочешь"
 
-messages$(1289, 0) = " people around here..."
-messages$(1289, 1) = " люди вокруг..."
+messages$(1289, 0) = "in buying this #FIRST# for $#SECOND#?"
+messages$(1289, 1) = "купить #FIRST# за #SECOND#$?"
 
-messages$(1290, 0) = "We should stick together,"
-messages$(1290, 1) = "Мы должны держаться вместе,"
+messages$(1290, 0) = "Hey, #FIRST#, do you want this #SECOND#?"
+messages$(1290, 1) = "Эй, #FIRST#, тебе нужен #SECOND#?"
 
-messages$(1291, 0) = "They don't like"
-messages$(1291, 1) = "им не нравится"
+messages$(1291, 0) = "Hey, #FIRST#, let me see those tattoos!"
+messages$(1291, 1) = "Эй, #FIRST#, покажи свои татуировки!"
 
-messages$(1292, 0) = " people in here..."
-messages$(1292, 1) = " люди здесь..."
+messages$(1292, 0) = "Are you a member of #FIRST#?"
+messages$(1292, 1) = "Ты из #FIRST#?"
 
-messages$(1293, 0) = "Yes, drop weapon..."
-messages$(1293, 1) = "Да, выбросить..."
+messages$(1293, 0) = "Yes, pay $#FIRST#..."
+messages$(1293, 1) = "Да, заплатить #FIRST#$..."
 
-messages$(1294, 0) = "No, it's mine!"
-messages$(1294, 1) = "Нет, это мое!"
+messages$(1294, 0) = "Hey, #FIRST#, i'm supposed to"
+messages$(1294, 1) = "Эй, #FIRST#, я должен привлечь тебя"
 
-messages$(1295, 0) = "Yes, give up seat..."
-messages$(1295, 1) = "Да, уступить место..."
+messages$(1295, 0) = "take you in for #FIRST#..."
+messages$(1295, 1) = "к ответственности за #FIRST#..."
 
-messages$(1296, 0) = "No, go away!"
-messages$(1296, 1) = "Нет, уходи!"
+messages$(1296, 0) = "Slip me $#FIRST# and i'll drop the charges?"
+messages$(1296, 1) = "Подкинь мне #FIRST#$ и я сниму обвинения."
 
-messages$(1297, 0) = "Yes, give up bed..."
-messages$(1297, 1) = "Да, отказаться от кровати..."
+messages$(1297, 0) = "Hey, #FIRST#, look what you've done!"
+messages$(1297, 1) = "Эй, #FIRST#, смотри что ты сделал!"
 
-messages$(1298, 0) = "Yes, get up..."
-messages$(1298, 1) = "Да, встать..."
+messages$(1298, 0) = "Hey, #FIRST#, i saw what you did!"
+messages$(1298, 1) = "Эй, #FIRST#, я видел что ты сделал!"
 
-messages$(1299, 0) = "No, leave me alone!"
-messages$(1299, 1) = "Нет, отвали!"
+messages$(1299, 0) = "Hey, #FIRST#, what have you been up to?"
+messages$(1299, 1) = "Эй, #FIRST#, что ты здесь делаешь?"
 
-messages$(1300, 0) = "Yes, give item..."
-messages$(1300, 1) = "Да, отдать..."
+messages$(1300, 0) = "Word is you're wanted for #FIRST#!"
+messages$(1300, 1) = "Ходят слухи, что тебя ищут за #FIRST#!"
 
-messages$(1301, 0) = "Yes, return item..."
-messages$(1301, 1) = "Да, вернуть..."
+messages$(1301, 0) = "Hey, #FIRST#, you've got to help me!"
+messages$(1301, 1) = "Эй, #FIRST#, ты должен помочь мне!"
 
-messages$(1302, 0) = "Yes, drop item..."
-messages$(1302, 1) = "Да, выбросить..."
+messages$(1302, 0) = "I'll even pay you $#FIRST# for your trouble?"
+messages$(1302, 1) = "Я заплачу тебе #FIRST#$ за неудобства..."
 
-messages$(1303, 0) = "No, forget it..."
-messages$(1303, 1) = "Нет, забудь..."
+messages$(1303, 0) = "You're turning down $#FIRST# to tell a few lies?!"
+messages$(1303, 1) = "Ты отказываешься от #FIRST#$ за маленькую ложь?!"
 
-messages$(1304, 0) = "Yes, join gang!"
-messages$(1304, 1) = "Да, присоединиться!"
+messages$(1304, 0) = "You know, #FIRST#, being a warden is a very"
+messages$(1304, 1) = "Знаешь, #FIRST#, быть смотрителем очень"
 
-messages$(1305, 0) = "No thanks..."
-messages$(1305, 1) = "Нет, спасибо..."
+messages$(1305, 0) = "Give me $#FIRST# or i'll give you an example!"
+messages$(1305, 1) = "Дай мне #FIRST#$ или я покажу тебе пример!"
 
-messages$(1306, 0) = "Yes, leave gang..."
-messages$(1306, 1) = "Да, покинуть банду..."
+messages$(1306, 0) = "You're wanted for #FIRST#, #SECOND#!"
+messages$(1306, 1) = "Тебя разыскивают за #FIRST#, #SECOND#!"
 
-messages$(1307, 0) = "No, forget it!"
-messages$(1307, 1) = "Нет, забудь!"
+messages$(1307, 0) = "You've served your sentence, #FIRST#!"
+messages$(1307, 1) = "Ты отбыл свой срок, #FIRST#!"
 
-messages$(1308, 0) = "No sale..."
-messages$(1308, 1) = "Не продается..."
+messages$(1308, 0) = "Hi, #FIRST#, how are you holding up?"
+messages$(1308, 1) = "Привет, #FIRST#, ты там как, держишься?"
 
-messages$(1309, 0) = "Yes, accept item!"
-messages$(1309, 1) = "Да, принять!"
+messages$(1309, 0) = "The only problem is we'll need $#FIRST# to file"
+messages$(1309, 1) = "Проблема в том, что нам понадобится #FIRST#$, чтобы подать"
 
-messages$(1310, 0) = "No, i don't care!"
-messages$(1310, 1) = "Нет, мне все равно!"
+messages$(1310, 0) = "Hey, #FIRST#, i hear you're doing a good"
+messages$(1310, 1) = "Эй, #FIRST#, я слышал ты хорошо"
 
-messages$(1311, 0) = "No, do your worst!"
-messages$(1311, 1) = "Нет, делай что хочешь!"
+messages$(1311, 0) = "job of representing #FIRST# in there?"
+messages$(1311, 1) = "делаешь работу от #FIRST#?"
 
-messages$(1312, 0) = "Yes, let me go!"
-messages$(1312, 1) = "Да, отпусти меня!"
+messages$(1312, 0) = "You're turning down $#FIRST# to talk to me?!"
+messages$(1312, 1) = "Ты отказываешься от #FIRST#$, что бы поговорить со мной?!"
 
-messages$(1313, 0) = "No, not yet..."
-messages$(1313, 1) = "Нет, не сейчас..."
+messages$(1313, 0) = "You're turning down $#FIRST# to become a star?!"
+messages$(1313, 1) = "Ты отказываешься от #FIRST#$, за то, что бы стать звездой?!"
 
-messages$(1314, 0) = "Yes, give up friend..."
-messages$(1314, 1) = "Да, сдавайся, друг..."
+messages$(1314, 0) = "Alright, #FIRST#, that's you processed!"
+messages$(1314, 1) = "Хорошо, #FIRST#, все готово!"
 
-messages$(1315, 0) = "Yes, recruit member..."
-messages$(1315, 1) = "Да, набрать члена..."
+messages$(1315, 0) = "You're now known as Prisoner #FIRST#..."
+messages$(1315, 1) = "Теперь ты известен как Заключенный #FIRST#..."
 
-messages$(1316, 0) = "Yes, conform to gang..."
-messages$(1316, 1) = "Да, соответствовать банде..."
+messages$(1316, 0) = "That means you're in Cell #FIRST# of the #SECOND# Block,"
+messages$(1316, 1) = "Это значит, что твое место - Блок #SECOND#, камера #FIRST#,"
 
-messages$(1317, 0) = "Yes, make friends..."
-messages$(1317, 1) = "Да, дружить..."
+messages$(1317, 0) = "Hey, #FIRST#, i saw what you did to"
+messages$(1317, 1) = "Эй, #FIRST#, я видел что ты сделал"
 
-messages$(1318, 0) = "Yes, help warden..."
-messages$(1318, 1) = "Да, помогите надзирателю..."
+messages$(1318, 0) = "#FIRST# with that #SECOND#!"
+messages$(1318, 1) = "#FIRST# со своим #SECOND#!"
 
-messages$(1319, 0) = "Yes, help friend!"
-messages$(1319, 1) = "Да, помоги друг!"
+messages$(1319, 0) = "Time's up, #FIRST#! I have to get back to work,"
+messages$(1319, 1) = "Время вышло, #FIRST#! Я должен вернуться к работе,"
 
-messages$(1320, 0) = "No, sorry..."
-messages$(1320, 1) = "Нет простите..."
+messages$(1320, 0) = "I've got to go now, #FIRST#, but"
+messages$(1320, 1) = "Я должен идти, #FIRST#, но"
 
-messages$(1321, 0) = "Hey, #FIRST#, stop where you are! What"
-messages$(1321, 1) = "Эй, #FIRST#, стой на месте! Что"
+messages$(1321, 0) = "Hey, #FIRST#, i hear you've been"
+messages$(1321, 1) = "Эй, #FIRST#, я слышал, у"
 
-messages$(1322, 0) = "Your bed is in Cell #FIRST#. Use that one or"
-messages$(1322, 1) = "Твоя кровать в камере #FIRST#. Иди туда или"
+messages$(1322, 0) = "having trouble with #FIRST#?"
+messages$(1322, 1) = "тебя какие то проблемы с #FIRST#?"
 
-messages$(1323, 0) = "Hey, #FIRST#, what's the problem here?"
-messages$(1323, 1) = "Эй, #FIRST#, в чем проблема?"
+messages$(1323, 0) = "Hey, #FIRST#, i know that you were"
+messages$(1323, 1) = "Эй, #FIRST#, я знаю, что ты был"
 
-messages$(1324, 0) = "Hey, #FIRST#, you've got no business"
-messages$(1324, 1) = "Эй, #FIRST#, ты не имеешь права"
+messages$(1324, 0) = "responsible for #FIRST#'s death!"
+messages$(1324, 1) = "ответственен за смерть #FIRST#!"
 
-messages$(1325, 0) = "Hey, #FIRST#, didn't you hear the bell? Dinner"
-messages$(1325, 1) = "Эй, #FIRST#, не слышал звонка? Обед"
+messages$(1325, 0) = "of #FIRST#! I wish i'd done it myself..."
+messages$(1325, 1) = "от #FIRST#! Я сам хотел это сделать..."
 
-messages$(1326, 0) = "Hey, #FIRST#, get out of that seat!"
-messages$(1326, 1) = "Эй, #FIRST#, встань с этого места!"
+messages$(1326, 0) = "with #FIRST#? Well, he's a friend of mine!"
+messages$(1326, 1) = "с #FIRST#? Чтож, он мой друг!"
 
-messages$(1327, 0) = "Hey, #FIRST#, get out of that bed!"
-messages$(1327, 1) = "Эй, #FIRST#, вставай с кровати!"
+messages$(1327, 0) = "Hey, #FIRST#, what are you doing"
+messages$(1327, 1) = "Эй, #FIRST#, что ты здесь"
 
-messages$(1328, 0) = "Hey, #FIRST#, i was sitting there!"
-messages$(1328, 1) = "Эй, #FIRST#, я сидел там!"
+messages$(1328, 0) = "in there?! That's #FIRST#'s cell..."
+messages$(1328, 1) = "забыл?! Это камера #FIRST#..."
 
-messages$(1329, 0) = "Hey, #FIRST#, i was sleeping there!"
-messages$(1329, 1) = "Эй, #FIRST#, я вообще то спал!"
+messages$(1329, 0) = "I'll do anything for #FIRST#..."
+messages$(1329, 1) = "Я сделаю все для #FIRST#..."
 
-messages$(1330, 0) = "Hey, #FIRST#, sleeping time is over!"
-messages$(1330, 1) = "Эй, #FIRST#, время сна закончилось!"
+messages$(1330, 0) = "Hey, #FIRST#, i'm sure you'd like to"
+messages$(1330, 1) = "Эй, #FIRST#, я уверен что ты хотел бы"
 
-messages$(1331, 0) = "Hey, #FIRST#, get out of that cell!"
-messages$(1331, 1) = "Эй, #FIRST#, проваливай из клетки!"
+messages$(1331, 0) = "be a member of #FIRST# like me?"
+messages$(1331, 1) = "стать членом #FIRST# как я?"
 
-messages$(1332, 0) = "Hey, #FIRST#, watch who you mess with!"
-messages$(1332, 1) = "Эй, #FIRST#, смотри с кем связываешься!"
+messages$(1332, 0) = "Hey, #FIRST#, nobody said being a"
+messages$(1332, 1) = "Эй, #FIRST#, никто не говорил, что"
 
-messages$(1333, 0) = "#FIRST# is a personal friend of mine..."
-messages$(1333, 1) = "#FIRST# - мой друг..."
+messages$(1333, 0) = "member of #FIRST# was free!"
+messages$(1333, 1) = "членство в #FIRST# бесплатно!"
 
-messages$(1334, 0) = "Hey, #FIRST#, i need that #SECOND#!"
-messages$(1334, 1) = "Эй, #FIRST#, мне нужен этот #SECOND#!"
+messages$(1334, 0) = "earned in our name! $#FIRST# should cover it..."
+messages$(1334, 1) = "нашего имени! #FIRST#$ должно покрыть это..."
 
-messages$(1335, 0) = "Hey, #FIRST#, that's my #SECOND#!"
-messages$(1335, 1) = "Эй, #FIRST#, этот #SECOND# мой!"
+messages$(1335, 0) = "You're a good earner, #FIRST#!"
+messages$(1335, 1) = "Ты хорошо зарабатываешь, #FIRST#!"
 
-messages$(1336, 0) = "That's right. Step away from the #FIRST#"
-messages$(1336, 1) = "Правильно. Отойди от #FIRST#"
+messages$(1336, 0) = "Hey, #FIRST#, #SECOND#"
+messages$(1336, 1) = "Эй, #FIRST#, #SECOND#"
 
-messages$(1337, 0) = "Yes, pay $#FIRST#!"
-messages$(1337, 1) = "Да, заплатить #FIRST#$!"
+messages$(1337, 0) = "Listen, #FIRST#, i know we haven't"
+messages$(1337, 1) = "Слушай, #FIRST#, я знаю, мы не"
 
-messages$(1338, 0) = "Hi, #FIRST#, it's your lawyer speaking."
-messages$(1338, 1) = "Привет, #FIRST#, это твой адвокат."
+messages$(1338, 0) = "I'm #FIRST# from Cell #SECOND# of the #THIRD# Block."
+messages$(1338, 1) = "Я #FIRST# из клетки #SECOND#, #THIRD# блок."
 
-messages$(1339, 0) = "The only problem is we'll need $#FIRST# to take"
-messages$(1339, 1) = "Проблема в том, что нам понадобится #FIRST#$, чтобы"
+messages$(1339, 0) = "I'm #FIRST# - a member of #SECOND#!"
+messages$(1339, 1) = "Я #FIRST# - член банды #SECOND#!"
 
-messages$(1340, 0) = "Hey, #FIRST#, we both know that you"
-messages$(1340, 1) = "Эй, #FIRST#, мы оба знаем, что ты"
+messages$(1340, 0) = "Watch your back, new boy! I'm #FIRST# from"
+messages$(1340, 1) = "Поглядывай за спиной, новенький! Я #FIRST# из"
 
-messages$(1341, 0) = "Hey, #FIRST#, we both know that"
-messages$(1341, 1) = "Эй, #FIRST#, мы оба знаем, что"
+messages$(1341, 0) = "Cell #FIRST# of the #SECOND# Block and i rule this place..."
+messages$(1341, 1) = "камеры #FIRST#, #SECOND# блок и я здесь рулю..."
 
-messages$(1342, 0) = "ATTENTION! A new inmate called '#FIRST#'"
-messages$(1342, 1) = "ВНИМАНИЕ! Новый заключенный по имени '#FIRST#'"
+messages$(1342, 0) = "Watch your back, new boy! I'm #FIRST# of"
+messages$(1342, 1) = "Поглядывай за спиной, новенький! Я #FIRST# из"
 
-messages$(1343, 0) = "will now occupy Cell #FIRST# of the #SECOND# Block..."
-messages$(1343, 1) = "теперь будет занимать #SECOND# блок - камера #FIRST#..."
+messages$(1343, 0) = "Hi, #FIRST#, my name is #SECOND#."
+messages$(1343, 1) = "Привет, #FIRST#, меня зовут #SECOND#."
 
-messages$(1344, 0) = "ATTENTION! A new officer called '#FIRST#'"
-messages$(1344, 1) = "ВНИМАНИЕ! Прибыл новый смотритель по имени '#FIRST#'"
+messages$(1344, 0) = "is #FIRST#! Watch your step around me..."
+messages$(1344, 1) = "#FIRST#! Следи за собой рядом с таким как я..."
 
-messages$(1345, 0) = "will now patrol the #FIRST# area..."
-messages$(1345, 1) = "теперь будет патрулировать #FIRST#"
+messages$(1345, 0) = "Hey, #FIRST#, the prison system has been"
+messages$(1345, 1) = "Эй, #FIRST#, тюремную систему встряхнули"
 
-messages$(1346, 0) = "ATTENTION! Prisoner #FIRST#, otherwise known"
-messages$(1346, 1) = "ВНИМАНИЕ! Заключенный #FIRST#, также известный"
+messages$(1346, 0) = "You're now in Cell #FIRST# of the #SECOND# Block."
+messages$(1346, 1) = "Теперь твоя камера #FIRST#, #SECOND# блок."
 
-messages$(1347, 0) = "as '#FIRST#', has been found dead!"
-messages$(1347, 1) = "как '#FIRST#' был найден мертвым!"
+messages$(1347, 0) = "#FIRST# has got a #SECOND#!"
+messages$(1347, 1) = "У #FIRST# #SECOND#!"
 
-messages$(1348, 0) = "ATTENTION! #FIRST#"
-messages$(1348, 1) = "ВНИМАНИЕ! #FIRST#"
+messages$(1348, 0) = "Welcome to the Study, #FIRST#!"
+messages$(1348, 1) = "Добро пожаловать в библиотеку, #FIRST#!"
 
-messages$(1349, 0) = "has been found dead!"
-messages$(1349, 1) = "найден мертвым!"
+messages$(1349, 0) = "Have you heard about #FIRST#'s death?"
+messages$(1349, 1) = "Ты слышал о смерти #FIRST#?"
 
-messages$(1350, 0) = "to a dispute with #FIRST#..."
-messages$(1350, 1) = "с его недавним спором с #FIRST#..."
+messages$(1350, 0) = "Have you heard about #FIRST#'s release?"
+messages$(1350, 1) = "Ты слышал, выпустили #FIRST#? "
 
-messages$(1351, 0) = "as '#FIRST#', has been released..."
-messages$(1351, 1) = "как '#FIRST#', был выпущен на свободу..."
+messages$(1351, 0) = "Hey, #FIRST#, i'm getting out of here soon!"
+messages$(1351, 1) = "Эй, #FIRST#, меня скоро выпустят!"
 
-messages$(1352, 0) = "He served his sentence for #FIRST#"
-messages$(1352, 1) = "Он отбывал срок за #FIRST#"
+messages$(1352, 0) = "Hey, #FIRST#, i hear you get out soon?"
+messages$(1352, 1) = "Эй, #FIRST#, я слышал тебя скоро выпустят?"
 
-messages$(1353, 0) = "Hey, #FIRST#, your skin is white"
-messages$(1353, 1) = "Эй, #FIRST#, твоя кожа белая,"
+messages$(1353, 0) = "Hey, it's time for #FIRST# to go!"
+messages$(1353, 1) = "Эй, время #FIRST# пришло!"
 
-messages$(1354, 0) = "Hey, #FIRST#, you've been sent to"
-messages$(1354, 1) = "Эй, #FIRST#, тебя отправили в эту"
+messages$(1354, 0) = "#FIRST# rule this place now..."
+messages$(1354, 1) = "#FIRST# теперь правят этим местом..."
 
-messages$(1355, 0) = "Hey, #FIRST#, aren't you tired of"
-messages$(1355, 1) = "Эй, #FIRST#, тебе не надоело, что"
+messages$(1355, 0) = "You're a pathetic specimen, #FIRST#!"
+messages$(1355, 1) = "Ты жалок, #FIRST#!"
 
-messages$(1356, 0) = "Hey, #FIRST#, haven't you ever heard"
-messages$(1356, 1) = "Эй, #FIRST#, ты никогда не слышал,"
+messages$(1356, 0) = "Hey, #FIRST#, is $#SECOND# all you're worth?"
+messages$(1356, 1) = "Эй, #FIRST#, #SECOND#$ - все чего ты стоишь?"
 
-messages$(1357, 0) = "Hey, #FIRST#, i'm sure you know"
-messages$(1357, 1) = "Эй, #FIRST#, я уверен, ты знаешь"
+messages$(1357, 0) = "I bet $#FIRST# makes life a lot easier in here..."
+messages$(1357, 1) = "Могу поспорить, что #FIRST#$ делают жизнь здесь намного проще..."
 
-messages$(1358, 0) = "Hey, #FIRST#, don't forget that the"
-messages$(1358, 1) = "Эй, #FIRST#, не забывай, что"
+messages$(1358, 0) = "Hey, #FIRST#, i hear you're"
+messages$(1358, 1) = "Эй, #FIRST#, я слышал ты"
 
-messages$(1359, 0) = "#FIRST# is a member of #SECOND#..."
-messages$(1359, 1) = "#FIRST# - член банды #SECOND#..."
+messages$(1359, 0) = "in here for #FIRST#?"
+messages$(1359, 1) = "здесь за #FIRST#?"
 
-messages$(1360, 0) = "I'm a member of #FIRST#..."
-messages$(1360, 1) = "Я член банды #FIRST#..."
+messages$(1360, 0) = "Hey, #FIRST#, i hear that you're an"
+messages$(1360, 1) = "Эй, #FIRST#, я слышал, что ты"
 
-messages$(1361, 0) = "Hey, #FIRST#, why are you attacking"
-messages$(1361, 1) = "Эй, #FIRST#, зачем ты напал на"
+messages$(1361, 0) = "Listen, #FIRST#, i've got the power to have"
+messages$(1361, 1) = "Слушай, #FIRST#, я уполномочен"
 
-messages$(1362, 0) = "a fellow member of #FIRST#?!"
-messages$(1362, 1) = "члена банды #FIRST#?!"
+messages$(1362, 0) = "slip me $#FIRST# and it might ease the process?"
+messages$(1362, 1) = "если подкинешь #FIRST#$ это может облегчить процесс..."
 
-messages$(1363, 0) = "Hey, #FIRST#, how could you turn"
-messages$(1363, 1) = "Эй, #FIRST#, как ты мог отвернуться"
+messages$(1363, 0) = "That's good work, #FIRST#! You deserve to"
+messages$(1363, 1) = "Хорошая работа, #FIRST#! Ты заслужил"
 
-messages$(1364, 0) = "your back on #FIRST#?!"
-messages$(1364, 1) = "от #FIRST#?!"
+messages$(1364, 0) = "Hey, #FIRST#, did you see what #SECOND#"
+messages$(1364, 1) = "Эй, #FIRST#, ты видел, что сделал #SECOND#"
 
-messages$(1365, 0) = "Hey, #FIRST#, how could you turn your back"
-messages$(1365, 1) = "Эй, #FIRST#, как ты мог предать"
+messages$(1365, 0) = "i'll need $#FIRST# to perform the operation?"
+messages$(1365, 1) = "мне нужно #FIRST#$ что бы выполнить операцию?"
 
-messages$(1366, 0) = "on #FIRST# to join #SECOND#?!"
-messages$(1366, 1) = "#FIRST# ради #SECOND#?!"
+messages$(1366, 0) = "ATTENTION! #FIRST# has been"
+messages$(1366, 1) = "ВНИМАНИЕ! #FIRST# был"
 
-messages$(1367, 0) = "Will that #FIRST# really bring you happiness?"
-messages$(1367, 1) = "Принесет ли #FIRST# тебе счастье?"
+messages$(1367, 0) = "from Cell #FIRST# of the #SECOND# Block..."
+messages$(1367, 1) = "из камеры #FIRST#, #SECOND# блок..."
 
-messages$(1368, 0) = "Hey, #FIRST#, i thought you should"
-messages$(1368, 1) = "Эй, #FIRST#, ты должен знать, что"
+messages$(1368, 0) = "Hey, #FIRST#, don't waste your time"
+messages$(1368, 1) = "Эй, #FIRST#, не трать время"
 
-messages$(1369, 0) = "know that i've left #FIRST#!"
-messages$(1369, 1) = "я ушел из #FIRST#!"
+messages$(1369, 0) = "Just give me $#FIRST# and i can forge the"
+messages$(1369, 1) = "Просто дай мне #FIRST#$ и я смогу подделать"
 
-messages$(1370, 0) = "Hey, #FIRST#, you're now looking"
-messages$(1370, 1) = "Эй, #FIRST#, ты стоишь перед"
+messages$(1370, 0) = "Hey, #FIRST#, get out of my way!"
+messages$(1370, 1) = "Эй, #FIRST#, прочь с дороги!"
 
-messages$(1371, 0) = "at a member of #FIRST#!"
-messages$(1371, 1) = "членом банды #FIRST#!"
+messages$(1371, 0) = "Hey, #FIRST#, are you following me?"
+messages$(1371, 1) = "Эй, #FIRST#, ты преследуешь меня?"
 
-messages$(1372, 0) = "My loyalties lie with #FIRST#..."
-messages$(1372, 1) = "Я предан #FIRST#..."
+messages$(1372, 0) = "What are you looking at, #FIRST#?"
+messages$(1372, 1) = "Куда уставился, #FIRST#?"
 
-messages$(1373, 0) = "Hey, #FIRST#, i'm now a member"
-messages$(1373, 1) = "Эй, #FIRST#, теперь я тоже член"
+messages$(1373, 0) = "Hey, #FIRST#, you look a mess!"
+messages$(1373, 1) = "Эй, #FIRST#, выглядишь потрепанным!"
 
-messages$(1374, 0) = "of #FIRST# as well!"
-messages$(1374, 1) = "банды #FIRST#!"
+messages$(1374, 0) = "It's all over, #FIRST#! You can't win,"
+messages$(1374, 1) = "Все кончено, #FIRST#! Тебе не победить,"
 
-messages$(1375, 0) = "Yes, accept $#FIRST#!"
-messages$(1375, 1) = "Да, принять #FIRST#$!"
+messages$(1375, 0) = "Hey, #FIRST#, i'm not scared of you!"
+messages$(1375, 1) = "Эй, #FIRST#, я тебя не боюсь!"
 
-messages$(1376, 0) = "Hey, #FIRST#, would you be interested"
-messages$(1376, 1) = "Эй, #FIRST#, хочешь"
+messages$(1376, 0) = "You've served your sentence, #FIRST#, but i'm"
+messages$(1376, 1) = "Ты отбыл свой срок, #FIRST#, но я"
 
-messages$(1377, 0) = "in buying this #FIRST# for $#SECOND#?"
-messages$(1377, 1) = "купить #FIRST# за #SECOND#$?"
+messages$(1377, 0) = "Hey, #FIRST#, why did you recruit #SECOND#?"
+messages$(1377, 1) = "Эй, #FIRST#, зачем ты принял #SECOND#?"
 
-messages$(1378, 0) = "Hey, #FIRST#, do you want this #SECOND#?"
-messages$(1378, 1) = "Эй, #FIRST#, тебе нужен #SECOND#?"
+messages$(1378, 0) = "Hey, #FIRST#, good call on #SECOND#!"
+messages$(1378, 1) = "Эй, #FIRST#, хорошо что ты взял #SECOND#!"
 
-messages$(1379, 0) = "Hey, #FIRST#, let me see those tattoos!"
-messages$(1379, 1) = "Эй, #FIRST#, покажи свои татуировки!"
+messages$(1379, 0) = "We don't like #FIRST# people around here..."
+messages$(1379, 1) = "Нам не по душе #FIRST#..."
 
-messages$(1380, 0) = "Are you a member of #FIRST#?"
-messages$(1380, 1) = "Ты из #FIRST#?"
-
-messages$(1381, 0) = "Yes, pay $#FIRST#..."
-messages$(1381, 1) = "Да, заплатить #FIRST#$..."
-
-messages$(1382, 0) = "Hey, #FIRST#, i'm supposed to"
-messages$(1382, 1) = "Эй, #FIRST#, я должен привлечь тебя"
-
-messages$(1383, 0) = "take you in for #FIRST#..."
-messages$(1383, 1) = "к ответственности за #FIRST#..."
-
-messages$(1384, 0) = "Slip me $#FIRST# and i'll drop the charges?"
-messages$(1384, 1) = "Подкинь мне #FIRST#$ и я сниму обвинения."
-
-messages$(1385, 0) = "Hey, #FIRST#, look what you've done!"
-messages$(1385, 1) = "Эй, #FIRST#, смотри что ты сделал!"
-
-messages$(1386, 0) = "Hey, #FIRST#, i saw what you did!"
-messages$(1386, 1) = "Эй, #FIRST#, я видел что ты сделал!"
-
-messages$(1387, 0) = "Hey, #FIRST#, what have you been up to?"
-messages$(1387, 1) = "Эй, #FIRST#, что ты здесь делаешь?"
-
-messages$(1388, 0) = "Word is you're wanted for #FIRST#!"
-messages$(1388, 1) = "Ходят слухи, что тебя ищут за #FIRST#!"
-
-messages$(1389, 0) = "Hey, #FIRST#, you've got to help me!"
-messages$(1389, 1) = "Эй, #FIRST#, ты должен помочь мне!"
-
-messages$(1390, 0) = "I'll even pay you $#FIRST# for your trouble?"
-messages$(1390, 1) = "Я заплачу тебе #FIRST#$ за неудобства..."
-
-messages$(1391, 0) = "You're turning down $#FIRST# to tell a few lies?!"
-messages$(1391, 1) = "Ты отказываешься от #FIRST#$ за маленькую ложь?!"
-
-messages$(1392, 0) = "You know, #FIRST#, being a warden is a very"
-messages$(1392, 1) = "Знаешь, #FIRST#, быть смотрителем очень"
-
-messages$(1393, 0) = "Give me $#FIRST# or i'll give you an example!"
-messages$(1393, 1) = "Дай мне #FIRST#$ или я покажу тебе пример!"
+messages$(1380, 0) = "They don't like #FIRST# people in here..."
+messages$(1380, 1) = "Им не нравятся #FIRST#..."

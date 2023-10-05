@@ -571,7 +571,7 @@ Function DrawMainLogo(x#,y#)
  DrawImage gLogo(2),x#,y#
  ;version ID
  SetFont font(1)
- Outline(translate("Version") + "1." + version,x#+310,y#+20,20,20,20,20,20,20)
+ Outline(translate("Version #FIRST#", "1." + version),x#+310,y#+20,20,20,20,20,20,20)
 End Function
 
 ;DRAW MENU ITEM
