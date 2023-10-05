@@ -612,7 +612,7 @@ While go=0
      If charCrime(gamChar(slot))<6 Then charCrime(gamChar(slot))=6
      promoEffect=1
     EndIf 
-    Outline(translate("Perhaps another ")+sentence$+translate(" will straighten you out, and"),rX#(400),rY#(520),30,30,30,250,250,250)
+    Outline(translate("Perhaps another #FIRST# will straighten you out, and", sentence$),rX#(400),rY#(520),30,30,30,250,250,250)
     Outline(translate("i also order you to pay $#FIRST# for a new #SECOND#...", GetFigure(weapValue(weapType(gamItem(slot)))), Lower$(weapName$(weapType(gamItem(slot))))),rX#(400),rY#(560),30,30,30,250,250,250)
    EndIf
    If promoTim>950 Then promoStage=3 : promoTim=9975 : camFoc=1

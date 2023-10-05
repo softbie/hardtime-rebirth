@@ -139,7 +139,7 @@ While go=0
  ;roles
  y=550
  DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Translate"),"13Hz") : y=y+60
- DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Telegram"),"@async13hhz") : y=y+110
+ DrawOption(-1,rX#(400),rY#(y+scroll#),"Telegram","@async13hhz") : y=y+110
  DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Concept"),"MDickie 2006") : y=y+60
  DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Game Design"),"Mat Dickie") : y=y+60
  DrawOption(-1,rX#(400),rY#(y+scroll#),translate("Programming"),"Mat Dickie") : y=y+60

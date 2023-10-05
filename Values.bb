@@ -454,7 +454,7 @@ Function LoadImages()
  gMarker=LoadImage("Graphics/Marker.png")
  MaskImage gMarker,255,0,255
  ;in-game icons
- Loader(translate("Please Wait"),"Loading Images")
+ Loader(translate("Please Wait"),translate("Loading Images"))
  gHealth=LoadImage("Graphics/Health.png")
  MaskImage gHealth,255,0,255
  gHappiness=LoadImage("Graphics/Happiness.png")
