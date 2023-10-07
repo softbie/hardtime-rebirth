@@ -2325,3 +2325,6 @@ messages$(1380, 1) = "Нам не по душе #FIRST#..."
 
 messages$(1381, 0) = "They don't like #FIRST# people in here..."
 messages$(1381, 1) = "Им не нравятся #FIRST#..."
+
+messages$(1382, 0) = "Yes, accept $#FIRST#..."
+messages$(1382, 1) = "Да, принять #FIRST#$..."
