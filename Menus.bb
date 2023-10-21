@@ -572,7 +572,7 @@ Function DrawMainLogo(x#,y#)
  ;version ID
  SetFont font(1)
  Outline(translate("Version #FIRST#", "1." + version),x#+310,y#+60,200,200,200,200,200,200)
- Outline(translate("Translate #FIRST#", "1.0.1"),x#+310,y#+80,200,200,200,200,200,200)
+ Outline(translate("Translate #FIRST#", "1.0.2"),x#+310,y#+80,200,200,200,200,200,200)
 End Function
 
 ;DRAW MENU ITEM
