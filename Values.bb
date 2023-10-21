@@ -709,177 +709,177 @@ Dim kitType(6)
 Dim kitState(6)
 ;DATA
 Function LoadWeaponData()
- weapName$(0)="Thing"
+ weapName$(0)=translate("Thing")
  ;rock
- n=1 : weapName$(n)="Rock" : weapFile$(n)="Rock"
+ n=1 : weapName$(n)=translate("Rock") : weapFile$(n)="Rock"
  weapSound(n)=sRock : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=5 : weapWeight#(n)=0.4
  weapRange#(n)=6 : weapDamage(n)=3
  weapStyle(n)=0 : weapHabitat(n)=2
  weapCreate(n)=0 : weapValue(n)=10
  ;wooden plank
- n=2 : weapName$(n)="Wooden Plank" : weapFile$(n)="Plank"
+ n=2 : weapName$(n)=translate("Wooden Plank") : weapFile$(n)="Plank"
  weapSound(n)=sWood : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=8 : weapWeight#(n)=0.3
  weapRange#(n)=8 : weapDamage(n)=3
  weapStyle(n)=1 : weapHabitat(n)=10
  weapCreate(n)=1 : weapValue(n)=10
  ;steel pipe
- n=3 : weapName$(n)="Steel Pipe" : weapFile$(n)="Pipe"
+ n=3 : weapName$(n)=translate("Steel Pipe") : weapFile$(n)="Pipe"
  weapSound(n)=sMetal : weapTex(n)=0 : weapShiny#(n)=1.0
  weapSize#(n)=8 : weapWeight#(n)=0.3
  weapRange#(n)=8 : weapDamage(n)=3
  weapStyle(n)=1 : weapHabitat(n)=10
  weapCreate(n)=1 : weapValue(n)=10
  ;baseball bat
- n=4 : weapName$(n)="Baseball Bat" : weapFile$(n)="Bat"
+ n=4 : weapName$(n)=translate("Baseball Bat") : weapFile$(n)="Bat"
  weapSound(n)=sWood : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=8 : weapWeight#(n)=0.3
  weapRange#(n)=8 : weapDamage(n)=3
  weapStyle(n)=1 : weapHabitat(n)=2
  weapCreate(n)=1 : weapValue(n)=20
  ;pool cue
- n=5 : weapName$(n)="Pool Cue" : weapFile$(n)="Cue"
+ n=5 : weapName$(n)=translate("Pool Cue") : weapFile$(n)="Cue"
  weapSound(n)=sCane : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=12 : weapWeight#(n)=0.25
  weapRange#(n)=10 : weapDamage(n)=2
  weapStyle(n)=1 : weapHabitat(n)=9
  weapCreate(n)=1 : weapValue(n)=20
  ;dagger
- n=6 : weapName$(n)="Knife" : weapFile$(n)="Dagger"
+ n=6 : weapName$(n)=translate("Knife") : weapFile$(n)="Dagger"
  weapSound(n)=sBlade : weapTex(n)=0 : weapShiny#(n)=1
  weapSize#(n)=6 : weapWeight#(n)=0.25
  weapRange#(n)=6 : weapDamage(n)=4
  weapStyle(n)=7 : weapHabitat(n)=8
  weapCreate(n)=1 : weapValue(n)=20
  ;pistol
- n=7 : weapName$(n)="Pistol" : weapFile$(n)="Pistol"
+ n=7 : weapName$(n)=translate("Pistol") : weapFile$(n)="Pistol"
  weapSound(n)=sGun : weapTex(n)=tPistol : weapShiny#(n)=0.5
  weapSize#(n)=5 : weapWeight#(n)=0.3
  weapRange#(n)=6 : weapDamage(n)=3
  weapStyle(n)=3 : weapHabitat(n)=0
  weapCreate(n)=1 : weapValue(n)=100
  ;machine gun
- n=8 : weapName$(n)="Machine Gun" : weapFile$(n)="Machine"
+ n=8 : weapName$(n)=translate("Machine Gun") : weapFile$(n)="Machine"
  weapSound(n)=sGun : weapTex(n)=tMachine : weapShiny#(n)=0.5
  weapSize#(n)=8 : weapWeight#(n)=0.4
  weapRange#(n)=8 : weapDamage(n)=3
  weapStyle(n)=4 : weapHabitat(n)=0
  weapCreate(n)=1 : weapValue(n)=100
  ;TNT
- n=9 : weapName$(n)="Explosive" : weapFile$(n)="TNT"
+ n=9 : weapName$(n)=translate("Explosive") : weapFile$(n)="TNT"
  weapSound(n)=sGeneric : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=6 : weapWeight#(n)=0.3
  weapRange#(n)=5 : weapDamage(n)=2
  weapStyle(n)=6 : weapHabitat(n)=0
  weapCreate(n)=1 : weapValue(n)=100
  ;brick
- n=10 : weapName$(n)="Brick" : weapFile$(n)="Brick"
+ n=10 : weapName$(n)=translate("Brick") : weapFile$(n)="Brick"
  weapSound(n)=sRock : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=6 : weapWeight#(n)=0.4
  weapRange#(n)=6 : weapDamage(n)=3
  weapStyle(n)=0 : weapHabitat(n)=2
  weapCreate(n)=0 : weapValue(n)=10
  ;dumbell
- n=11 : weapName$(n)="Dumbbell" : weapFile$(n)="Dumbell"
+ n=11 : weapName$(n)=translate("Dumbbell") : weapFile$(n)="Dumbell"
  weapSound(n)=sAxe : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=8 : weapWeight#(n)=0.5
  weapRange#(n)=6 : weapDamage(n)=5
  weapStyle(n)=0 : weapHabitat(n)=2
  weapCreate(n)=1 : weapValue(n)=20
  ;nightstick
- n=12 : weapName$(n)="Nightstick" : weapFile$(n)="Baton"
+ n=12 : weapName$(n)=translate("Nightstick") : weapFile$(n)="Baton"
  weapSound(n)=sWood : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=6 : weapWeight#(n)=0.3
  weapRange#(n)=7 : weapDamage(n)=3
  weapStyle(n)=1 : weapHabitat(n)=0
  weapCreate(n)=1 : weapValue(n)=20
  ;hammer
- n=13 : weapName$(n)="Hammer" : weapFile$(n)="Hammer"
+ n=13 : weapName$(n)=translate("Hammer") : weapFile$(n)="Hammer"
  weapSound(n)=sRock : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=5 : weapWeight#(n)=0.4
  weapRange#(n)=6 : weapDamage(n)=4
  weapStyle(n)=1 : weapHabitat(n)=10
  weapCreate(n)=1 : weapValue(n)=20
  ;ball
- n=14 : weapName$(n)="Ball" : weapFile$(n)="Ball"
+ n=14 : weapName$(n)=translate("Ball") : weapFile$(n)="Ball"
  weapSound(n)=sBall : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=7 : weapWeight#(n)=0.3
  weapRange#(n)=5 : weapDamage(n)=1
  weapStyle(n)=0 : weapHabitat(n)=99
  weapCreate(n)=1 : weapValue(n)=10
  ;broom
- n=15 : weapName$(n)="Broom" : weapFile$(n)="Broom"
+ n=15 : weapName$(n)=translate("Broom") : weapFile$(n)="Broom"
  weapSound(n)=sCane : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=13 : weapWeight#(n)=0.25
  weapRange#(n)=11 : weapDamage(n)=2
  weapStyle(n)=1 : weapHabitat(n)=99
  weapCreate(n)=1 : weapValue(n)=20
  ;cigarette
- n=16 : weapName$(n)="Cigarette" : weapFile$(n)="Cigar"
+ n=16 : weapName$(n)=translate("Cigarette") : weapFile$(n)="Cigar"
  weapSound(n)=sCigar : weapTex(n)=0 : weapShiny#(n)=0
  weapSize#(n)=4 : weapWeight#(n)=0.15
  weapRange#(n)=6 : weapDamage(n)=1
  weapStyle(n)=0 : weapHabitat(n)=2
  weapCreate(n)=0 : weapValue(n)=10
  ;syringe
- n=17 : weapName$(n)="Syringe" : weapFile$(n)="Syringe"
+ n=17 : weapName$(n)=translate("Syringe") : weapFile$(n)="Syringe"
  weapSound(n)=sSyringe : weapTex(n)=0 : weapShiny#(n)=0.5
  weapSize#(n)=5 : weapWeight#(n)=0.2
  weapRange#(n)=6 : weapDamage(n)=2
  weapStyle(n)=7 : weapHabitat(n)=6
  weapCreate(n)=0 : weapValue(n)=20
  ;beer bottle
- n=18 : weapName$(n)="Bottle" : weapFile$(n)="Bottle"
+ n=18 : weapName$(n)=translate("Bottle") : weapFile$(n)="Bottle"
  weapSound(n)=sBottle : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=5 : weapWeight#(n)=0.25
  weapRange#(n)=5 : weapDamage(n)=2
  weapStyle(n)=6 : weapHabitat(n)=8
  weapCreate(n)=0 : weapValue(n)=10
  ;fire extinguisher
- n=19 : weapName$(n)="Extinguisher" : weapFile$(n)="Exting"
+ n=19 : weapName$(n)=translate("Extinguisher") : weapFile$(n)="Exting"
  weapSound(n)=sMetal : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=6 : weapWeight#(n)=0.3
  weapRange#(n)=5 : weapDamage(n)=3
  weapStyle(n)=6 : weapHabitat(n)=99
  weapCreate(n)=1 : weapValue(n)=50
  ;screwdriver
- n=20 : weapName$(n)="Screwdriver" : weapFile$(n)="Screw"
+ n=20 : weapName$(n)=translate("Screwdriver") : weapFile$(n)="Screw"
  weapSound(n)=sBlade : weapTex(n)=0 : weapShiny#(n)=1
  weapSize#(n)=5 : weapWeight#(n)=0.25
  weapRange#(n)=6 : weapDamage(n)=3
  weapStyle(n)=7 : weapHabitat(n)=10
  weapCreate(n)=1 : weapValue(n)=10
  ;scissors
- n=21 : weapName$(n)="Scissor" : weapFile$(n)="Scissors"
+ n=21 : weapName$(n)=translate("Scissor") : weapFile$(n)="Scissors"
  weapSound(n)=sBlade : weapTex(n)=0 : weapShiny#(n)=1
  weapSize#(n)=5 : weapWeight#(n)=0.25
  weapRange#(n)=6 : weapDamage(n)=4
  weapStyle(n)=7 : weapHabitat(n)=4
  weapCreate(n)=1 : weapValue(n)=10
  ;meat cleaver
- n=22 : weapName$(n)="Meat Cleaver" : weapFile$(n)="Cleaver"
+ n=22 : weapName$(n)=translate("Meat Cleaver") : weapFile$(n)="Cleaver"
  weapSound(n)=sBlade : weapTex(n)=0 : weapShiny#(n)=1
  weapSize#(n)=8 : weapWeight#(n)=0.3
  weapRange#(n)=8 : weapDamage(n)=5
  weapStyle(n)=1 : weapHabitat(n)=8
  weapCreate(n)=1 : weapValue(n)=20
  ;samurai sword
- n=23 : weapName$(n)="Sword" : weapFile$(n)="Samurai"
+ n=23 : weapName$(n)=translate("Sword") : weapFile$(n)="Samurai"
  weapSound(n)=sBlade : weapTex(n)=0 : weapShiny#(n)=1
  weapSize#(n)=8 : weapWeight#(n)=0.3
  weapRange#(n)=10 : weapDamage(n)=5
  weapStyle(n)=1 : weapHabitat(n)=0
  weapCreate(n)=1 : weapValue(n)=50
  ;comb
- n=24 : weapName$(n)="Comb" : weapFile$(n)="Comb"
+ n=24 : weapName$(n)=translate("Comb") : weapFile$(n)="Comb"
  weapSound(n)=sCigar : weapTex(n)=0 : weapShiny#(n)=0.25
  weapSize#(n)=5 : weapWeight#(n)=0.2
  weapRange#(n)=6 : weapDamage(n)=1
  weapStyle(n)=0 : weapHabitat(n)=99
  weapCreate(n)=0 : weapValue(n)=10
  ;mirror
- n=25 : weapName$(n)="Mirror" : weapFile$(n)="Mirror"
+ n=25 : weapName$(n)=translate("Mirror") : weapFile$(n)="Mirror"
  weapSound(n)=sGeneric : weapTex(n)=0 : weapShiny#(n)=0.5
  weapSize#(n)=8 : weapWeight#(n)=0.25
  weapRange#(n)=7 : weapDamage(n)=2
