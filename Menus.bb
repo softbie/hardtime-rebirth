@@ -727,6 +727,6 @@ Function Screenshot()
  GrabImage screenshot,GraphicsWidth()/2,GraphicsHeight()/2
  ;title & save
  temp=MilliSecs()/10
- namer$=translate("Screenshot") + " - "+temp+".bmp"
- SaveImage(screenshot,translate("Photo Album") + "/" + namer$)
+ namer$="Screenshot - "+temp+".bmp"
+ SaveImage(screenshot,"Photo Album/" + namer$)
 End Function

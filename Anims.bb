@@ -131,7 +131,7 @@ Function Animations(cyc)
    If pWeapon(cyc)>0 And pPromoState(cyc)=>2 And pPromoState(cyc)=<3 Then anim=121 : speeder#=Rnd(0.25,0.5)
   EndIf
   If pWeapon(cyc)>0 And weapStyle(weapType(pWeapon(cyc)))=4 Then anim=60 : speeder#=Rnd(0.1,0.3)
-  If pWeapon(cyc)>0 And weapName$(weapType(pWeapon(cyc)))="Ball" Then anim=5 : speeder#=Rnd(0.1,0.3)
+  If pWeapon(cyc)>0 And weapName$(weapType(pWeapon(cyc)))=translate("Ball") Then anim=5 : speeder#=Rnd(0.1,0.3)
   If pInjured(cyc)>0 Or pHealth(cyc)<10 Then anim=3
   If pDazed(cyc)>0 Then anim=4 : speeder#=Rnd(0.3,0.6)
   If pPhone(cyc)>0 Then anim=120 : speeder#=Rnd(0.1,0.3)
@@ -141,13 +141,13 @@ Function Animations(cyc)
    pState(cyc)=anim
   EndIf
   If gotim>50 And pAnimTim(cyc)>30 And pWeapon(cyc)>0 And pPhone(cyc)=0 And cyc<>promoActor(1) And cyc<>promoActor(2)
-   If weapName$(weapType(pWeapon(cyc)))="Broom" Then ChangeAnim(cyc,92) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))="Cigarette" Then ChangeAnim(cyc,93) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))="Syringe" Then ChangeAnim(cyc,94) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))="Bottle" Then ChangeAnim(cyc,95) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If weapName$(weapType(pWeapon(cyc)))="Comb" Then ChangeAnim(cyc,97) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If weapName$(weapType(pWeapon(cyc)))="Mirror" Then ChangeAnim(cyc,98) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
-   If weapName$(weapType(pWeapon(cyc)))="Dumbbell" Then ChangeAnim(cyc,132) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If weapName$(weapType(pWeapon(cyc)))=translate("Broom") Then ChangeAnim(cyc,92) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))=translate("Cigarette") Then ChangeAnim(cyc,93) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))=translate("Syringe") Then ChangeAnim(cyc,94) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If charRole(pChar(cyc))=0 And weapName$(weapType(pWeapon(cyc)))=translate("Bottle") Then ChangeAnim(cyc,95) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If weapName$(weapType(pWeapon(cyc)))=translate("Comb") Then ChangeAnim(cyc,97) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If weapName$(weapType(pWeapon(cyc)))=translate("Mirror") Then ChangeAnim(cyc,98) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
+   If weapName$(weapType(pWeapon(cyc)))=translate("Dumbbell") Then ChangeAnim(cyc,132) : pAgenda(cyc)=0 : pTA#(cyc)=pA#(cyc)
   EndIf
  EndIf
  ;kneeling
