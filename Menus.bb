@@ -111,7 +111,12 @@ While go=0
 	 If foc>9 Then foc=1
 	 ;browse left
 	 If KeyDown(203) Or JoyXDir()=-1
-	  If foc=1 Then optRes=optRes-1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=1
+	    optRes=optRes-1
+	    If optRes<1 Then optRes=1 Else ChangeResolution(optRes, 1)
+	    PlaySound sMenuBrowse
+	    keytim=6
+      EndIf
 	  If foc=2 Then optPopulation=optPopulation-5 : PlaySound sMenuBrowse : keytim=6
 	  If foc=3 Then optFog=optFog-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=4 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6
@@ -120,7 +125,12 @@ While go=0
 	 EndIf
 	 ;browse right
 	 If KeyDown(205) Or JoyXDir()=1
-	  If foc=1 Then optRes=optRes+1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=1
+	    optRes=optRes+1
+	    If optRes > 6 Then optRes=6 Else ChangeResolution(optRes, 1)
+	    PlaySound sMenuBrowse
+	    keytim=6
+      EndIf
 	  If foc=2 Then optPopulation=optPopulation+5 : PlaySound sMenuBrowse : keytim=6
 	  If foc=3 Then optFog=optFog+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=4 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6
@@ -129,8 +139,6 @@ While go=0
 	 EndIf
 	EndIf
 	;check limits
-	If optRes<1 Then optRes=1
-	If optRes>5 Then optRes=5
     If optPopulation<40 Then optPopulation=40
 	If optPopulation>100 Then optPopulation=100
     If optFog<0 Then optFog=1
@@ -704,11 +712,10 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
  ;assess preferences
  width=Int(textResX$(resolution))
  height=Int(textResY$(resolution))
- If GfxMode3DExists(width,height,16)=0 Then width=800 : height=600 : optRes=2
  ;make transition?
  If width<>GraphicsWidth() Or height<>GraphicsHeight()
   If task>0 Then Loader(translate("Please Wait"),translate("Adjusting Resolution"))
-  Graphics3D width,height,16,2
+  Graphics3D width,height,0,2
   If task>0 ;restore media
    LoadImages()
    Loader(translate("Please Wait"),translate("Restoring Media"))

@@ -127,13 +127,14 @@ Dim textOnOff$(1)
 textOnOff$(0)=translate("Off")
 textOnOff$(1)=translate("On")
 ;resolution
-Dim textResX$(5),textResY$(5)
+Dim textResX$(6),textResY$(6)
 textResX$(0)="320" : textResY$(0)="240"
 textResX$(1)="640" : textResY$(1)="480"
 textResX$(2)="800" : textResY$(2)="600"
 textResX$(3)="1024" : textResY$(3)="768"
 textResX$(4)="1280" : textResY$(4)="1024"
 textResX$(5)="1280" : textResY$(5)="800"
+textResX$(6)="1920" : textResY$(6)="1080"
 ;gore
 Dim textGore$(5)
 textGore$(0)=translate("None")
