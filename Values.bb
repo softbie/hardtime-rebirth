@@ -77,6 +77,7 @@ Global optPlayLim=50,optCharLim=200
 Global optWeapLim=100
 Global optPopulation=60
 ;preferences
+Global optWindowed=0
 Global optRes=2,optFog=1
 Global optFX=1,optShadows=2
 Global optGore=3 ;0=none, 1=scars, 2=pools, 3=limbs
