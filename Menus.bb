@@ -77,7 +77,7 @@ Function Options()
 ;frame rating
 timer=CreateTimer(30)
 ;MAIN LOOP
-foc=9 : oldfoc=foc
+foc=10 : oldfoc=foc
 go=0 : gotim=0 : keytim=20
 While go=0
 
@@ -96,9 +96,9 @@ While go=0
 	 If KeyDown(1) Then go=-1
 	 ;proceed
 	 If KeyDown(28) Or ButtonPressed()
-	  If foc<6 Then foc=9 : keytim=10
-	  If foc=>7 And foc=<8 Then go=1
-	  If foc=9 And keytim=0 Then go=-1
+	  If foc<8 Then foc=10 : keytim=10
+	  If foc=>8 And foc=<9 Then go=1
+	  If foc=10 And keytim=0 Then go=-1
 	 EndIf
 	EndIf
 
@@ -194,9 +194,9 @@ Wend
 FreeTimer timer
 If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 If go=1
- If foc=7 Then screen=3
- If foc=8 Then screen=4
- If foc=9 Then screen=1
+ If foc=8 Then screen=3
+ If foc=9 Then screen=4
+ If foc=10 Then screen=1
 EndIf
 If go=-1 Then screen=1
 End Function
