@@ -107,8 +107,8 @@ While go=0
 	 ;highlight options
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
 	 If KeyDown(208) Or JoyYDir()=1 Then foc=foc+1 : PlaySound sMenuSelect : keytim=6
-	 If foc<1 Then foc=9
-	 If foc>9 Then foc=1
+	 If foc<1 Then foc=10
+	 If foc>10 Then foc=1
 	 ;browse left
 	 If KeyDown(203) Or JoyXDir()=-1
 	  If foc=1
@@ -117,11 +117,18 @@ While go=0
 	    PlaySound sMenuBrowse
 	    keytim=6
       EndIf
-	  If foc=2 Then optPopulation=optPopulation-5 : PlaySound sMenuBrowse : keytim=6
-	  If foc=3 Then optFog=optFog-1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=4 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=5 Then optFX=optFX-1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=6 Then optGore=optGore-1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=2
+	    optWindowed=optWindowed-1
+        If optWindowed<0 Then optWindowed=1
+        ChangeWindowed(optWindowed)
+	    PlaySound sMenuBrowse
+	    keytim=6
+      EndIf
+	  If foc=3 Then optPopulation=optPopulation-5 : PlaySound sMenuBrowse : keytim=6
+	  If foc=4 Then optFog=optFog-1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=5 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=6 Then optFX=optFX-1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=7 Then optGore=optGore-1 : PlaySound sMenuBrowse : keytim=6
 	 EndIf
 	 ;browse right
 	 If KeyDown(205) Or JoyXDir()=1
@@ -131,11 +138,18 @@ While go=0
 	    PlaySound sMenuBrowse
 	    keytim=6
       EndIf
-	  If foc=2 Then optPopulation=optPopulation+5 : PlaySound sMenuBrowse : keytim=6
-	  If foc=3 Then optFog=optFog+1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=4 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=5 Then optFX=optFX+1 : PlaySound sMenuBrowse : keytim=6
-	  If foc=6 Then optGore=optGore+1 : PlaySound sMenuBrowse : keytim=6
+      If foc=2
+        optWindowed=optWindowed+1
+        If optWindowed>1 Then optWindowed=0
+        ChangeWindowed(optWindowed)
+        PlaySound sMenuBrowse
+        keytim=6
+      EndIf
+	  If foc=3 Then optPopulation=optPopulation+5 : PlaySound sMenuBrowse : keytim=6
+	  If foc=4 Then optFog=optFog+1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=5 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=6 Then optFX=optFX+1 : PlaySound sMenuBrowse : keytim=6
+	  If foc=7 Then optGore=optGore+1 : PlaySound sMenuBrowse : keytim=6
 	 EndIf
 	EndIf
 	;check limits
@@ -159,16 +173,17 @@ While go=0
  DrawImage gLogo(3),rX#(400),rY#(50)
  ;options
  SetFont font(1)
- x=400 : y=120 : spacer=53
+ x=400 : y=110 : spacer=40
  DrawOption(1,rX#(400),rY#(y),translate("Resolution"),textResX$(optRes)+" x "+textResY$(optRes)) : y=y+spacer
- DrawOption(2,rX#(400),rY#(y),translate("Population"),translate("#FIRST# characters", str optPopulation)) : y=y+(spacer+5)
- DrawOption(3,rX#(400),rY#(y),translate("Fog Effect"),textOnOff$(optFog)) : y=y+spacer
- DrawOption(4,rX#(400),rY#(y),translate("Shadows"),textShadows$(optShadows)) : y=y+spacer
- DrawOption(5,rX#(400),rY#(y),translate("Particle FX"),textFX$(optFX)) : y=y+spacer
- DrawOption(6,rX#(400),rY#(y),translate("Gore"),textGore$(optGore)) : y=y+(spacer+5)
- DrawOption(7,rX#(400),rY#(y),translate("REDEFINE KEYS"),"") : y=y+spacer
- DrawOption(8,rX#(400),rY#(y),translate("REDEFINE GAMEPAD"),"") : y=y+(spacer+5)
- DrawOption(9,rX#(400),rY#(y),translate("<<< BACK <<<"),"")
+ DrawOption(2,rX#(400),rY#(y),translate("Windowed"), textOnOff$(optWindowed)) : y=y+spacer
+ DrawOption(3,rX#(400),rY#(y),translate("Population"),translate("#FIRST# characters", str optPopulation)) : y=y+(spacer+5)
+ DrawOption(4,rX#(400),rY#(y),translate("Fog Effect"),textOnOff$(optFog)) : y=y+spacer
+ DrawOption(5,rX#(400),rY#(y),translate("Shadows"),textShadows$(optShadows)) : y=y+spacer
+ DrawOption(6,rX#(400),rY#(y),translate("Particle FX"),textFX$(optFX)) : y=y+spacer
+ DrawOption(7,rX#(400),rY#(y),translate("Gore"),textGore$(optGore)) : y=y+(spacer+5)
+ DrawOption(8,rX#(400),rY#(y),translate("REDEFINE KEYS"),"") : y=y+spacer
+ DrawOption(9,rX#(400),rY#(y),translate("REDEFINE GAMEPAD"),"") : y=y+(spacer+5)
+ DrawOption(10,rX#(400),rY#(y),translate("<<< BACK <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -712,10 +727,12 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
  ;assess preferences
  width=Int(textResX$(resolution))
  height=Int(textResY$(resolution))
+ mode = 2
+ If optWindowed=0 Then mode = 1
  ;make transition?
  If width<>GraphicsWidth() Or height<>GraphicsHeight()
   If task>0 Then Loader(translate("Please Wait"),translate("Adjusting Resolution"))
-  Graphics3D width,height,0,2
+  Graphics3D width,height,0,mode
   If task>0 ;restore media
    LoadImages()
    Loader(translate("Please Wait"),translate("Restoring Media"))
@@ -724,6 +741,21 @@ Function ChangeResolution(resolution,task) ;0=pre-game, 1=during game
    LoadWeaponData()
   EndIf
  EndIf
+ SaveOptions()
+End Function
+
+Function ChangeWindowed(windowed)
+ width=Int(textResX$(optRes))
+ height=Int(textResY$(optRes))
+ mode=2
+ If windowed=0 Then mode=1
+ Graphics3D width,height,0,mode
+ LoadImages()
+ Loader(translate("Please Wait"),translate("Restoring Media"))
+ LoadPhotos()
+ LoadTextures()
+ LoadWeaponData()
+ SaveOptions()
 End Function
 
 ;GET SCREENSHOT

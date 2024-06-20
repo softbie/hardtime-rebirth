@@ -11,6 +11,7 @@ Function SaveOptions()
  file=WriteFile("Data/Options.dat")
   ;preferences
   WriteInt file,optRes
+  WriteInt file,optWindowed
   WriteInt file,optPopulation
   WriteInt file,optFog
   WriteInt file,optShadows
@@ -38,6 +39,7 @@ Function LoadOptions()
  file=ReadFile("Data/Options.dat")
   ;preferences
   optRes=ReadInt(file)
+  optWindowed=ReadInt(file)
   optPopulation=ReadInt(file)
   optFog=ReadInt(file)
   optShadows=ReadInt(file)
