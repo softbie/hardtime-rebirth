@@ -25,6 +25,10 @@ Key$(203)="Cursor Left" : Key$(205)="Cursor Right"
 ;//////////////////////////////////////////////////////
 ;-------------------- STATUS --------------------------
 ;//////////////////////////////////////////////////////
+;languages
+Dim textLanguages$(2)
+textLanguages$(0)=translate("English")
+textLanguages$(1)=translate("Russian")
 ;weeks
 Dim textWeek$(4)
 textWeek$(1)=translate("1st week")

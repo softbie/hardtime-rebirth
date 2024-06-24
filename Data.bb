@@ -31,6 +31,7 @@ Function SaveOptions()
   For count=1 To 3
    WriteString file,gamName$(count)
   Next
+  WriteInt file,optLanguage
  CloseFile(file)
 End Function
 
@@ -59,6 +60,7 @@ Function LoadOptions()
   For count=1 To 3
    gamName$(count)=ReadString(file)
   Next
+  optLanguage=ReadInt(file)
  CloseFile(file)
 End Function
 

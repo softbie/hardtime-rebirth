@@ -1,9 +1,12 @@
 /Characters/
 /Graphics/
+/Data/
 /Photo Album/
 /Sound/
 /Weapons/
 /World/
 /.idea/
+
+!/Data/Options.dat
 
 *.bb_bak*
