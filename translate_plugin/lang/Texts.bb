@@ -381,3 +381,9 @@ messages$(388, 1) = "черный"
 
 messages$(389, 0) = "Fat"
 messages$(389, 1) = "Толстый"
+
+messages$(390, 0) = "English"
+messages$(390, 1) = "Английский"
+
+messages$(391, 0) = "Russian"
+messages$(391, 1) = "Русский"

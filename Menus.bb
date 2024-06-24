@@ -77,7 +77,7 @@ Function Options()
 ;frame rating
 timer=CreateTimer(30)
 ;MAIN LOOP
-foc=10 : oldfoc=foc
+foc=11 : oldfoc=foc
 go=0 : gotim=0 : keytim=20
 While go=0
 
@@ -96,9 +96,9 @@ While go=0
 	 If KeyDown(1) Then go=-1
 	 ;proceed
 	 If KeyDown(28) Or ButtonPressed()
-	  If foc<8 Then foc=10 : keytim=10
-	  If foc=>8 And foc=<9 Then go=1
-	  If foc=10 And keytim=0 Then go=-1
+	  If foc<9 Then foc=11 : keytim=11
+	  If foc=>9 And foc=<10 Then go=1
+	  If foc=11 And keytim=0 Then go=-1
 	 EndIf
 	EndIf
 
@@ -107,8 +107,8 @@ While go=0
 	 ;highlight options
 	 If KeyDown(200) Or JoyYDir()=-1 Then foc=foc-1 : PlaySound sMenuSelect : keytim=6
 	 If KeyDown(208) Or JoyYDir()=1 Then foc=foc+1 : PlaySound sMenuSelect : keytim=6
-	 If foc<1 Then foc=10
-	 If foc>10 Then foc=1
+	 If foc<1 Then foc=11
+	 If foc>11 Then foc=1
 	 ;browse left
 	 If KeyDown(203) Or JoyXDir()=-1
 	  If foc=1
@@ -129,6 +129,13 @@ While go=0
 	  If foc=5 Then optShadows=optShadows-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=6 Then optFX=optFX-1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=7 Then optGore=optGore-1 : PlaySound sMenuBrowse : keytim=6
+      If foc=8
+        optLanguage=optLanguage-1
+        If optLanguage<0 Then optLanguage=1
+        SaveOptions()
+        PlaySound sMenuBrowse
+        keytim=6
+      EndIf
 	 EndIf
 	 ;browse right
 	 If KeyDown(205) Or JoyXDir()=1
@@ -150,6 +157,13 @@ While go=0
 	  If foc=5 Then optShadows=optShadows+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=6 Then optFX=optFX+1 : PlaySound sMenuBrowse : keytim=6
 	  If foc=7 Then optGore=optGore+1 : PlaySound sMenuBrowse : keytim=6
+      If foc=8
+        optLanguage=optLanguage+1
+        If optLanguage>1 Then optLanguage=0
+        SaveOptions()
+        PlaySound sMenuBrowse
+        keytim=6
+      EndIf
 	 EndIf
 	EndIf
 	;check limits
@@ -181,9 +195,10 @@ While go=0
  DrawOption(5,rX#(400),rY#(y),translate("Shadows"),textShadows$(optShadows)) : y=y+spacer
  DrawOption(6,rX#(400),rY#(y),translate("Particle FX"),textFX$(optFX)) : y=y+spacer
  DrawOption(7,rX#(400),rY#(y),translate("Gore"),textGore$(optGore)) : y=y+(spacer+5)
- DrawOption(8,rX#(400),rY#(y),translate("REDEFINE KEYS"),"") : y=y+spacer
- DrawOption(9,rX#(400),rY#(y),translate("REDEFINE GAMEPAD"),"") : y=y+(spacer+5)
- DrawOption(10,rX#(400),rY#(y),translate("<<< BACK <<<"),"")
+ DrawOption(8,rX#(400),rY#(y),translate("Language"),translate(textLanguages$(optLanguage))) : y=y+(spacer+5)
+ DrawOption(9,rX#(400),rY#(y),translate("REDEFINE KEYS"),"") : y=y+spacer
+ DrawOption(10,rX#(400),rY#(y),translate("REDEFINE GAMEPAD"),"") : y=y+(spacer+5)
+ DrawOption(11,rX#(400),rY#(y),translate("<<< BACK <<<"),"")
 
  Flip
  ;screenshot (F12)
@@ -194,9 +209,9 @@ Wend
 FreeTimer timer
 If go=1 Then PlaySound sMenuGo Else PlaySound sMenuBack
 If go=1
- If foc=8 Then screen=3
- If foc=9 Then screen=4
- If foc=10 Then screen=1
+ If foc=9 Then screen=3
+ If foc=10 Then screen=4
+ If foc=11 Then screen=1
 EndIf
 If go=-1 Then screen=1
 End Function
@@ -595,7 +610,7 @@ Function DrawMainLogo(x#,y#)
  ;version ID
  SetFont font(1)
  Outline(translate("Version #FIRST#", "1." + version),x#+310,y#+60,200,200,200,200,200,200)
- Outline(translate("Mod #FIRST#", "1.0.4"),x#+310,y#+80,200,200,200,200,200,200)
+ Outline("Rebirth " + rVersion,x#+310,y#+80,200,200,200,200,200,200)
 End Function
 
 ;DRAW MENU ITEM

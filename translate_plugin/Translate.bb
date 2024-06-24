@@ -30,7 +30,7 @@ End Function
 ; Возвращает переведенную или оригинальную строку
 Function translate$(title$, firstReplace$ = "", secondReplace$ = "", thirdReplace$ = "")
 	For i = 0 To messagesCount
-		If title$ = messages$(i, 0) Then Return replacement$(messages$(i, 1), firstReplace$, secondReplace$, thirdReplace$)
+		If title$ = messages$(i, 0) Then Return replacement$(messages$(i, optLanguage), firstReplace$, secondReplace$, thirdReplace$)
 	Next
     Return replacement$(title$, firstReplace$, secondReplace$, thirdReplace$)
 End Function

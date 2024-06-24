@@ -91,8 +91,8 @@ messages$(29, 1) = "Фотоальбом"
 messages$(30, 0) = "Character"
 messages$(30, 1) = "Персонаж"
 
-messages$(31, 0) = "Mod #FIRST#"
-messages$(31, 1) = "Мод #FIRST#"
+messages$(31, 0) = "Windowed"
+messages$(31, 1) = "В окне"
 
-messages$(32, 0) = "Windowed"
-messages$(32, 1) = "В окне"
+messages$(32, 0) = "Language"
+messages$(32, 1) = "Язык"

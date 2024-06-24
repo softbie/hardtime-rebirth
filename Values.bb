@@ -6,6 +6,7 @@
 ;------------------ STRUCTURE -------------------------
 ;//////////////////////////////////////////////////////
 Global version=4
+Global rVersion$="1.0.5"
 Global screen,oldScreen
 Global screenSource,screenAgenda
 Global screenCall,callX,callY
@@ -78,6 +79,7 @@ Global optWeapLim=100
 Global optPopulation=60
 ;preferences
 Global optWindowed=0
+Global optLanguage=0
 Global optRes=2,optFog=1
 Global optFX=1,optShadows=2
 Global optGore=3 ;0=none, 1=scars, 2=pools, 3=limbs
